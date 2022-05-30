@@ -1,0 +1,11 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Countries
+! style="width:4em;"| all
+! style="width:4em;"| male
+! style="width:4em;"| female
+! style="width:4em;"| {{abbr|gender<br>gap|Difference in life expectancy between females and males|0}}
+! style="width:4em;"| {{abbr|Δ<br>2014|Improvement of the overall indicator compared to 2014|0}}
+! style="width:4em;"| {{abbr|Δ<br>2000|Improvement of the overall indicator compared to 2000|0}}
+|-{{static row numbers arrows|7}}

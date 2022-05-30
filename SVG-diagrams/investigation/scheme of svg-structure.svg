@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="350 -953 560 490">
+ <title>My title</title>
+ <desc>My description</desc>
+ <style type="text/css">
+  #main         { font-family:Helvetica,Arial,sans-serif; font-size:16px; text-anchor:middle;
+                  stroke-opacity:0; fill-opacity:0.5; cursor:default; }
+  #main:hover   { stroke-opacity:0; fill-opacity:0.1; }
+  .nofade,
+  .active:hover { stroke-opacity:1; fill-opacity:1; }
+  .hidden_text  { font-size:14px; text-anchor:end; fill:none; pointer-events:none; }
+ </style>
+ <defs>
+
+  <!-- determine appearance of circles -->
+  <radialGradient id="grad_na" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#0033cc" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#0033cc" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#0033cc" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_la" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#0099cc" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#0099cc" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#0099cc" stop-opacity="0.25"/>
+  </radialGradient>
+  <!-- ... -->
+  
+  <!-- determine each country -->
+  <g id="bubble_0" fill="#999999">
+   <text x="571" y="712" dy="0.7ex" text-anchor="end" stroke="none">WORLD</text>
+   <circle cx="670" cy="-711" r="1"/>
+   <circle cx="670" cy="-711" r="97.46" stroke="#999999" fill="url(#grad_-)"/>
+  </g>
+  <g id="bubble_1" fill="#999999">
+   <text x="742" y="-856" dy="0.7ex" text-anchor="end" stroke="none">EUROPEAN UNION</text>
+   <circle cx="779" cy="-836" r="1"/>
+   <circle cx="779" cy="-836" r="40.13" stroke="#999999" fill="url(#grad_-)"/>
+  </g>
+  <g id="bubble_2" fill="#ff0000">
+   <text x="791" y="-761" dy="0.7ex" text-anchor="start" stroke="none">China</text>
+   <circle cx="737" cy="-781" r="1"/>
+   <circle cx="737" cy="-781" r="55.73" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_5" fill="#ff0000">
+   <circle cx="706" cy="-760" r="1"/>
+   <circle cx="706" cy="-760" r="32.03" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <!-- ... -->
+  
+  <!-- vertical grid -->
+  <path id="grid_x" d="M 0 -500 V -950"/>
+  <g id="grid_x_5">
+   <use xlink:href="#grid_x"/>
+   <use xlink:href="#grid_x" transform="translate(10,0)"/>
+   <use xlink:href="#grid_x" transform="translate(20,0)"/>
+   <use xlink:href="#grid_x" transform="translate(30,0)"/>
+   <use xlink:href="#grid_x" transform="translate(40,0)"/>
+   <use xlink:href="#grid_x" transform="translate(50,0)"/>
+  </g>
+  
+  <!-- horizontal grid -->
+  <path id="grid_y" d="M 400 0 H 900"/>
+  <g id="grid_y_5">
+   <use xlink:href="#grid_y"/>
+   <use xlink:href="#grid_y" transform="translate(0,-10)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-20)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-30)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-40)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-50)"/>
+  </g>
+ </defs>
+
+
+
+ <g id="main">
+  <g class="nofade">
+   <!-- background for the whole diagram -->
+   <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+   
+   <!-- draw grid -->
+   <g stroke-opacity="0.05" stroke="#000000">
+    <use xlink:href="#grid_x_5" transform="translate(400,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(450,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(500,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(550,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(600,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(650,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(700,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(750,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(800,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(850,0)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-500)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-550)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-600)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-650)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-700)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-750)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-800)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-850)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-900)"/>
+   </g>
+   
+   <!-- labels for axes -->
+   <g fill="#000000">  <!-- color of font -->
+    <text x="650" y="-467">Male life expectancy at birth in years</text>
+    <text transform="rotate(-90)" x="750" y="365">Female life expectancy at birth in years</text>
+    <text x="450" y="-483">45</text>
+    <text x="500" y="-483">50</text>
+    <text x="550" y="-483">55</text>
+    <text x="600" y="-483">60</text>
+    <text x="650" y="-483">65</text>
+    <text x="700" y="-483">70</text>
+    <text x="750" y="-483">75</text>
+    <text x="800" y="-483">80</text>
+    <text x="850" y="-483">85</text>
+    <text x="900" y="-483">90</text>
+    <text x="385" y="-490">50</text>
+    <text x="385" y="-540">55</text>
+    <text x="385" y="-590">60</text>
+    <text x="385" y="-640">65</text>
+    <text x="385" y="-690">70</text>
+    <text x="385" y="-740">75</text>
+    <text x="385" y="-790">80</text>
+    <text x="385" y="-840">85</text>
+    <text x="385" y="-890">90</text>
+    <text x="385" y="-940">95</text>
+   </g>
+
+   <!-- diagonal line -->
+   <path d="M 500 -500 L 900 -900" stroke="#00cc00" stroke-width="2" stroke-dasharray="2,1"/>
+  </g>
+  
+  <!-- menu -->
+  <g text-anchor="start">
+  
+   <!-- rectangle around items -->
+   <rect class="nofade" x="403" y="-945" width="154" height="210" rx="5" ry="5" stroke="#999999" fill="#ffffff"/>
+
+   <!-- single items -->
+   <g class="active">
+    <text x="425" y="-930" fill="#0033cc">North America</text>
+    <circle cx="415" cy="-935" r="8" fill="url(#grad_na)"/>
+    <circle cx="415" cy="-935" r="1" fill="#0033cc"/>
+    <use xlink:href="#bubble_4"/>
+    <use xlink:href="#bubble_12"/>
+    <use xlink:href="#bubble_39"/>
+    <use xlink:href="#bubble_201"/>
+    <use xlink:href="#bubble_204"/>
+    <use xlink:href="#bubble_223"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-911" fill="#0099cc">Central America</text>
+    <circle cx="415" cy="-916" r="8" fill="url(#grad_la)"/>
+    <circle cx="415" cy="-916" r="1" fill="#0099cc"/>
+    <use xlink:href="#bubble_68"/>
+    <use xlink:href="#bubble_83"/>
+    <use xlink:href="#bubble_84"/>
+    <use xlink:href="#bubble_89"/>
+    <use xlink:href="#bubble_95"/>
+    <use xlink:href="#bubble_109"/>
+    <use xlink:href="#bubble_111"/>
+    <use xlink:href="#bubble_123"/>
+    <use xlink:href="#bubble_130"/>
+    <use xlink:href="#bubble_134"/>
+    <use xlink:href="#bubble_139"/>
+    <use xlink:href="#bubble_158"/>
+    <use xlink:href="#bubble_175"/>
+    <use xlink:href="#bubble_177"/>
+    <use xlink:href="#bubble_178"/>
+    <use xlink:href="#bubble_185"/>
+    <use xlink:href="#bubble_186"/>
+    <use xlink:href="#bubble_187"/>
+    <use xlink:href="#bubble_188"/>
+    <use xlink:href="#bubble_190"/>
+    <use xlink:href="#bubble_193"/>
+    <use xlink:href="#bubble_195"/>
+    <use xlink:href="#bubble_200"/>
+    <use xlink:href="#bubble_203"/>
+    <use xlink:href="#bubble_205"/>
+    <use xlink:href="#bubble_206"/>
+    <use xlink:href="#bubble_210"/>
+    <use xlink:href="#bubble_212"/>
+    <use xlink:href="#bubble_217"/>
+    <use xlink:href="#bubble_224"/>
+   </g>
+  <!-- ... -->
+  
+  <!-- pop-up notes -->
+  <g class="active">
+   <use xlink:href="#bubble_0"/>
+   <title>WORLD (population: 7 405 107 650)
+female: 71.1, male: 67.0, overall: 69.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_1"/>
+   <title>EUROPEAN UNION (population: 517 111 329)
+female: 83.6, male: 77.9, overall: 80.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_2"/>
+   <title>China (population: 1 384 688 986)
+female: 78.1, male: 73.7, overall: 75.8 years</title>
+  </g>
+  <!-- ... -->
+  <g class="active">
+   <use xlink:href="#bubble_5"/>
+   <text x="680" y="-785" dy="0.7ex" class="hidden_text" stroke="#ff0000">Indonesia</text>
+   <title>Indonesia (population: 262 787 403)
+female: 76.0, male: 70.6, overall: 73.2 years</title>
+  </g>
+  <!-- ... -->
+
+ </g>
+</svg>

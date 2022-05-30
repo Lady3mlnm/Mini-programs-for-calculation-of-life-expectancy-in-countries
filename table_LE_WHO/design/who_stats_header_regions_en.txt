@@ -1,0 +1,30 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 |WHO regions<ref>{{cite web|title=WHO: Countries |publisher=World Health Organization |url=https://www.who.int/countries |access-date=7 May 2022}}</ref>
+! colspan=5 |Life expectancy at birth
+! colspan=5 style="border-left-width:2px;" |{{abbr|HALE|Healthy Life Expectancy}} at birth
+! colspan=5 style="border-left-width:3px;" |Life expectancy at age 60
+! colspan=5 style="border-left-width:2px;" |HALE at age 60
+|-
+! style="width:3em;"| All
+! style="width:2.5em;"| {{abbr|M|Males|0}}
+! style="width:2.5em;"| {{abbr|F|Females|0}}
+! {{abbr|FΔM|Difference in life expectancy between females and males|0}}
+! {{abbr|Δ<br>2000|Improvement of the overall indicator compared to 2000|0}}
+! style="width:3em; border-left-width:2px;"| All
+! style="width:2.5em;"| M
+! style="width:2.5em;"| F
+! FΔM
+! Δ<br>2000
+! style="width:3em; border-left-width:3px;"| All
+! style="width:2.5em;"| M
+! style="width:2.5em;"| F
+! FΔM
+! Δ<br>2000
+! style="width:3em; border-left-width:2px;"| All
+! style="width:2.5em;"| M
+! style="width:2.5em;"| F
+! FΔM
+! Δ<br>2000
+|-{{static row numbers arrows|21}}

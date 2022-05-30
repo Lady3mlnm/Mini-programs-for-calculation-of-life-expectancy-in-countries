@@ -1,0 +1,11 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Страны
+! style="width:4em;"| {{abbr|Общая|Всё население в среднем|0}}
+! style="width:4em;"| {{abbr|М|Мужчины|0}}
+! style="width:4em;"| {{abbr|Ж|Женщины|0}}
+! style="width:4em;"| {{abbr|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами|0}}
+! style="width:4em;"| {{abbr|Δ<br>2014|Изменение показателя для всего населения по сравнению с 2014 годом|0}}
+! style="width:4em;"| {{abbr|Δ<br>2000|Изменение показателя для всего населения по сравнению с 2000 годом|0}}
+|-{{static row numbers arrows|7}}

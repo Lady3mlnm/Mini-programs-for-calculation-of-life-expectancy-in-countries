@@ -1,0 +1,30 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 |Регион ВОЗ<ref>{{cite web|title=ВОЗ: Страны |publisher=Всемирная организация здравоохранения |url=https://www.who.int/ru/countries |access-date=2022-05-07}}</ref>
+! colspan=5 |{{abbr|ОПЖ|Ожидаемая продолжительность жизни при рождении|0}} при рождении 
+! colspan=5 style="border-left-width:2px;" |{{abbr|ОПЗЖ|Ожидаемая продолжительность здоровой жизни при рождении|0}} при рождении 
+! colspan=5 style="border-left-width:3px;" |ОПЖ для достигших 60 лет
+! colspan=5 style="border-left-width:2px;" |ОПЗЖ для достигших 60 лет
+|-
+! style="width:3em;"| {{abbr|Общая|Всё население в среднем|0}}
+! style="width:2.5em;"| {{abbr|М|Мужчины|0}}
+! style="width:2.5em;"| {{abbr|Ж|Женщины|0}}
+! {{abbr|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами|0}}
+! {{abbr|Δ<br>2000|Улучшение показателя по сравнению с 2000 годом|0}}
+! style="width:3em; border-left-width:2px;"| Общая
+! style="width:2.5em;"| М
+! style="width:2.5em;"| Ж
+! ЖΔМ
+! Δ<br>2000
+! style="width:3em; border-left-width:3px;"| Общая
+! style="width:2.5em;"| М
+! style="width:2.5em;"| Ж
+! ЖΔМ
+! Δ<br>2000
+! style="width:3em; border-left-width:2px;"| Общая
+! style="width:2.5em;"| М
+! style="width:2.5em;"| Ж
+! ЖΔМ
+! Δ<br>2000
+|-{{static row numbers arrows|21}}

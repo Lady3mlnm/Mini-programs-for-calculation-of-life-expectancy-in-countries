@@ -1,0 +1,37 @@
+--- Sources of data ---
+The Human Mortality Database:
+https://www.mortality.org
+Contains data for Russia 1959 - 2014, for Ukraine 1959 - 2013, for USA 1933 - 2019.
+
+ЕМИСС - Единая межведомственная информационно-статистическая система:
+https://www.fedstat.ru/indicator/31293
+Данные для России за 1990 - 2020
+
+Росстат -  Федеральная служба государственной статистики:
+https://rosstat.gov.ru/folder/210/document/13207
+Место, где официально выложены данные, в более удобной форме доступные на сайте ЕМИСС
+
+World Bank Group:
+https://databank.worldbank.org/reports.aspx?source=2&series=SP.DYN.LE00.IN&country=
+
+World Health Organization:
+https://apps.who.int/gho/data/view.main.SDG2020LEXWBv
+
+
+
+--- Places of output ---
+Category "Life expectancy charts for Russia" at Wikimedia Commons:
+https://commons.wikimedia.org/wiki/Category:Life_expectancy_charts_for_Russia
+
+My profile at Wikimedia Commons (that contains most of my charts)
+https://commons.wikimedia.org/wiki/User:Lady3mlnm
+
+albums with graphs: in vk
+https://vk.com/album-205907263_285318917 (ru)
+https://vk.com/album-205907263_285319046 (en)
+
+wiki-pages:
+https://en.wikipedia.org/wiki/List_of_federal_subjects_of_Russia_by_life_expectancy
+https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_субъектах_Российской_Федерации
+https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy
+https://ru.wikipedia.org/wiki/Список_стран_по_ожидаемой_продолжительности_жизни

@@ -1,0 +1,33 @@
+https://commons.wikimedia.org/wiki/Category:Blank_maps_of_Russia
+https://commons.wikimedia.org/wiki/Category:Location_maps_of_Russia
+https://commons.wikimedia.org/wiki/File:Russia_political_location_map_(de-facto).svg
+
+"GeOOo: административное деление РФ в OpenOffice"
+https://gis-lab.info/qa/geooo.html
+
+Fla-Shop.com - "Интерактивные карты России и мира"
+https://fla-shop.com.ru/editor/edit.php
+(только ручное раскрашивание)
+
+"Интерактивная карта субъектов России для новичка. Ошибки, которые допустил я и которые не должны допустить вы"
+https://habr.com/ru/post/459902/
+
+"Как сделать карту России с окраской территорий в зависимости от показателей по субъекту" (Colormap)
+https://zen.yandex.ru/media/id/5bed87cdf16f6c00aa3c66b3/kak-sdelat-kartu-rossii-s-okraskoi-territorii-v-zavisimosti-ot-pokazatelei-po-subektu-5bedc5bdbe2f8d00aa33b222
+
+"Как сделать карту России с окраской субъектов РФ в зависимости от показателей по субъекту - часть 2"
+https://zen.yandex.ru/media/id/5bed87cdf16f6c00aa3c66b3/kak-sdelat-kartu-rossii-s-okraskoi-subektov-rf-v-zavisimosti-ot-pokazatelei-po-subektu-chast-2-60da1c947403af22af9433d1?&
+со ссылкой на https://www.mapchart.net/
+(только ручное раскрашивание)
+
+"Карта России в SVG"
+https://github.com/kalyabin/russian-map
+
+Онлайновый сервис ZiMapMaker
+https://navizv.github.io/zimm/
+(автоматическое раскрашивание)
+
+
+Мои темы:
+https://zen.yandex.ru/media/barkut0709/rojdaemost-smertnost-i-estestvennyi-prirost-po-regionam-rossii-v-2021m-61f8c597b795415a8c3bff6f?comment-request=1#comment_1156554902
+https://zen.yandex.ru/media/id/5bed87cdf16f6c00aa3c66b3/kak-sdelat-kartu-rossii-s-okraskoi-territorii-v-zavisimosti-ot-pokazatelei-po-subektu-5bedc5bdbe2f8d00aa33b222?comment-request=1#comment_1156926312

@@ -1,0 +1,420 @@
+# Perl script to create diagram.
+# https://www.tutorialspoint.com/execute_perl_online.php
+# https://www.jdoodle.com/execute-perl-online/
+
+#!/usr/bin/perl
+$data_string = qq`
+-1|WORLD|69.0|67.0|71.1|7405107650|-
+-20|EUROPEAN UNION|80.7|77.9|83.6|517111329|-
+20|China|75.8|73.7|78.1|1384688986|ea
+25|India|69.1|67.8|70.5|1296834042|as
+28|USA|80.1|77.8|82.3|329256465|na
+|Indonesia|73.2|70.6|76.0|262787403|ea
+|Brazil|74.3|70.7|78.0|208846892|sa
+|Pakistan|68.4|66.4|70.5|207862518|as
+-15|Nigeria|59.3|57.5|61.1|203452505|af
+|Bangladesh|73.7|71.5|75.9|159453001|as
+-8|Russia|71.3|65.6|77.3|142122776|eu
+-20|Japan|85.5|82.2|89.0|126168156|ea
+|Mexico|76.3|73.5|79.2|125959205|na
+-5|Ethiopia|63.0|60.5|65.5|108386391|af
+-16|Philippines|69.6|66.1|73.3|105893381|ea
+|Egypt|73.2|71.8|74.7|99413317|af
+|Vietnam|73.9|71.4|76.7|97040334|ea
+-9|DR Congo|58.1|56.5|59.7|85281024|af
+|Iran|74.2|72.8|75.6|83024745|me
+|Turkey|75.3|72.9|77.7|81257239|me
+|Germany|80.9|78.6|83.4|80457737|eu
+|Thailand|75.1|71.9|78.5|68615858|ea
+|France|82.0|78.9|85.3|67364357|eu
+18|UK|80.9|78.7|83.2|65105246|eu
+|Italy|82.4|79.7|85.2|62246674|eu
+|Burma|68.6|67.0|70.3|55622506|ea
+|Tanzania|63.1|61.6|64.6|55451343|af
+|South Africa|64.1|62.7|65.6|55380210|af
+|Korea, South|82.5|79.4|85.8|51418097|ea
+|Spain|81.8|78.8|85.0|49331076|eu
+|Kenya|64.6|63.1|66.1|48397527|af
+|Colombia|76.2|73.0|79.5|48168996|sa
+|Argentina|77.5|74.4|80.8|44694198|sa
+-24|Ukraine|72.4|67.7|77.4|43952299|eu
+|Sudan|65.8|63.7|68.1|43120843|af
+|Algeria|77.2|75.8|78.7|41657488|af
+-10|Uganda|56.3|54.8|57.8|40853749|af
+|Iraq|74.9|72.6|77.2|40194216|me
+|Poland|77.9|74.1|82.0|38420687|eu
+|Canada|82.0|79.4|84.8|35881659|na
+-5|Afghanistan|52.1|50.6|53.6|34940837|as
+|Morocco|77.3|74.2|80.5|34314130|af
+|Saudi Arabia|75.7|74.2|77.3|33091113|me
+|Malaysia|75.4|72.6|78.4|31809660|ea
+|Venezuela|76.2|73.2|79.3|31689176|sa
+|Peru|74.2|72.1|76.4|31331228|sa
+|Angola|60.6|58.5|62.7|30355880|af
+|Uzbekistan|74.3|71.2|77.5|30023709|ca
+|Nepal|71.3|70.6|72.0|29717587|as
+|Yemen|66.2|64.0|68.5|28667230|me
+|Ghana|67.4|64.9|70.0|28102471|af
+8|Mozambique|54.1|53.3|54.9|27233789|af
+|Cote d'Ivoire|60.1|58.0|62.4|26260582|af
+|Madagascar|66.6|65.1|68.2|25683610|af
+|Cameroon|59.4|58.0|60.9|25640965|af
+|Korea, North|71.0|67.2|75.0|25381085|ea
+|Taiwan|80.4|77.2|83.7|23545963|ea
+|Australia|82.4|79.9|85.0|23470145|oc
+|Sri Lanka|77.1|73.7|80.8|22576592|as
+|Romania|75.6|72.1|79.2|21457116|eu
+|Niger|56.3|55.0|57.7|19866231|af
+|Malawi|62.2|60.2|64.3|19842560|af
+|Burkina Faso|61.8|60.1|63.6|19742715|af
+|Syria|75.2|72.8|77.8|19454263|me
+-2|Kazakhstan|71.4|66.2|76.3|18744548|ca
+|Mali|60.8|58.6|63.0|18429893|af
+|Chile|79.1|76.0|82.2|17925262|sa
+|Netherlands|81.5|79.3|83.8|17151228|eu
+|Guatemala|71.8|69.8|73.9|16581273|la
+|Ecuador|77.1|74.2|80.3|16498502|sa
+|Cambodia|65.2|62.7|67.9|16449519|ea
+-8|Zambia|53.0|51.4|54.7|16445079|af
+|Chad|57.5|55.7|59.3|15833116|af
+|Senegal|62.5|60.4|64.7|15020945|af
+|Zimbabwe|61.1|59.0|63.2|14030368|af
+|Rwanda|64.5|62.6|66.5|12187400|af
+|Guinea|62.1|60.4|64.0|11855411|af
+|Burundi|61.4|59.6|63.2|11844520|af
+|Belgium|81.2|78.6|83.9|11570762|eu
+|Tunisia|75.9|74.3|77.6|11516189|af
+|Benin|62.7|61.2|64.2|11340504|af
+|Bolivia|69.8|67.0|72.8|11306341|sa
+-16|Somalia|53.2|51.0|55.4|11259029|af
+|Cuba|78.9|76.6|81.4|11116396|la
+|Haiti|64.6|61.9|67.2|10788440|la
+|Greece|80.8|78.2|83.6|10761523|eu
+|Czechia|78.9|76.0|82.1|10686269|eu
+|Jordan|75.0|73.6|76.6|10458413|me
+|Portugal|80.9|77.7|84.2|10355493|eu
+|Dominican Republic|71.3|69.7|73.1|10298756|la
+|Azerbaijan|73.0|70.0|76.4|10046516|me
+|Sweden|82.2|80.3|84.3|10040995|eu
+|Hungary|76.3|72.6|80.2|9825704|eu
+|United Arab Emirates|78.7|77.3|80.1|9701315|me
+|Belarus|73.2|67.8|79.0|9527543|eu
+|Honduras|71.3|69.6|73.0|9182766|la
+|Austria|81.7|79.0|84.5|8793370|eu
+|Tajikistan|68.4|65.2|71.7|8604882|ca
+|Israel|82.7|80.8|84.7|8424904|me
+|Switzerland|82.7|80.4|85.2|8292809|eu
+|Togo|65.8|63.1|68.6|8176449|af
+|Laos|65.0|62.9|67.1|7234171|ea
+|Hong Kong|83.1|80.4|86.0|7213338|ea
+|Serbia|75.9|73.0|79.0|7078110|eu
+|Bulgaria|74.8|71.5|78.3|7057504|eu
+|Papua New Guinea|67.5|65.3|69.8|7027332|ea
+|Paraguay|77.6|74.9|80.4|7025763|sa
+|Libya|76.9|75.1|78.7|6754507|af
+|Sierra Leone|59.0|56.4|61.7|6312212|af
+|El Salvador|75.1|71.8|78.6|6187271|la
+|Lebanon|77.9|76.6|79.3|6100075|me
+|Nicaragua|73.7|71.5|76.1|6085213|la
+13|Singapore|85.5|82.8|88.3|5995991|ea
+|Eritrea|65.6|63.0|68.2|5970646|af
+|Kyrgyzstan|71.2|67.1|75.6|5849296|ca
+|Denmark|81.0|79.1|83.1|5809502|eu
+|Central African Republic|53.3|51.9|54.7|5745062|af
+|Finland|81.1|78.1|84.2|5537364|eu
+|Slovakia|77.4|73.9|81.2|5445040|eu
+|Turkmenistan|70.7|67.6|73.9|5411012|ca
+|Norway|82.0|79.9|84.1|5372191|eu
+|Ireland|81.0|78.7|83.5|5068050|eu
+|Congo, Republic of the|60.3|59.0|61.6|5062021|af
+|Costa Rica|78.9|76.2|81.7|4987142|la
+|Georgia|76.6|72.5|80.9|4926087|me
+|Liberia|63.8|61.6|66.0|4809768|af
+|New Zealand|81.4|79.2|83.6|4545627|oc
+|Croatia|76.3|73.2|79.6|4270480|eu
+|Bosnia and Herzegovina|77.1|74.1|80.3|3849891|eu
+|Mauritania|63.8|61.4|66.2|3840429|af
+|Panama|78.9|76.1|81.9|3800644|la
+|Oman|75.9|73.9|78.0|3494116|me
+|Moldova|71.3|67.4|75.4|3437720|eu
+|Uruguay|77.6|74.4|80.8|3369299|sa
+|Puerto Rico|81.0|77.7|84.5|3294626|la
+|Mongolia|70.2|66.0|74.7|3103428|ea
+|Albania|78.6|76.0|81.6|3057220|eu
+|Armenia|75.1|71.8|78.7|3038217|me
+|Kuwait|78.3|76.9|79.8|2916467|me
+|Jamaica|74.5|72.7|76.5|2812090|la
+|West Bank|75.4|73.4|77.6|2798494|me
+-6|Lithuania|75.2|69.9|80.8|2793284|eu
+|Namibia|64.4|62.7|66.2|2533224|af
+|Qatar|79.0|76.9|81.2|2363569|me
+|Botswana|63.8|61.8|66.0|2249104|af
+|Gabon|68.0|66.3|69.6|2119036|af
+|Macedonia|75.9|73.8|78.2|2118945|eu
+|Slovenia|81.2|78.3|84.2|2102126|eu
+|Gambia, The|65.4|63.0|67.8|2092731|af
+12|Lesotho|53.0|53.0|53.1|1962461|af
+|Latvia|74.9|70.4|79.7|1923559|eu
+|Gaza Strip|74.4|72.7|76.2|1836713|me
+|Guinea-Bissau|61.4|59.2|63.6|1833247|af
+|Bahrain|79.1|76.9|81.5|1442659|me
+|Mauritius|76.0|72.6|79.7|1364283|af
+|Timor-Leste|68.7|67.1|70.4|1321929|ea
+|Estonia|77.0|72.3|82.0|1244288|eu
+|Cyprus|79.0|76.2|81.9|1237088|eu
+|Trinidad and Tobago|73.4|70.5|76.4|1215527|la
+|Eswatini|57.2|55.1|59.3|1087200|af
+|Fiji|73.2|70.5|76.0|926276|oc
+|Djibouti|64.0|61.4|66.6|884017|af
+|Comoros|64.9|62.6|67.4|821164|af
+|Equatorial Guinea|65.0|63.8|66.2|797457|af
+|Bhutan|71.1|70.1|72.2|766397|as
+|Guyana|68.9|65.9|72.1|740685|sa
+|Solomon Islands|75.8|73.1|78.6|660121|oc
+|Western Sahara|63.8|61.4|66.2|619551|af
+-10|Macau|84.6|81.6|87.7|606340|ea
+|Luxembourg|82.4|79.9|85.0|605764|eu
+|Suriname|72.8|70.3|75.3|597927|sa
+|Cabo Verde|72.7|70.3|75.1|568373|af
+|Brunei|77.5|75.2|80.0|450565|ea
+|Malta|82.7|80.6|84.8|449043|eu
+|Maldives|76.0|73.7|78.5|392473|as
+|Belize|74.7|73.1|76.3|385854|la
+|Iceland|83.1|80.9|85.5|343518|eu
+|Bahamas, The|72.9|70.4|75.4|332634|la
+|Barbados|75.7|73.3|78.1|293131|la
+|French Polynesia|77.5|75.2|80.0|290373|oc
+|Vanuatu|74.0|72.4|75.7|288037|oc
+|New Caledonia|78.0|74.1|82.2|282754|oc
+|Sao Tome and Principe|65.7|64.3|67.1|204454|af
+|Samoa|74.2|71.3|77.3|201316|oc
+|Guam|76.4|73.9|78.9|167772|oc
+|Saint Lucia|78.1|75.4|81.0|165510|la
+|Curacao|78.6|76.3|81.1|150241|la
+|Aruba|77.1|74.1|80.3|116576|la
+|Grenada|74.8|72.1|77.6|112207|la
+|Kiribati|66.9|64.3|69.5|109367|oc
+|Virgin Islands|79.5|76.3|83.0|106977|la
+|Tonga|76.6|75.0|78.3|106398|oc
+|Micronesia, Federated States of|73.4|71.3|75.6|103643|oc
+|Saint Vincent and the Grenadines|75.8|73.7|77.9|101844|la
+|Jersey|82.0|79.5|84.7|99602|eu
+|Antigua and Barbuda|76.9|74.8|79.2|95882|la
+|Seychelles|75.2|70.7|79.8|94633|af
+|Isle of Man|81.4|79.6|83.3|89407|eu
+|Andorra|82.9|80.7|85.3|85708|eu
+|Marshall Islands|73.6|71.4|76.0|75684|oc
+|Dominica|77.4|74.4|80.5|74027|la
+|Bermuda|81.5|78.3|84.7|71176|na
+|Guernsey|82.7|80.0|85.5|66697|eu
+|Cayman Islands|81.4|78.7|84.2|59613|la
+|Greenland|72.9|70.2|75.8|57691|na
+|Turks and Caicos Islands|80.1|77.3|83.0|53701|la
+|Saint Kitts and Nevis|76.2|73.7|78.7|53094|la
+|Northern Mariana Islands|75.6|73.6|78.1|51994|oc
+|Faroe Islands|80.6|78.1|83.3|51018|eu
+|American Samoa|73.9|71.6|76.2|50826|oc
+|Sint Maarten|78.5|76.1|80.9|42677|la
+|Liechtenstein|82.0|79.8|84.8|38547|eu
+|British Virgin Islands|78.9|77.5|80.4|35802|la
+|San Marino|83.4|80.8|86.2|33779|eu
+-1|Monaco|89.4|85.5|93.4|30727|eu
+|Gibraltar|79.7|76.8|82.8|29461|eu
+|Palau|73.6|70.4|77.0|21516|oc
+|Anguilla|81.6|79.0|84.3|17422|la
+|Wallis and Futuna|80.0|77.0|83.1|15763|oc
+|Tuvalu|67.2|65.0|69.5|11147|oc
+-3|Nauru|67.8|63.6|71.2|9692|oc
+|Cook Islands|76.2|73.4|79.2|9038|oc
+|Saint Helena, Ascension, and Tristan da Cunha|79.8|76.8|82.9|7841|af
+|Saint Pierre and Miquelon|80.7|78.4|83.2|5471|na
+8|Montserrat|74.8|76.1|73.5|5315|la
+|Falkland Islands (Islas Malvinas)|77.9|75.6|79.6|3198|sa
+|Svalbard|NA|NA|NA|2583|eu
+|Christmas Island|NA|NA|NA|2205|oc
+|Norfolk Island|NA|NA|NA|1748|oc
+|Niue|NA|NA|NA|1618|oc
+|Tokelau|NA|NA|NA|1285|oc
+|Cocos (Keeling) Islands|NA|NA|NA|596|oc
+|Pitcairn Islands|NA|NA|NA|54|oc
+`;
+%regions = (
+ "na" => { "colour" => "#0033cc", "name" => "North America"    , "outs" => "" },
+ "la" => { "colour" => "#0099cc", "name" => "Central America"  , "outs" => "" },
+ "sa" => { "colour" => "#009900", "name" => "South America"    , "outs" => "" },
+ "eu" => { "colour" => "#6600cc", "name" => "Europe"           , "outs" => "" },
+ "af" => { "colour" => "#000000", "name" => "Africa"           , "outs" => "" },
+ "me" => { "colour" => "#cc9900", "name" => "Middle East"      , "outs" => "" },
+ "ca" => { "colour" => "#cc00cc", "name" => "Central Asia"     , "outs" => "" },
+ "as" => { "colour" => "#993300", "name" => "South Asia"       , "outs" => "" },
+ "ea" => { "colour" => "#ff0000", "name" => "East/SE Asia"     , "outs" => "" },
+ "oc" => { "colour" => "#0000ff", "name" => "Australia/Oceania", "outs" => "" },
+ "-"  => { "colour" => "#999999", "name" => "Other"            , "outs" => "" },
+ undef);
+@region_order = ("na","la","sa", "eu", "af", "me","ca","as","ea", "oc", "-");
+
+$out_graph = $out_legend = $out_ticks = $out_grad = $out_defs = "";
+$double_dash = "-" . "-";
+$file_out = $0; $file_out =~ s/[^\.]*$/svg/;
+
+$id = 0;
+@data = split(/\n/, $data_string);
+foreach (@data) {
+ if ($_) {
+  ($offset_label, $name, $le_a, $le_m, $le_f, $population, $region) = split(/\|/, $_);
+  if ($le_m != "NA" && $le_f != "NA") {
+   $x = $le_m * 10;
+   $y = $le_f * -10;
+   $radius = sprintf("%.2f", $population ** (1/3) / 20);
+   $colour = $regions{$region}{"colour"};
+   if ($offset_label) {
+    print "${name}\t${radius}\t${offset_label}\n";
+    $y_text = $y + $offset_label;
+    $x_text = $x + ($offset_label > 0 ? 1 : -1) * (2 +
+                    int(($radius > abs($offset_label) ? sqrt($radius ** 2 - $offset_label ** 2) :
+                                                        0) + 0.5));
+    $text_anchor = ($offset_label > 0 ? "start" : "end");
+    $out_label_defs = qq`
+   <text x="${x_text}" y="${y_text}" dy="0.7ex" text-anchor="${text_anchor}" stroke="none">${name}</text>`;
+    $out_label_active = "";
+   } else {
+    $x_text = int($x - $radius * 0.8);
+    $y_text = int($y - $radius * 0.8);
+    $out_label_defs = "";
+    $out_label_active = qq`
+   <text x="${x_text}" y="${y_text}" dy="0.7ex" class="hidden_text" stroke="${colour}">${name}</text>`;
+   }
+   $population =~ s/(\d) (?= (?:\d{3})+ \b )/$1 /gx; # http://stackoverflow.com/questions/9634738
+   $out_defs .= qq`
+  <g id="bubble_${id}" fill="${colour}">${out_label_defs}
+   <circle cx="${x}" cy="${y}" r="1"/>
+   <circle cx="${x}" cy="${y}" r="${radius}" stroke="${colour}" fill="url(#grad_${region})"/>
+  </g>`;
+   $out_graph .= qq`
+  <g class="active">
+   <use xlink:href="#bubble_${id}"/>${out_label_active}
+   <title>${name} (population: ${population})\nfemale: ${le_f}, male: ${le_m}, overall: ${le_a} years</title>
+  </g>`;
+   $regions{$region}{"outs"} .= qq`
+    <use xlink:href="#bubble_${id}"/>`;
+   $id++;
+  }
+ }
+}
+
+$y = -935;
+foreach (@region_order) {
+ if ($_) {
+  $colour = $regions{$_}{"colour"};
+  $name = $regions{$_}{"name"};
+  $out_grad .= qq`
+  <radialGradient id="grad_${_}" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="${colour}" stop-opacity="0"/>
+   <stop offset="70%" stop-color="${colour}" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="${colour}" stop-opacity="0.25"/>
+  </radialGradient>`;
+  $x = $y + 5;
+  $out_region = $regions{$_}{"outs"};
+  $out_legend .= qq`
+   <g class="active">
+    <text x="425" y="${x}" fill="${colour}">${name}</text>
+    <circle cx="415" cy="${y}" r="8" fill="url(#grad_${_})"/>
+    <circle cx="415" cy="${y}" r="1" fill="${colour}"/>${out_region}
+   </g>`; # double up to make colour darker
+  $y += 19;
+ }
+}
+
+for ($tick = 45; $tick <= 90; $tick += 5) {
+ $x = $tick * 10;
+ $out_ticks .= qq`
+    <text x="${x}" y="-483">${tick}</text>`;
+}
+for ($tick = 50; $tick <= 95; $tick += 5) {
+ $y = $tick * -10 + 10;
+ $out_ticks .= qq`
+    <text x="385" y="${y}">${tick}</text>`;
+}
+
+open (FILE_OUT, ">$file_out");
+print FILE_OUT qq`<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="350 -953 560 490">
+ <title>My title</title>
+ <desc>My description</desc>
+ <style type="text/css">
+  #main         { font-family:Helvetica,Arial,sans-serif; font-size:16px; text-anchor:middle;
+                  stroke-opacity:0; fill-opacity:0.5; cursor:default; }
+  #main:hover   { stroke-opacity:0; fill-opacity:0.1; }
+  .nofade,
+  .active:hover { stroke-opacity:1; fill-opacity:1; }
+  .hidden_text  { font-size:14px; text-anchor:end; fill:none; pointer-events:none; }
+ </style>
+ <defs>
+${out_grad}
+${out_defs}
+
+  <path id="grid_x" d="M 0 -500 V -950"/>
+  <g id="grid_x_5">
+   <use xlink:href="#grid_x"/>
+   <use xlink:href="#grid_x" transform="translate(10,0)"/>
+   <use xlink:href="#grid_x" transform="translate(20,0)"/>
+   <use xlink:href="#grid_x" transform="translate(30,0)"/>
+   <use xlink:href="#grid_x" transform="translate(40,0)"/>
+   <use xlink:href="#grid_x" transform="translate(50,0)"/>
+  </g>
+  <path id="grid_y" d="M 400 0 H 900"/>
+  <g id="grid_y_5">
+   <use xlink:href="#grid_y"/>
+   <use xlink:href="#grid_y" transform="translate(0,-10)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-20)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-30)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-40)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-50)"/>
+  </g>
+ </defs>
+ <g id="main">
+  <g class="nofade">
+   <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+   <g stroke-opacity="0.05" stroke="#000000">
+    <use xlink:href="#grid_x_5" transform="translate(400,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(450,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(500,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(550,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(600,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(650,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(700,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(750,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(800,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(850,0)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-500)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-550)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-600)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-650)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-700)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-750)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-800)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-850)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-900)"/>
+   </g>
+   <g fill="#000000">
+    <text x="650" y="-467">Male life expectancy at birth in years</text>
+    <text transform="rotate(-90)" x="750" y="365">Female life expectancy at birth in years</text>
+${out_ticks}
+   </g>
+   <path d="M 500 -500 L 900 -900" stroke="#00cc00" stroke-width="2" stroke-dasharray="2,1"/>
+  </g>
+  <g text-anchor="start">
+   <rect class="nofade" x="403" y="-945" width="154" height="210" rx="5" ry="5" stroke="#999999" fill="#ffffff"/>
+${out_legend}
+  </g>
+${out_graph}
+ </g>
+</svg>
+
+<!${double_dash} Perl script to create above; please do not remove.
+`;
+open (FILE_IN, $0);
+while (<FILE_IN>) { print FILE_OUT $_; }
+close FILE_IN;
+print FILE_OUT "# ${double_dash}>\n";
+close FILE_OUT;

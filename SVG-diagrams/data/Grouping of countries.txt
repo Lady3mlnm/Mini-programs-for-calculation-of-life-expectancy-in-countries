@@ -1,0 +1,80 @@
+﻿   === SUB-SAHARAN AFRICA ===
+Eastern Africa
+Middle Africa
+Southern Africa
+Western Africa
+
+   === NORTHERN AFRICA AND WESTERN ASIA ===
+Northern Africa (7)
+Western Asia (18)
+
+   === CENTRAL AND SOUTHERN ASIA ===
+Central Asia (5)
+Southern Asia (9)
+
+   === EASTERN AND SOUTH-EASTERN ASIA ===
+Eastern Asia (5)
+South-Eastern Asia  (11)
+
+   === LATIN AMERICA AND THE CARIBBEAN ===
+Caribbean
+Central America
+South America
+
+   === AUSTRALIA/NEW ZEALAND ===
+
+   === OCEANIA (EXCLUDING AUSTRALIA AND NEW ZEALAND) ===
+Melanesia
+Micronesia
+Polynesia
+
+   === EUROPE ===
+Eastern Europe (10)
+Northern Europe (13)
+Southern Europe (16)
+Western Europe (9)
+
+   === NORTHERN AMERICA ===
+(5)
+
+
+======================== TRANSFORMATION ========================
+   === EUROPE ===
+Western Europe (9)
+Northern Europe (13)
+Southern Europe (16)
+Eastern Europe (10)
+
+   === ASIA ===
+Western Asia (18)
+Central Asia (5)    *
+Southern Asia (9) *
+Eastern Asia (5)               **
+South-Eastern Asia  (11) **
+
+
+   === OCEANIA ===
+
+
+   === AFRICA ===
+Northern Africa (7)
+Eastern Africa
+Middle Africa
+Southern Africa
+Western Africa
+
+
+   === LATIN AMERICA ===
+Central America (8)
+Caribbean
+South America (14)
+
+
+   === NORTHERN AMERICA ===
+(5)
+
+
+
+
+
+

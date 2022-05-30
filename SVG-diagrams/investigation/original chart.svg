@@ -1,0 +1,3132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="350 -953 560 490">
+ <title>comparison gender life expectancy CIA factbook</title>
+ <desc>Comparison of male and female life expectancy at birth (2018 estimate) for countries and territories as defined in the CIA Factbook, with selected bubbles labelled, by CMG Lee. Hover over a bubble to highlight it and show its data. The dotted line corresponds to equal female and male life expectancy. The apparent 3D volumes of the bubbles are linearly proportional to their populations, i.e. their radii are linearly proportional to the cube root of the populations. Data is from https://www.cia.gov/library/publications/resources/the-world-factbook/fields/355.html and https://www.cia.gov/library/publications/resources/the-world-factbook/fields/335.html .</desc>
+ <style type="text/css">
+  #main         { font-family:Helvetica,Arial,sans-serif; font-size:16px; text-anchor:middle;
+                  stroke-opacity:0; fill-opacity:0.5; cursor:default; }
+  #main:hover   { stroke-opacity:0; fill-opacity:0.1; }
+  .nofade,
+  .active:hover { stroke-opacity:1; fill-opacity:1; }
+  .hidden_text  { font-size:14px; text-anchor:end; fill:none; pointer-events:none; }
+ </style>
+ <defs>
+
+  <radialGradient id="grad_na" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#0033cc" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#0033cc" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#0033cc" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_la" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#0099cc" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#0099cc" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#0099cc" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_sa" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#009900" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#009900" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#009900" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_eu" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#6600cc" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#6600cc" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#6600cc" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_af" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#000000" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#000000" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#000000" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_me" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#cc9900" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#cc9900" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#cc9900" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_ca" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#cc00cc" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#cc00cc" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#cc00cc" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_as" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#993300" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#993300" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#993300" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_ea" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#ff0000" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#ff0000" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#ff0000" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_oc" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#0000ff" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#0000ff" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#0000ff" stop-opacity="0.25"/>
+  </radialGradient>
+  <radialGradient id="grad_-" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="#999999" stop-opacity="0"/>
+   <stop offset="70%" stop-color="#999999" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="#999999" stop-opacity="0.25"/>
+  </radialGradient>
+
+  <g id="bubble_0" fill="#999999">
+   <text x="571" y="-712" dy="0.7ex" text-anchor="end" stroke="none">WORLD</text>
+   <circle cx="670" cy="-711" r="1"/>
+   <circle cx="670" cy="-711" r="97.46" stroke="#999999" fill="url(#grad_-)"/>
+  </g>
+  <g id="bubble_1" fill="#999999">
+   <text x="742" y="-856" dy="0.7ex" text-anchor="end" stroke="none">EUROPEAN UNION</text>
+   <circle cx="779" cy="-836" r="1"/>
+   <circle cx="779" cy="-836" r="40.13" stroke="#999999" fill="url(#grad_-)"/>
+  </g>
+  <g id="bubble_2" fill="#ff0000">
+   <text x="791" y="-761" dy="0.7ex" text-anchor="start" stroke="none">China</text>
+   <circle cx="737" cy="-781" r="1"/>
+   <circle cx="737" cy="-781" r="55.73" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_3" fill="#993300">
+   <text x="728" y="-680" dy="0.7ex" text-anchor="start" stroke="none">India</text>
+   <circle cx="678" cy="-705" r="1"/>
+   <circle cx="678" cy="-705" r="54.53" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_4" fill="#0033cc">
+   <text x="800" y="-795" dy="0.7ex" text-anchor="start" stroke="none">USA</text>
+   <circle cx="778" cy="-823" r="1"/>
+   <circle cx="778" cy="-823" r="34.53" stroke="#0033cc" fill="url(#grad_na)"/>
+  </g>
+  <g id="bubble_5" fill="#ff0000">
+   <circle cx="706" cy="-760" r="1"/>
+   <circle cx="706" cy="-760" r="32.03" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_6" fill="#009900">
+   <circle cx="707" cy="-780" r="1"/>
+   <circle cx="707" cy="-780" r="29.67" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_7" fill="#993300">
+   <circle cx="664" cy="-705" r="1"/>
+   <circle cx="664" cy="-705" r="29.62" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_8" fill="#000000">
+   <text x="548" y="-626" dy="0.7ex" text-anchor="end" stroke="none">Nigeria</text>
+   <circle cx="575" cy="-611" r="1"/>
+   <circle cx="575" cy="-611" r="29.41" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_9" fill="#993300">
+   <circle cx="715" cy="-759" r="1"/>
+   <circle cx="715" cy="-759" r="27.11" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_10" fill="#6600cc">
+   <text x="629" y="-781" dy="0.7ex" text-anchor="end" stroke="none">Russia</text>
+   <circle cx="656" cy="-773" r="1"/>
+   <circle cx="656" cy="-773" r="26.09" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_11" fill="#ff0000">
+   <text x="805" y="-910" dy="0.7ex" text-anchor="end" stroke="none">Japan</text>
+   <circle cx="822" cy="-890" r="1"/>
+   <circle cx="822" cy="-890" r="25.08" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_12" fill="#0033cc">
+   <circle cx="735" cy="-792" r="1"/>
+   <circle cx="735" cy="-792" r="25.06" stroke="#0033cc" fill="url(#grad_na)"/>
+  </g>
+  <g id="bubble_13" fill="#000000">
+   <text x="580" y="-660" dy="0.7ex" text-anchor="end" stroke="none">Ethiopia</text>
+   <circle cx="605" cy="-655" r="1"/>
+   <circle cx="605" cy="-655" r="23.84" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_14" fill="#ff0000">
+   <text x="642" y="-749" dy="0.7ex" text-anchor="end" stroke="none">Philippines</text>
+   <circle cx="661" cy="-733" r="1"/>
+   <circle cx="661" cy="-733" r="23.66" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_15" fill="#000000">
+   <circle cx="718" cy="-747" r="1"/>
+   <circle cx="718" cy="-747" r="23.16" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_16" fill="#ff0000">
+   <circle cx="714" cy="-767" r="1"/>
+   <circle cx="714" cy="-767" r="22.98" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_17" fill="#000000">
+   <text x="543" y="-606" dy="0.7ex" text-anchor="end" stroke="none">DR Congo</text>
+   <circle cx="565" cy="-597" r="1"/>
+   <circle cx="565" cy="-597" r="22.01" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_18" fill="#cc9900">
+   <circle cx="728" cy="-756" r="1"/>
+   <circle cx="728" cy="-756" r="21.81" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_19" fill="#cc9900">
+   <circle cx="729" cy="-777" r="1"/>
+   <circle cx="729" cy="-777" r="21.66" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_20" fill="#6600cc">
+   <circle cx="786" cy="-834" r="1"/>
+   <circle cx="786" cy="-834" r="21.59" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_21" fill="#ff0000">
+   <circle cx="719" cy="-785" r="1"/>
+   <circle cx="719" cy="-785" r="20.47" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_22" fill="#6600cc">
+   <circle cx="789" cy="-853" r="1"/>
+   <circle cx="789" cy="-853" r="20.34" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_23" fill="#6600cc">
+   <text x="798" y="-814" dy="0.7ex" text-anchor="start" stroke="none">UK</text>
+   <circle cx="787" cy="-832" r="1"/>
+   <circle cx="787" cy="-832" r="20.11" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_24" fill="#6600cc">
+   <circle cx="797" cy="-852" r="1"/>
+   <circle cx="797" cy="-852" r="19.82" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_25" fill="#ff0000">
+   <circle cx="670" cy="-703" r="1"/>
+   <circle cx="670" cy="-703" r="19.09" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_26" fill="#000000">
+   <circle cx="616" cy="-646" r="1"/>
+   <circle cx="616" cy="-646" r="19.07" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_27" fill="#000000">
+   <circle cx="627" cy="-656" r="1"/>
+   <circle cx="627" cy="-656" r="19.06" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_28" fill="#ff0000">
+   <circle cx="794" cy="-858" r="1"/>
+   <circle cx="794" cy="-858" r="18.59" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_29" fill="#6600cc">
+   <circle cx="788" cy="-850" r="1"/>
+   <circle cx="788" cy="-850" r="18.34" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_30" fill="#000000">
+   <circle cx="631" cy="-661" r="1"/>
+   <circle cx="631" cy="-661" r="18.22" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_31" fill="#009900">
+   <circle cx="730" cy="-795" r="1"/>
+   <circle cx="730" cy="-795" r="18.19" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_32" fill="#009900">
+   <circle cx="744" cy="-808" r="1"/>
+   <circle cx="744" cy="-808" r="17.74" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_33" fill="#6600cc">
+   <text x="675" y="-798" dy="0.7ex" text-anchor="end" stroke="none">Ukraine</text>
+   <circle cx="677" cy="-774" r="1"/>
+   <circle cx="677" cy="-774" r="17.65" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_34" fill="#000000">
+   <circle cx="637" cy="-681" r="1"/>
+   <circle cx="637" cy="-681" r="17.53" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_35" fill="#000000">
+   <circle cx="758" cy="-787" r="1"/>
+   <circle cx="758" cy="-787" r="17.33" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_36" fill="#000000">
+   <text x="532" y="-588" dy="0.7ex" text-anchor="end" stroke="none">Uganda</text>
+   <circle cx="548" cy="-578" r="1"/>
+   <circle cx="548" cy="-578" r="17.22" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_37" fill="#cc9900">
+   <circle cx="726" cy="-772" r="1"/>
+   <circle cx="726" cy="-772" r="17.13" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_38" fill="#6600cc">
+   <circle cx="741" cy="-820" r="1"/>
+   <circle cx="741" cy="-820" r="16.87" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_39" fill="#0033cc">
+   <circle cx="794" cy="-848" r="1"/>
+   <circle cx="794" cy="-848" r="16.49" stroke="#0033cc" fill="url(#grad_na)"/>
+  </g>
+  <g id="bubble_40" fill="#993300">
+   <text x="488" y="-541" dy="0.7ex" text-anchor="end" stroke="none">Afghanistan</text>
+   <circle cx="506" cy="-536" r="1"/>
+   <circle cx="506" cy="-536" r="16.35" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_41" fill="#000000">
+   <circle cx="742" cy="-805" r="1"/>
+   <circle cx="742" cy="-805" r="16.25" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_42" fill="#cc9900">
+   <circle cx="742" cy="-773" r="1"/>
+   <circle cx="742" cy="-773" r="16.05" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_43" fill="#ff0000">
+   <circle cx="726" cy="-784" r="1"/>
+   <circle cx="726" cy="-784" r="15.84" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_44" fill="#009900">
+   <circle cx="732" cy="-793" r="1"/>
+   <circle cx="732" cy="-793" r="15.82" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_45" fill="#009900">
+   <circle cx="721" cy="-764" r="1"/>
+   <circle cx="721" cy="-764" r="15.76" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_46" fill="#000000">
+   <circle cx="585" cy="-627" r="1"/>
+   <circle cx="585" cy="-627" r="15.60" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_47" fill="#cc00cc">
+   <circle cx="712" cy="-775" r="1"/>
+   <circle cx="712" cy="-775" r="15.54" stroke="#cc00cc" fill="url(#grad_ca)"/>
+  </g>
+  <g id="bubble_48" fill="#993300">
+   <circle cx="706" cy="-720" r="1"/>
+   <circle cx="706" cy="-720" r="15.49" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_49" fill="#cc9900">
+   <circle cx="640" cy="-685" r="1"/>
+   <circle cx="640" cy="-685" r="15.30" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_50" fill="#000000">
+   <circle cx="649" cy="-700" r="1"/>
+   <circle cx="649" cy="-700" r="15.20" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_51" fill="#000000">
+   <text x="548" y="-541" dy="0.7ex" text-anchor="start" stroke="none">Mozambique</text>
+   <circle cx="533" cy="-549" r="1"/>
+   <circle cx="533" cy="-549" r="15.04" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_52" fill="#000000">
+   <circle cx="580" cy="-624" r="1"/>
+   <circle cx="580" cy="-624" r="14.86" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_53" fill="#000000">
+   <circle cx="651" cy="-682" r="1"/>
+   <circle cx="651" cy="-682" r="14.75" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_54" fill="#000000">
+   <circle cx="580" cy="-609" r="1"/>
+   <circle cx="580" cy="-609" r="14.74" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_55" fill="#ff0000">
+   <circle cx="672" cy="-750" r="1"/>
+   <circle cx="672" cy="-750" r="14.69" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_56" fill="#ff0000">
+   <circle cx="772" cy="-837" r="1"/>
+   <circle cx="772" cy="-837" r="14.33" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_57" fill="#0000ff">
+   <circle cx="799" cy="-850" r="1"/>
+   <circle cx="799" cy="-850" r="14.32" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_58" fill="#993300">
+   <circle cx="737" cy="-808" r="1"/>
+   <circle cx="737" cy="-808" r="14.13" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_59" fill="#6600cc">
+   <circle cx="721" cy="-792" r="1"/>
+   <circle cx="721" cy="-792" r="13.89" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_60" fill="#000000">
+   <circle cx="550" cy="-577" r="1"/>
+   <circle cx="550" cy="-577" r="13.54" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_61" fill="#000000">
+   <circle cx="602" cy="-643" r="1"/>
+   <circle cx="602" cy="-643" r="13.54" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_62" fill="#000000">
+   <circle cx="601" cy="-636" r="1"/>
+   <circle cx="601" cy="-636" r="13.51" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_63" fill="#cc9900">
+   <circle cx="728" cy="-778" r="1"/>
+   <circle cx="728" cy="-778" r="13.45" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_64" fill="#cc00cc">
+   <text x="647" y="-765" dy="0.7ex" text-anchor="end" stroke="none">Kazakhstan</text>
+   <circle cx="662" cy="-763" r="1"/>
+   <circle cx="662" cy="-763" r="13.28" stroke="#cc00cc" fill="url(#grad_ca)"/>
+  </g>
+  <g id="bubble_65" fill="#000000">
+   <circle cx="586" cy="-630" r="1"/>
+   <circle cx="586" cy="-630" r="13.21" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_66" fill="#009900">
+   <circle cx="760" cy="-822" r="1"/>
+   <circle cx="760" cy="-822" r="13.09" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_67" fill="#6600cc">
+   <circle cx="793" cy="-838" r="1"/>
+   <circle cx="793" cy="-838" r="12.89" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_68" fill="#0099cc">
+   <circle cx="698" cy="-739" r="1"/>
+   <circle cx="698" cy="-739" r="12.75" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_69" fill="#009900">
+   <circle cx="742" cy="-803" r="1"/>
+   <circle cx="742" cy="-803" r="12.73" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_70" fill="#ff0000">
+   <circle cx="627" cy="-679" r="1"/>
+   <circle cx="627" cy="-679" r="12.72" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_71" fill="#000000">
+   <text x="502" y="-555" dy="0.7ex" text-anchor="end" stroke="none">Zambia</text>
+   <circle cx="514" cy="-547" r="1"/>
+   <circle cx="514" cy="-547" r="12.71" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_72" fill="#000000">
+   <circle cx="557" cy="-593" r="1"/>
+   <circle cx="557" cy="-593" r="12.56" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_73" fill="#000000">
+   <circle cx="604" cy="-647" r="1"/>
+   <circle cx="604" cy="-647" r="12.34" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_74" fill="#000000">
+   <circle cx="590" cy="-632" r="1"/>
+   <circle cx="590" cy="-632" r="12.06" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_75" fill="#000000">
+   <circle cx="626" cy="-665" r="1"/>
+   <circle cx="626" cy="-665" r="11.51" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_76" fill="#000000">
+   <circle cx="604" cy="-640" r="1"/>
+   <circle cx="604" cy="-640" r="11.40" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_77" fill="#000000">
+   <circle cx="596" cy="-632" r="1"/>
+   <circle cx="596" cy="-632" r="11.40" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_78" fill="#6600cc">
+   <circle cx="786" cy="-839" r="1"/>
+   <circle cx="786" cy="-839" r="11.31" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_79" fill="#000000">
+   <circle cx="743" cy="-776" r="1"/>
+   <circle cx="743" cy="-776" r="11.29" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_80" fill="#000000">
+   <circle cx="612" cy="-642" r="1"/>
+   <circle cx="612" cy="-642" r="11.23" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_81" fill="#009900">
+   <circle cx="670" cy="-728" r="1"/>
+   <circle cx="670" cy="-728" r="11.22" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_82" fill="#000000">
+   <text x="508" y="-570" dy="0.7ex" text-anchor="end" stroke="none">Somalia</text>
+   <circle cx="510" cy="-554" r="1"/>
+   <circle cx="510" cy="-554" r="11.21" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_83" fill="#0099cc">
+   <circle cx="766" cy="-814" r="1"/>
+   <circle cx="766" cy="-814" r="11.16" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_84" fill="#0099cc">
+   <circle cx="619" cy="-672" r="1"/>
+   <circle cx="619" cy="-672" r="11.05" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_85" fill="#6600cc">
+   <circle cx="782" cy="-836" r="1"/>
+   <circle cx="782" cy="-836" r="11.04" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_86" fill="#6600cc">
+   <circle cx="760" cy="-821" r="1"/>
+   <circle cx="760" cy="-821" r="11.01" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_87" fill="#cc9900">
+   <circle cx="736" cy="-766" r="1"/>
+   <circle cx="736" cy="-766" r="10.93" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_88" fill="#6600cc">
+   <circle cx="777" cy="-842" r="1"/>
+   <circle cx="777" cy="-842" r="10.90" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_89" fill="#0099cc">
+   <circle cx="697" cy="-731" r="1"/>
+   <circle cx="697" cy="-731" r="10.88" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_90" fill="#cc9900">
+   <circle cx="700" cy="-764" r="1"/>
+   <circle cx="700" cy="-764" r="10.79" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_91" fill="#6600cc">
+   <circle cx="803" cy="-843" r="1"/>
+   <circle cx="803" cy="-843" r="10.79" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_92" fill="#6600cc">
+   <circle cx="726" cy="-802" r="1"/>
+   <circle cx="726" cy="-802" r="10.71" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_93" fill="#cc9900">
+   <circle cx="773" cy="-801" r="1"/>
+   <circle cx="773" cy="-801" r="10.66" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_94" fill="#6600cc">
+   <circle cx="678" cy="-790" r="1"/>
+   <circle cx="678" cy="-790" r="10.60" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_95" fill="#0099cc">
+   <circle cx="696" cy="-730" r="1"/>
+   <circle cx="696" cy="-730" r="10.47" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_96" fill="#6600cc">
+   <circle cx="790" cy="-845" r="1"/>
+   <circle cx="790" cy="-845" r="10.32" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_97" fill="#cc00cc">
+   <circle cx="652" cy="-717" r="1"/>
+   <circle cx="652" cy="-717" r="10.25" stroke="#cc00cc" fill="url(#grad_ca)"/>
+  </g>
+  <g id="bubble_98" fill="#cc9900">
+   <circle cx="808" cy="-847" r="1"/>
+   <circle cx="808" cy="-847" r="10.17" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_99" fill="#6600cc">
+   <circle cx="804" cy="-852" r="1"/>
+   <circle cx="804" cy="-852" r="10.12" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_100" fill="#000000">
+   <circle cx="631" cy="-686" r="1"/>
+   <circle cx="631" cy="-686" r="10.07" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_101" fill="#ff0000">
+   <circle cx="629" cy="-671" r="1"/>
+   <circle cx="629" cy="-671" r="9.67" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_102" fill="#ff0000">
+   <circle cx="804" cy="-860" r="1"/>
+   <circle cx="804" cy="-860" r="9.66" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_103" fill="#6600cc">
+   <circle cx="730" cy="-790" r="1"/>
+   <circle cx="730" cy="-790" r="9.60" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_104" fill="#6600cc">
+   <circle cx="715" cy="-783" r="1"/>
+   <circle cx="715" cy="-783" r="9.59" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_105" fill="#ff0000">
+   <circle cx="653" cy="-698" r="1"/>
+   <circle cx="653" cy="-698" r="9.58" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_106" fill="#009900">
+   <circle cx="749" cy="-804" r="1"/>
+   <circle cx="749" cy="-804" r="9.58" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_107" fill="#000000">
+   <circle cx="751" cy="-787" r="1"/>
+   <circle cx="751" cy="-787" r="9.45" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_108" fill="#000000">
+   <circle cx="564" cy="-617" r="1"/>
+   <circle cx="564" cy="-617" r="9.24" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_109" fill="#0099cc">
+   <circle cx="718" cy="-786" r="1"/>
+   <circle cx="718" cy="-786" r="9.18" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_110" fill="#cc9900">
+   <circle cx="766" cy="-793" r="1"/>
+   <circle cx="766" cy="-793" r="9.14" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_111" fill="#0099cc">
+   <circle cx="715" cy="-761" r="1"/>
+   <circle cx="715" cy="-761" r="9.13" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_112" fill="#ff0000">
+   <text x="830" y="-870" dy="0.7ex" text-anchor="start" stroke="none">Singapore</text>
+   <circle cx="828" cy="-883" r="1"/>
+   <circle cx="828" cy="-883" r="9.08" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_113" fill="#000000">
+   <circle cx="630" cy="-682" r="1"/>
+   <circle cx="630" cy="-682" r="9.07" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_114" fill="#cc00cc">
+   <circle cx="671" cy="-756" r="1"/>
+   <circle cx="671" cy="-756" r="9.01" stroke="#cc00cc" fill="url(#grad_ca)"/>
+  </g>
+  <g id="bubble_115" fill="#6600cc">
+   <circle cx="791" cy="-831" r="1"/>
+   <circle cx="791" cy="-831" r="8.99" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_116" fill="#000000">
+   <circle cx="519" cy="-547" r="1"/>
+   <circle cx="519" cy="-547" r="8.96" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_117" fill="#6600cc">
+   <circle cx="781" cy="-842" r="1"/>
+   <circle cx="781" cy="-842" r="8.85" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_118" fill="#6600cc">
+   <circle cx="739" cy="-812" r="1"/>
+   <circle cx="739" cy="-812" r="8.80" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_119" fill="#cc00cc">
+   <circle cx="676" cy="-739" r="1"/>
+   <circle cx="676" cy="-739" r="8.78" stroke="#cc00cc" fill="url(#grad_ca)"/>
+  </g>
+  <g id="bubble_120" fill="#6600cc">
+   <circle cx="799" cy="-841" r="1"/>
+   <circle cx="799" cy="-841" r="8.76" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_121" fill="#6600cc">
+   <circle cx="787" cy="-835" r="1"/>
+   <circle cx="787" cy="-835" r="8.59" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_122" fill="#000000">
+   <circle cx="590" cy="-616" r="1"/>
+   <circle cx="590" cy="-616" r="8.59" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_123" fill="#0099cc">
+   <circle cx="762" cy="-817" r="1"/>
+   <circle cx="762" cy="-817" r="8.54" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_124" fill="#cc9900">
+   <circle cx="725" cy="-809" r="1"/>
+   <circle cx="725" cy="-809" r="8.51" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_125" fill="#000000">
+   <circle cx="616" cy="-660" r="1"/>
+   <circle cx="616" cy="-660" r="8.44" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_126" fill="#0000ff">
+   <circle cx="792" cy="-836" r="1"/>
+   <circle cx="792" cy="-836" r="8.28" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_127" fill="#6600cc">
+   <circle cx="732" cy="-796" r="1"/>
+   <circle cx="732" cy="-796" r="8.11" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_128" fill="#6600cc">
+   <circle cx="741" cy="-803" r="1"/>
+   <circle cx="741" cy="-803" r="7.84" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_129" fill="#000000">
+   <circle cx="614" cy="-662" r="1"/>
+   <circle cx="614" cy="-662" r="7.83" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_130" fill="#0099cc">
+   <circle cx="761" cy="-819" r="1"/>
+   <circle cx="761" cy="-819" r="7.80" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_131" fill="#cc9900">
+   <circle cx="739" cy="-780" r="1"/>
+   <circle cx="739" cy="-780" r="7.59" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_132" fill="#6600cc">
+   <circle cx="674" cy="-754" r="1"/>
+   <circle cx="674" cy="-754" r="7.55" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_133" fill="#009900">
+   <circle cx="744" cy="-808" r="1"/>
+   <circle cx="744" cy="-808" r="7.50" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_134" fill="#0099cc">
+   <circle cx="777" cy="-845" r="1"/>
+   <circle cx="777" cy="-845" r="7.44" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_135" fill="#ff0000">
+   <circle cx="660" cy="-747" r="1"/>
+   <circle cx="660" cy="-747" r="7.29" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_136" fill="#6600cc">
+   <circle cx="760" cy="-816" r="1"/>
+   <circle cx="760" cy="-816" r="7.26" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_137" fill="#cc9900">
+   <circle cx="718" cy="-787" r="1"/>
+   <circle cx="718" cy="-787" r="7.24" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_138" fill="#cc9900">
+   <circle cx="769" cy="-798" r="1"/>
+   <circle cx="769" cy="-798" r="7.14" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_139" fill="#0099cc">
+   <circle cx="727" cy="-765" r="1"/>
+   <circle cx="727" cy="-765" r="7.06" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_140" fill="#cc9900">
+   <circle cx="734" cy="-776" r="1"/>
+   <circle cx="734" cy="-776" r="7.05" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_141" fill="#6600cc">
+   <text x="693" y="-814" dy="0.7ex" text-anchor="end" stroke="none">Lithuania</text>
+   <circle cx="699" cy="-808" r="1"/>
+   <circle cx="699" cy="-808" r="7.04" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_142" fill="#000000">
+   <circle cx="627" cy="-662" r="1"/>
+   <circle cx="627" cy="-662" r="6.82" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_143" fill="#cc9900">
+   <circle cx="769" cy="-812" r="1"/>
+   <circle cx="769" cy="-812" r="6.66" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_144" fill="#000000">
+   <circle cx="618" cy="-660" r="1"/>
+   <circle cx="618" cy="-660" r="6.55" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_145" fill="#000000">
+   <circle cx="663" cy="-696" r="1"/>
+   <circle cx="663" cy="-696" r="6.42" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_146" fill="#6600cc">
+   <circle cx="738" cy="-782" r="1"/>
+   <circle cx="738" cy="-782" r="6.42" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_147" fill="#6600cc">
+   <circle cx="783" cy="-842" r="1"/>
+   <circle cx="783" cy="-842" r="6.41" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_148" fill="#000000">
+   <circle cx="630" cy="-678" r="1"/>
+   <circle cx="630" cy="-678" r="6.40" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_149" fill="#000000">
+   <text x="532" y="-519" dy="0.7ex" text-anchor="start" stroke="none">Lesotho</text>
+   <circle cx="530" cy="-531" r="1"/>
+   <circle cx="530" cy="-531" r="6.26" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_150" fill="#6600cc">
+   <circle cx="704" cy="-797" r="1"/>
+   <circle cx="704" cy="-797" r="6.22" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_151" fill="#cc9900">
+   <circle cx="727" cy="-762" r="1"/>
+   <circle cx="727" cy="-762" r="6.12" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_152" fill="#000000">
+   <circle cx="592" cy="-636" r="1"/>
+   <circle cx="592" cy="-636" r="6.12" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_153" fill="#cc9900">
+   <circle cx="769" cy="-815" r="1"/>
+   <circle cx="769" cy="-815" r="5.65" stroke="#cc9900" fill="url(#grad_me)"/>
+  </g>
+  <g id="bubble_154" fill="#000000">
+   <circle cx="726" cy="-797" r="1"/>
+   <circle cx="726" cy="-797" r="5.55" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_155" fill="#ff0000">
+   <circle cx="671" cy="-704" r="1"/>
+   <circle cx="671" cy="-704" r="5.49" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_156" fill="#6600cc">
+   <circle cx="723" cy="-820" r="1"/>
+   <circle cx="723" cy="-820" r="5.38" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_157" fill="#6600cc">
+   <circle cx="762" cy="-819" r="1"/>
+   <circle cx="762" cy="-819" r="5.37" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_158" fill="#0099cc">
+   <circle cx="705" cy="-764" r="1"/>
+   <circle cx="705" cy="-764" r="5.34" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_159" fill="#000000">
+   <circle cx="551" cy="-593" r="1"/>
+   <circle cx="551" cy="-593" r="5.14" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_160" fill="#0000ff">
+   <circle cx="705" cy="-760" r="1"/>
+   <circle cx="705" cy="-760" r="4.87" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_161" fill="#000000">
+   <circle cx="614" cy="-666" r="1"/>
+   <circle cx="614" cy="-666" r="4.80" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_162" fill="#000000">
+   <circle cx="626" cy="-674" r="1"/>
+   <circle cx="626" cy="-674" r="4.68" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_163" fill="#000000">
+   <circle cx="638" cy="-662" r="1"/>
+   <circle cx="638" cy="-662" r="4.64" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_164" fill="#993300">
+   <circle cx="701" cy="-722" r="1"/>
+   <circle cx="701" cy="-722" r="4.58" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_165" fill="#009900">
+   <circle cx="659" cy="-721" r="1"/>
+   <circle cx="659" cy="-721" r="4.52" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_166" fill="#0000ff">
+   <circle cx="731" cy="-786" r="1"/>
+   <circle cx="731" cy="-786" r="4.35" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_167" fill="#000000">
+   <circle cx="614" cy="-662" r="1"/>
+   <circle cx="614" cy="-662" r="4.26" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_168" fill="#ff0000">
+   <text x="814" y="-887" dy="0.7ex" text-anchor="end" stroke="none">Macau</text>
+   <circle cx="816" cy="-877" r="1"/>
+   <circle cx="816" cy="-877" r="4.23" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_169" fill="#6600cc">
+   <circle cx="799" cy="-850" r="1"/>
+   <circle cx="799" cy="-850" r="4.23" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_170" fill="#009900">
+   <circle cx="703" cy="-753" r="1"/>
+   <circle cx="703" cy="-753" r="4.21" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+  <g id="bubble_171" fill="#000000">
+   <circle cx="703" cy="-751" r="1"/>
+   <circle cx="703" cy="-751" r="4.14" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_172" fill="#ff0000">
+   <circle cx="752" cy="-800" r="1"/>
+   <circle cx="752" cy="-800" r="3.83" stroke="#ff0000" fill="url(#grad_ea)"/>
+  </g>
+  <g id="bubble_173" fill="#6600cc">
+   <circle cx="806" cy="-848" r="1"/>
+   <circle cx="806" cy="-848" r="3.83" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_174" fill="#993300">
+   <circle cx="737" cy="-785" r="1"/>
+   <circle cx="737" cy="-785" r="3.66" stroke="#993300" fill="url(#grad_as)"/>
+  </g>
+  <g id="bubble_175" fill="#0099cc">
+   <circle cx="731" cy="-763" r="1"/>
+   <circle cx="731" cy="-763" r="3.64" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_176" fill="#6600cc">
+   <circle cx="809" cy="-855" r="1"/>
+   <circle cx="809" cy="-855" r="3.50" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_177" fill="#0099cc">
+   <circle cx="704" cy="-754" r="1"/>
+   <circle cx="704" cy="-754" r="3.46" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_178" fill="#0099cc">
+   <circle cx="733" cy="-781" r="1"/>
+   <circle cx="733" cy="-781" r="3.32" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_179" fill="#0000ff">
+   <circle cx="752" cy="-800" r="1"/>
+   <circle cx="752" cy="-800" r="3.31" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_180" fill="#0000ff">
+   <circle cx="724" cy="-757" r="1"/>
+   <circle cx="724" cy="-757" r="3.30" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_181" fill="#0000ff">
+   <circle cx="741" cy="-822" r="1"/>
+   <circle cx="741" cy="-822" r="3.28" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_182" fill="#000000">
+   <circle cx="643" cy="-671" r="1"/>
+   <circle cx="643" cy="-671" r="2.95" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_183" fill="#0000ff">
+   <circle cx="713" cy="-773" r="1"/>
+   <circle cx="713" cy="-773" r="2.93" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_184" fill="#0000ff">
+   <circle cx="739" cy="-789" r="1"/>
+   <circle cx="739" cy="-789" r="2.76" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_185" fill="#0099cc">
+   <circle cx="754" cy="-810" r="1"/>
+   <circle cx="754" cy="-810" r="2.75" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_186" fill="#0099cc">
+   <circle cx="763" cy="-811" r="1"/>
+   <circle cx="763" cy="-811" r="2.66" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_187" fill="#0099cc">
+   <circle cx="741" cy="-803" r="1"/>
+   <circle cx="741" cy="-803" r="2.44" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_188" fill="#0099cc">
+   <circle cx="721" cy="-776" r="1"/>
+   <circle cx="721" cy="-776" r="2.41" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_189" fill="#0000ff">
+   <circle cx="643" cy="-695" r="1"/>
+   <circle cx="643" cy="-695" r="2.39" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_190" fill="#0099cc">
+   <circle cx="763" cy="-830" r="1"/>
+   <circle cx="763" cy="-830" r="2.37" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_191" fill="#0000ff">
+   <circle cx="750" cy="-783" r="1"/>
+   <circle cx="750" cy="-783" r="2.37" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_192" fill="#0000ff">
+   <circle cx="713" cy="-756" r="1"/>
+   <circle cx="713" cy="-756" r="2.35" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_193" fill="#0099cc">
+   <circle cx="737" cy="-779" r="1"/>
+   <circle cx="737" cy="-779" r="2.33" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_194" fill="#6600cc">
+   <circle cx="795" cy="-847" r="1"/>
+   <circle cx="795" cy="-847" r="2.32" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_195" fill="#0099cc">
+   <circle cx="748" cy="-792" r="1"/>
+   <circle cx="748" cy="-792" r="2.29" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_196" fill="#000000">
+   <circle cx="707" cy="-798" r="1"/>
+   <circle cx="707" cy="-798" r="2.28" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_197" fill="#6600cc">
+   <circle cx="796" cy="-833" r="1"/>
+   <circle cx="796" cy="-833" r="2.24" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_198" fill="#6600cc">
+   <circle cx="807" cy="-853" r="1"/>
+   <circle cx="807" cy="-853" r="2.20" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_199" fill="#0000ff">
+   <circle cx="714" cy="-760" r="1"/>
+   <circle cx="714" cy="-760" r="2.11" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_200" fill="#0099cc">
+   <circle cx="744" cy="-805" r="1"/>
+   <circle cx="744" cy="-805" r="2.10" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_201" fill="#0033cc">
+   <circle cx="783" cy="-847" r="1"/>
+   <circle cx="783" cy="-847" r="2.07" stroke="#0033cc" fill="url(#grad_na)"/>
+  </g>
+  <g id="bubble_202" fill="#6600cc">
+   <circle cx="800" cy="-855" r="1"/>
+   <circle cx="800" cy="-855" r="2.03" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_203" fill="#0099cc">
+   <circle cx="787" cy="-842" r="1"/>
+   <circle cx="787" cy="-842" r="1.95" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_204" fill="#0033cc">
+   <circle cx="702" cy="-758" r="1"/>
+   <circle cx="702" cy="-758" r="1.93" stroke="#0033cc" fill="url(#grad_na)"/>
+  </g>
+  <g id="bubble_205" fill="#0099cc">
+   <circle cx="773" cy="-830" r="1"/>
+   <circle cx="773" cy="-830" r="1.89" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_206" fill="#0099cc">
+   <circle cx="737" cy="-787" r="1"/>
+   <circle cx="737" cy="-787" r="1.88" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_207" fill="#0000ff">
+   <circle cx="736" cy="-781" r="1"/>
+   <circle cx="736" cy="-781" r="1.87" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_208" fill="#6600cc">
+   <circle cx="781" cy="-833" r="1"/>
+   <circle cx="781" cy="-833" r="1.85" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_209" fill="#0000ff">
+   <circle cx="716" cy="-762" r="1"/>
+   <circle cx="716" cy="-762" r="1.85" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_210" fill="#0099cc">
+   <circle cx="761" cy="-809" r="1"/>
+   <circle cx="761" cy="-809" r="1.75" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_211" fill="#6600cc">
+   <circle cx="798" cy="-848" r="1"/>
+   <circle cx="798" cy="-848" r="1.69" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_212" fill="#0099cc">
+   <circle cx="775" cy="-804" r="1"/>
+   <circle cx="775" cy="-804" r="1.65" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_213" fill="#6600cc">
+   <circle cx="808" cy="-862" r="1"/>
+   <circle cx="808" cy="-862" r="1.62" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_214" fill="#6600cc">
+   <text x="852" y="-935" dy="0.7ex" text-anchor="end" stroke="none">Monaco</text>
+   <circle cx="855" cy="-934" r="1"/>
+   <circle cx="855" cy="-934" r="1.57" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_215" fill="#6600cc">
+   <circle cx="768" cy="-828" r="1"/>
+   <circle cx="768" cy="-828" r="1.54" stroke="#6600cc" fill="url(#grad_eu)"/>
+  </g>
+  <g id="bubble_216" fill="#0000ff">
+   <circle cx="704" cy="-770" r="1"/>
+   <circle cx="704" cy="-770" r="1.39" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_217" fill="#0099cc">
+   <circle cx="790" cy="-843" r="1"/>
+   <circle cx="790" cy="-843" r="1.30" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_218" fill="#0000ff">
+   <circle cx="770" cy="-831" r="1"/>
+   <circle cx="770" cy="-831" r="1.25" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_219" fill="#0000ff">
+   <circle cx="650" cy="-695" r="1"/>
+   <circle cx="650" cy="-695" r="1.12" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_220" fill="#0000ff">
+   <text x="634" y="-715" dy="0.7ex" text-anchor="end" stroke="none">Nauru</text>
+   <circle cx="636" cy="-712" r="1"/>
+   <circle cx="636" cy="-712" r="1.07" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_221" fill="#0000ff">
+   <circle cx="734" cy="-792" r="1"/>
+   <circle cx="734" cy="-792" r="1.04" stroke="#0000ff" fill="url(#grad_oc)"/>
+  </g>
+  <g id="bubble_222" fill="#000000">
+   <circle cx="768" cy="-829" r="1"/>
+   <circle cx="768" cy="-829" r="0.99" stroke="#000000" fill="url(#grad_af)"/>
+  </g>
+  <g id="bubble_223" fill="#0033cc">
+   <circle cx="784" cy="-832" r="1"/>
+   <circle cx="784" cy="-832" r="0.88" stroke="#0033cc" fill="url(#grad_na)"/>
+  </g>
+  <g id="bubble_224" fill="#0099cc">
+   <text x="763" y="-727" dy="0.7ex" text-anchor="start" stroke="none">Montserrat</text>
+   <circle cx="761" cy="-735" r="1"/>
+   <circle cx="761" cy="-735" r="0.87" stroke="#0099cc" fill="url(#grad_la)"/>
+  </g>
+  <g id="bubble_225" fill="#009900">
+   <circle cx="756" cy="-796" r="1"/>
+   <circle cx="756" cy="-796" r="0.74" stroke="#009900" fill="url(#grad_sa)"/>
+  </g>
+
+  <path id="grid_x" d="M 0 -500 V -950"/>
+  <g id="grid_x_5">
+   <use xlink:href="#grid_x"/>
+   <use xlink:href="#grid_x" transform="translate(10,0)"/>
+   <use xlink:href="#grid_x" transform="translate(20,0)"/>
+   <use xlink:href="#grid_x" transform="translate(30,0)"/>
+   <use xlink:href="#grid_x" transform="translate(40,0)"/>
+   <use xlink:href="#grid_x" transform="translate(50,0)"/>
+  </g>
+  <path id="grid_y" d="M 400 0 H 900"/>
+  <g id="grid_y_5">
+   <use xlink:href="#grid_y"/>
+   <use xlink:href="#grid_y" transform="translate(0,-10)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-20)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-30)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-40)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-50)"/>
+  </g>
+ </defs>
+ <g id="main">
+  <g class="nofade">
+   <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+   <g stroke-opacity="0.05" stroke="#000000">
+    <use xlink:href="#grid_x_5" transform="translate(400,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(450,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(500,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(550,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(600,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(650,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(700,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(750,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(800,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(850,0)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-500)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-550)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-600)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-650)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-700)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-750)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-800)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-850)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-900)"/>
+   </g>
+   <g fill="#000000">
+    <text x="650" y="-467">Male life expectancy at birth in years</text>
+    <text transform="rotate(-90)" x="750" y="365">Female life expectancy at birth in years</text>
+
+    <text x="450" y="-483">45</text>
+    <text x="500" y="-483">50</text>
+    <text x="550" y="-483">55</text>
+    <text x="600" y="-483">60</text>
+    <text x="650" y="-483">65</text>
+    <text x="700" y="-483">70</text>
+    <text x="750" y="-483">75</text>
+    <text x="800" y="-483">80</text>
+    <text x="850" y="-483">85</text>
+    <text x="900" y="-483">90</text>
+    <text x="385" y="-490">50</text>
+    <text x="385" y="-540">55</text>
+    <text x="385" y="-590">60</text>
+    <text x="385" y="-640">65</text>
+    <text x="385" y="-690">70</text>
+    <text x="385" y="-740">75</text>
+    <text x="385" y="-790">80</text>
+    <text x="385" y="-840">85</text>
+    <text x="385" y="-890">90</text>
+    <text x="385" y="-940">95</text>
+   </g>
+   <path d="M 500 -500 L 900 -900" stroke="#00cc00" stroke-width="2" stroke-dasharray="2,1"/>
+  </g>
+  <g text-anchor="start">
+   <rect class="nofade" x="403" y="-945" width="154" height="210" rx="5" ry="5" stroke="#999999" fill="#ffffff"/>
+
+   <g class="active">
+    <text x="425" y="-930" fill="#0033cc">North America</text>
+    <text x="425" y="-930" fill="#0033cc">North America</text>
+    <circle cx="415" cy="-935" r="8" fill="url(#grad_na)"/>
+    <circle cx="415" cy="-935" r="8" fill="url(#grad_na)"/>
+    <circle cx="415" cy="-935" r="1" fill="#0033cc"/>
+    <use xlink:href="#bubble_4"/>
+    <use xlink:href="#bubble_12"/>
+    <use xlink:href="#bubble_39"/>
+    <use xlink:href="#bubble_201"/>
+    <use xlink:href="#bubble_204"/>
+    <use xlink:href="#bubble_223"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-911" fill="#0099cc">Central America</text>
+    <text x="425" y="-911" fill="#0099cc">Central America</text>
+    <circle cx="415" cy="-916" r="8" fill="url(#grad_la)"/>
+    <circle cx="415" cy="-916" r="8" fill="url(#grad_la)"/>
+    <circle cx="415" cy="-916" r="1" fill="#0099cc"/>
+    <use xlink:href="#bubble_68"/>
+    <use xlink:href="#bubble_83"/>
+    <use xlink:href="#bubble_84"/>
+    <use xlink:href="#bubble_89"/>
+    <use xlink:href="#bubble_95"/>
+    <use xlink:href="#bubble_109"/>
+    <use xlink:href="#bubble_111"/>
+    <use xlink:href="#bubble_123"/>
+    <use xlink:href="#bubble_130"/>
+    <use xlink:href="#bubble_134"/>
+    <use xlink:href="#bubble_139"/>
+    <use xlink:href="#bubble_158"/>
+    <use xlink:href="#bubble_175"/>
+    <use xlink:href="#bubble_177"/>
+    <use xlink:href="#bubble_178"/>
+    <use xlink:href="#bubble_185"/>
+    <use xlink:href="#bubble_186"/>
+    <use xlink:href="#bubble_187"/>
+    <use xlink:href="#bubble_188"/>
+    <use xlink:href="#bubble_190"/>
+    <use xlink:href="#bubble_193"/>
+    <use xlink:href="#bubble_195"/>
+    <use xlink:href="#bubble_200"/>
+    <use xlink:href="#bubble_203"/>
+    <use xlink:href="#bubble_205"/>
+    <use xlink:href="#bubble_206"/>
+    <use xlink:href="#bubble_210"/>
+    <use xlink:href="#bubble_212"/>
+    <use xlink:href="#bubble_217"/>
+    <use xlink:href="#bubble_224"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-892" fill="#009900">South America</text>
+    <text x="425" y="-892" fill="#009900">South America</text>
+    <circle cx="415" cy="-897" r="8" fill="url(#grad_sa)"/>
+    <circle cx="415" cy="-897" r="8" fill="url(#grad_sa)"/>
+    <circle cx="415" cy="-897" r="1" fill="#009900"/>
+    <use xlink:href="#bubble_6"/>
+    <use xlink:href="#bubble_31"/>
+    <use xlink:href="#bubble_32"/>
+    <use xlink:href="#bubble_44"/>
+    <use xlink:href="#bubble_45"/>
+    <use xlink:href="#bubble_66"/>
+    <use xlink:href="#bubble_69"/>
+    <use xlink:href="#bubble_81"/>
+    <use xlink:href="#bubble_106"/>
+    <use xlink:href="#bubble_133"/>
+    <use xlink:href="#bubble_165"/>
+    <use xlink:href="#bubble_170"/>
+    <use xlink:href="#bubble_225"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-873" fill="#6600cc">Europe</text>
+    <text x="425" y="-873" fill="#6600cc">Europe</text>
+    <circle cx="415" cy="-878" r="8" fill="url(#grad_eu)"/>
+    <circle cx="415" cy="-878" r="8" fill="url(#grad_eu)"/>
+    <circle cx="415" cy="-878" r="1" fill="#6600cc"/>
+    <use xlink:href="#bubble_10"/>
+    <use xlink:href="#bubble_20"/>
+    <use xlink:href="#bubble_22"/>
+    <use xlink:href="#bubble_23"/>
+    <use xlink:href="#bubble_24"/>
+    <use xlink:href="#bubble_29"/>
+    <use xlink:href="#bubble_33"/>
+    <use xlink:href="#bubble_38"/>
+    <use xlink:href="#bubble_59"/>
+    <use xlink:href="#bubble_67"/>
+    <use xlink:href="#bubble_78"/>
+    <use xlink:href="#bubble_85"/>
+    <use xlink:href="#bubble_86"/>
+    <use xlink:href="#bubble_88"/>
+    <use xlink:href="#bubble_91"/>
+    <use xlink:href="#bubble_92"/>
+    <use xlink:href="#bubble_94"/>
+    <use xlink:href="#bubble_96"/>
+    <use xlink:href="#bubble_99"/>
+    <use xlink:href="#bubble_103"/>
+    <use xlink:href="#bubble_104"/>
+    <use xlink:href="#bubble_115"/>
+    <use xlink:href="#bubble_117"/>
+    <use xlink:href="#bubble_118"/>
+    <use xlink:href="#bubble_120"/>
+    <use xlink:href="#bubble_121"/>
+    <use xlink:href="#bubble_127"/>
+    <use xlink:href="#bubble_128"/>
+    <use xlink:href="#bubble_132"/>
+    <use xlink:href="#bubble_136"/>
+    <use xlink:href="#bubble_141"/>
+    <use xlink:href="#bubble_146"/>
+    <use xlink:href="#bubble_147"/>
+    <use xlink:href="#bubble_150"/>
+    <use xlink:href="#bubble_156"/>
+    <use xlink:href="#bubble_157"/>
+    <use xlink:href="#bubble_169"/>
+    <use xlink:href="#bubble_173"/>
+    <use xlink:href="#bubble_176"/>
+    <use xlink:href="#bubble_194"/>
+    <use xlink:href="#bubble_197"/>
+    <use xlink:href="#bubble_198"/>
+    <use xlink:href="#bubble_202"/>
+    <use xlink:href="#bubble_208"/>
+    <use xlink:href="#bubble_211"/>
+    <use xlink:href="#bubble_213"/>
+    <use xlink:href="#bubble_214"/>
+    <use xlink:href="#bubble_215"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-854" fill="#000000">Africa</text>
+    <text x="425" y="-854" fill="#000000">Africa</text>
+    <circle cx="415" cy="-859" r="8" fill="url(#grad_af)"/>
+    <circle cx="415" cy="-859" r="8" fill="url(#grad_af)"/>
+    <circle cx="415" cy="-859" r="1" fill="#000000"/>
+    <use xlink:href="#bubble_8"/>
+    <use xlink:href="#bubble_13"/>
+    <use xlink:href="#bubble_15"/>
+    <use xlink:href="#bubble_17"/>
+    <use xlink:href="#bubble_26"/>
+    <use xlink:href="#bubble_27"/>
+    <use xlink:href="#bubble_30"/>
+    <use xlink:href="#bubble_34"/>
+    <use xlink:href="#bubble_35"/>
+    <use xlink:href="#bubble_36"/>
+    <use xlink:href="#bubble_41"/>
+    <use xlink:href="#bubble_46"/>
+    <use xlink:href="#bubble_50"/>
+    <use xlink:href="#bubble_51"/>
+    <use xlink:href="#bubble_52"/>
+    <use xlink:href="#bubble_53"/>
+    <use xlink:href="#bubble_54"/>
+    <use xlink:href="#bubble_60"/>
+    <use xlink:href="#bubble_61"/>
+    <use xlink:href="#bubble_62"/>
+    <use xlink:href="#bubble_65"/>
+    <use xlink:href="#bubble_71"/>
+    <use xlink:href="#bubble_72"/>
+    <use xlink:href="#bubble_73"/>
+    <use xlink:href="#bubble_74"/>
+    <use xlink:href="#bubble_75"/>
+    <use xlink:href="#bubble_76"/>
+    <use xlink:href="#bubble_77"/>
+    <use xlink:href="#bubble_79"/>
+    <use xlink:href="#bubble_80"/>
+    <use xlink:href="#bubble_82"/>
+    <use xlink:href="#bubble_100"/>
+    <use xlink:href="#bubble_107"/>
+    <use xlink:href="#bubble_108"/>
+    <use xlink:href="#bubble_113"/>
+    <use xlink:href="#bubble_116"/>
+    <use xlink:href="#bubble_122"/>
+    <use xlink:href="#bubble_125"/>
+    <use xlink:href="#bubble_129"/>
+    <use xlink:href="#bubble_142"/>
+    <use xlink:href="#bubble_144"/>
+    <use xlink:href="#bubble_145"/>
+    <use xlink:href="#bubble_148"/>
+    <use xlink:href="#bubble_149"/>
+    <use xlink:href="#bubble_152"/>
+    <use xlink:href="#bubble_154"/>
+    <use xlink:href="#bubble_159"/>
+    <use xlink:href="#bubble_161"/>
+    <use xlink:href="#bubble_162"/>
+    <use xlink:href="#bubble_163"/>
+    <use xlink:href="#bubble_167"/>
+    <use xlink:href="#bubble_171"/>
+    <use xlink:href="#bubble_182"/>
+    <use xlink:href="#bubble_196"/>
+    <use xlink:href="#bubble_222"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-835" fill="#cc9900">Middle East</text>
+    <text x="425" y="-835" fill="#cc9900">Middle East</text>
+    <circle cx="415" cy="-840" r="8" fill="url(#grad_me)"/>
+    <circle cx="415" cy="-840" r="8" fill="url(#grad_me)"/>
+    <circle cx="415" cy="-840" r="1" fill="#cc9900"/>
+    <use xlink:href="#bubble_18"/>
+    <use xlink:href="#bubble_19"/>
+    <use xlink:href="#bubble_37"/>
+    <use xlink:href="#bubble_42"/>
+    <use xlink:href="#bubble_49"/>
+    <use xlink:href="#bubble_63"/>
+    <use xlink:href="#bubble_87"/>
+    <use xlink:href="#bubble_90"/>
+    <use xlink:href="#bubble_93"/>
+    <use xlink:href="#bubble_98"/>
+    <use xlink:href="#bubble_110"/>
+    <use xlink:href="#bubble_124"/>
+    <use xlink:href="#bubble_131"/>
+    <use xlink:href="#bubble_137"/>
+    <use xlink:href="#bubble_138"/>
+    <use xlink:href="#bubble_140"/>
+    <use xlink:href="#bubble_143"/>
+    <use xlink:href="#bubble_151"/>
+    <use xlink:href="#bubble_153"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-816" fill="#cc00cc">Central Asia</text>
+    <text x="425" y="-816" fill="#cc00cc">Central Asia</text>
+    <circle cx="415" cy="-821" r="8" fill="url(#grad_ca)"/>
+    <circle cx="415" cy="-821" r="8" fill="url(#grad_ca)"/>
+    <circle cx="415" cy="-821" r="1" fill="#cc00cc"/>
+    <use xlink:href="#bubble_47"/>
+    <use xlink:href="#bubble_64"/>
+    <use xlink:href="#bubble_97"/>
+    <use xlink:href="#bubble_114"/>
+    <use xlink:href="#bubble_119"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-797" fill="#993300">South Asia</text>
+    <text x="425" y="-797" fill="#993300">South Asia</text>
+    <circle cx="415" cy="-802" r="8" fill="url(#grad_as)"/>
+    <circle cx="415" cy="-802" r="8" fill="url(#grad_as)"/>
+    <circle cx="415" cy="-802" r="1" fill="#993300"/>
+    <use xlink:href="#bubble_3"/>
+    <use xlink:href="#bubble_7"/>
+    <use xlink:href="#bubble_9"/>
+    <use xlink:href="#bubble_40"/>
+    <use xlink:href="#bubble_48"/>
+    <use xlink:href="#bubble_58"/>
+    <use xlink:href="#bubble_164"/>
+    <use xlink:href="#bubble_174"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-778" fill="#ff0000">East/SE Asia</text>
+    <text x="425" y="-778" fill="#ff0000">East/SE Asia</text>
+    <circle cx="415" cy="-783" r="8" fill="url(#grad_ea)"/>
+    <circle cx="415" cy="-783" r="8" fill="url(#grad_ea)"/>
+    <circle cx="415" cy="-783" r="1" fill="#ff0000"/>
+    <use xlink:href="#bubble_2"/>
+    <use xlink:href="#bubble_5"/>
+    <use xlink:href="#bubble_11"/>
+    <use xlink:href="#bubble_14"/>
+    <use xlink:href="#bubble_16"/>
+    <use xlink:href="#bubble_21"/>
+    <use xlink:href="#bubble_25"/>
+    <use xlink:href="#bubble_28"/>
+    <use xlink:href="#bubble_43"/>
+    <use xlink:href="#bubble_55"/>
+    <use xlink:href="#bubble_56"/>
+    <use xlink:href="#bubble_70"/>
+    <use xlink:href="#bubble_101"/>
+    <use xlink:href="#bubble_102"/>
+    <use xlink:href="#bubble_105"/>
+    <use xlink:href="#bubble_112"/>
+    <use xlink:href="#bubble_135"/>
+    <use xlink:href="#bubble_155"/>
+    <use xlink:href="#bubble_168"/>
+    <use xlink:href="#bubble_172"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-759" fill="#0000ff">Australia/Oceania</text>
+    <text x="425" y="-759" fill="#0000ff">Australia/Oceania</text>
+    <circle cx="415" cy="-764" r="8" fill="url(#grad_oc)"/>
+    <circle cx="415" cy="-764" r="8" fill="url(#grad_oc)"/>
+    <circle cx="415" cy="-764" r="1" fill="#0000ff"/>
+    <use xlink:href="#bubble_57"/>
+    <use xlink:href="#bubble_126"/>
+    <use xlink:href="#bubble_160"/>
+    <use xlink:href="#bubble_166"/>
+    <use xlink:href="#bubble_179"/>
+    <use xlink:href="#bubble_180"/>
+    <use xlink:href="#bubble_181"/>
+    <use xlink:href="#bubble_183"/>
+    <use xlink:href="#bubble_184"/>
+    <use xlink:href="#bubble_189"/>
+    <use xlink:href="#bubble_191"/>
+    <use xlink:href="#bubble_192"/>
+    <use xlink:href="#bubble_199"/>
+    <use xlink:href="#bubble_207"/>
+    <use xlink:href="#bubble_209"/>
+    <use xlink:href="#bubble_216"/>
+    <use xlink:href="#bubble_218"/>
+    <use xlink:href="#bubble_219"/>
+    <use xlink:href="#bubble_220"/>
+    <use xlink:href="#bubble_221"/>
+   </g>
+   <g class="active">
+    <text x="425" y="-740" fill="#999999">Other</text>
+    <text x="425" y="-740" fill="#999999">Other</text>
+    <circle cx="415" cy="-745" r="8" fill="url(#grad_-)"/>
+    <circle cx="415" cy="-745" r="8" fill="url(#grad_-)"/>
+    <circle cx="415" cy="-745" r="1" fill="#999999"/>
+    <use xlink:href="#bubble_0"/>
+    <use xlink:href="#bubble_1"/>
+   </g>
+  </g>
+
+  <g class="active">
+   <use xlink:href="#bubble_0"/>
+   <title>WORLD (population: 7 405 107 650)
+female: 71.1, male: 67.0, overall: 69.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_1"/>
+   <title>EUROPEAN UNION (population: 517 111 329)
+female: 83.6, male: 77.9, overall: 80.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_2"/>
+   <title>China (population: 1 384 688 986)
+female: 78.1, male: 73.7, overall: 75.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_3"/>
+   <title>India (population: 1 296 834 042)
+female: 70.5, male: 67.8, overall: 69.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_4"/>
+   <title>USA (population: 329 256 465)
+female: 82.3, male: 77.8, overall: 80.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_5"/>
+   <text x="680" y="-785" dy="0.7ex" class="hidden_text" stroke="#ff0000">Indonesia</text>
+   <title>Indonesia (population: 262 787 403)
+female: 76.0, male: 70.6, overall: 73.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_6"/>
+   <text x="683" y="-803" dy="0.7ex" class="hidden_text" stroke="#009900">Brazil</text>
+   <title>Brazil (population: 208 846 892)
+female: 78.0, male: 70.7, overall: 74.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_7"/>
+   <text x="640" y="-728" dy="0.7ex" class="hidden_text" stroke="#993300">Pakistan</text>
+   <title>Pakistan (population: 207 862 518)
+female: 70.5, male: 66.4, overall: 68.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_8"/>
+   <title>Nigeria (population: 203 452 505)
+female: 61.1, male: 57.5, overall: 59.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_9"/>
+   <text x="693" y="-780" dy="0.7ex" class="hidden_text" stroke="#993300">Bangladesh</text>
+   <title>Bangladesh (population: 159 453 001)
+female: 75.9, male: 71.5, overall: 73.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_10"/>
+   <title>Russia (population: 142 122 776)
+female: 77.3, male: 65.6, overall: 71.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_11"/>
+   <title>Japan (population: 126 168 156)
+female: 89.0, male: 82.2, overall: 85.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_12"/>
+   <text x="714" y="-812" dy="0.7ex" class="hidden_text" stroke="#0033cc">Mexico</text>
+   <title>Mexico (population: 125 959 205)
+female: 79.2, male: 73.5, overall: 76.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_13"/>
+   <title>Ethiopia (population: 108 386 391)
+female: 65.5, male: 60.5, overall: 63.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_14"/>
+   <title>Philippines (population: 105 893 381)
+female: 73.3, male: 66.1, overall: 69.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_15"/>
+   <text x="699" y="-765" dy="0.7ex" class="hidden_text" stroke="#000000">Egypt</text>
+   <title>Egypt (population: 99 413 317)
+female: 74.7, male: 71.8, overall: 73.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_16"/>
+   <text x="695" y="-785" dy="0.7ex" class="hidden_text" stroke="#ff0000">Vietnam</text>
+   <title>Vietnam (population: 97 040 334)
+female: 76.7, male: 71.4, overall: 73.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_17"/>
+   <title>DR Congo (population: 85 281 024)
+female: 59.7, male: 56.5, overall: 58.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_18"/>
+   <text x="710" y="-773" dy="0.7ex" class="hidden_text" stroke="#cc9900">Iran</text>
+   <title>Iran (population: 83 024 745)
+female: 75.6, male: 72.8, overall: 74.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_19"/>
+   <text x="711" y="-794" dy="0.7ex" class="hidden_text" stroke="#cc9900">Turkey</text>
+   <title>Turkey (population: 81 257 239)
+female: 77.7, male: 72.9, overall: 75.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_20"/>
+   <text x="768" y="-851" dy="0.7ex" class="hidden_text" stroke="#6600cc">Germany</text>
+   <title>Germany (population: 80 457 737)
+female: 83.4, male: 78.6, overall: 80.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_21"/>
+   <text x="702" y="-801" dy="0.7ex" class="hidden_text" stroke="#ff0000">Thailand</text>
+   <title>Thailand (population: 68 615 858)
+female: 78.5, male: 71.9, overall: 75.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_22"/>
+   <text x="772" y="-869" dy="0.7ex" class="hidden_text" stroke="#6600cc">France</text>
+   <title>France (population: 67 364 357)
+female: 85.3, male: 78.9, overall: 82.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_23"/>
+   <title>UK (population: 65 105 246)
+female: 83.2, male: 78.7, overall: 80.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_24"/>
+   <text x="781" y="-867" dy="0.7ex" class="hidden_text" stroke="#6600cc">Italy</text>
+   <title>Italy (population: 62 246 674)
+female: 85.2, male: 79.7, overall: 82.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_25"/>
+   <text x="654" y="-718" dy="0.7ex" class="hidden_text" stroke="#ff0000">Burma</text>
+   <title>Burma (population: 55 622 506)
+female: 70.3, male: 67.0, overall: 68.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_26"/>
+   <text x="600" y="-661" dy="0.7ex" class="hidden_text" stroke="#000000">Tanzania</text>
+   <title>Tanzania (population: 55 451 343)
+female: 64.6, male: 61.6, overall: 63.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_27"/>
+   <text x="611" y="-671" dy="0.7ex" class="hidden_text" stroke="#000000">South Africa</text>
+   <title>South Africa (population: 55 380 210)
+female: 65.6, male: 62.7, overall: 64.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_28"/>
+   <text x="779" y="-872" dy="0.7ex" class="hidden_text" stroke="#ff0000">Korea, South</text>
+   <title>Korea, South (population: 51 418 097)
+female: 85.8, male: 79.4, overall: 82.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_29"/>
+   <text x="773" y="-864" dy="0.7ex" class="hidden_text" stroke="#6600cc">Spain</text>
+   <title>Spain (population: 49 331 076)
+female: 85.0, male: 78.8, overall: 81.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_30"/>
+   <text x="616" y="-675" dy="0.7ex" class="hidden_text" stroke="#000000">Kenya</text>
+   <title>Kenya (population: 48 397 527)
+female: 66.1, male: 63.1, overall: 64.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_31"/>
+   <text x="715" y="-809" dy="0.7ex" class="hidden_text" stroke="#009900">Colombia</text>
+   <title>Colombia (population: 48 168 996)
+female: 79.5, male: 73.0, overall: 76.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_32"/>
+   <text x="729" y="-822" dy="0.7ex" class="hidden_text" stroke="#009900">Argentina</text>
+   <title>Argentina (population: 44 694 198)
+female: 80.8, male: 74.4, overall: 77.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_33"/>
+   <title>Ukraine (population: 43 952 299)
+female: 77.4, male: 67.7, overall: 72.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_34"/>
+   <text x="622" y="-695" dy="0.7ex" class="hidden_text" stroke="#000000">Sudan</text>
+   <title>Sudan (population: 43 120 843)
+female: 68.1, male: 63.7, overall: 65.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_35"/>
+   <text x="744" y="-800" dy="0.7ex" class="hidden_text" stroke="#000000">Algeria</text>
+   <title>Algeria (population: 41 657 488)
+female: 78.7, male: 75.8, overall: 77.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_36"/>
+   <title>Uganda (population: 40 853 749)
+female: 57.8, male: 54.8, overall: 56.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_37"/>
+   <text x="712" y="-785" dy="0.7ex" class="hidden_text" stroke="#cc9900">Iraq</text>
+   <title>Iraq (population: 40 194 216)
+female: 77.2, male: 72.6, overall: 74.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_38"/>
+   <text x="727" y="-833" dy="0.7ex" class="hidden_text" stroke="#6600cc">Poland</text>
+   <title>Poland (population: 38 420 687)
+female: 82.0, male: 74.1, overall: 77.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_39"/>
+   <text x="780" y="-861" dy="0.7ex" class="hidden_text" stroke="#0033cc">Canada</text>
+   <title>Canada (population: 35 881 659)
+female: 84.8, male: 79.4, overall: 82.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_40"/>
+   <title>Afghanistan (population: 34 940 837)
+female: 53.6, male: 50.6, overall: 52.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_41"/>
+   <text x="729" y="-818" dy="0.7ex" class="hidden_text" stroke="#000000">Morocco</text>
+   <title>Morocco (population: 34 314 130)
+female: 80.5, male: 74.2, overall: 77.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_42"/>
+   <text x="729" y="-785" dy="0.7ex" class="hidden_text" stroke="#cc9900">Saudi Arabia</text>
+   <title>Saudi Arabia (population: 33 091 113)
+female: 77.3, male: 74.2, overall: 75.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_43"/>
+   <text x="713" y="-796" dy="0.7ex" class="hidden_text" stroke="#ff0000">Malaysia</text>
+   <title>Malaysia (population: 31 809 660)
+female: 78.4, male: 72.6, overall: 75.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_44"/>
+   <text x="719" y="-805" dy="0.7ex" class="hidden_text" stroke="#009900">Venezuela</text>
+   <title>Venezuela (population: 31 689 176)
+female: 79.3, male: 73.2, overall: 76.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_45"/>
+   <text x="708" y="-776" dy="0.7ex" class="hidden_text" stroke="#009900">Peru</text>
+   <title>Peru (population: 31 331 228)
+female: 76.4, male: 72.1, overall: 74.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_46"/>
+   <text x="572" y="-639" dy="0.7ex" class="hidden_text" stroke="#000000">Angola</text>
+   <title>Angola (population: 30 355 880)
+female: 62.7, male: 58.5, overall: 60.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_47"/>
+   <text x="699" y="-787" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Uzbekistan</text>
+   <title>Uzbekistan (population: 30 023 709)
+female: 77.5, male: 71.2, overall: 74.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_48"/>
+   <text x="693" y="-732" dy="0.7ex" class="hidden_text" stroke="#993300">Nepal</text>
+   <title>Nepal (population: 29 717 587)
+female: 72.0, male: 70.6, overall: 71.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_49"/>
+   <text x="627" y="-697" dy="0.7ex" class="hidden_text" stroke="#cc9900">Yemen</text>
+   <title>Yemen (population: 28 667 230)
+female: 68.5, male: 64.0, overall: 66.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_50"/>
+   <text x="636" y="-712" dy="0.7ex" class="hidden_text" stroke="#000000">Ghana</text>
+   <title>Ghana (population: 28 102 471)
+female: 70.0, male: 64.9, overall: 67.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_51"/>
+   <title>Mozambique (population: 27 233 789)
+female: 54.9, male: 53.3, overall: 54.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_52"/>
+   <text x="568" y="-635" dy="0.7ex" class="hidden_text" stroke="#000000">Cote d'Ivoire</text>
+   <title>Cote d'Ivoire (population: 26 260 582)
+female: 62.4, male: 58.0, overall: 60.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_53"/>
+   <text x="639" y="-693" dy="0.7ex" class="hidden_text" stroke="#000000">Madagascar</text>
+   <title>Madagascar (population: 25 683 610)
+female: 68.2, male: 65.1, overall: 66.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_54"/>
+   <text x="568" y="-620" dy="0.7ex" class="hidden_text" stroke="#000000">Cameroon</text>
+   <title>Cameroon (population: 25 640 965)
+female: 60.9, male: 58.0, overall: 59.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_55"/>
+   <text x="660" y="-761" dy="0.7ex" class="hidden_text" stroke="#ff0000">Korea, North</text>
+   <title>Korea, North (population: 25 381 085)
+female: 75.0, male: 67.2, overall: 71.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_56"/>
+   <text x="760" y="-848" dy="0.7ex" class="hidden_text" stroke="#ff0000">Taiwan</text>
+   <title>Taiwan (population: 23 545 963)
+female: 83.7, male: 77.2, overall: 80.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_57"/>
+   <text x="787" y="-861" dy="0.7ex" class="hidden_text" stroke="#0000ff">Australia</text>
+   <title>Australia (population: 23 470 145)
+female: 85.0, male: 79.9, overall: 82.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_58"/>
+   <text x="725" y="-819" dy="0.7ex" class="hidden_text" stroke="#993300">Sri Lanka</text>
+   <title>Sri Lanka (population: 22 576 592)
+female: 80.8, male: 73.7, overall: 77.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_59"/>
+   <text x="709" y="-803" dy="0.7ex" class="hidden_text" stroke="#6600cc">Romania</text>
+   <title>Romania (population: 21 457 116)
+female: 79.2, male: 72.1, overall: 75.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_60"/>
+   <text x="539" y="-587" dy="0.7ex" class="hidden_text" stroke="#000000">Niger</text>
+   <title>Niger (population: 19 866 231)
+female: 57.7, male: 55.0, overall: 56.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_61"/>
+   <text x="591" y="-653" dy="0.7ex" class="hidden_text" stroke="#000000">Malawi</text>
+   <title>Malawi (population: 19 842 560)
+female: 64.3, male: 60.2, overall: 62.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_62"/>
+   <text x="590" y="-646" dy="0.7ex" class="hidden_text" stroke="#000000">Burkina Faso</text>
+   <title>Burkina Faso (population: 19 742 715)
+female: 63.6, male: 60.1, overall: 61.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_63"/>
+   <text x="717" y="-788" dy="0.7ex" class="hidden_text" stroke="#cc9900">Syria</text>
+   <title>Syria (population: 19 454 263)
+female: 77.8, male: 72.8, overall: 75.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_64"/>
+   <title>Kazakhstan (population: 18 744 548)
+female: 76.3, male: 66.2, overall: 71.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_65"/>
+   <text x="575" y="-640" dy="0.7ex" class="hidden_text" stroke="#000000">Mali</text>
+   <title>Mali (population: 18 429 893)
+female: 63.0, male: 58.6, overall: 60.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_66"/>
+   <text x="749" y="-832" dy="0.7ex" class="hidden_text" stroke="#009900">Chile</text>
+   <title>Chile (population: 17 925 262)
+female: 82.2, male: 76.0, overall: 79.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_67"/>
+   <text x="782" y="-848" dy="0.7ex" class="hidden_text" stroke="#6600cc">Netherlands</text>
+   <title>Netherlands (population: 17 151 228)
+female: 83.8, male: 79.3, overall: 81.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_68"/>
+   <text x="687" y="-749" dy="0.7ex" class="hidden_text" stroke="#0099cc">Guatemala</text>
+   <title>Guatemala (population: 16 581 273)
+female: 73.9, male: 69.8, overall: 71.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_69"/>
+   <text x="731" y="-813" dy="0.7ex" class="hidden_text" stroke="#009900">Ecuador</text>
+   <title>Ecuador (population: 16 498 502)
+female: 80.3, male: 74.2, overall: 77.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_70"/>
+   <text x="616" y="-689" dy="0.7ex" class="hidden_text" stroke="#ff0000">Cambodia</text>
+   <title>Cambodia (population: 16 449 519)
+female: 67.9, male: 62.7, overall: 65.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_71"/>
+   <title>Zambia (population: 16 445 079)
+female: 54.7, male: 51.4, overall: 53.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_72"/>
+   <text x="546" y="-603" dy="0.7ex" class="hidden_text" stroke="#000000">Chad</text>
+   <title>Chad (population: 15 833 116)
+female: 59.3, male: 55.7, overall: 57.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_73"/>
+   <text x="594" y="-656" dy="0.7ex" class="hidden_text" stroke="#000000">Senegal</text>
+   <title>Senegal (population: 15 020 945)
+female: 64.7, male: 60.4, overall: 62.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_74"/>
+   <text x="580" y="-641" dy="0.7ex" class="hidden_text" stroke="#000000">Zimbabwe</text>
+   <title>Zimbabwe (population: 14 030 368)
+female: 63.2, male: 59.0, overall: 61.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_75"/>
+   <text x="616" y="-674" dy="0.7ex" class="hidden_text" stroke="#000000">Rwanda</text>
+   <title>Rwanda (population: 12 187 400)
+female: 66.5, male: 62.6, overall: 64.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_76"/>
+   <text x="594" y="-649" dy="0.7ex" class="hidden_text" stroke="#000000">Guinea</text>
+   <title>Guinea (population: 11 855 411)
+female: 64.0, male: 60.4, overall: 62.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_77"/>
+   <text x="586" y="-641" dy="0.7ex" class="hidden_text" stroke="#000000">Burundi</text>
+   <title>Burundi (population: 11 844 520)
+female: 63.2, male: 59.6, overall: 61.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_78"/>
+   <text x="776" y="-848" dy="0.7ex" class="hidden_text" stroke="#6600cc">Belgium</text>
+   <title>Belgium (population: 11 570 762)
+female: 83.9, male: 78.6, overall: 81.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_79"/>
+   <text x="733" y="-785" dy="0.7ex" class="hidden_text" stroke="#000000">Tunisia</text>
+   <title>Tunisia (population: 11 516 189)
+female: 77.6, male: 74.3, overall: 75.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_80"/>
+   <text x="603" y="-650" dy="0.7ex" class="hidden_text" stroke="#000000">Benin</text>
+   <title>Benin (population: 11 340 504)
+female: 64.2, male: 61.2, overall: 62.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_81"/>
+   <text x="661" y="-736" dy="0.7ex" class="hidden_text" stroke="#009900">Bolivia</text>
+   <title>Bolivia (population: 11 306 341)
+female: 72.8, male: 67.0, overall: 69.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_82"/>
+   <title>Somalia (population: 11 259 029)
+female: 55.4, male: 51.0, overall: 53.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_83"/>
+   <text x="757" y="-822" dy="0.7ex" class="hidden_text" stroke="#0099cc">Cuba</text>
+   <title>Cuba (population: 11 116 396)
+female: 81.4, male: 76.6, overall: 78.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_84"/>
+   <text x="610" y="-680" dy="0.7ex" class="hidden_text" stroke="#0099cc">Haiti</text>
+   <title>Haiti (population: 10 788 440)
+female: 67.2, male: 61.9, overall: 64.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_85"/>
+   <text x="773" y="-844" dy="0.7ex" class="hidden_text" stroke="#6600cc">Greece</text>
+   <title>Greece (population: 10 761 523)
+female: 83.6, male: 78.2, overall: 80.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_86"/>
+   <text x="751" y="-829" dy="0.7ex" class="hidden_text" stroke="#6600cc">Czechia</text>
+   <title>Czechia (population: 10 686 269)
+female: 82.1, male: 76.0, overall: 78.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_87"/>
+   <text x="727" y="-774" dy="0.7ex" class="hidden_text" stroke="#cc9900">Jordan</text>
+   <title>Jordan (population: 10 458 413)
+female: 76.6, male: 73.6, overall: 75.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_88"/>
+   <text x="768" y="-850" dy="0.7ex" class="hidden_text" stroke="#6600cc">Portugal</text>
+   <title>Portugal (population: 10 355 493)
+female: 84.2, male: 77.7, overall: 80.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_89"/>
+   <text x="688" y="-739" dy="0.7ex" class="hidden_text" stroke="#0099cc">Dominican Republic</text>
+   <title>Dominican Republic (population: 10 298 756)
+female: 73.1, male: 69.7, overall: 71.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_90"/>
+   <text x="691" y="-772" dy="0.7ex" class="hidden_text" stroke="#cc9900">Azerbaijan</text>
+   <title>Azerbaijan (population: 10 046 516)
+female: 76.4, male: 70.0, overall: 73.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_91"/>
+   <text x="794" y="-851" dy="0.7ex" class="hidden_text" stroke="#6600cc">Sweden</text>
+   <title>Sweden (population: 10 040 995)
+female: 84.3, male: 80.3, overall: 82.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_92"/>
+   <text x="717" y="-810" dy="0.7ex" class="hidden_text" stroke="#6600cc">Hungary</text>
+   <title>Hungary (population: 9 825 704)
+female: 80.2, male: 72.6, overall: 76.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_93"/>
+   <text x="764" y="-809" dy="0.7ex" class="hidden_text" stroke="#cc9900">United Arab Emirates</text>
+   <title>United Arab Emirates (population: 9 701 315)
+female: 80.1, male: 77.3, overall: 78.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_94"/>
+   <text x="669" y="-798" dy="0.7ex" class="hidden_text" stroke="#6600cc">Belarus</text>
+   <title>Belarus (population: 9 527 543)
+female: 79.0, male: 67.8, overall: 73.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_95"/>
+   <text x="687" y="-738" dy="0.7ex" class="hidden_text" stroke="#0099cc">Honduras</text>
+   <title>Honduras (population: 9 182 766)
+female: 73.0, male: 69.6, overall: 71.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_96"/>
+   <text x="781" y="-853" dy="0.7ex" class="hidden_text" stroke="#6600cc">Austria</text>
+   <title>Austria (population: 8 793 370)
+female: 84.5, male: 79.0, overall: 81.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_97"/>
+   <text x="643" y="-725" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Tajikistan</text>
+   <title>Tajikistan (population: 8 604 882)
+female: 71.7, male: 65.2, overall: 68.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_98"/>
+   <text x="799" y="-855" dy="0.7ex" class="hidden_text" stroke="#cc9900">Israel</text>
+   <title>Israel (population: 8 424 904)
+female: 84.7, male: 80.8, overall: 82.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_99"/>
+   <text x="795" y="-860" dy="0.7ex" class="hidden_text" stroke="#6600cc">Switzerland</text>
+   <title>Switzerland (population: 8 292 809)
+female: 85.2, male: 80.4, overall: 82.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_100"/>
+   <text x="622" y="-694" dy="0.7ex" class="hidden_text" stroke="#000000">Togo</text>
+   <title>Togo (population: 8 176 449)
+female: 68.6, male: 63.1, overall: 65.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_101"/>
+   <text x="621" y="-678" dy="0.7ex" class="hidden_text" stroke="#ff0000">Laos</text>
+   <title>Laos (population: 7 234 171)
+female: 67.1, male: 62.9, overall: 65.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_102"/>
+   <text x="796" y="-867" dy="0.7ex" class="hidden_text" stroke="#ff0000">Hong Kong</text>
+   <title>Hong Kong (population: 7 213 338)
+female: 86.0, male: 80.4, overall: 83.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_103"/>
+   <text x="722" y="-797" dy="0.7ex" class="hidden_text" stroke="#6600cc">Serbia</text>
+   <title>Serbia (population: 7 078 110)
+female: 79.0, male: 73.0, overall: 75.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_104"/>
+   <text x="707" y="-790" dy="0.7ex" class="hidden_text" stroke="#6600cc">Bulgaria</text>
+   <title>Bulgaria (population: 7 057 504)
+female: 78.3, male: 71.5, overall: 74.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_105"/>
+   <text x="645" y="-705" dy="0.7ex" class="hidden_text" stroke="#ff0000">Papua New Guinea</text>
+   <title>Papua New Guinea (population: 7 027 332)
+female: 69.8, male: 65.3, overall: 67.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_106"/>
+   <text x="741" y="-811" dy="0.7ex" class="hidden_text" stroke="#009900">Paraguay</text>
+   <title>Paraguay (population: 7 025 763)
+female: 80.4, male: 74.9, overall: 77.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_107"/>
+   <text x="743" y="-794" dy="0.7ex" class="hidden_text" stroke="#000000">Libya</text>
+   <title>Libya (population: 6 754 507)
+female: 78.7, male: 75.1, overall: 76.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_108"/>
+   <text x="556" y="-624" dy="0.7ex" class="hidden_text" stroke="#000000">Sierra Leone</text>
+   <title>Sierra Leone (population: 6 312 212)
+female: 61.7, male: 56.4, overall: 59.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_109"/>
+   <text x="710" y="-793" dy="0.7ex" class="hidden_text" stroke="#0099cc">El Salvador</text>
+   <title>El Salvador (population: 6 187 271)
+female: 78.6, male: 71.8, overall: 75.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_110"/>
+   <text x="758" y="-800" dy="0.7ex" class="hidden_text" stroke="#cc9900">Lebanon</text>
+   <title>Lebanon (population: 6 100 075)
+female: 79.3, male: 76.6, overall: 77.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_111"/>
+   <text x="707" y="-768" dy="0.7ex" class="hidden_text" stroke="#0099cc">Nicaragua</text>
+   <title>Nicaragua (population: 6 085 213)
+female: 76.1, male: 71.5, overall: 73.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_112"/>
+   <title>Singapore (population: 5 995 991)
+female: 88.3, male: 82.8, overall: 85.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_113"/>
+   <text x="622" y="-689" dy="0.7ex" class="hidden_text" stroke="#000000">Eritrea</text>
+   <title>Eritrea (population: 5 970 646)
+female: 68.2, male: 63.0, overall: 65.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_114"/>
+   <text x="663" y="-763" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Kyrgyzstan</text>
+   <title>Kyrgyzstan (population: 5 849 296)
+female: 75.6, male: 67.1, overall: 71.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_115"/>
+   <text x="783" y="-838" dy="0.7ex" class="hidden_text" stroke="#6600cc">Denmark</text>
+   <title>Denmark (population: 5 809 502)
+female: 83.1, male: 79.1, overall: 81.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_116"/>
+   <text x="511" y="-554" dy="0.7ex" class="hidden_text" stroke="#000000">Central African Republic</text>
+   <title>Central African Republic (population: 5 745 062)
+female: 54.7, male: 51.9, overall: 53.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_117"/>
+   <text x="773" y="-849" dy="0.7ex" class="hidden_text" stroke="#6600cc">Finland</text>
+   <title>Finland (population: 5 537 364)
+female: 84.2, male: 78.1, overall: 81.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_118"/>
+   <text x="731" y="-819" dy="0.7ex" class="hidden_text" stroke="#6600cc">Slovakia</text>
+   <title>Slovakia (population: 5 445 040)
+female: 81.2, male: 73.9, overall: 77.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_119"/>
+   <text x="668" y="-746" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Turkmenistan</text>
+   <title>Turkmenistan (population: 5 411 012)
+female: 73.9, male: 67.6, overall: 70.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_120"/>
+   <text x="791" y="-848" dy="0.7ex" class="hidden_text" stroke="#6600cc">Norway</text>
+   <title>Norway (population: 5 372 191)
+female: 84.1, male: 79.9, overall: 82.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_121"/>
+   <text x="780" y="-841" dy="0.7ex" class="hidden_text" stroke="#6600cc">Ireland</text>
+   <title>Ireland (population: 5 068 050)
+female: 83.5, male: 78.7, overall: 81.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_122"/>
+   <text x="583" y="-622" dy="0.7ex" class="hidden_text" stroke="#000000">Congo, Republic of the</text>
+   <title>Congo, Republic of the (population: 5 062 021)
+female: 61.6, male: 59.0, overall: 60.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_123"/>
+   <text x="755" y="-823" dy="0.7ex" class="hidden_text" stroke="#0099cc">Costa Rica</text>
+   <title>Costa Rica (population: 4 987 142)
+female: 81.7, male: 76.2, overall: 78.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_124"/>
+   <text x="718" y="-815" dy="0.7ex" class="hidden_text" stroke="#cc9900">Georgia</text>
+   <title>Georgia (population: 4 926 087)
+female: 80.9, male: 72.5, overall: 76.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_125"/>
+   <text x="609" y="-666" dy="0.7ex" class="hidden_text" stroke="#000000">Liberia</text>
+   <title>Liberia (population: 4 809 768)
+female: 66.0, male: 61.6, overall: 63.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_126"/>
+   <text x="785" y="-842" dy="0.7ex" class="hidden_text" stroke="#0000ff">New Zealand</text>
+   <title>New Zealand (population: 4 545 627)
+female: 83.6, male: 79.2, overall: 81.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_127"/>
+   <text x="725" y="-802" dy="0.7ex" class="hidden_text" stroke="#6600cc">Croatia</text>
+   <title>Croatia (population: 4 270 480)
+female: 79.6, male: 73.2, overall: 76.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_128"/>
+   <text x="734" y="-809" dy="0.7ex" class="hidden_text" stroke="#6600cc">Bosnia and Herzegovina</text>
+   <title>Bosnia and Herzegovina (population: 3 849 891)
+female: 80.3, male: 74.1, overall: 77.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_129"/>
+   <text x="607" y="-668" dy="0.7ex" class="hidden_text" stroke="#000000">Mauritania</text>
+   <title>Mauritania (population: 3 840 429)
+female: 66.2, male: 61.4, overall: 63.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_130"/>
+   <text x="754" y="-825" dy="0.7ex" class="hidden_text" stroke="#0099cc">Panama</text>
+   <title>Panama (population: 3 800 644)
+female: 81.9, male: 76.1, overall: 78.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_131"/>
+   <text x="732" y="-786" dy="0.7ex" class="hidden_text" stroke="#cc9900">Oman</text>
+   <title>Oman (population: 3 494 116)
+female: 78.0, male: 73.9, overall: 75.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_132"/>
+   <text x="667" y="-760" dy="0.7ex" class="hidden_text" stroke="#6600cc">Moldova</text>
+   <title>Moldova (population: 3 437 720)
+female: 75.4, male: 67.4, overall: 71.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_133"/>
+   <text x="738" y="-814" dy="0.7ex" class="hidden_text" stroke="#009900">Uruguay</text>
+   <title>Uruguay (population: 3 369 299)
+female: 80.8, male: 74.4, overall: 77.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_134"/>
+   <text x="771" y="-850" dy="0.7ex" class="hidden_text" stroke="#0099cc">Puerto Rico</text>
+   <title>Puerto Rico (population: 3 294 626)
+female: 84.5, male: 77.7, overall: 81.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_135"/>
+   <text x="654" y="-752" dy="0.7ex" class="hidden_text" stroke="#ff0000">Mongolia</text>
+   <title>Mongolia (population: 3 103 428)
+female: 74.7, male: 66.0, overall: 70.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_136"/>
+   <text x="754" y="-821" dy="0.7ex" class="hidden_text" stroke="#6600cc">Albania</text>
+   <title>Albania (population: 3 057 220)
+female: 81.6, male: 76.0, overall: 78.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_137"/>
+   <text x="712" y="-792" dy="0.7ex" class="hidden_text" stroke="#cc9900">Armenia</text>
+   <title>Armenia (population: 3 038 217)
+female: 78.7, male: 71.8, overall: 75.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_138"/>
+   <text x="763" y="-803" dy="0.7ex" class="hidden_text" stroke="#cc9900">Kuwait</text>
+   <title>Kuwait (population: 2 916 467)
+female: 79.8, male: 76.9, overall: 78.3 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_139"/>
+   <text x="721" y="-770" dy="0.7ex" class="hidden_text" stroke="#0099cc">Jamaica</text>
+   <title>Jamaica (population: 2 812 090)
+female: 76.5, male: 72.7, overall: 74.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_140"/>
+   <text x="728" y="-781" dy="0.7ex" class="hidden_text" stroke="#cc9900">West Bank</text>
+   <title>West Bank (population: 2 798 494)
+female: 77.6, male: 73.4, overall: 75.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_141"/>
+   <title>Lithuania (population: 2 793 284)
+female: 80.8, male: 69.9, overall: 75.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_142"/>
+   <text x="621" y="-667" dy="0.7ex" class="hidden_text" stroke="#000000">Namibia</text>
+   <title>Namibia (population: 2 533 224)
+female: 66.2, male: 62.7, overall: 64.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_143"/>
+   <text x="763" y="-817" dy="0.7ex" class="hidden_text" stroke="#cc9900">Qatar</text>
+   <title>Qatar (population: 2 363 569)
+female: 81.2, male: 76.9, overall: 79.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_144"/>
+   <text x="612" y="-665" dy="0.7ex" class="hidden_text" stroke="#000000">Botswana</text>
+   <title>Botswana (population: 2 249 104)
+female: 66.0, male: 61.8, overall: 63.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_145"/>
+   <text x="657" y="-701" dy="0.7ex" class="hidden_text" stroke="#000000">Gabon</text>
+   <title>Gabon (population: 2 119 036)
+female: 69.6, male: 66.3, overall: 68.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_146"/>
+   <text x="732" y="-787" dy="0.7ex" class="hidden_text" stroke="#6600cc">Macedonia</text>
+   <title>Macedonia (population: 2 118 945)
+female: 78.2, male: 73.8, overall: 75.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_147"/>
+   <text x="777" y="-847" dy="0.7ex" class="hidden_text" stroke="#6600cc">Slovenia</text>
+   <title>Slovenia (population: 2 102 126)
+female: 84.2, male: 78.3, overall: 81.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_148"/>
+   <text x="624" y="-683" dy="0.7ex" class="hidden_text" stroke="#000000">Gambia, The</text>
+   <title>Gambia, The (population: 2 092 731)
+female: 67.8, male: 63.0, overall: 65.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_149"/>
+   <title>Lesotho (population: 1 962 461)
+female: 53.1, male: 53.0, overall: 53.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_150"/>
+   <text x="699" y="-801" dy="0.7ex" class="hidden_text" stroke="#6600cc">Latvia</text>
+   <title>Latvia (population: 1 923 559)
+female: 79.7, male: 70.4, overall: 74.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_151"/>
+   <text x="722" y="-766" dy="0.7ex" class="hidden_text" stroke="#cc9900">Gaza Strip</text>
+   <title>Gaza Strip (population: 1 836 713)
+female: 76.2, male: 72.7, overall: 74.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_152"/>
+   <text x="587" y="-640" dy="0.7ex" class="hidden_text" stroke="#000000">Guinea-Bissau</text>
+   <title>Guinea-Bissau (population: 1 833 247)
+female: 63.6, male: 59.2, overall: 61.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_153"/>
+   <text x="764" y="-819" dy="0.7ex" class="hidden_text" stroke="#cc9900">Bahrain</text>
+   <title>Bahrain (population: 1 442 659)
+female: 81.5, male: 76.9, overall: 79.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_154"/>
+   <text x="721" y="-801" dy="0.7ex" class="hidden_text" stroke="#000000">Mauritius</text>
+   <title>Mauritius (population: 1 364 283)
+female: 79.7, male: 72.6, overall: 76.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_155"/>
+   <text x="666" y="-708" dy="0.7ex" class="hidden_text" stroke="#ff0000">Timor-Leste</text>
+   <title>Timor-Leste (population: 1 321 929)
+female: 70.4, male: 67.1, overall: 68.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_156"/>
+   <text x="718" y="-824" dy="0.7ex" class="hidden_text" stroke="#6600cc">Estonia</text>
+   <title>Estonia (population: 1 244 288)
+female: 82.0, male: 72.3, overall: 77.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_157"/>
+   <text x="757" y="-823" dy="0.7ex" class="hidden_text" stroke="#6600cc">Cyprus</text>
+   <title>Cyprus (population: 1 237 088)
+female: 81.9, male: 76.2, overall: 79.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_158"/>
+   <text x="700" y="-768" dy="0.7ex" class="hidden_text" stroke="#0099cc">Trinidad and Tobago</text>
+   <title>Trinidad and Tobago (population: 1 215 527)
+female: 76.4, male: 70.5, overall: 73.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_159"/>
+   <text x="546" y="-597" dy="0.7ex" class="hidden_text" stroke="#000000">Eswatini</text>
+   <title>Eswatini (population: 1 087 200)
+female: 59.3, male: 55.1, overall: 57.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_160"/>
+   <text x="701" y="-763" dy="0.7ex" class="hidden_text" stroke="#0000ff">Fiji</text>
+   <title>Fiji (population: 926 276)
+female: 76.0, male: 70.5, overall: 73.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_161"/>
+   <text x="610" y="-669" dy="0.7ex" class="hidden_text" stroke="#000000">Djibouti</text>
+   <title>Djibouti (population: 884 017)
+female: 66.6, male: 61.4, overall: 64.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_162"/>
+   <text x="622" y="-677" dy="0.7ex" class="hidden_text" stroke="#000000">Comoros</text>
+   <title>Comoros (population: 821 164)
+female: 67.4, male: 62.6, overall: 64.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_163"/>
+   <text x="634" y="-665" dy="0.7ex" class="hidden_text" stroke="#000000">Equatorial Guinea</text>
+   <title>Equatorial Guinea (population: 797 457)
+female: 66.2, male: 63.8, overall: 65.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_164"/>
+   <text x="697" y="-725" dy="0.7ex" class="hidden_text" stroke="#993300">Bhutan</text>
+   <title>Bhutan (population: 766 397)
+female: 72.2, male: 70.1, overall: 71.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_165"/>
+   <text x="655" y="-724" dy="0.7ex" class="hidden_text" stroke="#009900">Guyana</text>
+   <title>Guyana (population: 740 685)
+female: 72.1, male: 65.9, overall: 68.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_166"/>
+   <text x="727" y="-789" dy="0.7ex" class="hidden_text" stroke="#0000ff">Solomon Islands</text>
+   <title>Solomon Islands (population: 660 121)
+female: 78.6, male: 73.1, overall: 75.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_167"/>
+   <text x="610" y="-665" dy="0.7ex" class="hidden_text" stroke="#000000">Western Sahara</text>
+   <title>Western Sahara (population: 619 551)
+female: 66.2, male: 61.4, overall: 63.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_168"/>
+   <title>Macau (population: 606 340)
+female: 87.7, male: 81.6, overall: 84.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_169"/>
+   <text x="795" y="-853" dy="0.7ex" class="hidden_text" stroke="#6600cc">Luxembourg</text>
+   <title>Luxembourg (population: 605 764)
+female: 85.0, male: 79.9, overall: 82.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_170"/>
+   <text x="699" y="-756" dy="0.7ex" class="hidden_text" stroke="#009900">Suriname</text>
+   <title>Suriname (population: 597 927)
+female: 75.3, male: 70.3, overall: 72.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_171"/>
+   <text x="699" y="-754" dy="0.7ex" class="hidden_text" stroke="#000000">Cabo Verde</text>
+   <title>Cabo Verde (population: 568 373)
+female: 75.1, male: 70.3, overall: 72.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_172"/>
+   <text x="748" y="-803" dy="0.7ex" class="hidden_text" stroke="#ff0000">Brunei</text>
+   <title>Brunei (population: 450 565)
+female: 80.0, male: 75.2, overall: 77.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_173"/>
+   <text x="802" y="-851" dy="0.7ex" class="hidden_text" stroke="#6600cc">Malta</text>
+   <title>Malta (population: 449 043)
+female: 84.8, male: 80.6, overall: 82.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_174"/>
+   <text x="734" y="-787" dy="0.7ex" class="hidden_text" stroke="#993300">Maldives</text>
+   <title>Maldives (population: 392 473)
+female: 78.5, male: 73.7, overall: 76.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_175"/>
+   <text x="728" y="-765" dy="0.7ex" class="hidden_text" stroke="#0099cc">Belize</text>
+   <title>Belize (population: 385 854)
+female: 76.3, male: 73.1, overall: 74.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_176"/>
+   <text x="806" y="-857" dy="0.7ex" class="hidden_text" stroke="#6600cc">Iceland</text>
+   <title>Iceland (population: 343 518)
+female: 85.5, male: 80.9, overall: 83.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_177"/>
+   <text x="701" y="-756" dy="0.7ex" class="hidden_text" stroke="#0099cc">Bahamas, The</text>
+   <title>Bahamas, The (population: 332 634)
+female: 75.4, male: 70.4, overall: 72.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_178"/>
+   <text x="730" y="-783" dy="0.7ex" class="hidden_text" stroke="#0099cc">Barbados</text>
+   <title>Barbados (population: 293 131)
+female: 78.1, male: 73.3, overall: 75.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_179"/>
+   <text x="749" y="-802" dy="0.7ex" class="hidden_text" stroke="#0000ff">French Polynesia</text>
+   <title>French Polynesia (population: 290 373)
+female: 80.0, male: 75.2, overall: 77.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_180"/>
+   <text x="721" y="-759" dy="0.7ex" class="hidden_text" stroke="#0000ff">Vanuatu</text>
+   <title>Vanuatu (population: 288 037)
+female: 75.7, male: 72.4, overall: 74.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_181"/>
+   <text x="738" y="-824" dy="0.7ex" class="hidden_text" stroke="#0000ff">New Caledonia</text>
+   <title>New Caledonia (population: 282 754)
+female: 82.2, male: 74.1, overall: 78.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_182"/>
+   <text x="640" y="-673" dy="0.7ex" class="hidden_text" stroke="#000000">Sao Tome and Principe</text>
+   <title>Sao Tome and Principe (population: 204 454)
+female: 67.1, male: 64.3, overall: 65.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_183"/>
+   <text x="710" y="-775" dy="0.7ex" class="hidden_text" stroke="#0000ff">Samoa</text>
+   <title>Samoa (population: 201 316)
+female: 77.3, male: 71.3, overall: 74.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_184"/>
+   <text x="736" y="-791" dy="0.7ex" class="hidden_text" stroke="#0000ff">Guam</text>
+   <title>Guam (population: 167 772)
+female: 78.9, male: 73.9, overall: 76.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_185"/>
+   <text x="751" y="-812" dy="0.7ex" class="hidden_text" stroke="#0099cc">Saint Lucia</text>
+   <title>Saint Lucia (population: 165 510)
+female: 81.0, male: 75.4, overall: 78.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_186"/>
+   <text x="760" y="-813" dy="0.7ex" class="hidden_text" stroke="#0099cc">Curacao</text>
+   <title>Curacao (population: 150 241)
+female: 81.1, male: 76.3, overall: 78.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_187"/>
+   <text x="739" y="-804" dy="0.7ex" class="hidden_text" stroke="#0099cc">Aruba</text>
+   <title>Aruba (population: 116 576)
+female: 80.3, male: 74.1, overall: 77.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_188"/>
+   <text x="719" y="-777" dy="0.7ex" class="hidden_text" stroke="#0099cc">Grenada</text>
+   <title>Grenada (population: 112 207)
+female: 77.6, male: 72.1, overall: 74.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_189"/>
+   <text x="641" y="-696" dy="0.7ex" class="hidden_text" stroke="#0000ff">Kiribati</text>
+   <title>Kiribati (population: 109 367)
+female: 69.5, male: 64.3, overall: 66.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_190"/>
+   <text x="761" y="-831" dy="0.7ex" class="hidden_text" stroke="#0099cc">Virgin Islands</text>
+   <title>Virgin Islands (population: 106 977)
+female: 83.0, male: 76.3, overall: 79.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_191"/>
+   <text x="748" y="-784" dy="0.7ex" class="hidden_text" stroke="#0000ff">Tonga</text>
+   <title>Tonga (population: 106 398)
+female: 78.3, male: 75.0, overall: 76.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_192"/>
+   <text x="711" y="-757" dy="0.7ex" class="hidden_text" stroke="#0000ff">Micronesia, Federated States of</text>
+   <title>Micronesia, Federated States of (population: 103 643)
+female: 75.6, male: 71.3, overall: 73.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_193"/>
+   <text x="735" y="-780" dy="0.7ex" class="hidden_text" stroke="#0099cc">Saint Vincent and the Grenadines</text>
+   <title>Saint Vincent and the Grenadines (population: 101 844)
+female: 77.9, male: 73.7, overall: 75.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_194"/>
+   <text x="793" y="-848" dy="0.7ex" class="hidden_text" stroke="#6600cc">Jersey</text>
+   <title>Jersey (population: 99 602)
+female: 84.7, male: 79.5, overall: 82.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_195"/>
+   <text x="746" y="-793" dy="0.7ex" class="hidden_text" stroke="#0099cc">Antigua and Barbuda</text>
+   <title>Antigua and Barbuda (population: 95 882)
+female: 79.2, male: 74.8, overall: 76.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_196"/>
+   <text x="705" y="-799" dy="0.7ex" class="hidden_text" stroke="#000000">Seychelles</text>
+   <title>Seychelles (population: 94 633)
+female: 79.8, male: 70.7, overall: 75.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_197"/>
+   <text x="794" y="-834" dy="0.7ex" class="hidden_text" stroke="#6600cc">Isle of Man</text>
+   <title>Isle of Man (population: 89 407)
+female: 83.3, male: 79.6, overall: 81.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_198"/>
+   <text x="805" y="-854" dy="0.7ex" class="hidden_text" stroke="#6600cc">Andorra</text>
+   <title>Andorra (population: 85 708)
+female: 85.3, male: 80.7, overall: 82.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_199"/>
+   <text x="712" y="-761" dy="0.7ex" class="hidden_text" stroke="#0000ff">Marshall Islands</text>
+   <title>Marshall Islands (population: 75 684)
+female: 76.0, male: 71.4, overall: 73.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_200"/>
+   <text x="742" y="-806" dy="0.7ex" class="hidden_text" stroke="#0099cc">Dominica</text>
+   <title>Dominica (population: 74 027)
+female: 80.5, male: 74.4, overall: 77.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_201"/>
+   <text x="781" y="-848" dy="0.7ex" class="hidden_text" stroke="#0033cc">Bermuda</text>
+   <title>Bermuda (population: 71 176)
+female: 84.7, male: 78.3, overall: 81.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_202"/>
+   <text x="798" y="-856" dy="0.7ex" class="hidden_text" stroke="#6600cc">Guernsey</text>
+   <title>Guernsey (population: 66 697)
+female: 85.5, male: 80.0, overall: 82.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_203"/>
+   <text x="785" y="-843" dy="0.7ex" class="hidden_text" stroke="#0099cc">Cayman Islands</text>
+   <title>Cayman Islands (population: 59 613)
+female: 84.2, male: 78.7, overall: 81.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_204"/>
+   <text x="700" y="-759" dy="0.7ex" class="hidden_text" stroke="#0033cc">Greenland</text>
+   <title>Greenland (population: 57 691)
+female: 75.8, male: 70.2, overall: 72.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_205"/>
+   <text x="771" y="-831" dy="0.7ex" class="hidden_text" stroke="#0099cc">Turks and Caicos Islands</text>
+   <title>Turks and Caicos Islands (population: 53 701)
+female: 83.0, male: 77.3, overall: 80.1 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_206"/>
+   <text x="735" y="-788" dy="0.7ex" class="hidden_text" stroke="#0099cc">Saint Kitts and Nevis</text>
+   <title>Saint Kitts and Nevis (population: 53 094)
+female: 78.7, male: 73.7, overall: 76.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_207"/>
+   <text x="734" y="-782" dy="0.7ex" class="hidden_text" stroke="#0000ff">Northern Mariana Islands</text>
+   <title>Northern Mariana Islands (population: 51 994)
+female: 78.1, male: 73.6, overall: 75.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_208"/>
+   <text x="779" y="-834" dy="0.7ex" class="hidden_text" stroke="#6600cc">Faroe Islands</text>
+   <title>Faroe Islands (population: 51 018)
+female: 83.3, male: 78.1, overall: 80.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_209"/>
+   <text x="714" y="-763" dy="0.7ex" class="hidden_text" stroke="#0000ff">American Samoa</text>
+   <title>American Samoa (population: 50 826)
+female: 76.2, male: 71.6, overall: 73.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_210"/>
+   <text x="759" y="-810" dy="0.7ex" class="hidden_text" stroke="#0099cc">Sint Maarten</text>
+   <title>Sint Maarten (population: 42 677)
+female: 80.9, male: 76.1, overall: 78.5 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_211"/>
+   <text x="796" y="-849" dy="0.7ex" class="hidden_text" stroke="#6600cc">Liechtenstein</text>
+   <title>Liechtenstein (population: 38 547)
+female: 84.8, male: 79.8, overall: 82.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_212"/>
+   <text x="773" y="-805" dy="0.7ex" class="hidden_text" stroke="#0099cc">British Virgin Islands</text>
+   <title>British Virgin Islands (population: 35 802)
+female: 80.4, male: 77.5, overall: 78.9 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_213"/>
+   <text x="806" y="-863" dy="0.7ex" class="hidden_text" stroke="#6600cc">San Marino</text>
+   <title>San Marino (population: 33 779)
+female: 86.2, male: 80.8, overall: 83.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_214"/>
+   <title>Monaco (population: 30 727)
+female: 93.4, male: 85.5, overall: 89.4 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_215"/>
+   <text x="766" y="-829" dy="0.7ex" class="hidden_text" stroke="#6600cc">Gibraltar</text>
+   <title>Gibraltar (population: 29 461)
+female: 82.8, male: 76.8, overall: 79.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_216"/>
+   <text x="702" y="-771" dy="0.7ex" class="hidden_text" stroke="#0000ff">Palau</text>
+   <title>Palau (population: 21 516)
+female: 77.0, male: 70.4, overall: 73.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_217"/>
+   <text x="788" y="-844" dy="0.7ex" class="hidden_text" stroke="#0099cc">Anguilla</text>
+   <title>Anguilla (population: 17 422)
+female: 84.3, male: 79.0, overall: 81.6 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_218"/>
+   <text x="769" y="-832" dy="0.7ex" class="hidden_text" stroke="#0000ff">Wallis and Futuna</text>
+   <title>Wallis and Futuna (population: 15 763)
+female: 83.1, male: 77.0, overall: 80.0 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_219"/>
+   <text x="649" y="-695" dy="0.7ex" class="hidden_text" stroke="#0000ff">Tuvalu</text>
+   <title>Tuvalu (population: 11 147)
+female: 69.5, male: 65.0, overall: 67.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_220"/>
+   <title>Nauru (population: 9 692)
+female: 71.2, male: 63.6, overall: 67.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_221"/>
+   <text x="733" y="-792" dy="0.7ex" class="hidden_text" stroke="#0000ff">Cook Islands</text>
+   <title>Cook Islands (population: 9 038)
+female: 79.2, male: 73.4, overall: 76.2 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_222"/>
+   <text x="767" y="-829" dy="0.7ex" class="hidden_text" stroke="#000000">Saint Helena, Ascension, and Tristan da Cunha</text>
+   <title>Saint Helena, Ascension, and Tristan da Cunha (population: 7 841)
+female: 82.9, male: 76.8, overall: 79.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_223"/>
+   <text x="783" y="-832" dy="0.7ex" class="hidden_text" stroke="#0033cc">Saint Pierre and Miquelon</text>
+   <title>Saint Pierre and Miquelon (population: 5 471)
+female: 83.2, male: 78.4, overall: 80.7 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_224"/>
+   <title>Montserrat (population: 5 315)
+female: 73.5, male: 76.1, overall: 74.8 years</title>
+  </g>
+  <g class="active">
+   <use xlink:href="#bubble_225"/>
+   <text x="755" y="-796" dy="0.7ex" class="hidden_text" stroke="#009900">Falkland Islands (Islas Malvinas)</text>
+   <title>Falkland Islands (Islas Malvinas) (population: 3 198)
+female: 79.6, male: 75.6, overall: 77.9 years</title>
+  </g>
+ </g>
+</svg>
+
+<!-- Perl script to create above; please do not remove.
+#!/usr/bin/perl
+$data_string = qq`
+-1|WORLD|69.0|67.0|71.1|7405107650|-
+-20|EUROPEAN UNION|80.7|77.9|83.6|517111329|-
+20|China|75.8|73.7|78.1|1384688986|ea
+25|India|69.1|67.8|70.5|1296834042|as
+28|USA|80.1|77.8|82.3|329256465|na
+|Indonesia|73.2|70.6|76.0|262787403|ea
+|Brazil|74.3|70.7|78.0|208846892|sa
+|Pakistan|68.4|66.4|70.5|207862518|as
+-15|Nigeria|59.3|57.5|61.1|203452505|af
+|Bangladesh|73.7|71.5|75.9|159453001|as
+-8|Russia|71.3|65.6|77.3|142122776|eu
+-20|Japan|85.5|82.2|89.0|126168156|ea
+|Mexico|76.3|73.5|79.2|125959205|na
+-5|Ethiopia|63.0|60.5|65.5|108386391|af
+-16|Philippines|69.6|66.1|73.3|105893381|ea
+|Egypt|73.2|71.8|74.7|99413317|af
+|Vietnam|73.9|71.4|76.7|97040334|ea
+-9|DR Congo|58.1|56.5|59.7|85281024|af
+|Iran|74.2|72.8|75.6|83024745|me
+|Turkey|75.3|72.9|77.7|81257239|me
+|Germany|80.9|78.6|83.4|80457737|eu
+|Thailand|75.1|71.9|78.5|68615858|ea
+|France|82.0|78.9|85.3|67364357|eu
+18|UK|80.9|78.7|83.2|65105246|eu
+|Italy|82.4|79.7|85.2|62246674|eu
+|Burma|68.6|67.0|70.3|55622506|ea
+|Tanzania|63.1|61.6|64.6|55451343|af
+|South Africa|64.1|62.7|65.6|55380210|af
+|Korea, South|82.5|79.4|85.8|51418097|ea
+|Spain|81.8|78.8|85.0|49331076|eu
+|Kenya|64.6|63.1|66.1|48397527|af
+|Colombia|76.2|73.0|79.5|48168996|sa
+|Argentina|77.5|74.4|80.8|44694198|sa
+-24|Ukraine|72.4|67.7|77.4|43952299|eu
+|Sudan|65.8|63.7|68.1|43120843|af
+|Algeria|77.2|75.8|78.7|41657488|af
+-10|Uganda|56.3|54.8|57.8|40853749|af
+|Iraq|74.9|72.6|77.2|40194216|me
+|Poland|77.9|74.1|82.0|38420687|eu
+|Canada|82.0|79.4|84.8|35881659|na
+-5|Afghanistan|52.1|50.6|53.6|34940837|as
+|Morocco|77.3|74.2|80.5|34314130|af
+|Saudi Arabia|75.7|74.2|77.3|33091113|me
+|Malaysia|75.4|72.6|78.4|31809660|ea
+|Venezuela|76.2|73.2|79.3|31689176|sa
+|Peru|74.2|72.1|76.4|31331228|sa
+|Angola|60.6|58.5|62.7|30355880|af
+|Uzbekistan|74.3|71.2|77.5|30023709|ca
+|Nepal|71.3|70.6|72.0|29717587|as
+|Yemen|66.2|64.0|68.5|28667230|me
+|Ghana|67.4|64.9|70.0|28102471|af
+8|Mozambique|54.1|53.3|54.9|27233789|af
+|Cote d'Ivoire|60.1|58.0|62.4|26260582|af
+|Madagascar|66.6|65.1|68.2|25683610|af
+|Cameroon|59.4|58.0|60.9|25640965|af
+|Korea, North|71.0|67.2|75.0|25381085|ea
+|Taiwan|80.4|77.2|83.7|23545963|ea
+|Australia|82.4|79.9|85.0|23470145|oc
+|Sri Lanka|77.1|73.7|80.8|22576592|as
+|Romania|75.6|72.1|79.2|21457116|eu
+|Niger|56.3|55.0|57.7|19866231|af
+|Malawi|62.2|60.2|64.3|19842560|af
+|Burkina Faso|61.8|60.1|63.6|19742715|af
+|Syria|75.2|72.8|77.8|19454263|me
+-2|Kazakhstan|71.4|66.2|76.3|18744548|ca
+|Mali|60.8|58.6|63.0|18429893|af
+|Chile|79.1|76.0|82.2|17925262|sa
+|Netherlands|81.5|79.3|83.8|17151228|eu
+|Guatemala|71.8|69.8|73.9|16581273|la
+|Ecuador|77.1|74.2|80.3|16498502|sa
+|Cambodia|65.2|62.7|67.9|16449519|ea
+-8|Zambia|53.0|51.4|54.7|16445079|af
+|Chad|57.5|55.7|59.3|15833116|af
+|Senegal|62.5|60.4|64.7|15020945|af
+|Zimbabwe|61.1|59.0|63.2|14030368|af
+|Rwanda|64.5|62.6|66.5|12187400|af
+|Guinea|62.1|60.4|64.0|11855411|af
+|Burundi|61.4|59.6|63.2|11844520|af
+|Belgium|81.2|78.6|83.9|11570762|eu
+|Tunisia|75.9|74.3|77.6|11516189|af
+|Benin|62.7|61.2|64.2|11340504|af
+|Bolivia|69.8|67.0|72.8|11306341|sa
+-16|Somalia|53.2|51.0|55.4|11259029|af
+|Cuba|78.9|76.6|81.4|11116396|la
+|Haiti|64.6|61.9|67.2|10788440|la
+|Greece|80.8|78.2|83.6|10761523|eu
+|Czechia|78.9|76.0|82.1|10686269|eu
+|Jordan|75.0|73.6|76.6|10458413|me
+|Portugal|80.9|77.7|84.2|10355493|eu
+|Dominican Republic|71.3|69.7|73.1|10298756|la
+|Azerbaijan|73.0|70.0|76.4|10046516|me
+|Sweden|82.2|80.3|84.3|10040995|eu
+|Hungary|76.3|72.6|80.2|9825704|eu
+|United Arab Emirates|78.7|77.3|80.1|9701315|me
+|Belarus|73.2|67.8|79.0|9527543|eu
+|Honduras|71.3|69.6|73.0|9182766|la
+|Austria|81.7|79.0|84.5|8793370|eu
+|Tajikistan|68.4|65.2|71.7|8604882|ca
+|Israel|82.7|80.8|84.7|8424904|me
+|Switzerland|82.7|80.4|85.2|8292809|eu
+|Togo|65.8|63.1|68.6|8176449|af
+|Laos|65.0|62.9|67.1|7234171|ea
+|Hong Kong|83.1|80.4|86.0|7213338|ea
+|Serbia|75.9|73.0|79.0|7078110|eu
+|Bulgaria|74.8|71.5|78.3|7057504|eu
+|Papua New Guinea|67.5|65.3|69.8|7027332|ea
+|Paraguay|77.6|74.9|80.4|7025763|sa
+|Libya|76.9|75.1|78.7|6754507|af
+|Sierra Leone|59.0|56.4|61.7|6312212|af
+|El Salvador|75.1|71.8|78.6|6187271|la
+|Lebanon|77.9|76.6|79.3|6100075|me
+|Nicaragua|73.7|71.5|76.1|6085213|la
+13|Singapore|85.5|82.8|88.3|5995991|ea
+|Eritrea|65.6|63.0|68.2|5970646|af
+|Kyrgyzstan|71.2|67.1|75.6|5849296|ca
+|Denmark|81.0|79.1|83.1|5809502|eu
+|Central African Republic|53.3|51.9|54.7|5745062|af
+|Finland|81.1|78.1|84.2|5537364|eu
+|Slovakia|77.4|73.9|81.2|5445040|eu
+|Turkmenistan|70.7|67.6|73.9|5411012|ca
+|Norway|82.0|79.9|84.1|5372191|eu
+|Ireland|81.0|78.7|83.5|5068050|eu
+|Congo, Republic of the|60.3|59.0|61.6|5062021|af
+|Costa Rica|78.9|76.2|81.7|4987142|la
+|Georgia|76.6|72.5|80.9|4926087|me
+|Liberia|63.8|61.6|66.0|4809768|af
+|New Zealand|81.4|79.2|83.6|4545627|oc
+|Croatia|76.3|73.2|79.6|4270480|eu
+|Bosnia and Herzegovina|77.1|74.1|80.3|3849891|eu
+|Mauritania|63.8|61.4|66.2|3840429|af
+|Panama|78.9|76.1|81.9|3800644|la
+|Oman|75.9|73.9|78.0|3494116|me
+|Moldova|71.3|67.4|75.4|3437720|eu
+|Uruguay|77.6|74.4|80.8|3369299|sa
+|Puerto Rico|81.0|77.7|84.5|3294626|la
+|Mongolia|70.2|66.0|74.7|3103428|ea
+|Albania|78.6|76.0|81.6|3057220|eu
+|Armenia|75.1|71.8|78.7|3038217|me
+|Kuwait|78.3|76.9|79.8|2916467|me
+|Jamaica|74.5|72.7|76.5|2812090|la
+|West Bank|75.4|73.4|77.6|2798494|me
+-6|Lithuania|75.2|69.9|80.8|2793284|eu
+|Namibia|64.4|62.7|66.2|2533224|af
+|Qatar|79.0|76.9|81.2|2363569|me
+|Botswana|63.8|61.8|66.0|2249104|af
+|Gabon|68.0|66.3|69.6|2119036|af
+|Macedonia|75.9|73.8|78.2|2118945|eu
+|Slovenia|81.2|78.3|84.2|2102126|eu
+|Gambia, The|65.4|63.0|67.8|2092731|af
+12|Lesotho|53.0|53.0|53.1|1962461|af
+|Latvia|74.9|70.4|79.7|1923559|eu
+|Gaza Strip|74.4|72.7|76.2|1836713|me
+|Guinea-Bissau|61.4|59.2|63.6|1833247|af
+|Bahrain|79.1|76.9|81.5|1442659|me
+|Mauritius|76.0|72.6|79.7|1364283|af
+|Timor-Leste|68.7|67.1|70.4|1321929|ea
+|Estonia|77.0|72.3|82.0|1244288|eu
+|Cyprus|79.0|76.2|81.9|1237088|eu
+|Trinidad and Tobago|73.4|70.5|76.4|1215527|la
+|Eswatini|57.2|55.1|59.3|1087200|af
+|Fiji|73.2|70.5|76.0|926276|oc
+|Djibouti|64.0|61.4|66.6|884017|af
+|Comoros|64.9|62.6|67.4|821164|af
+|Equatorial Guinea|65.0|63.8|66.2|797457|af
+|Bhutan|71.1|70.1|72.2|766397|as
+|Guyana|68.9|65.9|72.1|740685|sa
+|Solomon Islands|75.8|73.1|78.6|660121|oc
+|Western Sahara|63.8|61.4|66.2|619551|af
+-10|Macau|84.6|81.6|87.7|606340|ea
+|Luxembourg|82.4|79.9|85.0|605764|eu
+|Suriname|72.8|70.3|75.3|597927|sa
+|Cabo Verde|72.7|70.3|75.1|568373|af
+|Brunei|77.5|75.2|80.0|450565|ea
+|Malta|82.7|80.6|84.8|449043|eu
+|Maldives|76.0|73.7|78.5|392473|as
+|Belize|74.7|73.1|76.3|385854|la
+|Iceland|83.1|80.9|85.5|343518|eu
+|Bahamas, The|72.9|70.4|75.4|332634|la
+|Barbados|75.7|73.3|78.1|293131|la
+|French Polynesia|77.5|75.2|80.0|290373|oc
+|Vanuatu|74.0|72.4|75.7|288037|oc
+|New Caledonia|78.0|74.1|82.2|282754|oc
+|Sao Tome and Principe|65.7|64.3|67.1|204454|af
+|Samoa|74.2|71.3|77.3|201316|oc
+|Guam|76.4|73.9|78.9|167772|oc
+|Saint Lucia|78.1|75.4|81.0|165510|la
+|Curacao|78.6|76.3|81.1|150241|la
+|Aruba|77.1|74.1|80.3|116576|la
+|Grenada|74.8|72.1|77.6|112207|la
+|Kiribati|66.9|64.3|69.5|109367|oc
+|Virgin Islands|79.5|76.3|83.0|106977|la
+|Tonga|76.6|75.0|78.3|106398|oc
+|Micronesia, Federated States of|73.4|71.3|75.6|103643|oc
+|Saint Vincent and the Grenadines|75.8|73.7|77.9|101844|la
+|Jersey|82.0|79.5|84.7|99602|eu
+|Antigua and Barbuda|76.9|74.8|79.2|95882|la
+|Seychelles|75.2|70.7|79.8|94633|af
+|Isle of Man|81.4|79.6|83.3|89407|eu
+|Andorra|82.9|80.7|85.3|85708|eu
+|Marshall Islands|73.6|71.4|76.0|75684|oc
+|Dominica|77.4|74.4|80.5|74027|la
+|Bermuda|81.5|78.3|84.7|71176|na
+|Guernsey|82.7|80.0|85.5|66697|eu
+|Cayman Islands|81.4|78.7|84.2|59613|la
+|Greenland|72.9|70.2|75.8|57691|na
+|Turks and Caicos Islands|80.1|77.3|83.0|53701|la
+|Saint Kitts and Nevis|76.2|73.7|78.7|53094|la
+|Northern Mariana Islands|75.6|73.6|78.1|51994|oc
+|Faroe Islands|80.6|78.1|83.3|51018|eu
+|American Samoa|73.9|71.6|76.2|50826|oc
+|Sint Maarten|78.5|76.1|80.9|42677|la
+|Liechtenstein|82.0|79.8|84.8|38547|eu
+|British Virgin Islands|78.9|77.5|80.4|35802|la
+|San Marino|83.4|80.8|86.2|33779|eu
+-1|Monaco|89.4|85.5|93.4|30727|eu
+|Gibraltar|79.7|76.8|82.8|29461|eu
+|Palau|73.6|70.4|77.0|21516|oc
+|Anguilla|81.6|79.0|84.3|17422|la
+|Wallis and Futuna|80.0|77.0|83.1|15763|oc
+|Tuvalu|67.2|65.0|69.5|11147|oc
+-3|Nauru|67.8|63.6|71.2|9692|oc
+|Cook Islands|76.2|73.4|79.2|9038|oc
+|Saint Helena, Ascension, and Tristan da Cunha|79.8|76.8|82.9|7841|af
+|Saint Pierre and Miquelon|80.7|78.4|83.2|5471|na
+8|Montserrat|74.8|76.1|73.5|5315|la
+|Falkland Islands (Islas Malvinas)|77.9|75.6|79.6|3198|sa
+|Svalbard|NA|NA|NA|2583|eu
+|Christmas Island|NA|NA|NA|2205|oc
+|Norfolk Island|NA|NA|NA|1748|oc
+|Niue|NA|NA|NA|1618|oc
+|Tokelau|NA|NA|NA|1285|oc
+|Cocos (Keeling) Islands|NA|NA|NA|596|oc
+|Pitcairn Islands|NA|NA|NA|54|oc
+`;
+%regions = (
+ "na" => { "colour" => "#0033cc", "name" => "North America"    , "outs" => "" },
+ "la" => { "colour" => "#0099cc", "name" => "Central America"  , "outs" => "" },
+ "sa" => { "colour" => "#009900", "name" => "South America"    , "outs" => "" },
+ "eu" => { "colour" => "#6600cc", "name" => "Europe"           , "outs" => "" },
+ "af" => { "colour" => "#000000", "name" => "Africa"           , "outs" => "" },
+ "me" => { "colour" => "#cc9900", "name" => "Middle East"      , "outs" => "" },
+ "as" => { "colour" => "#993300", "name" => "South Asia"       , "outs" => "" },
+ "ca" => { "colour" => "#cc00cc", "name" => "Central Asia"     , "outs" => "" },
+ "ea" => { "colour" => "#ff0000", "name" => "East/SE Asia"     , "outs" => "" },
+ "oc" => { "colour" => "#0000ff", "name" => "Australia/Oceania", "outs" => "" },
+ "-"  => { "colour" => "#999999", "name" => "Other"            , "outs" => "" },
+ undef);
+@region_order = ("na","la","sa", "eu", "af", "me","ca","as","ea", "oc", "-");
+
+$out_graph = $out_legend = $out_ticks = $out_grad = $out_defs = "";
+$double_dash = "-" . "-";
+$file_out = $0; $file_out =~ s/[^\.]*$/svg/;
+
+$id = 0;
+@data = split(/\n/, $data_string);
+foreach (@data) {
+ if ($_) {
+  ($offset_label, $name, $le_a, $le_m, $le_f, $population, $region) = split(/\|/, $_);
+  if ($le_m != "NA" && $le_f != "NA") {
+   $x = $le_m * 10;
+   $y = $le_f * -10;
+   $radius = sprintf("%.2f", $population ** (1/3) / 20);
+   $colour = $regions{$region}{"colour"};
+   if ($offset_label) {
+    print "${name}\t${radius}\t${offset_label}\n";
+    $y_text = $y + $offset_label;
+    $x_text = $x + ($offset_label > 0 ? 1 : -1) * (2 +
+                    int(($radius > abs($offset_label) ? sqrt($radius ** 2 - $offset_label ** 2) :
+                                                        0) + 0.5));
+    $text_anchor = ($offset_label > 0 ? "start" : "end");
+    $out_label_defs = qq`
+   <text x="${x_text}" y="${y_text}" dy="0.7ex" text-anchor="${text_anchor}" stroke="none">${name}</text>`;
+    $out_label_active = "";
+   } else {
+    $x_text = int($x - $radius * 0.8);
+    $y_text = int($y - $radius * 0.8);
+    $out_label_defs = "";
+    $out_label_active = qq`
+   <text x="${x_text}" y="${y_text}" dy="0.7ex" class="hidden_text" stroke="${colour}">${name}</text>`;
+   }
+   $population =~ s/(\d) (?= (?:\d{3})+ \b )/$1 /gx; # http://stackoverflow.com/questions/9634738
+   $out_defs .= qq`
+  <g id="bubble_${id}" fill="${colour}">${out_label_defs}
+   <circle cx="${x}" cy="${y}" r="1"/>
+   <circle cx="${x}" cy="${y}" r="${radius}" stroke="${colour}" fill="url(#grad_${region})"/>
+  </g>`;
+   $out_graph .= qq`
+  <g class="active">
+   <use xlink:href="#bubble_${id}"/>${out_label_active}
+   <title>${name} (population: ${population})\nfemale: ${le_f}, male: ${le_m}, overall: ${le_a} years</title>
+  </g>`;
+   $regions{$region}{"outs"} .= qq`
+    <use xlink:href="#bubble_${id}"/>`;
+   $id++;
+  }
+ }
+}
+
+$y = -935;
+foreach (@region_order) {
+ if ($_) {
+  $colour = $regions{$_}{"colour"};
+  $name = $regions{$_}{"name"};
+  $out_grad .= qq`
+  <radialGradient id="grad_${_}" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+   <stop offset="50%" stop-color="${colour}" stop-opacity="0"/>
+   <stop offset="70%" stop-color="${colour}" stop-opacity="0.05"/>
+   <stop offset="99%" stop-color="${colour}" stop-opacity="0.25"/>
+  </radialGradient>`;
+  $x = $y + 5;
+  $out_region = $regions{$_}{"outs"};
+  $out_legend .= qq`
+   <g class="active">
+    <text x="425" y="${x}" fill="${colour}">${name}</text>
+    <text x="425" y="${x}" fill="${colour}">${name}</text>
+    <circle cx="415" cy="${y}" r="8" fill="url(#grad_${_})"/>
+    <circle cx="415" cy="${y}" r="8" fill="url(#grad_${_})"/>
+    <circle cx="415" cy="${y}" r="1" fill="${colour}"/>${out_region}
+   </g>`; # double up to make colour darker
+  $y += 19;
+ }
+}
+
+for ($tick = 45; $tick <= 90; $tick += 5) {
+ $x = $tick * 10;
+ $out_ticks .= qq`
+    <text x="${x}" y="-483">${tick}</text>`;
+}
+for ($tick = 50; $tick <= 95; $tick += 5) {
+ $y = $tick * -10 + 10;
+ $out_ticks .= qq`
+    <text x="385" y="${y}">${tick}</text>`;
+}
+
+open (FILE_OUT, ">$file_out");
+print FILE_OUT qq`<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="350 -953 560 490">
+ <title>comparison gender life expectancy CIA factbook</title>
+ <desc>Comparison of male and female life expectancy at birth (2018 estimate) for countries and territories as defined in the CIA Factbook, with selected bubbles labelled, by CMG Lee. Hover over a bubble to highlight it and show its data. The dotted line corresponds to equal female and male life expectancy. The apparent 3D volumes of the bubbles are linearly proportional to their populations, i.e. their radii are linearly proportional to the cube root of the populations. Data is from https://www.cia.gov/library/publications/resources/the-world-factbook/fields/355.html and https://www.cia.gov/library/publications/resources/the-world-factbook/fields/335.html .</desc>
+ <style type="text/css">
+  #main         { font-family:Helvetica,Arial,sans-serif; font-size:16px; text-anchor:middle;
+                  stroke-opacity:0; fill-opacity:0.5; cursor:default; }
+  #main:hover   { stroke-opacity:0; fill-opacity:0.1; }
+  .nofade,
+  .active:hover { stroke-opacity:1; fill-opacity:1; }
+  .hidden_text  { font-size:14px; text-anchor:end; fill:none; pointer-events:none; }
+ </style>
+ <defs>
+${out_grad}
+${out_defs}
+
+  <path id="grid_x" d="M 0 -500 V -950"/>
+  <g id="grid_x_5">
+   <use xlink:href="#grid_x"/>
+   <use xlink:href="#grid_x" transform="translate(10,0)"/>
+   <use xlink:href="#grid_x" transform="translate(20,0)"/>
+   <use xlink:href="#grid_x" transform="translate(30,0)"/>
+   <use xlink:href="#grid_x" transform="translate(40,0)"/>
+   <use xlink:href="#grid_x" transform="translate(50,0)"/>
+  </g>
+  <path id="grid_y" d="M 400 0 H 900"/>
+  <g id="grid_y_5">
+   <use xlink:href="#grid_y"/>
+   <use xlink:href="#grid_y" transform="translate(0,-10)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-20)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-30)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-40)"/>
+   <use xlink:href="#grid_y" transform="translate(0,-50)"/>
+  </g>
+ </defs>
+ <g id="main">
+  <g class="nofade">
+   <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+   <g stroke-opacity="0.05" stroke="#000000">
+    <use xlink:href="#grid_x_5" transform="translate(400,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(450,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(500,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(550,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(600,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(650,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(700,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(750,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(800,0)"/>
+    <use xlink:href="#grid_x_5" transform="translate(850,0)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-500)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-550)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-600)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-650)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-700)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-750)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-800)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-850)"/>
+    <use xlink:href="#grid_y_5" transform="translate(0,-900)"/>
+   </g>
+   <g fill="#000000">
+    <text x="650" y="-467">Male life expectancy at birth in years</text>
+    <text transform="rotate(-90)" x="750" y="365">Female life expectancy at birth in years</text>
+${out_ticks}
+   </g>
+   <path d="M 500 -500 L 900 -900" stroke="#00cc00" stroke-width="2" stroke-dasharray="2,1"/>
+  </g>
+  <g text-anchor="start">
+   <rect class="nofade" x="403" y="-945" width="154" height="210" rx="5" ry="5" stroke="#999999" fill="#ffffff"/>
+${out_legend}
+  </g>
+${out_graph}
+ </g>
+</svg>
+
+<!${double_dash} Perl script to create above; please do not remove.
+`;
+open (FILE_IN, $0);
+while (<FILE_IN>) { print FILE_OUT $_; }
+close FILE_IN;
+print FILE_OUT "# ${double_dash}>\n";
+close FILE_OUT;
+# -->

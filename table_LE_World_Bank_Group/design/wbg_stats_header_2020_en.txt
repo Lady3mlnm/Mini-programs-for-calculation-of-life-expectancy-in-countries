@@ -1,0 +1,13 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Countries
+! style="width:4em;"| all
+! style="width:4em;"| male
+! style="width:4em;"| female
+! style="width:4em;"| {{abbr|gender<br>gap|Difference in life expectancy between females and males|0}}
+! style="width:4em; border-left-width:2px;"| {{abbr|Δ 2019<br>all|Improvement of the indicator for all population compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>male|Improvement of the indicator for male compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>female|Improvement of the indicator for female compared to the previous year|0}}
+! style="width:5em;"| {{abbr|Δ 2019<br>gen. gap|Increase of gender gap compared to the previous year|0}}
+|-{{static row numbers arrows|9}}
