@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="470 -854 341 297">
+  <title>Comparison gender life expectancy WHO-2019</title>
+  <desc>Comparison of federal subjects of Russia by life expectancy at birth according to data of Rosstat. Data for life expectancy: https://rosstat.gov.ru/folder/210/document/13207, https://www.fedstat.ru/indicator/31293. Data for number of population: https://rosstat.gov.ru/folder/12781, https://rosstat.gov.ru/storage/mediabank/Popul_Comp2022_site.xls. Code of the program for creation of this chart: https://github.com/Lady3mlnm/Mini-programs-for-calculation-of-life-expectancy-in-countries/tree/main/SVG-diagrams-Russia.</desc>
+  <style type="text/css">
+    #main         { font-family:Helvetica,Arial,sans-serif; font-size:11px; text-anchor:middle;
+                    stroke-opacity:0; fill-opacity:0.5; cursor:default; }
+    #main:hover   { stroke-opacity:0; fill-opacity:0.1; }
+    .nofade,
+    .active:hover { stroke-opacity:1; fill-opacity:1; }
+    .hidden_text  { font-size:12px; text-anchor:end; fill:none; pointer-events:none; }
+  </style>
+  <defs>
+
+    <!-- determine appearance of circles -->
+    <radialGradient id="grad_ЦФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#006400" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#006400" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#006400" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_СЗФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#0000cd" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#0000cd" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#0000cd" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ЮФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#b22222" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#b22222" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#b22222" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_СКФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#800080" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#800080" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#800080" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ПФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#4169e1" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#4169e1" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#4169e1" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_УФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#ff0000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#ff0000" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#ff0000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_СФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#808000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#808000" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#808000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ДФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#ff8c00" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#ff8c00" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#ff8c00" stop-opacity="0.25"/>
+    </radialGradient>
+
+    <!-- determine each country -->
+    <g id="bubble_0" fill="#006400">
+      <text x="759" y="-786" dy="0.7ex" text-anchor="start" stroke="none">Moscow</text>
+      <circle cx="710" cy="-779" r="1"/>
+      <circle cx="710" cy="-779" r="11.85" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_1" fill="#006400">
+      <text x="631" y="-776" dy="0.7ex" text-anchor="end" stroke="none">Moscow Oblast</text>
+      <circle cx="657" cy="-748" r="1"/>
+      <circle cx="657" cy="-748" r="9.27" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_2" fill="#b22222">
+      <text x="709" y="-736" dy="0.7ex" text-anchor="start" stroke="none">Krasnodar Krai</text>
+      <circle cx="660" cy="-749" r="1"/>
+      <circle cx="660" cy="-749" r="7.95" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_3" fill="#0000cd">
+      <text x="729" y="-766" dy="0.7ex" text-anchor="start" stroke="none">Saint Petersburg</text>
+      <circle cx="682" cy="-763" r="1"/>
+      <circle cx="682" cy="-763" r="7.73" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_4" fill="#ff0000">
+      <text x="601" y="-716" dy="0.7ex" text-anchor="end" stroke="none">Sverdlovsk Oblast</text>
+      <circle cx="637" cy="-738" r="1"/>
+      <circle cx="637" cy="-738" r="6.89" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_5" fill="#b22222">
+      <text x="679" y="-716" dy="0.7ex" text-anchor="start" stroke="none">Rostov Oblast</text>
+      <circle cx="658" cy="-736" r="1"/>
+      <circle cx="658" cy="-736" r="6.81" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_6" fill="#4169e1">
+      <text x="621" y="-756" dy="0.7ex" text-anchor="end" stroke="none">Bashkortostan</text>
+      <circle cx="648" cy="-741" r="1"/>
+      <circle cx="648" cy="-741" r="6.67" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_7" fill="#4169e1">
+      <text x="641" y="-786" dy="0.7ex" text-anchor="end" stroke="none">Tatarstan</text>
+      <circle cx="665" cy="-758" r="1"/>
+      <circle cx="665" cy="-758" r="6.57" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_8" fill="#ff0000">
+      <text x="659" y="-696" dy="0.7ex" text-anchor="start" stroke="none">Chelyabinsk Oblast</text>
+      <circle cx="643" cy="-737" r="1"/>
+      <circle cx="643" cy="-737" r="6.17" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_9" fill="#4169e1">
+      <text x="605" y="-726" dy="0.7ex" text-anchor="end" stroke="none">Nizhny Novgorod Oblast</text>
+      <circle cx="638" cy="-739" r="1"/>
+      <circle cx="638" cy="-739" r="5.93" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_10" fill="#800080">
+      <text x="760" y="-797" dy="0.7ex" text-anchor="start" stroke="none">Dagestan</text>
+      <circle cx="740" cy="-789" r="1"/>
+      <circle cx="740" cy="-789" r="5.91" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_11" fill="#4169e1">
+      <text x="611" y="-746" dy="0.7ex" text-anchor="end" stroke="none">Samara Oblast</text>
+      <circle cx="646" cy="-738" r="1"/>
+      <circle cx="646" cy="-738" r="5.91" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_12" fill="#808000">
+      <text x="594" y="-696" dy="0.7ex" text-anchor="end" stroke="none">Krasnoyarsk Krai</text>
+      <circle cx="635" cy="-731" r="1"/>
+      <circle cx="635" cy="-731" r="5.63" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_13" fill="#800080">
+      <text x="719" y="-746" dy="0.7ex" text-anchor="start" stroke="none">Stavropol Krai</text>
+      <circle cx="676" cy="-754" r="1"/>
+      <circle cx="676" cy="-754" r="5.56" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_14" fill="#808000">
+      <text x="608" y="-736" dy="0.7ex" text-anchor="end" stroke="none">Novosibirsk Oblast</text>
+      <circle cx="643" cy="-739" r="1"/>
+      <circle cx="643" cy="-739" r="5.56" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_15" fill="#808000">
+      <text x="629" y="-666" dy="0.7ex" text-anchor="start" stroke="none">Kuzbass</text>
+      <circle cx="628" cy="-723" r="1"/>
+      <circle cx="628" cy="-723" r="5.39" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_16" fill="#4169e1">
+      <text x="594" y="-686" dy="0.7ex" text-anchor="end" stroke="none">Perm Krai</text>
+      <circle cx="634" cy="-734" r="1"/>
+      <circle cx="634" cy="-734" r="5.34" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_17" fill="#b22222">
+      <text x="689" y="-726" dy="0.7ex" text-anchor="start" stroke="none">Volgograd Oblast</text>
+      <circle cx="657" cy="-741" r="1"/>
+      <circle cx="657" cy="-741" r="5.23" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_18" fill="#4169e1">
+      <text x="650" y="-686" dy="0.7ex" text-anchor="start" stroke="none">Saratov Oblast</text>
+      <circle cx="648" cy="-731" r="1"/>
+      <circle cx="648" cy="-731" r="5.14" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_19" fill="#808000">
+      <text x="594" y="-666" dy="0.7ex" text-anchor="end" stroke="none">Irkutsk Oblast</text>
+      <circle cx="619" cy="-716" r="1"/>
+      <circle cx="619" cy="-716" r="5.13" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_20" fill="#006400">
+      <circle cx="647" cy="-742" r="1"/>
+      <circle cx="647" cy="-742" r="5.05" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_21" fill="#808000">
+      <text x="594" y="-706" dy="0.7ex" text-anchor="end" stroke="none">Altai Krai</text>
+      <circle cx="640" cy="-731" r="1"/>
+      <circle cx="640" cy="-731" r="5.04" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_22" fill="#4169e1">
+      <circle cx="639" cy="-724" r="1"/>
+      <circle cx="639" cy="-724" r="4.64" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_23" fill="#0000cd">
+      <text x="631" y="-766" dy="0.7ex" text-anchor="end" stroke="none">Leningrad Oblast</text>
+      <circle cx="654" cy="-749" r="1"/>
+      <circle cx="654" cy="-749" r="4.6" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_24" fill="#b22222">
+      <text x="669" y="-706" dy="0.7ex" text-anchor="start" stroke="none">Crimea</text>
+      <circle cx="653" cy="-739" r="1"/>
+      <circle cx="653" cy="-739" r="4.59" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_25" fill="#808000">
+      <circle cx="644" cy="-734" r="1"/>
+      <circle cx="644" cy="-734" r="4.58" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_26" fill="#ff8c00">
+      <text x="639" y="-676" dy="0.7ex" text-anchor="start" stroke="none">Primorsky Krai</text>
+      <circle cx="639" cy="-734" r="1"/>
+      <circle cx="639" cy="-734" r="4.56" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_27" fill="#ff0000">
+      <text x="729" y="-756" dy="0.7ex" text-anchor="start" stroke="none">Yugra</text>
+      <circle cx="683" cy="-755" r="1"/>
+      <circle cx="683" cy="-755" r="4.34" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_28" fill="#ff0000">
+      <circle cx="654" cy="-748" r="1"/>
+      <circle cx="654" cy="-748" r="4.15" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_29" fill="#006400">
+      <circle cx="665" cy="-746" r="1"/>
+      <circle cx="665" cy="-746" r="4.13" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_30" fill="#800080">
+      <text x="759" y="-776" dy="0.7ex" text-anchor="start" stroke="none">Chechnya</text>
+      <circle cx="705" cy="-752" r="1"/>
+      <circle cx="705" cy="-752" r="4.09" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_31" fill="#4169e1">
+      <circle cx="645" cy="-753" r="1"/>
+      <circle cx="645" cy="-753" r="4.07" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_32" fill="#006400">
+      <circle cx="640" cy="-738" r="1"/>
+      <circle cx="640" cy="-738" r="4.0" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_33" fill="#006400">
+      <circle cx="631" cy="-730" r="1"/>
+      <circle cx="631" cy="-730" r="3.85" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_34" fill="#ff8c00">
+      <text x="594" y="-676" dy="0.7ex" text-anchor="end" stroke="none">Khabarovsk Krai</text>
+      <circle cx="629" cy="-729" r="1"/>
+      <circle cx="629" cy="-729" r="3.8" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_35" fill="#4169e1">
+      <circle cx="651" cy="-747" r="1"/>
+      <circle cx="651" cy="-747" r="3.77" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_36" fill="#4169e1">
+      <circle cx="648" cy="-746" r="1"/>
+      <circle cx="648" cy="-746" r="3.71" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_37" fill="#006400">
+      <circle cx="628" cy="-730" r="1"/>
+      <circle cx="628" cy="-730" r="3.71" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_38" fill="#006400">
+      <circle cx="637" cy="-742" r="1"/>
+      <circle cx="637" cy="-742" r="3.7" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_39" fill="#4169e1">
+      <circle cx="642" cy="-739" r="1"/>
+      <circle cx="642" cy="-739" r="3.67" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_40" fill="#4169e1">
+      <circle cx="648" cy="-753" r="1"/>
+      <circle cx="648" cy="-753" r="3.66" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_41" fill="#006400">
+      <circle cx="635" cy="-738" r="1"/>
+      <circle cx="635" cy="-738" r="3.61" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_42" fill="#0000cd">
+      <circle cx="638" cy="-743" r="1"/>
+      <circle cx="638" cy="-743" r="3.57" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_43" fill="#006400">
+      <circle cx="638" cy="-733" r="1"/>
+      <circle cx="638" cy="-733" r="3.53" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_44" fill="#006400">
+      <circle cx="639" cy="-733" r="1"/>
+      <circle cx="639" cy="-733" r="3.48" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_45" fill="#006400">
+      <circle cx="640" cy="-729" r="1"/>
+      <circle cx="640" cy="-729" r="3.48" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_46" fill="#0000cd">
+      <circle cx="643" cy="-750" r="1"/>
+      <circle cx="643" cy="-750" r="3.46" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_47" fill="#808000">
+      <circle cx="650" cy="-743" r="1"/>
+      <circle cx="650" cy="-743" r="3.45" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_48" fill="#ff8c00">
+      <circle cx="622" cy="-715" r="1"/>
+      <circle cx="622" cy="-715" r="3.41" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_49" fill="#0000cd">
+      <circle cx="665" cy="-752" r="1"/>
+      <circle cx="665" cy="-752" r="3.37" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_50" fill="#006400">
+      <circle cx="643" cy="-741" r="1"/>
+      <circle cx="643" cy="-741" r="3.34" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_51" fill="#b22222">
+      <circle cx="658" cy="-738" r="1"/>
+      <circle cx="658" cy="-738" r="3.32" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_52" fill="#006400">
+      <circle cx="654" cy="-743" r="1"/>
+      <circle cx="654" cy="-743" r="3.31" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_53" fill="#ff8c00">
+      <circle cx="656" cy="-744" r="1"/>
+      <circle cx="656" cy="-744" r="3.31" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_54" fill="#ff8c00">
+      <circle cx="640" cy="-737" r="1"/>
+      <circle cx="640" cy="-737" r="3.31" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_55" fill="#006400">
+      <circle cx="640" cy="-738" r="1"/>
+      <circle cx="640" cy="-738" r="3.3" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_56" fill="#006400">
+      <circle cx="632" cy="-728" r="1"/>
+      <circle cx="632" cy="-728" r="3.19" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_57" fill="#800080">
+      <text x="701" y="-826" dy="0.7ex" text-anchor="end" stroke="none">Kabardino-Balkaria</text>
+      <circle cx="699" cy="-773" r="1"/>
+      <circle cx="699" cy="-773" r="3.11" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_58" fill="#ff0000">
+      <circle cx="632" cy="-734" r="1"/>
+      <circle cx="632" cy="-734" r="3.0" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_59" fill="#0000cd">
+      <circle cx="635" cy="-731" r="1"/>
+      <circle cx="635" cy="-731" r="3.0" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_60" fill="#ff8c00">
+      <circle cx="617" cy="-711" r="1"/>
+      <circle cx="617" cy="-711" r="2.94" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_61" fill="#4169e1">
+      <circle cx="661" cy="-742" r="1"/>
+      <circle cx="661" cy="-742" r="2.93" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_62" fill="#0000cd">
+      <circle cx="637" cy="-728" r="1"/>
+      <circle cx="637" cy="-728" r="2.85" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_63" fill="#006400">
+      <circle cx="640" cy="-738" r="1"/>
+      <circle cx="640" cy="-738" r="2.83" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_64" fill="#800080">
+      <text x="681" y="-806" dy="0.7ex" text-anchor="end" stroke="none">North Ossetia</text>
+      <circle cx="680" cy="-764" r="1"/>
+      <circle cx="680" cy="-764" r="2.77" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_65" fill="#4169e1">
+      <circle cx="639" cy="-751" r="1"/>
+      <circle cx="639" cy="-751" r="2.73" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_66" fill="#006400">
+      <circle cx="640" cy="-735" r="1"/>
+      <circle cx="640" cy="-735" r="2.64" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_67" fill="#0000cd">
+      <circle cx="628" cy="-726" r="1"/>
+      <circle cx="628" cy="-726" r="2.62" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_68" fill="#0000cd">
+      <circle cx="621" cy="-725" r="1"/>
+      <circle cx="621" cy="-725" r="2.59" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_69" fill="#0000cd">
+      <circle cx="624" cy="-728" r="1"/>
+      <circle cx="624" cy="-728" r="2.56" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_70" fill="#ff0000">
+      <circle cx="680" cy="-753" r="1"/>
+      <circle cx="680" cy="-753" r="2.47" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_71" fill="#808000">
+      <circle cx="637" cy="-731" r="1"/>
+      <circle cx="637" cy="-731" r="2.43" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_72" fill="#800080">
+      <text x="760" y="-836" dy="0.7ex" text-anchor="end" stroke="none">Ingushetia</text>
+      <circle cx="772" cy="-832" r="1"/>
+      <circle cx="772" cy="-832" r="2.4" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_73" fill="#b22222">
+      <text x="661" y="-796" dy="0.7ex" text-anchor="end" stroke="none">Sevastopol</text>
+      <circle cx="678" cy="-764" r="1"/>
+      <circle cx="678" cy="-764" r="2.39" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_74" fill="#ff8c00">
+      <circle cx="637" cy="-734" r="1"/>
+      <circle cx="637" cy="-734" r="2.32" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_75" fill="#b22222">
+      <circle cx="666" cy="-757" r="1"/>
+      <circle cx="666" cy="-757" r="2.28" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_76" fill="#800080">
+      <text x="691" y="-816" dy="0.7ex" text-anchor="end" stroke="none">Karachay-Cherkessia</text>
+      <circle cx="692" cy="-773" r="1"/>
+      <circle cx="692" cy="-773" r="2.27" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_77" fill="#808000">
+      <circle cx="626" cy="-708" r="1"/>
+      <circle cx="626" cy="-708" r="1.92" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_78" fill="#ff8c00">
+      <circle cx="637" cy="-729" r="1"/>
+      <circle cx="637" cy="-729" r="1.86" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_79" fill="#b22222">
+      <circle cx="672" cy="-754" r="1"/>
+      <circle cx="672" cy="-754" r="1.73" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_80" fill="#808000">
+      <circle cx="624" cy="-733" r="1"/>
+      <circle cx="624" cy="-733" r="1.57" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_81" fill="#ff8c00">
+      <text x="619" y="-656" dy="0.7ex" text-anchor="start" stroke="none">Jewish Autonomous Oblast</text>
+      <circle cx="617" cy="-705" r="1"/>
+      <circle cx="617" cy="-705" r="1.31" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_82" fill="#ff8c00">
+      <circle cx="624" cy="-725" r="1"/>
+      <circle cx="624" cy="-725" r="1.24" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_83" fill="#ff8c00">
+      <text x="594" y="-656" dy="0.7ex" text-anchor="end" stroke="none">Chukotka</text>
+      <circle cx="605" cy="-692" r="1"/>
+      <circle cx="605" cy="-692" r="0.75" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_84" fill="#0000cd">
+      <circle cx="641" cy="-750" r="1"/>
+      <circle cx="641" cy="-750" r="0.7" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+
+    <!-- vertical grid -->
+    <path id="grid_x" d="M 0 -650 V -850"/>
+    <g id="grid_x_5">
+      <use xlink:href="#grid_x"/>
+      <use xlink:href="#grid_x" transform="translate(10,0)"/>
+      <use xlink:href="#grid_x" transform="translate(20,0)"/>
+      <use xlink:href="#grid_x" transform="translate(30,0)"/>
+      <use xlink:href="#grid_x" transform="translate(40,0)"/>
+      <use xlink:href="#grid_x" transform="translate(50,0)"/>
+    </g>
+
+    <!-- horizontal grid -->
+    <path id="grid_y" d="M 500 0 H 800"/>
+    <g id="grid_y_5">
+      <use xlink:href="#grid_y"/>
+      <use xlink:href="#grid_y" transform="translate(0,-10)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-20)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-30)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-40)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-50)"/>
+    </g>
+  </defs>
+
+
+
+  <g id="main">
+    <g class="nofade">
+      <!-- background for the whole diagram -->
+      <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+
+      <!-- draw grid -->
+      <g stroke-opacity="0.05" stroke="#000000">
+        <use xlink:href="#grid_x_5" transform="translate(500,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(550,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(600,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(650,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(700,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(750,0)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-650)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-700)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-750)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-800)"/>
+      </g>
+
+      <!-- labels for axes -->
+      <g fill="#999999">  <!-- color of font -->
+        <text x="673" y="-628">Male life expectancy at birth in years</text>
+        <text transform="rotate(-90)" x="745" y="479">Female life expectancy at birth in years</text>
+        <text x="600" y="-638">60</text>
+        <text x="650" y="-638">65</text>
+        <text x="700" y="-638">70</text>
+        <text x="750" y="-638">75</text>
+        <text x="800" y="-638">80</text>
+        <text x="490" y="-694">70</text>
+        <text x="490" y="-744">75</text>
+        <text x="490" y="-794">80</text>
+        <text x="490" y="-844">85</text>
+      </g>
+
+      <!-- diagonal line -->
+      <path d="M 690 -690 L 800 -800" stroke="#00cc00" stroke-width="0.75" stroke-opacity="0.4"/>
+    </g>
+
+    <!-- menu -->
+    <g text-anchor="start">
+
+      <!-- rectangle around items -->
+      <rect class="nofade" x="500" y="-620" width="300" height="60" rx="5" ry="5" stroke="#999999" fill="#ffffff"/>
+
+      <!-- single items -->
+      <g class="active">
+        <circle cx="510" cy="-611" r="6" fill="url(#grad_ЦФО)"/>
+        <circle cx="510" cy="-611" r="1" fill="#006400"/>
+        <text x="519" y="-607" fill="#006400">Central FD</text>
+        <use xlink:href="#bubble_0"/>
+        <use xlink:href="#bubble_1"/>
+        <use xlink:href="#bubble_20"/>
+        <use xlink:href="#bubble_29"/>
+        <use xlink:href="#bubble_32"/>
+        <use xlink:href="#bubble_33"/>
+        <use xlink:href="#bubble_37"/>
+        <use xlink:href="#bubble_38"/>
+        <use xlink:href="#bubble_41"/>
+        <use xlink:href="#bubble_43"/>
+        <use xlink:href="#bubble_44"/>
+        <use xlink:href="#bubble_45"/>
+        <use xlink:href="#bubble_50"/>
+        <use xlink:href="#bubble_52"/>
+        <use xlink:href="#bubble_55"/>
+        <use xlink:href="#bubble_56"/>
+        <use xlink:href="#bubble_63"/>
+        <use xlink:href="#bubble_66"/>
+      </g>
+      <g class="active">
+        <circle cx="510" cy="-597" r="6" fill="url(#grad_СЗФО)"/>
+        <circle cx="510" cy="-597" r="1" fill="#0000cd"/>
+        <text x="519" y="-593" fill="#0000cd">Northwestern FD</text>
+        <use xlink:href="#bubble_3"/>
+        <use xlink:href="#bubble_23"/>
+        <use xlink:href="#bubble_42"/>
+        <use xlink:href="#bubble_46"/>
+        <use xlink:href="#bubble_49"/>
+        <use xlink:href="#bubble_59"/>
+        <use xlink:href="#bubble_62"/>
+        <use xlink:href="#bubble_67"/>
+        <use xlink:href="#bubble_68"/>
+        <use xlink:href="#bubble_69"/>
+        <use xlink:href="#bubble_84"/>
+      </g>
+      <g class="active">
+        <circle cx="510" cy="-583" r="6" fill="url(#grad_ЮФО)"/>
+        <circle cx="510" cy="-583" r="1" fill="#b22222"/>
+        <text x="519" y="-579" fill="#b22222">Southern FD</text>
+        <use xlink:href="#bubble_2"/>
+        <use xlink:href="#bubble_5"/>
+        <use xlink:href="#bubble_17"/>
+        <use xlink:href="#bubble_24"/>
+        <use xlink:href="#bubble_51"/>
+        <use xlink:href="#bubble_73"/>
+        <use xlink:href="#bubble_75"/>
+        <use xlink:href="#bubble_79"/>
+      </g>
+      <g class="active">
+        <circle cx="510" cy="-569" r="6" fill="url(#grad_СКФО)"/>
+        <circle cx="510" cy="-569" r="1" fill="#800080"/>
+        <text x="519" y="-565" fill="#800080">North Caucasian FD</text>
+        <use xlink:href="#bubble_10"/>
+        <use xlink:href="#bubble_13"/>
+        <use xlink:href="#bubble_30"/>
+        <use xlink:href="#bubble_57"/>
+        <use xlink:href="#bubble_64"/>
+        <use xlink:href="#bubble_72"/>
+        <use xlink:href="#bubble_76"/>
+      </g>
+      <g class="active">
+        <circle cx="672" cy="-611" r="6" fill="url(#grad_ПФО)"/>
+        <circle cx="672" cy="-611" r="1" fill="#4169e1"/>
+        <text x="681" y="-607" fill="#4169e1">Volga FD</text>
+        <use xlink:href="#bubble_6"/>
+        <use xlink:href="#bubble_7"/>
+        <use xlink:href="#bubble_9"/>
+        <use xlink:href="#bubble_11"/>
+        <use xlink:href="#bubble_16"/>
+        <use xlink:href="#bubble_18"/>
+        <use xlink:href="#bubble_22"/>
+        <use xlink:href="#bubble_31"/>
+        <use xlink:href="#bubble_35"/>
+        <use xlink:href="#bubble_36"/>
+        <use xlink:href="#bubble_39"/>
+        <use xlink:href="#bubble_40"/>
+        <use xlink:href="#bubble_61"/>
+        <use xlink:href="#bubble_65"/>
+      </g>
+      <g class="active">
+        <circle cx="672" cy="-597" r="6" fill="url(#grad_УФО)"/>
+        <circle cx="672" cy="-597" r="1" fill="#ff0000"/>
+        <text x="681" y="-593" fill="#ff0000">Ural FD</text>
+        <use xlink:href="#bubble_4"/>
+        <use xlink:href="#bubble_8"/>
+        <use xlink:href="#bubble_27"/>
+        <use xlink:href="#bubble_28"/>
+        <use xlink:href="#bubble_58"/>
+        <use xlink:href="#bubble_70"/>
+      </g>
+      <g class="active">
+        <circle cx="672" cy="-583" r="6" fill="url(#grad_СФО)"/>
+        <circle cx="672" cy="-583" r="1" fill="#808000"/>
+        <text x="681" y="-579" fill="#808000">Siberian FD</text>
+        <use xlink:href="#bubble_12"/>
+        <use xlink:href="#bubble_14"/>
+        <use xlink:href="#bubble_15"/>
+        <use xlink:href="#bubble_19"/>
+        <use xlink:href="#bubble_21"/>
+        <use xlink:href="#bubble_25"/>
+        <use xlink:href="#bubble_47"/>
+        <use xlink:href="#bubble_71"/>
+        <use xlink:href="#bubble_77"/>
+        <use xlink:href="#bubble_80"/>
+      </g>
+      <g class="active">
+        <circle cx="672" cy="-569" r="6" fill="url(#grad_ДФО)"/>
+        <circle cx="672" cy="-569" r="1" fill="#ff8c00"/>
+        <text x="681" y="-565" fill="#ff8c00">Far Eastern FD</text>
+        <use xlink:href="#bubble_26"/>
+        <use xlink:href="#bubble_34"/>
+        <use xlink:href="#bubble_48"/>
+        <use xlink:href="#bubble_53"/>
+        <use xlink:href="#bubble_54"/>
+        <use xlink:href="#bubble_60"/>
+        <use xlink:href="#bubble_74"/>
+        <use xlink:href="#bubble_78"/>
+        <use xlink:href="#bubble_81"/>
+        <use xlink:href="#bubble_82"/>
+        <use xlink:href="#bubble_83"/>
+      </g>
+    </g>
+
+    <!-- pop-up notes -->
+    <g class="active">
+      <use xlink:href="#bubble_0"/>
+      <title>federal city Moscow (population: 12 645 000)
+
+all: 74.55 years
+
+male: 71.0  (in urban: 71.12, in rural: 64.49)
+
+female: 77.94  (in urban: 78.02, in rural: 72.65)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_1"/>
+      <title>Moscow Oblast (population: 7 739 000)
+
+all: 70.35 years
+
+male: 65.73  (in urban: 65.31, in rural: 67.71)
+
+female: 74.8  (in urban: 74.6, in rural: 75.8)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_2"/>
+      <title>Krasnodar Krai (population: 5 686 000)
+
+all: 70.53 years
+
+male: 66.08  (in urban: 65.44, in rural: 66.87)
+
+female: 74.9  (in urban: 74.84, in rural: 75.0)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_3"/>
+      <title>federal city Saint Petersburg (population: 5 381 000)
+
+all: 72.51 years
+
+male: 68.23  (in urban: 68.23, in rural: 0.0)
+
+female: 76.3  (in urban: 76.3, in rural: 0.0)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_4"/>
+      <title>Sverdlovsk Oblast (population: 4 277 000)
+
+all: 68.79 years
+
+male: 63.72  (in urban: 63.86, in rural: 62.85)
+
+female: 73.8  (in urban: 74.0, in rural: 72.45)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_5"/>
+      <title>Rostov Oblast (population: 4 168 000)
+
+all: 69.79 years
+
+male: 65.8  (in urban: 65.75, in rural: 65.81)
+
+female: 73.67  (in urban: 73.75, in rural: 73.44)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_6"/>
+      <title>Republic of Bashkortostan (population: 4 008 000)
+
+all: 69.49 years
+
+male: 64.85  (in urban: 65.61, in rural: 63.5)
+
+female: 74.19  (in urban: 74.52, in rural: 73.35)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_7"/>
+      <title>Republic of Tatarstan (population: 3 890 000)
+
+all: 71.28 years
+
+male: 66.53  (in urban: 66.57, in rural: 66.32)
+
+female: 75.86  (in urban: 75.71, in rural: 76.08)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_8"/>
+      <title>Chelyabinsk Oblast (population: 3 431 000)
+
+all: 69.16 years
+
+male: 64.36  (in urban: 64.66, in rural: 62.92)
+
+female: 73.79  (in urban: 74.03, in rural: 72.57)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_9"/>
+      <title>Nizhny Novgorod Oblast (population: 3 160 000)
+
+all: 68.93 years
+
+male: 63.81  (in urban: 63.6, in rural: 64.62)
+
+female: 73.97  (in urban: 73.93, in rural: 73.97)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_10"/>
+      <title>Republic of Dagestan (population: 3 144 000)
+
+all: 76.59 years
+
+male: 74.07  (in urban: 75.1, in rural: 73.16)
+
+female: 78.96  (in urban: 78.91, in rural: 78.8)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_11"/>
+      <title>Samara Oblast (population: 3 143 000)
+
+all: 69.33 years
+
+male: 64.62  (in urban: 64.4, in rural: 65.5)
+
+female: 73.86  (in urban: 73.93, in rural: 73.53)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_12"/>
+      <title>Krasnoyarsk Krai (population: 2 853 000)
+
+all: 68.35 years
+
+male: 63.56  (in urban: 63.99, in rural: 61.87)
+
+female: 73.13  (in urban: 73.62, in rural: 71.1)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_13"/>
+      <title>Stavropol Krai (population: 2 786 000)
+
+all: 71.66 years
+
+male: 67.68  (in urban: 68.04, in rural: 67.17)
+
+female: 75.43  (in urban: 75.95, in rural: 74.64)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_14"/>
+      <title>Novosibirsk Oblast (population: 2 783 000)
+
+all: 69.19 years
+
+male: 64.37  (in urban: 64.72, in rural: 62.86)
+
+female: 73.98  (in urban: 74.46, in rural: 71.93)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_15"/>
+      <title>Kemerovo Oblast–Kuzbass (population: 2 619 000)
+
+all: 67.61 years
+
+male: 62.8  (in urban: 62.78, in rural: 62.9)
+
+female: 72.37  (in urban: 72.54, in rural: 71.11)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_16"/>
+      <title>Perm Krai (population: 2 568 000)
+
+all: 68.52 years
+
+male: 63.48  (in urban: 63.69, in rural: 62.79)
+
+female: 73.49  (in urban: 73.84, in rural: 71.93)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_17"/>
+      <title>Volgograd Oblast (population: 2 462 000)
+
+all: 69.96 years
+
+male: 65.7  (in urban: 65.83, in rural: 65.24)
+
+female: 74.14  (in urban: 74.43, in rural: 73.03)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_18"/>
+      <title>Saratov Oblast (population: 2 378 000)
+
+all: 69.08 years
+
+male: 64.84  (in urban: 64.85, in rural: 64.7)
+
+female: 73.18  (in urban: 73.36, in rural: 72.53)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_19"/>
+      <title>Irkutsk Oblast (population: 2 366 000)
+
+all: 66.8 years
+
+male: 61.9  (in urban: 62.12, in rural: 61.16)
+
+female: 71.69  (in urban: 71.9, in rural: 70.93)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_20"/>
+      <text x="642" y="-746" dy="0.7ex" class="hidden_text" stroke="#006400">Voronezh Oblast</text>
+      <title>Voronezh Oblast (population: 2 297 000)
+
+all: 69.49 years
+
+male: 64.74  (in urban: 64.44, in rural: 65.3)
+
+female: 74.26  (in urban: 74.04, in rural: 74.68)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_21"/>
+      <title>Altai Krai (population: 2 282 000)
+
+all: 68.6 years
+
+male: 64.08  (in urban: 64.43, in rural: 63.34)
+
+female: 73.1  (in urban: 73.71, in rural: 71.91)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_22"/>
+      <text x="635" y="-727" dy="0.7ex" class="hidden_text" stroke="#4169e1">Orenburg Oblast</text>
+      <title>Orenburg Oblast (population: 1 934 000)
+
+all: 68.21 years
+
+male: 63.91  (in urban: 63.92, in rural: 63.63)
+
+female: 72.48  (in urban: 72.61, in rural: 71.81)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_23"/>
+      <title>Leningrad Oblast (population: 1 902 000)
+
+all: 70.17 years
+
+male: 65.43  (in urban: 64.24, in rural: 68.22)
+
+female: 74.94  (in urban: 74.42, in rural: 76.08)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_24"/>
+      <title>Republic of Crimea (population: 1 899 000)
+
+all: 69.7 years
+
+male: 65.31  (in urban: 64.34, in rural: 66.31)
+
+female: 73.96  (in urban: 73.59, in rural: 74.37)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_25"/>
+      <text x="640" y="-737" dy="0.7ex" class="hidden_text" stroke="#808000">Omsk Oblast</text>
+      <title>Omsk Oblast (population: 1 892 000)
+
+all: 69.02 years
+
+male: 64.48  (in urban: 64.77, in rural: 63.5)
+
+female: 73.45  (in urban: 74.06, in rural: 71.6)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_26"/>
+      <title>Primorsky Krai (population: 1 870 000)
+
+all: 68.61 years
+
+male: 63.98  (in urban: 64.57, in rural: 62.1)
+
+female: 73.45  (in urban: 74.0, in rural: 71.31)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_27"/>
+      <title>Khanty-Mansi AO–Yugra (Tyumen Oblast) (population: 1 695 000)
+
+all: 72.01 years
+
+male: 68.34  (in urban: 68.54, in rural: 66.06)
+
+female: 75.56  (in urban: 75.68, in rural: 73.76)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_28"/>
+      <text x="650" y="-751" dy="0.7ex" class="hidden_text" stroke="#ff0000">Tyumen Oblast (except 2 AO)</text>
+      <title>Tyumen Oblast (except two AO) (population: 1 548 000)
+
+all: 70.14 years
+
+male: 65.43  (in urban: 66.28, in rural: 63.68)
+
+female: 74.88  (in urban: 75.43, in rural: 73.57)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_29"/>
+      <text x="661" y="-749" dy="0.7ex" class="hidden_text" stroke="#006400">Belgorod Oblast</text>
+      <title>Belgorod Oblast (population: 1 537 000)
+
+all: 70.67 years
+
+male: 66.54  (in urban: 66.53, in rural: 66.42)
+
+female: 74.66  (in urban: 74.7, in rural: 74.41)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_30"/>
+      <title>Chechen Republic (population: 1 507 000)
+
+all: 73.0 years
+
+male: 70.53  (in urban: 64.27, in rural: 77.38)
+
+female: 75.28  (in urban: 68.49, in rural: 82.24)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_31"/>
+      <text x="641" y="-756" dy="0.7ex" class="hidden_text" stroke="#4169e1">Udmurtia</text>
+      <title>Udmurt Republic (population: 1 489 000)
+
+all: 69.99 years
+
+male: 64.55  (in urban: 64.79, in rural: 64.04)
+
+female: 75.39  (in urban: 75.47, in rural: 74.99)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_32"/>
+      <text x="636" y="-741" dy="0.7ex" class="hidden_text" stroke="#006400">Tula Oblast</text>
+      <title>Tula Oblast (population: 1 441 000)
+
+all: 68.97 years
+
+male: 64.05  (in urban: 63.39, in rural: 66.26)
+
+female: 73.85  (in urban: 73.54, in rural: 74.81)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_33"/>
+      <text x="627" y="-733" dy="0.7ex" class="hidden_text" stroke="#006400">Vladimir Oblast</text>
+      <title>Vladimir Oblast (population: 1 333 000)
+
+all: 68.11 years
+
+male: 63.18  (in urban: 62.74, in rural: 64.89)
+
+female: 73.0  (in urban: 72.97, in rural: 73.0)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_34"/>
+      <title>Khabarovsk Krai (population: 1 300 000)
+
+all: 67.85 years
+
+male: 62.91  (in urban: 63.16, in rural: 61.93)
+
+female: 72.94  (in urban: 73.35, in rural: 70.78)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_35"/>
+      <text x="647" y="-750" dy="0.7ex" class="hidden_text" stroke="#4169e1">Penza Oblast</text>
+      <title>Penza Oblast (population: 1 282 000)
+
+all: 69.97 years
+
+male: 65.17  (in urban: 65.39, in rural: 64.62)
+
+female: 74.75  (in urban: 74.83, in rural: 74.41)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_36"/>
+      <text x="645" y="-748" dy="0.7ex" class="hidden_text" stroke="#4169e1">Kirov Oblast</text>
+      <title>Kirov Oblast (population: 1 242 000)
+
+all: 69.73 years
+
+male: 64.8  (in urban: 65.27, in rural: 62.58)
+
+female: 74.68  (in urban: 75.03, in rural: 69.96)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_37"/>
+      <text x="625" y="-732" dy="0.7ex" class="hidden_text" stroke="#006400">Tver Oblast</text>
+      <title>Tver Oblast (population: 1 238 000)
+
+all: 67.87 years
+
+male: 62.81  (in urban: 62.68, in rural: 63.25)
+
+female: 73.04  (in urban: 73.23, in rural: 72.19)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_38"/>
+      <text x="634" y="-744" dy="0.7ex" class="hidden_text" stroke="#006400">Yaroslavl Oblast</text>
+      <title>Yaroslavl Oblast (population: 1 234 000)
+
+all: 69.07 years
+
+male: 63.78  (in urban: 63.6, in rural: 64.43)
+
+female: 74.25  (in urban: 74.29, in rural: 73.83)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_39"/>
+      <text x="639" y="-741" dy="0.7ex" class="hidden_text" stroke="#4169e1">Ulyanovsk Oblast</text>
+      <title>Ulyanovsk Oblast (population: 1 211 000)
+
+all: 69.05 years
+
+male: 64.21  (in urban: 64.26, in rural: 63.79)
+
+female: 73.9  (in urban: 73.96, in rural: 73.2)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_40"/>
+      <text x="645" y="-755" dy="0.7ex" class="hidden_text" stroke="#4169e1">Chuvashia</text>
+      <title>Chuvash Republic (population: 1 203 000)
+
+all: 69.99 years
+
+male: 64.84  (in urban: 65.43, in rural: 63.72)
+
+female: 75.35  (in urban: 75.32, in rural: 74.45)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_41"/>
+      <text x="632" y="-740" dy="0.7ex" class="hidden_text" stroke="#006400">Bryansk Oblast</text>
+      <title>Bryansk Oblast (population: 1 176 000)
+
+all: 68.67 years
+
+male: 63.57  (in urban: 63.44, in rural: 63.79)
+
+female: 73.88  (in urban: 73.82, in rural: 73.82)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_42"/>
+      <text x="635" y="-745" dy="0.7ex" class="hidden_text" stroke="#0000cd">Vologda Oblast</text>
+      <title>Vologda Oblast (population: 1 145 000)
+
+all: 69.08 years
+
+male: 63.85  (in urban: 64.13, in rural: 62.98)
+
+female: 74.38  (in urban: 74.46, in rural: 73.81)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_43"/>
+      <text x="635" y="-735" dy="0.7ex" class="hidden_text" stroke="#006400">Lipetsk Oblast</text>
+      <title>Lipetsk Oblast (population: 1 121 000)
+
+all: 68.58 years
+
+male: 63.89  (in urban: 63.96, in rural: 63.64)
+
+female: 73.3  (in urban: 73.36, in rural: 73.06)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_44"/>
+      <text x="636" y="-735" dy="0.7ex" class="hidden_text" stroke="#006400">Ryazan Oblast</text>
+      <title>Ryazan Oblast (population: 1 092 000)
+
+all: 68.61 years
+
+male: 63.96  (in urban: 63.55, in rural: 64.86)
+
+female: 73.31  (in urban: 73.06, in rural: 73.46)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_45"/>
+      <text x="637" y="-731" dy="0.7ex" class="hidden_text" stroke="#006400">Kursk Oblast</text>
+      <title>Kursk Oblast (population: 1 090 000)
+
+all: 68.56 years
+
+male: 64.09  (in urban: 64.48, in rural: 63.1)
+
+female: 72.94  (in urban: 73.33, in rural: 71.63)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_46"/>
+      <text x="640" y="-752" dy="0.7ex" class="hidden_text" stroke="#0000cd">Arkhangelsk Oblast (except AO)</text>
+      <title>Arkhangelsk Oblast (except AO) (population: 1 076 000)
+
+all: 69.6 years
+
+male: 64.33  (in urban: 65.12, in rural: 61.17)
+
+female: 75.08  (in urban: 75.55, in rural: 71.58)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_47"/>
+      <text x="647" y="-745" dy="0.7ex" class="hidden_text" stroke="#808000">Tomsk Oblast</text>
+      <title>Tomsk Oblast (population: 1 069 000)
+
+all: 69.7 years
+
+male: 65.03  (in urban: 65.68, in rural: 63.23)
+
+female: 74.36  (in urban: 75.06, in rural: 72.6)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_48"/>
+      <text x="619" y="-717" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Zabaykalsky Krai</text>
+      <title>Zabaykalsky Krai (population: 1 048 000)
+
+all: 66.82 years
+
+male: 62.28  (in urban: 62.94, in rural: 60.58)
+
+female: 71.54  (in urban: 72.12, in rural: 70.13)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_49"/>
+      <text x="662" y="-754" dy="0.7ex" class="hidden_text" stroke="#0000cd">Kaliningrad Oblast</text>
+      <title>Kaliningrad Oblast (population: 1 023 000)
+
+all: 70.99 years
+
+male: 66.51  (in urban: 66.76, in rural: 65.74)
+
+female: 75.25  (in urban: 75.42, in rural: 74.57)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_50"/>
+      <text x="640" y="-743" dy="0.7ex" class="hidden_text" stroke="#006400">Kaluga Oblast</text>
+      <title>Kaluga Oblast (population: 1 007 000)
+
+all: 69.16 years
+
+male: 64.31  (in urban: 63.69, in rural: 66.38)
+
+female: 74.12  (in urban: 74.09, in rural: 74.05)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_51"/>
+      <text x="655" y="-740" dy="0.7ex" class="hidden_text" stroke="#b22222">Astrakhan Oblast</text>
+      <title>Astrakhan Oblast (population: 994 000)
+
+all: 69.9 years
+
+male: 65.86  (in urban: 65.36, in rural: 66.76)
+
+female: 73.87  (in urban: 73.75, in rural: 74.17)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_52"/>
+      <text x="651" y="-745" dy="0.7ex" class="hidden_text" stroke="#006400">Tambov Oblast</text>
+      <title>Tambov Oblast (population: 988 000)
+
+all: 69.88 years
+
+male: 65.41  (in urban: 65.29, in rural: 65.39)
+
+female: 74.33  (in urban: 74.29, in rural: 74.35)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_53"/>
+      <text x="653" y="-746" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Yakutia</text>
+      <title>Republic of Sakha (Yakutia) (population: 987 000)
+
+all: 69.98 years
+
+male: 65.65  (in urban: 66.21, in rural: 64.27)
+
+female: 74.47  (in urban: 74.67, in rural: 73.95)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_54"/>
+      <text x="637" y="-739" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Buryatia</text>
+      <title>Republic of Buryatia (population: 984 000)
+
+all: 68.91 years
+
+male: 64.09  (in urban: 64.78, in rural: 62.99)
+
+female: 73.78  (in urban: 74.91, in rural: 72.01)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_55"/>
+      <text x="637" y="-740" dy="0.7ex" class="hidden_text" stroke="#006400">Ivanovo Oblast</text>
+      <title>Ivanovo Oblast (population: 982 000)
+
+all: 69.02 years
+
+male: 64.03  (in urban: 63.5, in rural: 66.18)
+
+female: 73.86  (in urban: 73.82, in rural: 73.64)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_56"/>
+      <text x="629" y="-730" dy="0.7ex" class="hidden_text" stroke="#006400">Smolensk Oblast</text>
+      <title>Smolensk Oblast (population: 915 000)
+
+all: 68.0 years
+
+male: 63.28  (in urban: 63.28, in rural: 63.2)
+
+female: 72.83  (in urban: 73.12, in rural: 71.79)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_57"/>
+      <title>Kabardino-Balkarian Republic (population: 870 000)
+
+all: 73.77 years
+
+male: 69.91  (in urban: 70.27, in rural: 69.5)
+
+female: 77.32  (in urban: 77.34, in rural: 77.25)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_58"/>
+      <text x="629" y="-736" dy="0.7ex" class="hidden_text" stroke="#ff0000">Kurgan Oblast</text>
+      <title>Kurgan Oblast (population: 812 000)
+
+all: 68.29 years
+
+male: 63.29  (in urban: 63.11, in rural: 63.45)
+
+female: 73.48  (in urban: 73.53, in rural: 73.14)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_59"/>
+      <text x="632" y="-733" dy="0.7ex" class="hidden_text" stroke="#0000cd">Komi</text>
+      <title>Komi Republic (population: 809 000)
+
+all: 68.32 years
+
+male: 63.53  (in urban: 64.1, in rural: 61.39)
+
+female: 73.13  (in urban: 73.73, in rural: 69.96)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_60"/>
+      <text x="614" y="-713" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Amur Oblast</text>
+      <title>Amur Oblast (population: 777 000)
+
+all: 66.3 years
+
+male: 61.75  (in urban: 62.18, in rural: 60.71)
+
+female: 71.11  (in urban: 71.78, in rural: 69.37)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_61"/>
+      <text x="658" y="-744" dy="0.7ex" class="hidden_text" stroke="#4169e1">Mordovia</text>
+      <title>Republic of Mordovia (population: 775 000)
+
+all: 70.24 years
+
+male: 66.17  (in urban: 66.14, in rural: 65.72)
+
+female: 74.28  (in urban: 74.28, in rural: 73.94)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_62"/>
+      <text x="634" y="-730" dy="0.7ex" class="hidden_text" stroke="#0000cd">Murmansk Oblast</text>
+      <title>Murmansk Oblast (population: 729 000)
+
+all: 68.29 years
+
+male: 63.72  (in urban: 63.47, in rural: 66.53)
+
+female: 72.85  (in urban: 72.83, in rural: 72.88)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_63"/>
+      <text x="637" y="-740" dy="0.7ex" class="hidden_text" stroke="#006400">Oryol Oblast</text>
+      <title>Oryol Oblast (population: 719 000)
+
+all: 68.97 years
+
+male: 64.04  (in urban: 64.24, in rural: 63.68)
+
+female: 73.81  (in urban: 74.08, in rural: 73.06)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_64"/>
+      <title>Republic of North Ossetia–Alania (population: 691 000)
+
+all: 72.47 years
+
+male: 68.08  (in urban: 67.82, in rural: 68.54)
+
+female: 76.46  (in urban: 75.99, in rural: 77.52)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_65"/>
+      <text x="636" y="-753" dy="0.7ex" class="hidden_text" stroke="#4169e1">Mari El</text>
+      <title>Mari El Republic (population: 673 000)
+
+all: 69.46 years
+
+male: 63.99  (in urban: 64.66, in rural: 62.71)
+
+female: 75.17  (in urban: 75.38, in rural: 74.46)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_66"/>
+      <text x="637" y="-737" dy="0.7ex" class="hidden_text" stroke="#006400">Kostroma Oblast</text>
+      <title>Kostroma Oblast (population: 625 000)
+
+all: 68.78 years
+
+male: 64.07  (in urban: 63.91, in rural: 64.08)
+
+female: 73.5  (in urban: 73.9, in rural: 72.03)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_67"/>
+      <text x="625" y="-728" dy="0.7ex" class="hidden_text" stroke="#0000cd">Pskov Oblast</text>
+      <title>Pskov Oblast (population: 617 000)
+
+all: 67.69 years
+
+male: 62.85  (in urban: 62.36, in rural: 63.83)
+
+female: 72.67  (in urban: 72.73, in rural: 71.59)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_68"/>
+      <text x="618" y="-727" dy="0.7ex" class="hidden_text" stroke="#0000cd">Karelia</text>
+      <title>Republic of Karelia (population: 606 000)
+
+all: 67.31 years
+
+male: 62.16  (in urban: 63.03, in rural: 58.63)
+
+female: 72.54  (in urban: 73.31, in rural: 67.37)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_69"/>
+      <text x="621" y="-730" dy="0.7ex" class="hidden_text" stroke="#0000cd">Novgorod Oblast</text>
+      <title>Novgorod Oblast (population: 589 000)
+
+all: 67.64 years
+
+male: 62.48  (in urban: 61.86, in rural: 64.05)
+
+female: 72.8  (in urban: 72.49, in rural: 73.1)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_70"/>
+      <text x="678" y="-754" dy="0.7ex" class="hidden_text" stroke="#ff0000">Yamalo-Nenets AO</text>
+      <title>Yamalo-Nenets AO (Tyumen Oblast) (population: 550 000)
+
+all: 71.7 years
+
+male: 68.05  (in urban: 69.09, in rural: 63.22)
+
+female: 75.37  (in urban: 75.96, in rural: 71.67)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_71"/>
+      <text x="635" y="-732" dy="0.7ex" class="hidden_text" stroke="#808000">Khakassia</text>
+      <title>Republic of Khakassia (population: 530 000)
+
+all: 68.49 years
+
+male: 63.74  (in urban: 64.22, in rural: 62.62)
+
+female: 73.17  (in urban: 73.86, in rural: 71.47)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_72"/>
+      <title>Republic of Ingushetia (population: 520 000)
+
+all: 80.52 years
+
+male: 77.26  (in urban: 78.14, in rural: 76.22)
+
+female: 83.29  (in urban: 83.67, in rural: 81.84)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_73"/>
+      <title>federal city Sevastopol (population: 516 000)
+
+all: 72.25 years
+
+male: 67.87  (in urban: 67.73, in rural: 69.63)
+
+female: 76.43  (in urban: 76.33, in rural: 77.35)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_74"/>
+      <text x="635" y="-735" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Sakhalin Oblast</text>
+      <title>Sakhalin Oblast (population: 485 000)
+
+all: 68.42 years
+
+male: 63.72  (in urban: 63.8, in rural: 62.87)
+
+female: 73.41  (in urban: 73.74, in rural: 71.21)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_75"/>
+      <text x="664" y="-758" dy="0.7ex" class="hidden_text" stroke="#b22222">Adygea</text>
+      <title>Republic of Adygea (population: 466 000)
+
+all: 71.22 years
+
+male: 66.62  (in urban: 66.84, in rural: 66.26)
+
+female: 75.78  (in urban: 76.43, in rural: 75.06)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_76"/>
+      <title>Karachay-Cherkess Republic (population: 465 000)
+
+all: 73.47 years
+
+male: 69.28  (in urban: 69.12, in rural: 69.39)
+
+female: 77.35  (in urban: 77.03, in rural: 77.5)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_77"/>
+      <text x="624" y="-709" dy="0.7ex" class="hidden_text" stroke="#808000">Tuva</text>
+      <title>Tyva Republic (population: 331 000)
+
+all: 66.88 years
+
+male: 62.65  (in urban: 64.46, in rural: 59.92)
+
+female: 70.85  (in urban: 73.2, in rural: 65.42)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_78"/>
+      <text x="635" y="-730" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Kamchatka Krai</text>
+      <title>Kamchatka Krai (population: 312 000)
+
+all: 68.09 years
+
+male: 63.76  (in urban: 64.23, in rural: 61.12)
+
+female: 72.93  (in urban: 73.83, in rural: 69.67)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_79"/>
+      <text x="670" y="-755" dy="0.7ex" class="hidden_text" stroke="#b22222">Kalmykia</text>
+      <title>Republic of Kalmykia (population: 269 000)
+
+all: 71.4 years
+
+male: 67.26  (in urban: 66.89, in rural: 67.57)
+
+female: 75.42  (in urban: 75.06, in rural: 75.6)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_80"/>
+      <text x="622" y="-734" dy="0.7ex" class="hidden_text" stroke="#808000">Altai</text>
+      <title>Altai Republic (population: 221 000)
+
+all: 67.86 years
+
+male: 62.48  (in urban: 62.87, in rural: 61.86)
+
+female: 73.35  (in urban: 74.26, in rural: 72.76)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_81"/>
+      <title>Jewish Autonomous Oblast (population: 155 000)
+
+all: 66.12 years
+
+male: 61.73  (in urban: 61.42, in rural: 61.95)
+
+female: 70.58  (in urban: 70.52, in rural: 70.24)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_82"/>
+      <text x="623" y="-725" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Magadan Oblast</text>
+      <title>Magadan Oblast (population: 138 000)
+
+all: 67.41 years
+
+male: 62.48  (in urban: 62.82, in rural: 55.39)
+
+female: 72.51  (in urban: 72.88, in rural: 60.71)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_83"/>
+      <title>Chukotka Autonomous Okrug (population: 50 000)
+
+all: 64.87 years
+
+male: 60.55  (in urban: 66.21, in rural: 48.15)
+
+female: 69.25  (in urban: 74.22, in rural: 49.68)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_84"/>
+      <text x="640" y="-750" dy="0.7ex" class="hidden_text" stroke="#0000cd">Nenets AO</text>
+      <title>Nenets AO (Arkhangelsk Oblast) (population: 44 000)
+
+all: 69.39 years
+
+male: 64.18  (in urban: 67.83, in rural: 57.05)
+
+female: 75.01  (in urban: 75.63, in rural: 70.8)</title>
+    </g>
+  </g>
+</svg>

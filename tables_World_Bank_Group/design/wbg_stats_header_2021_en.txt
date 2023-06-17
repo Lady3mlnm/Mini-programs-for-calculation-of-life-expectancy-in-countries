@@ -1,0 +1,20 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 style="vertical-align:middle;"|Countries
+! colspan=4|2021
+! colspan=9 style="border-left-width:2px;"|Historical data
+|- {{static row numbers header}}
+! style="vertical-align:middle;width:4em;"|All
+! style="vertical-align:middle;"|Male
+! style="vertical-align:middle;"|Female
+! style="vertical-align:middle; width:3.5em;"|{{tooltip|Gender<br>gap|Difference in life expectancy for female and male}}
+! style="vertical-align:middle; border-left-width:2px; width:4em; padding-left:1em;"|2014
+! style="text-align:left;"|{{tooltip|2014<br>→2019|Change of life expectancy from 2014 to 2019}}
+! style="vertical-align:middle; width:3em;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle; width:3em;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle; width:3em;"|2021
+! style="text-align:left;"|{{tooltip|2014<br>→2021|Change of life expectancy from 2014 to 2021}}
+|-{{static row numbers arrows|13}}

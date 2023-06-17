@@ -1,0 +1,39 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 style="vertical-align:middle;"|регион
+! colspan=7|2020
+! colspan=9 style="border-left-width:2px;"|исторические данные
+|- {{static row numbers header}}
+! style="width:5em;"|{{comment|всё население|всё население в среднем}}
+! style="vertical-align:middle;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;"|{{comment|жен|женщины}}
+! style="width:3.5em;"|{{comment|жен<br><small>Δ</small> муж|разница между женщинами и мужчинами}}
+! style="vertical-align:middle; border-left-width:2px;"|{{comment|город|городское население}}
+! style="vertical-align:middle;"|{{comment|село|сельское население}}
+! style="width:3.5em;"|{{comment|город<br><small>Δ</small> село|разница между городским и сельским населением}}
+! style="vertical-align:middle; border-left-width:2px;"|1991
+! style="text-align:left;"|{{comment|1991<br>→2000|изменение в продолжительности жизни между 1991 и 2000 годами}}
+! style="vertical-align:middle;"|2000
+! style="text-align:left;"|2000<br>→2014
+! style="vertical-align:middle;"|2014
+! style="text-align:left;"|2014<br>→2019
+! style="vertical-align:middle;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;"|2020
+|-{{static row numbers arrows|17}}
+|-
+|align=left|[[Архангельская область]] || style="text-align:center; background:#e0ffd8;"|'''71.35''' || style="background:#eaf3ff;"|65.71 || style="background:#fee7f6;"|77.03 || style="background:#fff8dc;"|11.32 || style="border-left-width:2px;"|72.13 || 67.75 || style="background:#fff8dc;"|4.38 || style="border-left-width:2px;"|69.1 || style="background:#fff8dc;"|-6.3 || 62.8 || style="background:#fff8dc;"|7.43 || 70.23 || style="background:#fff8dc;"|2.11 || 72.34 || style="background:#fff8dc;"|-0.99 || style="text-align:center; background:#e0ffd8;"|'''71.35'''
+|-
+|align=left|[[Архангельская область (кроме Ненецкого автономного округа)]] || style="text-align:center; background:#e0ffd8;"|'''71.39''' || style="background:#eaf3ff;"|65.79 || style="background:#fee7f6;"|77.01 || style="background:#fff8dc;"|11.22 || style="border-left-width:2px;"|72.11 || 68.05 || style="background:#fff8dc;"|4.06 || style="border-left-width:2px;"|- || style="background:#fff8dc;"|- || - || style="background:#fff8dc;"|- || 70.20 || style="background:#fff8dc;"|2.10 || 72.30 || style="background:#fff8dc;"|-0.91 || style="text-align:center; background:#e0ffd8;"|'''71.39'''
+|-
+|align=left|[[Ненецкий автономный округ (Архангельская область)]] || style="text-align:center; background:#e0ffd8;"|'''70.40''' || style="background:#eaf3ff;"|63.44 || style="background:#fee7f6;"|77.79 || style="background:#fff8dc;"|14.35 || style="border-left-width:2px;"|72.51 || 63.73 || style="background:#fff8dc;"|8.78 || style="border-left-width:2px;"|- || style="background:#fff8dc;"|- || 60.6 || style="background:#fff8dc;"|10.05 || 70.65 || style="background:#fff8dc;"|2.54 || 73.19 || style="background:#fff8dc;"|-2.79 || style="text-align:center; background:#e0ffd8;"|'''70.40'''
+|-
+|align=left|[[Тюменская область]] || style="text-align:center; background:#e0ffd8;"|'''72.24''' || style="background:#eaf3ff;"|67.54 || style="background:#fee7f6;"|76.89 || style="background:#fff8dc;"|9.35 || style="border-left-width:2px;"|72.92 || 69.39 || style="background:#fff8dc;"|3.53 || style="border-left-width:2px;"|68.5 || style="background:#fff8dc;"|-2.6 || 65.9 || style="background:#fff8dc;"|5.60 || 71.50 || style="background:#fff8dc;"|2.54 || 74.04 || style="background:#fff8dc;"|-1.80 || style="text-align:center; background:#e0ffd8;"|'''72.24'''
+|-
+|align=left|[[Тюменская область (кроме Ханты-Мансийского автономного округа-Югры и Ямало-Ненецкого автономного округа)]] || style="text-align:center; background:#e0ffd8;"|'''71.34''' || style="background:#eaf3ff;"|66.17 || style="background:#fee7f6;"|76.51 || style="background:#fff8dc;"|10.34 || style="border-left-width:2px;"|72.38 || 69.16 || style="background:#fff8dc;"|3.22 || style="border-left-width:2px;"|- || style="background:#fff8dc;"|- || - || style="background:#fff8dc;"|- || 70.32 || style="background:#fff8dc;"|2.43 || 72.75 || style="background:#fff8dc;"|-1.41 || style="text-align:center; background:#e0ffd8;"|'''71.34'''
+|-
+|align=left|[[Ханты-Мансийский автономный округ - Югра (Тюменская область)]] || style="text-align:center; background:#e0ffd8;"|'''72.87''' || style="background:#eaf3ff;"|68.76 || style="background:#fee7f6;"|76.91 || style="background:#fff8dc;"|8.15 || style="border-left-width:2px;"|73.06 || 70.70 || style="background:#fff8dc;"|2.36 || style="border-left-width:2px;"|- || style="background:#fff8dc;"|- || 65.9 || style="background:#fff8dc;"|6.37 || 72.27 || style="background:#fff8dc;"|2.77 || 75.04 || style="background:#fff8dc;"|-2.17 || style="text-align:center; background:#e0ffd8;"|'''72.87'''
+|-
+|align=left|[[Ямало-Ненецкий автономный округ (Тюменская область)]] || style="text-align:center; background:#e0ffd8;"|'''71.91''' || style="background:#eaf3ff;"|67.54 || style="background:#fee7f6;"|76.21 || style="background:#fff8dc;"|8.67 || style="border-left-width:2px;"|72.59 || 68.73 || style="background:#fff8dc;"|3.86 || style="border-left-width:2px;"|- || style="background:#fff8dc;"|- || 66.7 || style="background:#fff8dc;"|5.22 || 71.92 || style="background:#fff8dc;"|2.26 || 74.18 || style="background:#fff8dc;"|-2.27 || style="text-align:center; background:#e0ffd8;"|'''71.91'''
+}}

@@ -1,0 +1,25 @@
+|- {{static row numbers header}}
+! style="vertical-align:middle;"|регион
+! style="vertical-align:middle;max-width:3.5em;"|общая
+! style="vertical-align:middle;"|муж
+! style="vertical-align:middle;"|жен
+! жен<br><small>Δ</small> муж
+! style="vertical-align:middle; border-left-width:2px;"|город
+! style="vertical-align:middle;"|село
+! город<br><small>Δ</small> село
+! style="vertical-align:middle; border-left-width:2px;"|2014
+! style="text-align:left;"|2014<br>→2015
+! style="vertical-align:middle;"|2015
+! style="text-align:left;"|2015<br>→2016
+! style="vertical-align:middle;"|2016
+! style="text-align:left;"|2016<br>→2017
+! style="vertical-align:middle;"|2017
+! style="text-align:left;"|2017<br>→2018
+! style="vertical-align:middle;"|2018
+! style="text-align:left;"|2018<br>→2019
+! style="vertical-align:middle;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;"|2021
+|}

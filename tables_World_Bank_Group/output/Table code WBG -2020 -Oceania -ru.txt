@@ -1,0 +1,50 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Страны
+! style="width:4em;"| {{abbr|Общая|Всё население в среднем|0}}
+! style="width:4em;"| {{abbr|М|Мужчины|0}}
+! style="width:4em;"| {{abbr|Ж|Женщины|0}}
+! style="width:4em;"| {{abbr|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами|0}}
+! style="width:4em; border-left-width:2px;"| {{abbr|Δ 2019<br>Общая|Изменение показателя для всего населения по сравнению с предыдущим годом|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>М|Изменение показателя для мужчин по сравнению с предыдущим годом|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>Ж|Изменение показателя для женщин по сравнению с предыдущим годом|0}}
+! style="width:5em;"| {{abbr|Δ 2019<br>ЖΔМ|Изменение разница в продолжительности жизни между женщинами и мужчинами по сравнению с предыдущим годом|0}}
+|-{{static row numbers arrows|9}}
+|-
+|align=left|{{флагификация|Australia}} ||style="text-align:center; background:#e0ffd8;"| 83,20 ||style="text-align:center; background:#eaf3ff;"| 81,20 ||style="text-align:center; background:#fee7f6;"| 85,30 ||style="text-align:center;"| 4,10 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,30 ||style="text-align:center; background:#eaf3ff;"| 0,30 ||style="text-align:center; background:#fee7f6;"| 0,30 ||style="text-align:center;"| 0,00
+|-
+|align=left|{{флагификация|New Zealand}} ||style="text-align:center; background:#e0ffd8;"| 82,26 ||style="text-align:center; background:#eaf3ff;"| 80,50 ||style="text-align:center; background:#fee7f6;"| 84,10 ||style="text-align:center;"| 3,60 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,20 ||style="text-align:center; background:#eaf3ff;"| 0,20 ||style="text-align:center; background:#fee7f6;"| 0,20 ||style="text-align:center;"| −0,00
+|-
+|align=left|{{флагификация|French Polynesia}} ||style="text-align:center; background:#e0ffd8;"| 82,22 ||style="text-align:center; background:#eaf3ff;"| 79,32 ||style="text-align:center; background:#fee7f6;"| 85,83 ||style="text-align:center;"| 6,51 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0,78 ||style="text-align:center; background:#eaf3ff;"| −1,38 ||style="text-align:center; background:#fee7f6;"| 0,23 ||style="text-align:center;"| 1,61
+|-
+|align=left|{{флагификация|New Caledonia}} ||style="text-align:center; background:#e0ffd8;"| 80,83 ||style="text-align:center; background:#eaf3ff;"| 77,25 ||style="text-align:center; background:#fee7f6;"| 84,60 ||style="text-align:center;"| 7,34 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,42 ||style="text-align:center; background:#eaf3ff;"| 0,44 ||style="text-align:center; background:#fee7f6;"| 0,38 ||style="text-align:center;"| −0,06
+|-
+|align=left|{{флагификация|Guam}} ||style="text-align:center; background:#e0ffd8;"| 76,61 ||style="text-align:center; background:#eaf3ff;"| 72,20 ||style="text-align:center; background:#fee7f6;"| 81,87 ||style="text-align:center;"| 9,67 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1,11 ||style="text-align:center; background:#eaf3ff;"| −1,97 ||style="text-align:center; background:#fee7f6;"| 0,29 ||style="text-align:center;"| 2,26
+|-
+|align=left|{{флагификация|Samoa}} ||style="text-align:center; background:#e0ffd8;"| 72,77 ||style="text-align:center; background:#eaf3ff;"| 70,34 ||style="text-align:center; background:#fee7f6;"| 75,46 ||style="text-align:center;"| 5,12 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,61 ||style="text-align:center; background:#eaf3ff;"| 0,57 ||style="text-align:center; background:#fee7f6;"| 0,65 ||style="text-align:center;"| 0,08
+|-class=static-row-header
+|align=center| '''Мир''' ||style="text-align:center; background:#e0ffd8;"| '''72,24''' ||style="text-align:center; background:#eaf3ff;"| '''69,80''' ||style="text-align:center; background:#fee7f6;"| '''74,86''' ||style="text-align:center;"| '''5,06''' ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| '''−0,74''' ||style="text-align:center; background:#eaf3ff;"| '''−0,82''' ||style="text-align:center; background:#fee7f6;"| '''−0,61''' ||style="text-align:center;"| '''0,21'''
+|-
+|align=left|{{флагификация|Tonga}} ||style="text-align:center; background:#e0ffd8;"| 70,93 ||style="text-align:center; background:#eaf3ff;"| 68,34 ||style="text-align:center; background:#fee7f6;"| 73,70 ||style="text-align:center;"| 5,36 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,06 ||style="text-align:center; background:#eaf3ff;"| 0,07 ||style="text-align:center; background:#fee7f6;"| 0,03 ||style="text-align:center;"| −0,04
+|-
+|align=left|{{флагификация|Micronesia}} ||style="text-align:center; background:#e0ffd8;"| 70,67 ||style="text-align:center; background:#eaf3ff;"| 67,11 ||style="text-align:center; background:#fee7f6;"| 74,54 ||style="text-align:center;"| 7,43 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0,40 ||style="text-align:center; background:#eaf3ff;"| −0,48 ||style="text-align:center; background:#fee7f6;"| −0,30 ||style="text-align:center;"| 0,17
+|-
+|align=left|{{флагификация|Vanuatu}} ||style="text-align:center; background:#e0ffd8;"| 70,30 ||style="text-align:center; background:#eaf3ff;"| 68,55 ||style="text-align:center; background:#fee7f6;"| 72,43 ||style="text-align:center;"| 3,88 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,42 ||style="text-align:center; background:#eaf3ff;"| 0,75 ||style="text-align:center; background:#fee7f6;"| 0,02 ||style="text-align:center;"| −0,72
+|-
+|align=left|{{флагификация|Solomon Islands}} ||style="text-align:center; background:#e0ffd8;"| 70,20 ||style="text-align:center; background:#eaf3ff;"| 68,79 ||style="text-align:center; background:#fee7f6;"| 71,80 ||style="text-align:center;"| 3,01 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0,18 ||style="text-align:center; background:#eaf3ff;"| −0,24 ||style="text-align:center; background:#fee7f6;"| −0,10 ||style="text-align:center;"| 0,14
+|-
+|style="text-align:left; padding-left: 35px;"|Малые страны Тихого океана ||style="text-align:center; background:#e0ffd8;"| 69,36 ||style="text-align:center; background:#eaf3ff;"| 67,52 ||style="text-align:center; background:#fee7f6;"| 71,37 ||style="text-align:center;"| 3,85 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,07 ||style="text-align:center; background:#eaf3ff;"| 0,09 ||style="text-align:center; background:#fee7f6;"| 0,05 ||style="text-align:center;"| −0,04
+|-
+|align=left|{{флагификация|Fiji}} ||style="text-align:center; background:#e0ffd8;"| 67,92 ||style="text-align:center; background:#eaf3ff;"| 66,17 ||style="text-align:center; background:#fee7f6;"| 69,74 ||style="text-align:center;"| 3,58 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,03 ||style="text-align:center; background:#eaf3ff;"| 0,04 ||style="text-align:center; background:#fee7f6;"| 0,02 ||style="text-align:center;"| −0,02
+|-
+|align=left|{{флагификация|Kiribati}} ||style="text-align:center; background:#e0ffd8;"| 67,27 ||style="text-align:center; background:#eaf3ff;"| 65,35 ||style="text-align:center; background:#fee7f6;"| 68,95 ||style="text-align:center;"| 3,60 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,12 ||style="text-align:center; background:#eaf3ff;"| 0,05 ||style="text-align:center; background:#fee7f6;"| 0,17 ||style="text-align:center;"| 0,11
+|-
+|align=left|{{флагификация|Papua New Guinea}} ||style="text-align:center; background:#e0ffd8;"| 65,79 ||style="text-align:center; background:#eaf3ff;"| 63,40 ||style="text-align:center; background:#fee7f6;"| 68,80 ||style="text-align:center;"| 5,41 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,31 ||style="text-align:center; background:#eaf3ff;"| 0,43 ||style="text-align:center; background:#fee7f6;"| 0,13 ||style="text-align:center;"| −0,30
+|-
+|align=left|{{флагификация|Marshall Islands}} ||style="text-align:center; background:#e0ffd8;"| 64,98 ||style="text-align:center; background:#eaf3ff;"| 63,43 ||style="text-align:center; background:#fee7f6;"| 66,88 ||style="text-align:center;"| 3,46 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,23 ||style="text-align:center; background:#eaf3ff;"| 0,19 ||style="text-align:center; background:#fee7f6;"| 0,27 ||style="text-align:center;"| 0,08
+|-
+|align=left|{{флагификация|Tuvalu}} ||style="text-align:center; background:#e0ffd8;"| 64,38 ||style="text-align:center; background:#eaf3ff;"| 60,67 ||style="text-align:center; background:#fee7f6;"| 68,98 ||style="text-align:center;"| 8,31 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0,10 ||style="text-align:center; background:#eaf3ff;"| 0,08 ||style="text-align:center; background:#fee7f6;"| 0,13 ||style="text-align:center;"| 0,05
+|-
+|align=left|{{флагификация|Nauru}} ||style="text-align:center; background:#e0ffd8;"| 63,44 ||style="text-align:center; background:#eaf3ff;"| 59,99 ||style="text-align:center; background:#fee7f6;"| 67,27 ||style="text-align:center;"| 7,28 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0,05 ||style="text-align:center; background:#eaf3ff;"| −0,06 ||style="text-align:center; background:#fee7f6;"| −0,05 ||style="text-align:center;"| 0,01
+|}

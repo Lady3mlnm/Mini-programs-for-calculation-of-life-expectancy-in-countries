@@ -1,0 +1,40 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Countries
+! style="width:4em;"| all
+! style="width:4em;"| male
+! style="width:4em;"| female
+! style="width:4em;"| {{abbr|gender<br>gap|Difference in life expectancy between females and males|0}}
+! style="width:4em; border-left-width:2px;"| {{abbr|Δ 2019<br>all|Improvement of the indicator for all population compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>male|Improvement of the indicator for male compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>female|Improvement of the indicator for female compared to the previous year|0}}
+! style="width:5em;"| {{abbr|Δ 2019<br>gen. gap|Increase of gender gap compared to the previous year|0}}
+|-{{static row numbers arrows|9}}
+|-
+|align=left|{{flaglist|Chile}} ||style="text-align:center; background:#e0ffd8;"| 79.38 ||style="text-align:center; background:#eaf3ff;"| 76.75 ||style="text-align:center; background:#fee7f6;"| 82.04 ||style="text-align:center;"| 5.30 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0.95 ||style="text-align:center; background:#eaf3ff;"| −1.15 ||style="text-align:center; background:#fee7f6;"| −0.67 ||style="text-align:center;"| 0.48
+|-
+|align=left|{{flaglist|Uruguay}} ||style="text-align:center; background:#e0ffd8;"| 78.43 ||style="text-align:center; background:#eaf3ff;"| 74.69 ||style="text-align:center; background:#fee7f6;"| 81.91 ||style="text-align:center;"| 7.22 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0.92 ||style="text-align:center; background:#eaf3ff;"| 1.11 ||style="text-align:center; background:#fee7f6;"| 0.61 ||style="text-align:center;"| −0.49
+|-
+|align=left|{{flaglist|Argentina}} ||style="text-align:center; background:#e0ffd8;"| 75.89 ||style="text-align:center; background:#eaf3ff;"| 72.55 ||style="text-align:center; background:#fee7f6;"| 79.28 ||style="text-align:center;"| 6.74 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.39 ||style="text-align:center; background:#eaf3ff;"| −1.31 ||style="text-align:center; background:#fee7f6;"| −1.40 ||style="text-align:center;"| −0.09
+|-
+|align=left|{{flaglist|Colombia}} ||style="text-align:center; background:#e0ffd8;"| 74.77 ||style="text-align:center; background:#eaf3ff;"| 71.54 ||style="text-align:center; background:#fee7f6;"| 78.14 ||style="text-align:center;"| 6.60 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.98 ||style="text-align:center; background:#eaf3ff;"| −2.26 ||style="text-align:center; background:#fee7f6;"| −1.59 ||style="text-align:center;"| 0.68
+|-
+|align=left|{{flaglist|Brazil}} ||style="text-align:center; background:#e0ffd8;"| 74.01 ||style="text-align:center; background:#eaf3ff;"| 70.70 ||style="text-align:center; background:#fee7f6;"| 77.38 ||style="text-align:center;"| 6.67 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.33 ||style="text-align:center; background:#eaf3ff;"| −1.50 ||style="text-align:center; background:#fee7f6;"| −1.09 ||style="text-align:center;"| 0.41
+|-
+|align=left|{{flaglist|Peru}} ||style="text-align:center; background:#e0ffd8;"| 73.67 ||style="text-align:center; background:#eaf3ff;"| 70.81 ||style="text-align:center; background:#fee7f6;"| 76.82 ||style="text-align:center;"| 6.01 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −2.49 ||style="text-align:center; background:#eaf3ff;"| −3.10 ||style="text-align:center; background:#fee7f6;"| −1.68 ||style="text-align:center;"| 1.41
+|-
+|align=left|{{flaglist|Paraguay}} ||style="text-align:center; background:#e0ffd8;"| 73.18 ||style="text-align:center; background:#eaf3ff;"| 70.40 ||style="text-align:center; background:#fee7f6;"| 76.16 ||style="text-align:center;"| 5.76 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0.44 ||style="text-align:center; background:#eaf3ff;"| −0.56 ||style="text-align:center; background:#fee7f6;"| −0.28 ||style="text-align:center;"| 0.28
+|-
+|align=left|{{flaglist|Suriname}} ||style="text-align:center; background:#e0ffd8;"| 72.56 ||style="text-align:center; background:#eaf3ff;"| 69.26 ||style="text-align:center; background:#fee7f6;"| 75.98 ||style="text-align:center;"| 6.72 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0.32 ||style="text-align:center; background:#eaf3ff;"| 0.32 ||style="text-align:center; background:#fee7f6;"| 0.30 ||style="text-align:center;"| −0.02
+|-class=static-row-header
+|align=center| '''World''' ||style="text-align:center; background:#e0ffd8;"| '''72.24''' ||style="text-align:center; background:#eaf3ff;"| '''69.80''' ||style="text-align:center; background:#fee7f6;"| '''74.86''' ||style="text-align:center;"| '''5.06''' ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| '''−0.74''' ||style="text-align:center; background:#eaf3ff;"| '''−0.82''' ||style="text-align:center; background:#fee7f6;"| '''−0.61''' ||style="text-align:center;"| '''0.21'''
+|-
+|align=left|{{flaglist|Ecuador}} ||style="text-align:center; background:#e0ffd8;"| 72.15 ||style="text-align:center; background:#eaf3ff;"| 68.77 ||style="text-align:center; background:#fee7f6;"| 76.06 ||style="text-align:center;"| 7.29 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −5.14 ||style="text-align:center; background:#eaf3ff;"| −5.93 ||style="text-align:center; background:#fee7f6;"| −3.90 ||style="text-align:center;"| 2.04
+|-
+|align=left|{{flaglist|Venezuela}} ||style="text-align:center; background:#e0ffd8;"| 71.09 ||style="text-align:center; background:#eaf3ff;"| 66.74 ||style="text-align:center; background:#fee7f6;"| 75.81 ||style="text-align:center;"| 9.07 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.07 ||style="text-align:center; background:#eaf3ff;"| −1.30 ||style="text-align:center; background:#fee7f6;"| −0.75 ||style="text-align:center;"| 0.54
+|-
+|align=left|{{flaglist|Guyana}} ||style="text-align:center; background:#e0ffd8;"| 68.49 ||style="text-align:center; background:#eaf3ff;"| 65.08 ||style="text-align:center; background:#fee7f6;"| 72.12 ||style="text-align:center;"| 7.04 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0.64 ||style="text-align:center; background:#eaf3ff;"| −0.73 ||style="text-align:center; background:#fee7f6;"| −0.54 ||style="text-align:center;"| 0.19
+|-
+|align=left|{{flaglist|Bolivia}} ||style="text-align:center; background:#e0ffd8;"| 64.47 ||style="text-align:center; background:#eaf3ff;"| 61.56 ||style="text-align:center; background:#fee7f6;"| 67.84 ||style="text-align:center;"| 6.28 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −3.37 ||style="text-align:center; background:#eaf3ff;"| −3.81 ||style="text-align:center; background:#fee7f6;"| −2.63 ||style="text-align:center;"| 1.18
+|}

@@ -1,0 +1,34 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Countries
+! style="width:4em;"| all
+! style="width:4em;"| male
+! style="width:4em;"| female
+! style="width:4em;"| {{abbr|gender<br>gap|Difference in life expectancy between females and males|0}}
+! style="width:4em; border-left-width:2px;"| {{abbr|Δ 2019<br>all|Improvement of the indicator for all population compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>male|Improvement of the indicator for male compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>female|Improvement of the indicator for female compared to the previous year|0}}
+! style="width:5em;"| {{abbr|Δ 2019<br>gen. gap|Increase of gender gap compared to the previous year|0}}
+|-{{static row numbers arrows|9}}
+|-
+|align=left|{{flaglist|Belarus}} ||style="text-align:center; background:#e0ffd8;"| 72.46 ||style="text-align:center; background:#eaf3ff;"| 67.31 ||style="text-align:center; background:#fee7f6;"| 77.87 ||style="text-align:center;"| 10.56 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.77 ||style="text-align:center; background:#eaf3ff;"| −1.99 ||style="text-align:center; background:#fee7f6;"| −1.53 ||style="text-align:center;"| 0.46
+|-
+|align=left|{{flaglist|Armenia}} ||style="text-align:center; background:#e0ffd8;"| 72.17 ||style="text-align:center; background:#eaf3ff;"| 67.05 ||style="text-align:center; background:#fee7f6;"| 77.00 ||style="text-align:center;"| 9.94 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −3.27 ||style="text-align:center; background:#eaf3ff;"| −3.35 ||style="text-align:center; background:#fee7f6;"| −2.86 ||style="text-align:center;"| 0.49
+|-
+|align=left|{{flaglist|Kyrgyzstan}} ||style="text-align:center; background:#e0ffd8;"| 71.80 ||style="text-align:center; background:#eaf3ff;"| 67.80 ||style="text-align:center; background:#fee7f6;"| 76.00 ||style="text-align:center;"| 8.20 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| 0.20 ||style="text-align:center; background:#eaf3ff;"| 0.20 ||style="text-align:center; background:#fee7f6;"| 0.20 ||style="text-align:center;"| 0.00
+|-
+|align=left|{{flaglist|Kazakhstan}} ||style="text-align:center; background:#e0ffd8;"| 71.37 ||style="text-align:center; background:#eaf3ff;"| 67.09 ||style="text-align:center; background:#fee7f6;"| 75.53 ||style="text-align:center;"| 8.44 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.81 ||style="text-align:center; background:#eaf3ff;"| −1.73 ||style="text-align:center; background:#fee7f6;"| −1.77 ||style="text-align:center;"| −0.04
+|-
+|align=left|{{flaglist|Russia}} ||style="text-align:center; background:#e0ffd8;"| 71.34 ||style="text-align:center; background:#eaf3ff;"| 66.49 ||style="text-align:center; background:#fee7f6;"| 76.43 ||style="text-align:center;"| 9.94 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.75 ||style="text-align:center; background:#eaf3ff;"| −1.75 ||style="text-align:center; background:#fee7f6;"| −1.74 ||style="text-align:center;"| 0.01
+|-
+|align=left|{{flaglist|Uzbekistan}} ||style="text-align:center; background:#e0ffd8;"| 70.33 ||style="text-align:center; background:#eaf3ff;"| 67.88 ||style="text-align:center; background:#fee7f6;"| 72.79 ||style="text-align:center;"| 4.91 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −1.01 ||style="text-align:center; background:#eaf3ff;"| −0.91 ||style="text-align:center; background:#fee7f6;"| −1.09 ||style="text-align:center;"| −0.19
+|-
+|align=left|{{flaglist|Moldova}} ||style="text-align:center; background:#e0ffd8;"| 70.17 ||style="text-align:center; background:#eaf3ff;"| 65.69 ||style="text-align:center; background:#fee7f6;"| 74.85 ||style="text-align:center;"| 9.16 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0.77 ||style="text-align:center; background:#eaf3ff;"| −0.69 ||style="text-align:center; background:#fee7f6;"| −0.77 ||style="text-align:center;"| −0.08
+|-
+|align=left|{{flaglist|Turkmenistan}} ||style="text-align:center; background:#e0ffd8;"| 68.69 ||style="text-align:center; background:#eaf3ff;"| 65.39 ||style="text-align:center; background:#fee7f6;"| 71.98 ||style="text-align:center;"| 6.59 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −0.31 ||style="text-align:center; background:#eaf3ff;"| −0.16 ||style="text-align:center; background:#fee7f6;"| −0.48 ||style="text-align:center;"| −0.32
+|-
+|align=left|{{flaglist|Tajikistan}} ||style="text-align:center; background:#e0ffd8;"| 67.99 ||style="text-align:center; background:#eaf3ff;"| 66.00 ||style="text-align:center; background:#fee7f6;"| 70.17 ||style="text-align:center;"| 4.17 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −2.87 ||style="text-align:center; background:#eaf3ff;"| −2.86 ||style="text-align:center; background:#fee7f6;"| −2.84 ||style="text-align:center;"| 0.02
+|-
+|align=left|{{flaglist|Azerbaijan}} ||style="text-align:center; background:#e0ffd8;"| 66.87 ||style="text-align:center; background:#eaf3ff;"| 62.99 ||style="text-align:center; background:#fee7f6;"| 71.00 ||style="text-align:center;"| 8.01 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| −6.23 ||style="text-align:center; background:#eaf3ff;"| −7.24 ||style="text-align:center; background:#fee7f6;"| −4.83 ||style="text-align:center;"| 2.41
+|}

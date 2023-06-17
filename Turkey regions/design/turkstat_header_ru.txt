@@ -1,0 +1,17 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 style="vertical-align:middle;"|ил
+! colspan=4|2018-2020
+! rowspan=2 style="vertical-align:middle;"|{{comment|прирост|изменение в общей продолжительности жизни между периодами 2015-17 и 2018-20}}
+! colspan=4 style="border-left-width:2px;"|2015-2017
+|- {{static row numbers header}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|общая|всё население в среднем}}
+! style="vertical-align:middle;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;"|{{comment|жен|женщины}}
+! style="width:3.5em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|общая
+! style="vertical-align:middle;"|муж
+! style="vertical-align:middle;"|жен
+! style="width:3.5em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+|-{{static row numbers arrows|10}}

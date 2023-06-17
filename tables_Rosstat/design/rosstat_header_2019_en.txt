@@ -1,0 +1,30 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 style="vertical-align:middle;"|federal subject
+! colspan=7|2019
+! colspan=15 style="border-left-width:2px;"|historical data
+|- {{static row numbers header}}
+! style="vertical-align:middle; width:3.5em;"|{{tooltip|overall|all population on average}}
+! style="vertical-align:middle;"|males
+! style="vertical-align:middle;"|females
+! style="vertical-align:middle; width:3.5em;"|{{tooltip|F {{nobr|<small>Δ</small> M}}|difference in life expectancy between females and males}}
+! style="vertical-align:middle; border-left-width:2px;"|{{tooltip|urban|urban population}}
+! style="vertical-align:middle;"|{{tooltip|rural|rural population}}
+! style="width:3.5em;"|{{tooltip|urban<br>{{nobr|<small>Δ</small> rural}}|difference between urban and rural population}}
+! style="vertical-align:middle; border-left-width:2px;"|2014
+! style="text-align:left;"|{{tooltip|2014<br>→2015|change in life expectancy from 2014 to 2015}}
+! style="vertical-align:middle;"|2015
+! style="text-align:left;"|2015<br>→2016
+! style="vertical-align:middle;"|2016
+! style="text-align:left;"|2016<br>→2017
+! style="vertical-align:middle;"|2017
+! style="text-align:left;"|2017<br>→2018
+! style="vertical-align:middle;"|2018
+! style="text-align:left;"|2018<br>→2019
+! style="vertical-align:middle;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;"|2021
+|-{{static row numbers arrows|23}}

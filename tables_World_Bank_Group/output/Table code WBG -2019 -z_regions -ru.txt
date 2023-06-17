@@ -1,0 +1,38 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Страны
+! style="width:4em;"| {{abbr|Общая|Всё население в среднем|0}}
+! style="width:4em;"| {{abbr|М|Мужчины|0}}
+! style="width:4em;"| {{abbr|Ж|Женщины|0}}
+! style="width:4em;"| {{abbr|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами|0}}
+! style="width:4em;"| {{abbr|Δ<br>2014|Изменение показателя для всего населения по сравнению с 2014 годом|0}}
+! style="width:4em;"| {{abbr|Δ<br>2000|Изменение показателя для всего населения по сравнению с 2000 годом|0}}
+|-{{static row numbers arrows|7}}
+|-
+|align=left|[[Европейский союз]] ||style="text-align:center; background:#e0ffd8;"| 81,31 ||style="text-align:center; background:#eaf3ff;"| 78,67 ||style="text-align:center; background:#fee7f6;"| 84,11 ||style="text-align:center;"| 5,44 ||style="text-align:center; background:#fff8dc;"| 0,44 ||style="text-align:center; background:#fff8dc;"| 4,24
+|-
+|align=left|[[Северная Америка]] ||style="text-align:center; background:#e0ffd8;"| 79,14 ||style="text-align:center; background:#eaf3ff;"| 76,70 ||style="text-align:center; background:#fee7f6;"| 81,71 ||style="text-align:center;"| 5,01 ||style="text-align:center; background:#fff8dc;"| 0,01 ||style="text-align:center; background:#fff8dc;"| 2,26
+|-
+|align=left|[[Европа]] и [[Центральная Азия]] ||style="text-align:center; background:#e0ffd8;"| 78,19 ||style="text-align:center; background:#eaf3ff;"| 75,11 ||style="text-align:center; background:#fee7f6;"| 81,43 ||style="text-align:center;"| 6,32 ||style="text-align:center; background:#fff8dc;"| 0,89 ||style="text-align:center; background:#fff8dc;"| 5,05
+|-
+|align=left|[[Центральная Европа]] и [[Прибалтика]] ||style="text-align:center; background:#e0ffd8;"| 77,27 ||style="text-align:center; background:#eaf3ff;"| 73,70 ||style="text-align:center; background:#fee7f6;"| 81,02 ||style="text-align:center;"| 7,31 ||style="text-align:center; background:#fff8dc;"| 0,59 ||style="text-align:center; background:#fff8dc;"| 4,55
+|-
+|align=left|[[Восточная Азия]] и [[Австралия и Океания|Океания]] ||style="text-align:center; background:#e0ffd8;"| 76,80 ||style="text-align:center; background:#eaf3ff;"| 74,09 ||style="text-align:center; background:#fee7f6;"| 79,66 ||style="text-align:center;"| 5,57 ||style="text-align:center; background:#fff8dc;"| 1,07 ||style="text-align:center; background:#fff8dc;"| 5,25
+|-
+|align=left|[[Латинская Америка]] и [[Антильские острова|Карибы]] ||style="text-align:center; background:#e0ffd8;"| 75,04 ||style="text-align:center; background:#eaf3ff;"| 71,95 ||style="text-align:center; background:#fee7f6;"| 78,18 ||style="text-align:center;"| 6,22 ||style="text-align:center; background:#fff8dc;"| 0,49 ||style="text-align:center; background:#fff8dc;"| 3,81
+|-
+|align=left|[[Страны MENA|Ближний Восток и Северная Африка]] ||style="text-align:center; background:#e0ffd8;"| 73,96 ||style="text-align:center; background:#eaf3ff;"| 71,86 ||style="text-align:center; background:#fee7f6;"| 76,25 ||style="text-align:center;"| 4,38 ||style="text-align:center; background:#fff8dc;"| 1,34 ||style="text-align:center; background:#fff8dc;"| 4,68
+|-class=static-row-header
+|align=center| '''Мир''' ||style="text-align:center; background:#e0ffd8;"| '''72,98''' ||style="text-align:center; background:#eaf3ff;"| '''70,62''' ||style="text-align:center; background:#fee7f6;"| '''75,47''' ||style="text-align:center;"| '''4,85''' ||style="text-align:center; background:#fff8dc;"| '''1,10''' ||style="text-align:center; background:#fff8dc;"| '''5,28'''
+|-
+|align=left|Арабский мир ||style="text-align:center; background:#e0ffd8;"| 71,84 ||style="text-align:center; background:#eaf3ff;"| 69,91 ||style="text-align:center; background:#fee7f6;"| 73,94 ||style="text-align:center;"| 4,03 ||style="text-align:center; background:#fff8dc;"| 1,35 ||style="text-align:center; background:#fff8dc;"| 4,55
+|-
+|align=left|[[Южная Азия]] ||style="text-align:center; background:#e0ffd8;"| 70,47 ||style="text-align:center; background:#eaf3ff;"| 68,87 ||style="text-align:center; background:#fee7f6;"| 72,20 ||style="text-align:center;"| 3,33 ||style="text-align:center; background:#fff8dc;"| 1,84 ||style="text-align:center; background:#fff8dc;"| 7,58
+|-
+|align=left|[[Восточная Африка|Восточная]] и [[Южная Африка|Южная]] Африка ||style="text-align:center; background:#e0ffd8;"| 63,76 ||style="text-align:center; background:#eaf3ff;"| 61,29 ||style="text-align:center; background:#fee7f6;"| 66,22 ||style="text-align:center;"| 4,93 ||style="text-align:center; background:#fff8dc;"| 2,42 ||style="text-align:center; background:#fff8dc;"| 11,79
+|-
+|align=left|[[Чёрная Африка|Африка к югу от Сахары]] ||style="text-align:center; background:#e0ffd8;"| 61,24 ||style="text-align:center; background:#eaf3ff;"| 59,36 ||style="text-align:center; background:#fee7f6;"| 63,14 ||style="text-align:center;"| 3,77 ||style="text-align:center; background:#fff8dc;"| 2,10 ||style="text-align:center; background:#fff8dc;"| 9,98
+|-
+|align=left|[[Западная Африка|Западная]] и [[Центральная Африка|Центральная]] Африка ||style="text-align:center; background:#e0ffd8;"| 57,56 ||style="text-align:center; background:#eaf3ff;"| 56,58 ||style="text-align:center; background:#fee7f6;"| 58,55 ||style="text-align:center;"| 1,97 ||style="text-align:center; background:#fff8dc;"| 1,63 ||style="text-align:center; background:#fff8dc;"| 7,33
+|}

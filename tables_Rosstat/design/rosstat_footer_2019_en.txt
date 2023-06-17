@@ -1,0 +1,25 @@
+|- {{static row numbers header}}
+! style="vertical-align:middle;"|federal subject
+! style="vertical-align:middle; max-width:3.5em;"|overall
+! style="vertical-align:middle;"|males
+! style="vertical-align:middle;"|females
+! style="vertical-align:middle;"|F <small>Δ</small> M
+! style="vertical-align:middle; border-left-width:2px;"|urban
+! style="vertical-align:middle;"|rural
+! urban<br><small>Δ</small> rural
+! style="vertical-align:middle; border-left-width:2px;"|2014
+! style="text-align:left;"|2014<br>→2015
+! style="vertical-align:middle;"|2015
+! style="text-align:left;"|2015<br>→2016
+! style="vertical-align:middle;"|2016
+! style="text-align:left;"|2016<br>→2017
+! style="vertical-align:middle;"|2017
+! style="text-align:left;"|2017<br>→2018
+! style="vertical-align:middle;"|2018
+! style="text-align:left;"|2018<br>→2019
+! style="vertical-align:middle;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;"|2021
+|}

@@ -1,0 +1,80 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Страны
+! style="width:4em;"| {{abbr|Общая|Всё население в среднем|0}}
+! style="width:4em;"| {{abbr|М|Мужчины|0}}
+! style="width:4em;"| {{abbr|Ж|Женщины|0}}
+! style="width:4em;"| {{abbr|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами|0}}
+! style="width:4em;"| {{abbr|Δ<br>2014|Изменение показателя для всего населения по сравнению с 2014 годом|0}}
+! style="width:4em;"| {{abbr|Δ<br>2000|Изменение показателя для всего населения по сравнению с 2000 годом|0}}
+|-{{static row numbers arrows|7}}
+|-
+|align=left|{{флагификация|Canada}} ||style="text-align:center; background:#e0ffd8;"| 82,23 ||style="text-align:center; background:#eaf3ff;"| 80,18 ||style="text-align:center; background:#fee7f6;"| 84,38 ||style="text-align:center;"| 4,20 ||style="text-align:center; background:#fff8dc;"| 0,44 ||style="text-align:center; background:#fff8dc;"| 3,06
+|-
+|align=left|{{флагификация|Bermuda}} ||style="text-align:center; background:#e0ffd8;"| 81,03 ||style="text-align:center; background:#eaf3ff;"| 77,79 ||style="text-align:center; background:#fee7f6;"| 84,18 ||style="text-align:center;"| 6,39 ||style="text-align:center; background:#fff8dc;"| 1,52 ||style="text-align:center; background:#fff8dc;"| 2,17
+|-
+|align=left|{{флагификация|Collectivity of Saint Martin}} ||style="text-align:center; background:#e0ffd8;"| 79,98 ||style="text-align:center; background:#eaf3ff;"| 76,88 ||style="text-align:center; background:#fee7f6;"| 83,26 ||style="text-align:center;"| 6,39 ||style="text-align:center; background:#fff8dc;"| 0,02 ||style="text-align:center; background:#fff8dc;"| 3,32
+|-
+|align=left|{{флагификация|Virgin Islands (U.S.)}} ||style="text-align:center; background:#e0ffd8;"| 79,67 ||style="text-align:center; background:#eaf3ff;"| 76,40 ||style="text-align:center; background:#fee7f6;"| 83,10 ||style="text-align:center;"| 6,70 ||style="text-align:center; background:#fff8dc;"| 0,80 ||style="text-align:center; background:#fff8dc;"| 3,05
+|-
+|align=left|{{флагификация|Costa Rica}} ||style="text-align:center; background:#e0ffd8;"| 79,43 ||style="text-align:center; background:#eaf3ff;"| 77,00 ||style="text-align:center; background:#fee7f6;"| 81,95 ||style="text-align:center;"| 4,95 ||style="text-align:center; background:#fff8dc;"| 0,65 ||style="text-align:center; background:#fff8dc;"| 1,84
+|-
+|align=left|{{флагификация|Puerto Rico}} ||style="text-align:center; background:#e0ffd8;"| 79,06 ||style="text-align:center; background:#eaf3ff;"| 74,83 ||style="text-align:center; background:#fee7f6;"| 83,46 ||style="text-align:center;"| 8,62 ||style="text-align:center; background:#fff8dc;"| 0,13 ||style="text-align:center; background:#fff8dc;"| 3,09
+|-
+|align=left|{{флагификация|USA}} ||style="text-align:center; background:#e0ffd8;"| 78,79 ||style="text-align:center; background:#eaf3ff;"| 76,30 ||style="text-align:center; background:#fee7f6;"| 81,40 ||style="text-align:center;"| 5,10 ||style="text-align:center; background:#fff8dc;"| -0,05 ||style="text-align:center; background:#fff8dc;"| 2,15
+|-
+|align=left|{{флагификация|Antigua and Barbuda}} ||style="text-align:center; background:#e0ffd8;"| 78,69 ||style="text-align:center; background:#eaf3ff;"| 75,91 ||style="text-align:center; background:#fee7f6;"| 81,17 ||style="text-align:center;"| 5,26 ||style="text-align:center; background:#fff8dc;"| 0,83 ||style="text-align:center; background:#fff8dc;"| 4,09
+|-
+|align=left|{{флагификация|Panama}} ||style="text-align:center; background:#e0ffd8;"| 77,81 ||style="text-align:center; background:#eaf3ff;"| 74,79 ||style="text-align:center; background:#fee7f6;"| 80,95 ||style="text-align:center;"| 6,16 ||style="text-align:center; background:#fff8dc;"| 0,56 ||style="text-align:center; background:#fff8dc;"| 3,81
+|-
+|align=left|{{флагификация|Cuba}} ||style="text-align:center; background:#e0ffd8;"| 77,61 ||style="text-align:center; background:#eaf3ff;"| 75,24 ||style="text-align:center; background:#fee7f6;"| 80,08 ||style="text-align:center;"| 4,83 ||style="text-align:center; background:#fff8dc;"| -0,24 ||style="text-align:center; background:#fff8dc;"| 1,43
+|-
+|align=left|{{флагификация|Barbados}} ||style="text-align:center; background:#e0ffd8;"| 77,26 ||style="text-align:center; background:#eaf3ff;"| 75,23 ||style="text-align:center; background:#fee7f6;"| 79,12 ||style="text-align:center;"| 3,89 ||style="text-align:center; background:#fff8dc;"| 0,78 ||style="text-align:center; background:#fff8dc;"| 3,17
+|-
+|align=left|{{флагификация|Aruba}} ||style="text-align:center; background:#e0ffd8;"| 76,25 ||style="text-align:center; background:#eaf3ff;"| 73,29 ||style="text-align:center; background:#fee7f6;"| 79,01 ||style="text-align:center;"| 5,72 ||style="text-align:center; background:#fff8dc;"| 0,65 ||style="text-align:center; background:#fff8dc;"| 2,68
+|-
+|align=left|{{флагификация|British Virgin Islands}} ||style="text-align:center; background:#e0ffd8;"| 75,86 ||style="text-align:center; background:#eaf3ff;"| 73,11 ||style="text-align:center; background:#fee7f6;"| 78,80 ||style="text-align:center;"| 5,69 ||style="text-align:center; background:#fff8dc;"| 0,25 ||style="text-align:center; background:#fff8dc;"| 1,90
+|-
+|align=left|{{флагификация|Sint Maarten}} ||style="text-align:center; background:#e0ffd8;"| 75,44 ||style="text-align:center; background:#eaf3ff;"| 72,54 ||style="text-align:center; background:#fee7f6;"| 78,80 ||style="text-align:center;"| 6,26 ||style="text-align:center; background:#fff8dc;"| -1,34 ||style="text-align:center; background:#fff8dc;"| 0,92
+|-
+|align=left|{{флагификация|Turks and Caicos Islands}} ||style="text-align:center; background:#e0ffd8;"| 75,33 ||style="text-align:center; background:#eaf3ff;"| 72,60 ||style="text-align:center; background:#fee7f6;"| 78,37 ||style="text-align:center;"| 5,77 ||style="text-align:center; background:#fff8dc;"| -1,81 ||style="text-align:center; background:#fff8dc;"| 1,75
+|-
+|align=left|{{флагификация|Grenada}} ||style="text-align:center; background:#e0ffd8;"| 74,86 ||style="text-align:center; background:#eaf3ff;"| 72,13 ||style="text-align:center; background:#fee7f6;"| 77,83 ||style="text-align:center;"| 5,70 ||style="text-align:center; background:#fff8dc;"| -0,12 ||style="text-align:center; background:#fff8dc;"| 2,08
+|-
+|align=left|{{флагификация|Trinidad and Tobago}} ||style="text-align:center; background:#e0ffd8;"| 74,23 ||style="text-align:center; background:#eaf3ff;"| 70,83 ||style="text-align:center; background:#fee7f6;"| 77,70 ||style="text-align:center;"| 6,87 ||style="text-align:center; background:#fff8dc;"| 0,01 ||style="text-align:center; background:#fff8dc;"| 5,13
+|-
+|align=left|{{флагификация|Mexico}} ||style="text-align:center; background:#e0ffd8;"| 74,20 ||style="text-align:center; background:#eaf3ff;"| 70,93 ||style="text-align:center; background:#fee7f6;"| 77,57 ||style="text-align:center;"| 6,64 ||style="text-align:center; background:#fff8dc;"| -0,59 ||style="text-align:center; background:#fff8dc;"| 0,63
+|-
+|align=left|{{флагификация|Nicaragua}} ||style="text-align:center; background:#e0ffd8;"| 74,05 ||style="text-align:center; background:#eaf3ff;"| 71,07 ||style="text-align:center; background:#fee7f6;"| 77,00 ||style="text-align:center;"| 5,94 ||style="text-align:center; background:#fff8dc;"| 1,24 ||style="text-align:center; background:#fff8dc;"| 6,82
+|-
+|align=left|{{флагификация|Belize}} ||style="text-align:center; background:#e0ffd8;"| 73,93 ||style="text-align:center; background:#eaf3ff;"| 71,06 ||style="text-align:center; background:#fee7f6;"| 77,25 ||style="text-align:center;"| 6,19 ||style="text-align:center; background:#fff8dc;"| 0,62 ||style="text-align:center; background:#fff8dc;"| 5,37
+|-
+|align=left|{{флагификация|Dominican Republic}} ||style="text-align:center; background:#e0ffd8;"| 73,58 ||style="text-align:center; background:#eaf3ff;"| 70,47 ||style="text-align:center; background:#fee7f6;"| 76,97 ||style="text-align:center;"| 6,49 ||style="text-align:center; background:#fff8dc;"| 0,71 ||style="text-align:center; background:#fff8dc;"| 4,15
+|-
+|align=left|{{флагификация|Dominica}} ||style="text-align:center; background:#e0ffd8;"| 73,56 ||style="text-align:center; background:#eaf3ff;"| 70,36 ||style="text-align:center; background:#fee7f6;"| 77,20 ||style="text-align:center;"| 6,85 ||style="text-align:center; background:#fff8dc;"| 4,12 ||style="text-align:center; background:#fff8dc;"| 0,87
+|-
+|align=left|{{флагификация|St. Lucia}} ||style="text-align:center; background:#e0ffd8;"| 73,44 ||style="text-align:center; background:#eaf3ff;"| 70,10 ||style="text-align:center; background:#fee7f6;"| 77,06 ||style="text-align:center;"| 6,96 ||style="text-align:center; background:#fff8dc;"| 0,58 ||style="text-align:center; background:#fff8dc;"| 2,68
+|-
+|align=left|{{флагификация|Guatemala}} ||style="text-align:center; background:#e0ffd8;"| 73,13 ||style="text-align:center; background:#eaf3ff;"| 70,44 ||style="text-align:center; background:#fee7f6;"| 75,81 ||style="text-align:center;"| 5,37 ||style="text-align:center; background:#fff8dc;"| 1,17 ||style="text-align:center; background:#fff8dc;"| 5,68
+|-class=static-row-header
+|align=center| '''Мир''' ||style="text-align:center; background:#e0ffd8;"| '''72,98''' ||style="text-align:center; background:#eaf3ff;"| '''70,62''' ||style="text-align:center; background:#fee7f6;"| '''75,47''' ||style="text-align:center;"| '''4,85''' ||style="text-align:center; background:#fff8dc;"| '''1,10''' ||style="text-align:center; background:#fff8dc;"| '''5,28'''
+|-
+|align=left|{{флагификация|Honduras}} ||style="text-align:center; background:#e0ffd8;"| 72,88 ||style="text-align:center; background:#eaf3ff;"| 70,53 ||style="text-align:center; background:#fee7f6;"| 75,37 ||style="text-align:center;"| 4,84 ||style="text-align:center; background:#fff8dc;"| 0,62 ||style="text-align:center; background:#fff8dc;"| 4,22
+|-
+|align=left|{{флагификация|St. Vincent and the Grenadines}} ||style="text-align:center; background:#e0ffd8;"| 72,83 ||style="text-align:center; background:#eaf3ff;"| 70,53 ||style="text-align:center; background:#fee7f6;"| 75,58 ||style="text-align:center;"| 5,05 ||style="text-align:center; background:#fff8dc;"| -1,64 ||style="text-align:center; background:#fff8dc;"| 1,46
+|-
+|align=left|{{флагификация|El Salvador}} ||style="text-align:center; background:#e0ffd8;"| 72,56 ||style="text-align:center; background:#eaf3ff;"| 68,01 ||style="text-align:center; background:#fee7f6;"| 76,78 ||style="text-align:center;"| 8,77 ||style="text-align:center; background:#fff8dc;"| 0,81 ||style="text-align:center; background:#fff8dc;"| 2,69
+|-
+|style="text-align:left; padding-left: 35px;"|[[Список стран Карибского бассейна|Малые страны Карибского бассейна]] ||style="text-align:center; background:#e0ffd8;"| 72,52 ||style="text-align:center; background:#eaf3ff;"| 69,78 ||style="text-align:center; background:#fee7f6;"| 75,34 ||style="text-align:center;"| 5,56 ||style="text-align:center; background:#fff8dc;"| -0,16 ||style="text-align:center; background:#fff8dc;"| 2,91
+|-
+|align=left|{{флагификация|Greenland}} ||style="text-align:center; background:#e0ffd8;"| 72,04 ||style="text-align:center; background:#eaf3ff;"| 70,19 ||style="text-align:center; background:#fee7f6;"| 73,99 ||style="text-align:center;"| 3,80 ||style="text-align:center; background:#fff8dc;"| 0,06 ||style="text-align:center; background:#fff8dc;"| 5,94
+|-
+|align=left|{{флагификация|Jamaica}} ||style="text-align:center; background:#e0ffd8;"| 71,77 ||style="text-align:center; background:#eaf3ff;"| 69,67 ||style="text-align:center; background:#fee7f6;"| 73,87 ||style="text-align:center;"| 4,21 ||style="text-align:center; background:#fff8dc;"| -1,22 ||style="text-align:center; background:#fff8dc;"| 0,82
+|-
+|align=left|{{флагификация|St. Kitts and Nevis}} ||style="text-align:center; background:#e0ffd8;"| 71,57 ||style="text-align:center; background:#eaf3ff;"| 68,29 ||style="text-align:center; background:#fee7f6;"| 75,19 ||style="text-align:center;"| 6,90 ||style="text-align:center; background:#fff8dc;"| 0,61 ||style="text-align:center; background:#fff8dc;"| 1,79
+|-
+|align=left|{{флагификация|Bahamas}} ||style="text-align:center; background:#e0ffd8;"| 71,20 ||style="text-align:center; background:#eaf3ff;"| 68,44 ||style="text-align:center; background:#fee7f6;"| 73,83 ||style="text-align:center;"| 5,39 ||style="text-align:center; background:#fff8dc;"| -2,16 ||style="text-align:center; background:#fff8dc;"| -0,84
+|-
+|align=left|{{флагификация|Haiti}} ||style="text-align:center; background:#e0ffd8;"| 64,25 ||style="text-align:center; background:#eaf3ff;"| 61,31 ||style="text-align:center; background:#fee7f6;"| 67,33 ||style="text-align:center;"| 6,01 ||style="text-align:center; background:#fff8dc;"| 1,27 ||style="text-align:center; background:#fff8dc;"| 5,89
+|}

@@ -1,0 +1,27 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 style="vertical-align:middle;"|регион
+! colspan=7|2021
+! colspan=11 style="border-left-width:2px;"|исторические данные
+! rowspan=2 style="vertical-align:middle;"|население<br>в 2021<br>(тыс. чел.)
+|- {{static row numbers header}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|общая|всё население в среднем}}
+! style="vertical-align:middle;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;"|{{comment|жен|женщины}}
+! style="width:3.5em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle; border-left-width:2px;"|{{comment|город|городское население}}
+! style="vertical-align:middle;"|{{comment|село|сельское население}}
+! style="width:3.5em;"|{{comment|город<br>{{nobr|<small>Δ</small> село}}|разница между городским и сельским населением}}
+! style="vertical-align:middle; border-left-width:2px;"|1991
+! style="text-align:left;"|{{comment|2000<br>→2014|изменение в продолжительности жизни между 2000 и 20014 годами}}
+! style="vertical-align:middle;"|2000
+! style="text-align:left;"|2000<br>→2014
+! style="vertical-align:middle;"|2014
+! style="text-align:left;"|2014<br>→2019
+! style="vertical-align:middle;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;"|2021
+|-{{static row numbers arrows|20}}

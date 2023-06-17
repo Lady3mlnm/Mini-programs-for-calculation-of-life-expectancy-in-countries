@@ -1,0 +1,32 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Страны
+! style="width:4em;"| {{abbr|Общая|Всё население в среднем|0}}
+! style="width:4em;"| {{abbr|М|Мужчины|0}}
+! style="width:4em;"| {{abbr|Ж|Женщины|0}}
+! style="width:4em;"| {{abbr|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами|0}}
+! style="width:4em;"| {{abbr|Δ<br>2014|Изменение показателя для всего населения по сравнению с 2014 годом|0}}
+! style="width:4em;"| {{abbr|Δ<br>2000|Изменение показателя для всего населения по сравнению с 2000 годом|0}}
+|-{{static row numbers arrows|7}}
+|-
+|align=left|{{флагификация|Armenia}} ||style="text-align:center; background:#e0ffd8;"| 75,44 ||style="text-align:center; background:#eaf3ff;"| 70,40 ||style="text-align:center; background:#fee7f6;"| 79,86 ||style="text-align:center;"| 9,45 ||style="text-align:center; background:#fff8dc;"| 1,38 ||style="text-align:center; background:#fff8dc;"| 4,81
+|-
+|align=left|{{флагификация|Belarus}} ||style="text-align:center; background:#e0ffd8;"| 74,23 ||style="text-align:center; background:#eaf3ff;"| 69,30 ||style="text-align:center; background:#fee7f6;"| 79,40 ||style="text-align:center;"| 10,10 ||style="text-align:center; background:#fff8dc;"| 1,26 ||style="text-align:center; background:#fff8dc;"| 5,31
+|-
+|align=left|{{флагификация|Kazakhstan}} ||style="text-align:center; background:#e0ffd8;"| 73,18 ||style="text-align:center; background:#eaf3ff;"| 68,82 ||style="text-align:center; background:#fee7f6;"| 77,30 ||style="text-align:center;"| 8,48 ||style="text-align:center; background:#fff8dc;"| 1,74 ||style="text-align:center; background:#fff8dc;"| 7,73
+|-
+|align=left|{{флагификация|Azerbaijan}} ||style="text-align:center; background:#e0ffd8;"| 73,10 ||style="text-align:center; background:#eaf3ff;"| 70,23 ||style="text-align:center; background:#fee7f6;"| 75,83 ||style="text-align:center;"| 5,60 ||style="text-align:center; background:#fff8dc;"| 1,99 ||style="text-align:center; background:#fff8dc;"| 8,21
+|-
+|align=left|{{флагификация|Russia}} ||style="text-align:center; background:#e0ffd8;"| 73,08 ||style="text-align:center; background:#eaf3ff;"| 68,24 ||style="text-align:center; background:#fee7f6;"| 78,17 ||style="text-align:center;"| 9,93 ||style="text-align:center; background:#fff8dc;"| 2,34 ||style="text-align:center; background:#fff8dc;"| 7,60
+|-
+|align=left|{{флагификация|Kyrgyzstan}} ||style="text-align:center; background:#e0ffd8;"| 71,60 ||style="text-align:center; background:#eaf3ff;"| 67,60 ||style="text-align:center; background:#fee7f6;"| 75,80 ||style="text-align:center;"| 8,20 ||style="text-align:center; background:#fff8dc;"| 1,20 ||style="text-align:center; background:#fff8dc;"| 3,04
+|-
+|align=left|{{флагификация|Uzbekistan}} ||style="text-align:center; background:#e0ffd8;"| 71,34 ||style="text-align:center; background:#eaf3ff;"| 68,78 ||style="text-align:center; background:#fee7f6;"| 73,88 ||style="text-align:center;"| 5,10 ||style="text-align:center; background:#fff8dc;"| 1,11 ||style="text-align:center; background:#fff8dc;"| 5,62
+|-
+|align=left|{{флагификация|Moldova}} ||style="text-align:center; background:#e0ffd8;"| 70,94 ||style="text-align:center; background:#eaf3ff;"| 66,38 ||style="text-align:center; background:#fee7f6;"| 75,62 ||style="text-align:center;"| 9,24 ||style="text-align:center; background:#fff8dc;"| 1,90 ||style="text-align:center; background:#fff8dc;"| 4,52
+|-
+|align=left|{{флагификация|Tajikistan}} ||style="text-align:center; background:#e0ffd8;"| 70,87 ||style="text-align:center; background:#eaf3ff;"| 68,86 ||style="text-align:center; background:#fee7f6;"| 73,01 ||style="text-align:center;"| 4,15 ||style="text-align:center; background:#fff8dc;"| 1,80 ||style="text-align:center; background:#fff8dc;"| 7,61
+|-
+|align=left|{{флагификация|Turkmenistan}} ||style="text-align:center; background:#e0ffd8;"| 69,00 ||style="text-align:center; background:#eaf3ff;"| 65,55 ||style="text-align:center; background:#fee7f6;"| 72,46 ||style="text-align:center;"| 6,91 ||style="text-align:center; background:#fff8dc;"| 0,39 ||style="text-align:center; background:#fff8dc;"| 3,98
+|}

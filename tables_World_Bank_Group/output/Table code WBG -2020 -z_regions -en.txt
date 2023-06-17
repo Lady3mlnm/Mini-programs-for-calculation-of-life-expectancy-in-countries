@@ -1,0 +1,40 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Countries
+! style="width:4em;"| all
+! style="width:4em;"| male
+! style="width:4em;"| female
+! style="width:4em;"| {{abbr|gender<br>gap|Difference in life expectancy between females and males|0}}
+! style="width:4em; border-left-width:2px;"| {{abbr|Δ 2019<br>all|Improvement of the indicator for all population compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>male|Improvement of the indicator for male compared to the previous year|0}}
+! style="width:4em;"| {{abbr|Δ 2019<br>female|Improvement of the indicator for female compared to the previous year|0}}
+! style="width:5em;"| {{abbr|Δ 2019<br>gen. gap|Increase of gender gap compared to the previous year|0}}
+|-{{static row numbers arrows|9}}
+|-
+|align=left|[[European Union]] ||style="text-align:center; background:#e0ffd8;"| 80.45 ||style="text-align:center; background:#eaf3ff;"| 77.74 ||style="text-align:center; background:#fee7f6;"| 83.32 ||style="text-align:center;"| 5.58 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -0.86 ||style="text-align:center; background:#eaf3ff;"| -0.93 ||style="text-align:center; background:#fee7f6;"| -0.79 ||style="text-align:center;"| 0.14
+|-
+|align=left|[[North America]] ||style="text-align:center; background:#e0ffd8;"| 77.46 ||style="text-align:center; background:#eaf3ff;"| 74.75 ||style="text-align:center; background:#fee7f6;"| 80.32 ||style="text-align:center;"| 5.57 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -1.68 ||style="text-align:center; background:#eaf3ff;"| -1.95 ||style="text-align:center; background:#fee7f6;"| -1.39 ||style="text-align:center;"| 0.57
+|-
+|align=left|[[Europe]] & [[Central Asia]] ||style="text-align:center; background:#e0ffd8;"| 76.96 ||style="text-align:center; background:#eaf3ff;"| 73.84 ||style="text-align:center; background:#fee7f6;"| 80.28 ||style="text-align:center;"| 6.43 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -1.23 ||style="text-align:center; background:#eaf3ff;"| -1.27 ||style="text-align:center; background:#fee7f6;"| -1.16 ||style="text-align:center;"| 0.11
+|-
+|align=left|[[Asia-Pacific|East Asia & Pacific]] ||style="text-align:center; background:#e0ffd8;"| 76.76 ||style="text-align:center; background:#eaf3ff;"| 73.99 ||style="text-align:center; background:#fee7f6;"| 79.70 ||style="text-align:center;"| 5.71 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -0.04 ||style="text-align:center; background:#eaf3ff;"| -0.09 ||style="text-align:center; background:#fee7f6;"| 0.04 ||style="text-align:center;"| 0.13
+|-
+|align=left|[[Central Europe]] & the [[Baltic states|Baltics]] ||style="text-align:center; background:#e0ffd8;"| 76.09 ||style="text-align:center; background:#eaf3ff;"| 72.40 ||style="text-align:center; background:#fee7f6;"| 79.97 ||style="text-align:center;"| 7.58 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -1.18 ||style="text-align:center; background:#eaf3ff;"| -1.31 ||style="text-align:center; background:#fee7f6;"| -1.04 ||style="text-align:center;"| 0.27
+|-
+|align=left|[[Latin America and the Caribbean|Latin America & Caribbean]] ||style="text-align:center; background:#e0ffd8;"| 73.04 ||style="text-align:center; background:#eaf3ff;"| 69.67 ||style="text-align:center; background:#fee7f6;"| 76.60 ||style="text-align:center;"| 6.93 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -2.00 ||style="text-align:center; background:#eaf3ff;"| -2.28 ||style="text-align:center; background:#fee7f6;"| -1.58 ||style="text-align:center;"| 0.71
+|-
+|align=left|[[MENA|Middle East & North Africa]] ||style="text-align:center; background:#e0ffd8;"| 72.95 ||style="text-align:center; background:#eaf3ff;"| 70.81 ||style="text-align:center; background:#fee7f6;"| 75.32 ||style="text-align:center;"| 4.51 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -1.01 ||style="text-align:center; background:#eaf3ff;"| -1.05 ||style="text-align:center; background:#fee7f6;"| -0.92 ||style="text-align:center;"| 0.12
+|-class=static-row-header
+|align=center| '''World''' ||style="text-align:center; background:#e0ffd8;"| '''72.24''' ||style="text-align:center; background:#eaf3ff;"| '''69.80''' ||style="text-align:center; background:#fee7f6;"| '''74.86''' ||style="text-align:center;"| '''5.06''' ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| '''-0.74''' ||style="text-align:center; background:#eaf3ff;"| '''-0.82''' ||style="text-align:center; background:#fee7f6;"| '''-0.61''' ||style="text-align:center;"| '''0.21'''
+|-
+|align=left|Arab World ||style="text-align:center; background:#e0ffd8;"| 70.92 ||style="text-align:center; background:#eaf3ff;"| 68.94 ||style="text-align:center; background:#fee7f6;"| 73.11 ||style="text-align:center;"| 4.18 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -0.92 ||style="text-align:center; background:#eaf3ff;"| -0.97 ||style="text-align:center; background:#fee7f6;"| -0.83 ||style="text-align:center;"| 0.14
+|-
+|align=left|[[South Asia]] ||style="text-align:center; background:#e0ffd8;"| 69.75 ||style="text-align:center; background:#eaf3ff;"| 68.04 ||style="text-align:center; background:#fee7f6;"| 71.61 ||style="text-align:center;"| 3.57 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -0.72 ||style="text-align:center; background:#eaf3ff;"| -0.83 ||style="text-align:center; background:#fee7f6;"| -0.59 ||style="text-align:center;"| 0.24
+|-
+|align=left|Africa [[East Africa|Eastern]] & [[Southern Africa|Southern]] ||style="text-align:center; background:#e0ffd8;"| 63.31 ||style="text-align:center; background:#eaf3ff;"| 60.82 ||style="text-align:center; background:#fee7f6;"| 65.84 ||style="text-align:center;"| 5.02 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -0.44 ||style="text-align:center; background:#eaf3ff;"| -0.47 ||style="text-align:center; background:#fee7f6;"| -0.38 ||style="text-align:center;"| 0.09
+|-
+|align=left|[[Sub-Saharan Africa]] ||style="text-align:center; background:#e0ffd8;"| 60.85 ||style="text-align:center; background:#eaf3ff;"| 58.90 ||style="text-align:center; background:#fee7f6;"| 62.83 ||style="text-align:center;"| 3.93 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -0.40 ||style="text-align:center; background:#eaf3ff;"| -0.46 ||style="text-align:center; background:#fee7f6;"| -0.31 ||style="text-align:center;"| 0.15
+|-
+|align=left|Africa [[West Africa|Western]] & [[Central Africa|Central]] ||style="text-align:center; background:#e0ffd8;"| 57.23 ||style="text-align:center; background:#eaf3ff;"| 56.13 ||style="text-align:center; background:#fee7f6;"| 58.35 ||style="text-align:center;"| 2.22 ||style="text-align:center; background:#e0ffd8; border-left-width:2px;"| -0.33 ||style="text-align:center; background:#eaf3ff;"| -0.45 ||style="text-align:center; background:#fee7f6;"| -0.20 ||style="text-align:center;"| 0.25
+|}

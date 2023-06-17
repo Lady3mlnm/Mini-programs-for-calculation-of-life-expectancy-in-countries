@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="520 -808 359 333">
+  <title>Comparison gender life expectancy WHO-2019</title>
+  <desc>Comparison of federal subjects of Russia by life expectancy at birth according to data of Rosstat. Data for life expectancy: https://rosstat.gov.ru/folder/210/document/13207, https://www.fedstat.ru/indicator/31293. Data for number of population: https://rosstat.gov.ru/folder/12781, https://rosstat.gov.ru/storage/mediabank/Popul_Comp2022_site.xls. Code of the program for creation of this chart: https://github.com/Lady3mlnm/Mini-programs-for-calculation-of-life-expectancy-in-countries/tree/main/SVG-diagrams-Russia.</desc>
+  <style type="text/css">
+    #main         { font-family:Helvetica,Arial,sans-serif; font-size:11px; text-anchor:middle;
+                    stroke-opacity:0; fill-opacity:0.5; cursor:default; }
+    #main:hover   { stroke-opacity:0; fill-opacity:0.1; }
+    .nofade,
+    .active:hover { stroke-opacity:1; fill-opacity:1; }
+    .hidden_text  { font-size:12px; text-anchor:end; fill:none; pointer-events:none; }
+  </style>
+  <defs>
+
+    <!-- determine appearance of circles -->
+    <radialGradient id="grad_ЦФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#006400" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#006400" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#006400" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_СЗФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#0000cd" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#0000cd" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#0000cd" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ЮФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#b22222" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#b22222" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#b22222" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_СКФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#800080" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#800080" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#800080" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ПФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#4169e1" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#4169e1" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#4169e1" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_УФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#ff0000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#ff0000" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#ff0000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_СФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#808000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#808000" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#808000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ДФО" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#ff8c00" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#ff8c00" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#ff8c00" stop-opacity="0.25"/>
+    </radialGradient>
+
+    <!-- determine each country -->
+    <g id="bubble_0" fill="#006400">
+      <text x="801" y="-754" dy="0.7ex" text-anchor="start" stroke="none">Москва</text>
+      <circle cx="746" cy="-685" r="1"/>
+      <circle cx="746" cy="-685" r="11.85" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_1" fill="#006400">
+      <text x="653" y="-724" dy="0.7ex" text-anchor="end" stroke="none">Московская область</text>
+      <circle cx="700" cy="-717" r="1"/>
+      <circle cx="700" cy="-717" r="9.27" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_2" fill="#b22222">
+      <text x="653" y="-734" dy="0.7ex" text-anchor="end" stroke="none">Краснодарский край</text>
+      <circle cx="702" cy="-708" r="1"/>
+      <circle cx="702" cy="-708" r="7.95" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_3" fill="#0000cd">
+      <text x="765" y="-724" dy="0.7ex" text-anchor="start" stroke="none">Санкт-Петербург</text>
+      <circle cx="725" cy="-725" r="1"/>
+      <circle cx="725" cy="-725" r="7.73" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_4" fill="#ff0000">
+      <text x="755" y="-604" dy="0.7ex" text-anchor="start" stroke="none">Свердловская область</text>
+      <circle cx="690" cy="-673" r="1"/>
+      <circle cx="690" cy="-673" r="6.89" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_5" fill="#b22222">
+      <text x="759" y="-664" dy="0.7ex" text-anchor="start" stroke="none">Ростовская область</text>
+      <circle cx="698" cy="-695" r="1"/>
+      <circle cx="698" cy="-695" r="6.81" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_6" fill="#4169e1">
+      <text x="759" y="-654" dy="0.7ex" text-anchor="start" stroke="none">Башкортостан</text>
+      <circle cx="702" cy="-680" r="1"/>
+      <circle cx="702" cy="-680" r="6.67" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_7" fill="#4169e1">
+      <text x="765" y="-694" dy="0.7ex" text-anchor="start" stroke="none">Татарстан</text>
+      <circle cx="713" cy="-708" r="1"/>
+      <circle cx="713" cy="-708" r="6.57" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_8" fill="#ff0000">
+      <text x="755" y="-634" dy="0.7ex" text-anchor="start" stroke="none">Челябинская область</text>
+      <circle cx="695" cy="-674" r="1"/>
+      <circle cx="695" cy="-674" r="6.17" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_9" fill="#4169e1">
+      <text x="653" y="-674" dy="0.7ex" text-anchor="end" stroke="none">Нижегородская область</text>
+      <circle cx="689" cy="-689" r="1"/>
+      <circle cx="689" cy="-689" r="5.93" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_10" fill="#800080">
+      <text x="802" y="-765" dy="0.7ex" text-anchor="start" stroke="none">Дагестан</text>
+      <circle cx="770" cy="-760" r="1"/>
+      <circle cx="770" cy="-760" r="5.91" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_11" fill="#4169e1">
+      <text x="653" y="-684" dy="0.7ex" text-anchor="end" stroke="none">Самарская область</text>
+      <circle cx="693" cy="-693" r="1"/>
+      <circle cx="693" cy="-693" r="5.91" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_12" fill="#808000">
+      <text x="755" y="-564" dy="0.7ex" text-anchor="start" stroke="none">Красноярский край</text>
+      <circle cx="689" cy="-660" r="1"/>
+      <circle cx="689" cy="-660" r="5.63" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_13" fill="#800080">
+      <text x="765" y="-704" dy="0.7ex" text-anchor="start" stroke="none">Ставропольский край</text>
+      <circle cx="722" cy="-708" r="1"/>
+      <circle cx="722" cy="-708" r="5.56" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_14" fill="#808000">
+      <text x="755" y="-644" dy="0.7ex" text-anchor="start" stroke="none">Новосибирская область</text>
+      <circle cx="697" cy="-671" r="1"/>
+      <circle cx="697" cy="-671" r="5.56" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_15" fill="#808000">
+      <text x="755" y="-534" dy="0.7ex" text-anchor="start" stroke="none">Кузбасс</text>
+      <circle cx="677" cy="-667" r="1"/>
+      <circle cx="677" cy="-667" r="5.39" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_16" fill="#4169e1">
+      <text x="755" y="-574" dy="0.7ex" text-anchor="start" stroke="none">Пермский край</text>
+      <circle cx="689" cy="-670" r="1"/>
+      <circle cx="689" cy="-670" r="5.34" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_17" fill="#b22222">
+      <text x="759" y="-674" dy="0.7ex" text-anchor="start" stroke="none">Волгоградская область</text>
+      <circle cx="702" cy="-690" r="1"/>
+      <circle cx="702" cy="-690" r="5.23" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_18" fill="#4169e1">
+      <text x="755" y="-624" dy="0.7ex" text-anchor="start" stroke="none">Саратовская область</text>
+      <circle cx="692" cy="-684" r="1"/>
+      <circle cx="692" cy="-684" r="5.14" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_19" fill="#808000">
+      <text x="755" y="-514" dy="0.7ex" text-anchor="start" stroke="none">Иркутская область</text>
+      <circle cx="671" cy="-656" r="1"/>
+      <circle cx="671" cy="-656" r="5.13" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_20" fill="#006400">
+      <text x="653" y="-694" dy="0.7ex" text-anchor="end" stroke="none">Воронежская область</text>
+      <circle cx="693" cy="-697" r="1"/>
+      <circle cx="693" cy="-697" r="5.05" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_21" fill="#808000">
+      <text x="755" y="-584" dy="0.7ex" text-anchor="start" stroke="none">Алтайский край</text>
+      <circle cx="692" cy="-674" r="1"/>
+      <circle cx="692" cy="-674" r="5.04" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_22" fill="#4169e1">
+      <text x="755" y="-554" dy="0.7ex" text-anchor="start" stroke="none">Оренбургская область</text>
+      <circle cx="684" cy="-675" r="1"/>
+      <circle cx="684" cy="-675" r="4.64" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_23" fill="#0000cd">
+      <text x="653" y="-714" dy="0.7ex" text-anchor="end" stroke="none">Ленинградская область</text>
+      <circle cx="693" cy="-720" r="1"/>
+      <circle cx="693" cy="-720" r="4.6" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_24" fill="#b22222">
+      <text x="653" y="-704" dy="0.7ex" text-anchor="end" stroke="none">Крым</text>
+      <circle cx="690" cy="-703" r="1"/>
+      <circle cx="690" cy="-703" r="4.59" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_25" fill="#808000">
+      <text x="755" y="-614" dy="0.7ex" text-anchor="start" stroke="none">Омская область</text>
+      <circle cx="695" cy="-673" r="1"/>
+      <circle cx="695" cy="-673" r="4.58" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_26" fill="#ff8c00">
+      <text x="755" y="-594" dy="0.7ex" text-anchor="start" stroke="none">Приморский край</text>
+      <circle cx="692" cy="-662" r="1"/>
+      <circle cx="692" cy="-662" r="4.56" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_27" fill="#ff0000">
+      <text x="765" y="-714" dy="0.7ex" text-anchor="start" stroke="none">Югра</text>
+      <circle cx="721" cy="-697" r="1"/>
+      <circle cx="721" cy="-697" r="4.34" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_28" fill="#ff0000">
+      <circle cx="709" cy="-683" r="1"/>
+      <circle cx="709" cy="-683" r="4.15" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_29" fill="#006400">
+      <circle cx="707" cy="-703" r="1"/>
+      <circle cx="707" cy="-703" r="4.13" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_30" fill="#800080">
+      <text x="653" y="-764" dy="0.7ex" text-anchor="end" stroke="none">Чечня</text>
+      <circle cx="664" cy="-799" r="1"/>
+      <circle cx="664" cy="-799" r="4.09" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_31" fill="#4169e1">
+      <circle cx="703" cy="-690" r="1"/>
+      <circle cx="703" cy="-690" r="4.07" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_32" fill="#006400">
+      <circle cx="685" cy="-704" r="1"/>
+      <circle cx="685" cy="-704" r="4.0" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_33" fill="#006400">
+      <circle cx="679" cy="-688" r="1"/>
+      <circle cx="679" cy="-688" r="3.85" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_34" fill="#ff8c00">
+      <text x="755" y="-544" dy="0.7ex" text-anchor="start" stroke="none">Хабаровский край</text>
+      <circle cx="682" cy="-660" r="1"/>
+      <circle cx="682" cy="-660" r="3.8" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_35" fill="#4169e1">
+      <circle cx="702" cy="-693" r="1"/>
+      <circle cx="702" cy="-693" r="3.77" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_36" fill="#4169e1">
+      <circle cx="702" cy="-664" r="1"/>
+      <circle cx="702" cy="-664" r="3.71" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_37" fill="#006400">
+      <circle cx="680" cy="-672" r="1"/>
+      <circle cx="680" cy="-672" r="3.71" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_38" fill="#006400">
+      <circle cx="690" cy="-689" r="1"/>
+      <circle cx="690" cy="-689" r="3.7" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_39" fill="#4169e1">
+      <circle cx="692" cy="-683" r="1"/>
+      <circle cx="692" cy="-683" r="3.67" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_40" fill="#4169e1">
+      <circle cx="706" cy="-683" r="1"/>
+      <circle cx="706" cy="-683" r="3.66" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_41" fill="#006400">
+      <circle cx="687" cy="-685" r="1"/>
+      <circle cx="687" cy="-685" r="3.61" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_42" fill="#0000cd">
+      <circle cx="694" cy="-678" r="1"/>
+      <circle cx="694" cy="-678" r="3.57" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_43" fill="#006400">
+      <circle cx="687" cy="-681" r="1"/>
+      <circle cx="687" cy="-681" r="3.53" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_44" fill="#006400">
+      <circle cx="684" cy="-689" r="1"/>
+      <circle cx="684" cy="-689" r="3.48" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_45" fill="#006400">
+      <circle cx="690" cy="-671" r="1"/>
+      <circle cx="690" cy="-671" r="3.48" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_46" fill="#0000cd">
+      <circle cx="704" cy="-656" r="1"/>
+      <circle cx="704" cy="-656" r="3.46" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_47" fill="#808000">
+      <circle cx="704" cy="-676" r="1"/>
+      <circle cx="704" cy="-676" r="3.45" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_48" fill="#ff8c00">
+      <circle cx="675" cy="-648" r="1"/>
+      <circle cx="675" cy="-648" r="3.41" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_49" fill="#0000cd">
+      <circle cx="712" cy="-701" r="1"/>
+      <circle cx="712" cy="-701" r="3.37" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_50" fill="#006400">
+      <circle cx="688" cy="-701" r="1"/>
+      <circle cx="688" cy="-701" r="3.34" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_51" fill="#b22222">
+      <circle cx="696" cy="-704" r="1"/>
+      <circle cx="696" cy="-704" r="3.32" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_52" fill="#006400">
+      <circle cx="699" cy="-697" r="1"/>
+      <circle cx="699" cy="-697" r="3.31" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_53" fill="#ff8c00">
+      <text x="765" y="-684" dy="0.7ex" text-anchor="start" stroke="none">Якутия</text>
+      <circle cx="704" cy="-688" r="1"/>
+      <circle cx="704" cy="-688" r="3.31" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_54" fill="#ff8c00">
+      <circle cx="700" cy="-672" r="1"/>
+      <circle cx="700" cy="-672" r="3.31" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_55" fill="#006400">
+      <circle cx="688" cy="-696" r="1"/>
+      <circle cx="688" cy="-696" r="3.3" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_56" fill="#006400">
+      <circle cx="682" cy="-672" r="1"/>
+      <circle cx="682" cy="-672" r="3.19" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_57" fill="#800080">
+      <text x="765" y="-744" dy="0.7ex" text-anchor="start" stroke="none">Кабардино-Балкария</text>
+      <circle cx="741" cy="-733" r="1"/>
+      <circle cx="741" cy="-733" r="3.11" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_58" fill="#ff0000">
+      <circle cx="684" cy="-679" r="1"/>
+      <circle cx="684" cy="-679" r="3.0" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_59" fill="#0000cd">
+      <circle cx="690" cy="-651" r="1"/>
+      <circle cx="690" cy="-651" r="3.0" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_60" fill="#ff8c00">
+      <circle cx="670" cy="-646" r="1"/>
+      <circle cx="670" cy="-646" r="2.94" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_61" fill="#4169e1">
+      <circle cx="704" cy="-697" r="1"/>
+      <circle cx="704" cy="-697" r="2.93" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_62" fill="#0000cd">
+      <circle cx="681" cy="-699" r="1"/>
+      <circle cx="681" cy="-699" r="2.85" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_63" fill="#006400">
+      <circle cx="693" cy="-681" r="1"/>
+      <circle cx="693" cy="-681" r="2.83" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_64" fill="#800080">
+      <text x="653" y="-754" dy="0.7ex" text-anchor="end" stroke="none">Северная Осетия</text>
+      <circle cx="721" cy="-730" r="1"/>
+      <circle cx="721" cy="-730" r="2.77" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_65" fill="#4169e1">
+      <circle cx="701" cy="-679" r="1"/>
+      <circle cx="701" cy="-679" r="2.73" stroke="#4169e1" fill="url(#grad_ПФО)"/>
+    </g>
+    <g id="bubble_66" fill="#006400">
+      <circle cx="690" cy="-677" r="1"/>
+      <circle cx="690" cy="-677" r="2.64" stroke="#006400" fill="url(#grad_ЦФО)"/>
+    </g>
+    <g id="bubble_67" fill="#0000cd">
+      <circle cx="676" cy="-674" r="1"/>
+      <circle cx="676" cy="-674" r="2.62" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_68" fill="#0000cd">
+      <circle cx="683" cy="-624" r="1"/>
+      <circle cx="683" cy="-624" r="2.59" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_69" fill="#0000cd">
+      <text x="653" y="-664" dy="0.7ex" text-anchor="end" stroke="none">Новгородская область</text>
+      <circle cx="672" cy="-683" r="1"/>
+      <circle cx="672" cy="-683" r="2.56" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+    <g id="bubble_70" fill="#ff0000">
+      <circle cx="725" cy="-672" r="1"/>
+      <circle cx="725" cy="-672" r="2.47" stroke="#ff0000" fill="url(#grad_УФО)"/>
+    </g>
+    <g id="bubble_71" fill="#808000">
+      <circle cx="691" cy="-669" r="1"/>
+      <circle cx="691" cy="-669" r="2.43" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_72" fill="#800080">
+      <text x="802" y="-775" dy="0.7ex" text-anchor="start" stroke="none">Ингушетия</text>
+      <circle cx="816" cy="-792" r="1"/>
+      <circle cx="816" cy="-792" r="2.4" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_73" fill="#b22222">
+      <text x="653" y="-744" dy="0.7ex" text-anchor="end" stroke="none">Севастополь</text>
+      <circle cx="721" cy="-739" r="1"/>
+      <circle cx="721" cy="-739" r="2.39" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_74" fill="#ff8c00">
+      <circle cx="686" cy="-667" r="1"/>
+      <circle cx="686" cy="-667" r="2.32" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_75" fill="#b22222">
+      <circle cx="718" cy="-706" r="1"/>
+      <circle cx="718" cy="-706" r="2.28" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_76" fill="#800080">
+      <text x="765" y="-734" dy="0.7ex" text-anchor="start" stroke="none">Карачаево-Черкесия</text>
+      <circle cx="734" cy="-734" r="1"/>
+      <circle cx="734" cy="-734" r="2.27" stroke="#800080" fill="url(#grad_СКФО)"/>
+    </g>
+    <g id="bubble_77" fill="#808000">
+      <circle cx="691" cy="-631" r="1"/>
+      <circle cx="691" cy="-631" r="1.92" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_78" fill="#ff8c00">
+      <circle cx="688" cy="-650" r="1"/>
+      <circle cx="688" cy="-650" r="1.86" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_79" fill="#b22222">
+      <circle cx="714" cy="-713" r="1"/>
+      <circle cx="714" cy="-713" r="1.73" stroke="#b22222" fill="url(#grad_ЮФО)"/>
+    </g>
+    <g id="bubble_80" fill="#808000">
+      <circle cx="690" cy="-669" r="1"/>
+      <circle cx="690" cy="-669" r="1.57" stroke="#808000" fill="url(#grad_СФО)"/>
+    </g>
+    <g id="bubble_81" fill="#ff8c00">
+      <text x="653" y="-654" dy="0.7ex" text-anchor="end" stroke="none">Еврейская авт. обл.</text>
+      <circle cx="661" cy="-664" r="1"/>
+      <circle cx="661" cy="-664" r="1.31" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_82" fill="#ff8c00">
+      <text x="755" y="-524" dy="0.7ex" text-anchor="start" stroke="none">Магаданская область</text>
+      <circle cx="677" cy="-592" r="1"/>
+      <circle cx="677" cy="-592" r="1.24" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_83" fill="#ff8c00">
+      <text x="755" y="-504" dy="0.7ex" text-anchor="start" stroke="none">Чукотка</text>
+      <circle cx="698" cy="-507" r="1"/>
+      <circle cx="698" cy="-507" r="0.75" stroke="#ff8c00" fill="url(#grad_ДФО)"/>
+    </g>
+    <g id="bubble_84" fill="#0000cd">
+      <circle cx="718" cy="-624" r="1"/>
+      <circle cx="718" cy="-624" r="0.7" stroke="#0000cd" fill="url(#grad_СЗФО)"/>
+    </g>
+
+    <!-- vertical grid -->
+    <path id="grid_x" d="M 0 -500 V -800"/>
+    <g id="grid_x_5">
+      <use xlink:href="#grid_x"/>
+      <use xlink:href="#grid_x" transform="translate(10,0)"/>
+      <use xlink:href="#grid_x" transform="translate(20,0)"/>
+      <use xlink:href="#grid_x" transform="translate(30,0)"/>
+      <use xlink:href="#grid_x" transform="translate(40,0)"/>
+      <use xlink:href="#grid_x" transform="translate(50,0)"/>
+    </g>
+
+    <!-- horizontal grid -->
+    <path id="grid_y" d="M 550 0 H 850"/>
+    <g id="grid_y_5">
+      <use xlink:href="#grid_y"/>
+      <use xlink:href="#grid_y" transform="translate(0,-10)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-20)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-30)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-40)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-50)"/>
+    </g>
+  </defs>
+
+
+
+  <g id="main">
+    <g class="nofade">
+      <!-- background for the whole diagram -->
+      <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+
+      <!-- draw grid -->
+      <g stroke-opacity="0.05" stroke="#000000">
+        <use xlink:href="#grid_x_5" transform="translate(550,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(600,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(650,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(700,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(750,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(800,0)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-500)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-550)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-600)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-650)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-700)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-750)"/>
+      </g>
+
+      <!-- labels for axes -->
+      <g fill="#999999">  <!-- color of font -->
+        <text x="727" y="-478" style="font-size: 10px">Ожидаемая продолжительность жизни в городах</text>
+        <text transform="rotate(-90)" x="653" y="529" style="font-size: 10px">Ожидаемая продолжительность жизни в сельской местности</text>
+        <text x="650" y="-488">65</text>
+        <text x="700" y="-488">70</text>
+        <text x="750" y="-488">75</text>
+        <text x="800" y="-488">80</text>
+        <text x="540" y="-494">50</text>
+        <text x="540" y="-544">55</text>
+        <text x="540" y="-594">60</text>
+        <text x="540" y="-644">65</text>
+        <text x="540" y="-694">70</text>
+        <text x="540" y="-744">75</text>
+        <text x="540" y="-794">80</text>
+      </g>
+
+      <!-- diagonal line -->
+      <path d="M 653 -653 L 797 -797" stroke="#00cc00" stroke-width="0.75" stroke-opacity="0.4"/>
+    </g>
+
+    <!-- menu -->
+    <g text-anchor="start">
+
+      <!-- rectangle around items -->
+      <rect class="nofade" x="550" y="-620" width="120" height="120" rx="5" ry="5" stroke="#999999" fill="#ffffff"/>
+
+      <!-- single items -->
+      <g class="active">
+        <circle cx="562" cy="-609" r="6" fill="url(#grad_ЦФО)"/>
+        <circle cx="562" cy="-609" r="1" fill="#006400"/>
+        <text x="572" y="-605" fill="#006400">Центральный ФО</text>
+        <use xlink:href="#bubble_0"/>
+        <use xlink:href="#bubble_1"/>
+        <use xlink:href="#bubble_20"/>
+        <use xlink:href="#bubble_29"/>
+        <use xlink:href="#bubble_32"/>
+        <use xlink:href="#bubble_33"/>
+        <use xlink:href="#bubble_37"/>
+        <use xlink:href="#bubble_38"/>
+        <use xlink:href="#bubble_41"/>
+        <use xlink:href="#bubble_43"/>
+        <use xlink:href="#bubble_44"/>
+        <use xlink:href="#bubble_45"/>
+        <use xlink:href="#bubble_50"/>
+        <use xlink:href="#bubble_52"/>
+        <use xlink:href="#bubble_55"/>
+        <use xlink:href="#bubble_56"/>
+        <use xlink:href="#bubble_63"/>
+        <use xlink:href="#bubble_66"/>
+      </g>
+      <g class="active">
+        <circle cx="562" cy="-595" r="6" fill="url(#grad_СЗФО)"/>
+        <circle cx="562" cy="-595" r="1" fill="#0000cd"/>
+        <text x="572" y="-591" fill="#0000cd">Сев.-Зап. ФО</text>
+        <use xlink:href="#bubble_3"/>
+        <use xlink:href="#bubble_23"/>
+        <use xlink:href="#bubble_42"/>
+        <use xlink:href="#bubble_46"/>
+        <use xlink:href="#bubble_49"/>
+        <use xlink:href="#bubble_59"/>
+        <use xlink:href="#bubble_62"/>
+        <use xlink:href="#bubble_67"/>
+        <use xlink:href="#bubble_68"/>
+        <use xlink:href="#bubble_69"/>
+        <use xlink:href="#bubble_84"/>
+      </g>
+      <g class="active">
+        <circle cx="562" cy="-581" r="6" fill="url(#grad_ЮФО)"/>
+        <circle cx="562" cy="-581" r="1" fill="#b22222"/>
+        <text x="572" y="-577" fill="#b22222">Южный ФО</text>
+        <use xlink:href="#bubble_2"/>
+        <use xlink:href="#bubble_5"/>
+        <use xlink:href="#bubble_17"/>
+        <use xlink:href="#bubble_24"/>
+        <use xlink:href="#bubble_51"/>
+        <use xlink:href="#bubble_73"/>
+        <use xlink:href="#bubble_75"/>
+        <use xlink:href="#bubble_79"/>
+      </g>
+      <g class="active">
+        <circle cx="562" cy="-567" r="6" fill="url(#grad_СКФО)"/>
+        <circle cx="562" cy="-567" r="1" fill="#800080"/>
+        <text x="572" y="-563" fill="#800080">Сев.-Кавк. ФО</text>
+        <use xlink:href="#bubble_10"/>
+        <use xlink:href="#bubble_13"/>
+        <use xlink:href="#bubble_30"/>
+        <use xlink:href="#bubble_57"/>
+        <use xlink:href="#bubble_64"/>
+        <use xlink:href="#bubble_72"/>
+        <use xlink:href="#bubble_76"/>
+      </g>
+      <g class="active">
+        <circle cx="562" cy="-553" r="6" fill="url(#grad_ПФО)"/>
+        <circle cx="562" cy="-553" r="1" fill="#4169e1"/>
+        <text x="572" y="-549" fill="#4169e1">Приволжский ФО</text>
+        <use xlink:href="#bubble_6"/>
+        <use xlink:href="#bubble_7"/>
+        <use xlink:href="#bubble_9"/>
+        <use xlink:href="#bubble_11"/>
+        <use xlink:href="#bubble_16"/>
+        <use xlink:href="#bubble_18"/>
+        <use xlink:href="#bubble_22"/>
+        <use xlink:href="#bubble_31"/>
+        <use xlink:href="#bubble_35"/>
+        <use xlink:href="#bubble_36"/>
+        <use xlink:href="#bubble_39"/>
+        <use xlink:href="#bubble_40"/>
+        <use xlink:href="#bubble_61"/>
+        <use xlink:href="#bubble_65"/>
+      </g>
+      <g class="active">
+        <circle cx="562" cy="-539" r="6" fill="url(#grad_УФО)"/>
+        <circle cx="562" cy="-539" r="1" fill="#ff0000"/>
+        <text x="572" y="-535" fill="#ff0000">Уральский ФО</text>
+        <use xlink:href="#bubble_4"/>
+        <use xlink:href="#bubble_8"/>
+        <use xlink:href="#bubble_27"/>
+        <use xlink:href="#bubble_28"/>
+        <use xlink:href="#bubble_58"/>
+        <use xlink:href="#bubble_70"/>
+      </g>
+      <g class="active">
+        <circle cx="562" cy="-525" r="6" fill="url(#grad_СФО)"/>
+        <circle cx="562" cy="-525" r="1" fill="#808000"/>
+        <text x="572" y="-521" fill="#808000">Сибирский ФО</text>
+        <use xlink:href="#bubble_12"/>
+        <use xlink:href="#bubble_14"/>
+        <use xlink:href="#bubble_15"/>
+        <use xlink:href="#bubble_19"/>
+        <use xlink:href="#bubble_21"/>
+        <use xlink:href="#bubble_25"/>
+        <use xlink:href="#bubble_47"/>
+        <use xlink:href="#bubble_71"/>
+        <use xlink:href="#bubble_77"/>
+        <use xlink:href="#bubble_80"/>
+      </g>
+      <g class="active">
+        <circle cx="562" cy="-511" r="6" fill="url(#grad_ДФО)"/>
+        <circle cx="562" cy="-511" r="1" fill="#ff8c00"/>
+        <text x="572" y="-507" fill="#ff8c00">Дальневост. ФО</text>
+        <use xlink:href="#bubble_26"/>
+        <use xlink:href="#bubble_34"/>
+        <use xlink:href="#bubble_48"/>
+        <use xlink:href="#bubble_53"/>
+        <use xlink:href="#bubble_54"/>
+        <use xlink:href="#bubble_60"/>
+        <use xlink:href="#bubble_74"/>
+        <use xlink:href="#bubble_78"/>
+        <use xlink:href="#bubble_81"/>
+        <use xlink:href="#bubble_82"/>
+        <use xlink:href="#bubble_83"/>
+      </g>
+    </g>
+
+    <!-- pop-up notes -->
+    <g class="active">
+      <use xlink:href="#bubble_0"/>
+      <title>город федерального значения Москва (население: 12 645 000)
+
+общая: 74.55 лет
+
+городская местность: 74.65  (мужчины: 71.12, женщины: 78.02)
+
+сельская местность: 68.55  (мужчины: 64.49, женщины: 72.65)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_1"/>
+      <title>Московская область (население: 7 739 000)
+
+общая: 70.35 лет
+
+городская местность: 70.08  (мужчины: 65.31, женщины: 74.6)
+
+сельская местность: 71.7  (мужчины: 67.71, женщины: 75.8)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_2"/>
+      <title>Краснодарский край (население: 5 686 000)
+
+общая: 70.53 лет
+
+городская местность: 70.27  (мужчины: 65.44, женщины: 74.84)
+
+сельская местность: 70.88  (мужчины: 66.87, женщины: 75.0)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_3"/>
+      <title>город федерального значения Санкт-Петербург (население: 5 381 000)
+
+общая: 72.51 лет
+
+городская местность: 72.51  (мужчины: 68.23, женщины: 76.3)
+
+сельская местность: 0.0  (мужчины: 0.0, женщины: 0.0)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_4"/>
+      <title>Свердловская область (население: 4 277 000)
+
+общая: 68.79 лет
+
+городская местность: 69.03  (мужчины: 63.86, женщины: 74.0)
+
+сельская местность: 67.3  (мужчины: 62.85, женщины: 72.45)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_5"/>
+      <title>Ростовская область (население: 4 168 000)
+
+общая: 69.79 лет
+
+городская местность: 69.89  (мужчины: 65.75, женщины: 73.75)
+
+сельская местность: 69.53  (мужчины: 65.81, женщины: 73.44)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_6"/>
+      <title>Республика Башкортостан (население: 4 008 000)
+
+общая: 69.49 лет
+
+городская местность: 70.24  (мужчины: 65.61, женщины: 74.52)
+
+сельская местность: 68.04  (мужчины: 63.5, женщины: 73.35)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_7"/>
+      <title>Республика Татарстан (население: 3 890 000)
+
+общая: 71.28 лет
+
+городская местность: 71.35  (мужчины: 66.57, женщины: 75.71)
+
+сельская местность: 70.86  (мужчины: 66.32, женщины: 76.08)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_8"/>
+      <title>Челябинская область (население: 3 431 000)
+
+общая: 69.16 лет
+
+городская местность: 69.5  (мужчины: 64.66, женщины: 74.03)
+
+сельская местность: 67.46  (мужчины: 62.92, женщины: 72.57)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_9"/>
+      <title>Нижегородская область (население: 3 160 000)
+
+общая: 68.93 лет
+
+городская местность: 68.9  (мужчины: 63.6, женщины: 73.93)
+
+сельская местность: 68.98  (мужчины: 64.62, женщины: 73.97)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_10"/>
+      <title>Республика Дагестан (население: 3 144 000)
+
+общая: 76.59 лет
+
+городская местность: 77.07  (мужчины: 75.1, женщины: 78.91)
+
+сельская местность: 76.05  (мужчины: 73.16, женщины: 78.8)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_11"/>
+      <title>Самарская область (население: 3 143 000)
+
+общая: 69.33 лет
+
+городская местность: 69.31  (мужчины: 64.4, женщины: 73.93)
+
+сельская местность: 69.38  (мужчины: 65.5, женщины: 73.53)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_12"/>
+      <title>Красноярский край (население: 2 853 000)
+
+общая: 68.35 лет
+
+городская местность: 68.92  (мужчины: 63.99, женщины: 73.62)
+
+сельская местность: 66.09  (мужчины: 61.87, женщины: 71.1)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_13"/>
+      <title>Ставропольский край (население: 2 786 000)
+
+общая: 71.66 лет
+
+городская местность: 72.2  (мужчины: 68.04, женщины: 75.95)
+
+сельская местность: 70.89  (мужчины: 67.17, женщины: 74.64)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_14"/>
+      <title>Новосибирская область (население: 2 783 000)
+
+общая: 69.19 лет
+
+городская местность: 69.7  (мужчины: 64.72, женщины: 74.46)
+
+сельская местность: 67.1  (мужчины: 62.86, женщины: 71.93)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_15"/>
+      <title>Кемеровская область - Кузбасс (население: 2 619 000)
+
+общая: 67.61 лет
+
+городская местность: 67.74  (мужчины: 62.78, женщины: 72.54)
+
+сельская местность: 66.7  (мужчины: 62.9, женщины: 71.11)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_16"/>
+      <title>Пермский край (население: 2 568 000)
+
+общая: 68.52 лет
+
+городская местность: 68.95  (мужчины: 63.69, женщины: 73.84)
+
+сельская местность: 67.02  (мужчины: 62.79, женщины: 71.93)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_17"/>
+      <title>Волгоградская область (население: 2 462 000)
+
+общая: 69.96 лет
+
+городская местность: 70.24  (мужчины: 65.83, женщины: 74.43)
+
+сельская местность: 69.0  (мужчины: 65.24, женщины: 73.03)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_18"/>
+      <title>Саратовская область (население: 2 378 000)
+
+общая: 69.08 лет
+
+городская местность: 69.26  (мужчины: 64.85, женщины: 73.36)
+
+сельская местность: 68.45  (мужчины: 64.7, женщины: 72.53)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_19"/>
+      <title>Иркутская область (население: 2 366 000)
+
+общая: 66.8 лет
+
+городская местность: 67.12  (мужчины: 62.12, женщины: 71.9)
+
+сельская местность: 65.68  (мужчины: 61.16, женщины: 70.93)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_20"/>
+      <title>Воронежская область (население: 2 297 000)
+
+общая: 69.49 лет
+
+городская местность: 69.34  (мужчины: 64.44, женщины: 74.04)
+
+сельская местность: 69.77  (мужчины: 65.3, женщины: 74.68)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_21"/>
+      <title>Алтайский край (население: 2 282 000)
+
+общая: 68.6 лет
+
+городская местность: 69.21  (мужчины: 64.43, женщины: 73.71)
+
+сельская местность: 67.49  (мужчины: 63.34, женщины: 71.91)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_22"/>
+      <title>Оренбургская область (население: 1 934 000)
+
+общая: 68.21 лет
+
+городская местность: 68.4  (мужчины: 63.92, женщины: 72.61)
+
+сельская местность: 67.56  (мужчины: 63.63, женщины: 71.81)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_23"/>
+      <title>Ленинградская область (население: 1 902 000)
+
+общая: 70.17 лет
+
+городская местность: 69.36  (мужчины: 64.24, женщины: 74.42)
+
+сельская местность: 72.07  (мужчины: 68.22, женщины: 76.08)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_24"/>
+      <title>Республика Крым (население: 1 899 000)
+
+общая: 69.7 лет
+
+городская местность: 69.09  (мужчины: 64.34, женщины: 73.59)
+
+сельская местность: 70.35  (мужчины: 66.31, женщины: 74.37)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_25"/>
+      <title>Омская область (население: 1 892 000)
+
+общая: 69.02 лет
+
+городская местность: 69.56  (мужчины: 64.77, женщины: 74.06)
+
+сельская местность: 67.36  (мужчины: 63.5, женщины: 71.6)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_26"/>
+      <title>Приморский край (население: 1 870 000)
+
+общая: 68.61 лет
+
+городская местность: 69.28  (мужчины: 64.57, женщины: 74.0)
+
+сельская местность: 66.28  (мужчины: 62.1, женщины: 71.31)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_27"/>
+      <title>Ханты-Мансийский АО - Югра (Тюменская область) (население: 1 695 000)
+
+общая: 72.01 лет
+
+городская местность: 72.19  (мужчины: 68.54, женщины: 75.68)
+
+сельская местность: 69.73  (мужчины: 66.06, женщины: 73.76)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_28"/>
+      <text x="705" y="-686" dy="0.7ex" class="hidden_text" stroke="#ff0000">Тюменская область (без 2 АО)</text>
+      <title>Тюменская область (без двух АО) (население: 1 548 000)
+
+общая: 70.14 лет
+
+городская местность: 70.98  (мужчины: 66.28, женщины: 75.43)
+
+сельская местность: 68.36  (мужчины: 63.68, женщины: 73.57)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_29"/>
+      <text x="703" y="-706" dy="0.7ex" class="hidden_text" stroke="#006400">Белгородская область</text>
+      <title>Белгородская область (население: 1 537 000)
+
+общая: 70.67 лет
+
+городская местность: 70.78  (мужчины: 66.53, женщины: 74.7)
+
+сельская местность: 70.3  (мужчины: 66.42, женщины: 74.41)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_30"/>
+      <title>Чеченская Республика (население: 1 507 000)
+
+общая: 73.0 лет
+
+городская местность: 66.41  (мужчины: 64.27, женщины: 68.49)
+
+сельская местность: 79.96  (мужчины: 77.38, женщины: 82.24)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_31"/>
+      <text x="699" y="-693" dy="0.7ex" class="hidden_text" stroke="#4169e1">Удмуртия</text>
+      <title>Удмуртская Республика (население: 1 489 000)
+
+общая: 69.99 лет
+
+городская местность: 70.37  (мужчины: 64.79, женщины: 75.47)
+
+сельская местность: 69.05  (мужчины: 64.04, женщины: 74.99)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_32"/>
+      <text x="681" y="-707" dy="0.7ex" class="hidden_text" stroke="#006400">Тульская область</text>
+      <title>Тульская область (население: 1 441 000)
+
+общая: 68.97 лет
+
+городская местность: 68.53  (мужчины: 63.39, женщины: 73.54)
+
+сельская местность: 70.46  (мужчины: 66.26, женщины: 74.81)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_33"/>
+      <text x="675" y="-691" dy="0.7ex" class="hidden_text" stroke="#006400">Владимирская область</text>
+      <title>Владимирская область (население: 1 333 000)
+
+общая: 68.11 лет
+
+городская местность: 67.93  (мужчины: 62.74, женщины: 72.97)
+
+сельская местность: 68.81  (мужчины: 64.89, женщины: 73.0)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_34"/>
+      <title>Хабаровский край (население: 1 300 000)
+
+общая: 67.85 лет
+
+городская местность: 68.25  (мужчины: 63.16, женщины: 73.35)
+
+сельская местность: 66.03  (мужчины: 61.93, женщины: 70.78)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_35"/>
+      <text x="698" y="-696" dy="0.7ex" class="hidden_text" stroke="#4169e1">Пензенская область</text>
+      <title>Пензенская область (население: 1 282 000)
+
+общая: 69.97 лет
+
+городская местность: 70.24  (мужчины: 65.39, женщины: 74.83)
+
+сельская местность: 69.3  (мужчины: 64.62, женщины: 74.41)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_36"/>
+      <text x="699" y="-666" dy="0.7ex" class="hidden_text" stroke="#4169e1">Кировская область</text>
+      <title>Кировская область (население: 1 242 000)
+
+общая: 69.73 лет
+
+городская местность: 70.29  (мужчины: 65.27, женщины: 75.03)
+
+сельская местность: 66.45  (мужчины: 62.58, женщины: 69.96)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_37"/>
+      <text x="677" y="-674" dy="0.7ex" class="hidden_text" stroke="#006400">Тверская область</text>
+      <title>Тверская область (население: 1 238 000)
+
+общая: 67.87 лет
+
+городская местность: 68.03  (мужчины: 62.68, женщины: 73.23)
+
+сельская местность: 67.27  (мужчины: 63.25, женщины: 72.19)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_38"/>
+      <text x="687" y="-691" dy="0.7ex" class="hidden_text" stroke="#006400">Ярославская область</text>
+      <title>Ярославская область (население: 1 234 000)
+
+общая: 69.07 лет
+
+городская местность: 69.08  (мужчины: 63.6, женщины: 74.29)
+
+сельская местность: 68.92  (мужчины: 64.43, женщины: 73.83)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_39"/>
+      <text x="689" y="-685" dy="0.7ex" class="hidden_text" stroke="#4169e1">Ульяновская область</text>
+      <title>Ульяновская область (население: 1 211 000)
+
+общая: 69.05 лет
+
+городская местность: 69.2  (мужчины: 64.26, женщины: 73.96)
+
+сельская местность: 68.32  (мужчины: 63.79, женщины: 73.2)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_40"/>
+      <text x="703" y="-685" dy="0.7ex" class="hidden_text" stroke="#4169e1">Чувашия</text>
+      <title>Чувашская Республика (население: 1 203 000)
+
+общая: 69.99 лет
+
+городская местность: 70.63  (мужчины: 65.43, женщины: 75.32)
+
+сельская местность: 68.36  (мужчины: 63.72, женщины: 74.45)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_41"/>
+      <text x="684" y="-687" dy="0.7ex" class="hidden_text" stroke="#006400">Брянская область</text>
+      <title>Брянская область (население: 1 176 000)
+
+общая: 68.67 лет
+
+городская местность: 68.7  (мужчины: 63.44, женщины: 73.82)
+
+сельская местность: 68.56  (мужчины: 63.79, женщины: 73.82)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_42"/>
+      <text x="691" y="-680" dy="0.7ex" class="hidden_text" stroke="#0000cd">Вологодская область</text>
+      <title>Вологодская область (население: 1 145 000)
+
+общая: 69.08 лет
+
+городская местность: 69.47  (мужчины: 64.13, женщины: 74.46)
+
+сельская местность: 67.85  (мужчины: 62.98, женщины: 73.81)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_43"/>
+      <text x="684" y="-683" dy="0.7ex" class="hidden_text" stroke="#006400">Липецкая область</text>
+      <title>Липецкая область (население: 1 121 000)
+
+общая: 68.58 лет
+
+городская местность: 68.78  (мужчины: 63.96, женщины: 73.36)
+
+сельская местность: 68.12  (мужчины: 63.64, женщины: 73.06)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_44"/>
+      <text x="681" y="-691" dy="0.7ex" class="hidden_text" stroke="#006400">Рязанская область</text>
+      <title>Рязанская область (население: 1 092 000)
+
+общая: 68.61 лет
+
+городская местность: 68.4  (мужчины: 63.55, женщины: 73.06)
+
+сельская местность: 68.98  (мужчины: 64.86, женщины: 73.46)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_45"/>
+      <text x="687" y="-673" dy="0.7ex" class="hidden_text" stroke="#006400">Курская область</text>
+      <title>Курская область (население: 1 090 000)
+
+общая: 68.56 лет
+
+городская местность: 69.09  (мужчины: 64.48, женщины: 73.33)
+
+сельская местность: 67.12  (мужчины: 63.1, женщины: 71.63)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_46"/>
+      <text x="701" y="-658" dy="0.7ex" class="hidden_text" stroke="#0000cd">Архангельская область (без АО)</text>
+      <title>Архангельская область (без АО) (население: 1 076 000)
+
+общая: 69.6 лет
+
+городская местность: 70.43  (мужчины: 65.12, женщины: 75.55)
+
+сельская местность: 65.62  (мужчины: 61.17, женщины: 71.58)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_47"/>
+      <text x="701" y="-678" dy="0.7ex" class="hidden_text" stroke="#808000">Томская область</text>
+      <title>Томская область (население: 1 069 000)
+
+общая: 69.7 лет
+
+городская местность: 70.47  (мужчины: 65.68, женщины: 75.06)
+
+сельская местность: 67.63  (мужчины: 63.23, женщины: 72.6)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_48"/>
+      <text x="672" y="-650" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Забайкальский край</text>
+      <title>Забайкальский край (население: 1 048 000)
+
+общая: 66.82 лет
+
+городская местность: 67.59  (мужчины: 62.94, женщины: 72.12)
+
+сельская местность: 64.84  (мужчины: 60.58, женщины: 70.13)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_49"/>
+      <text x="709" y="-703" dy="0.7ex" class="hidden_text" stroke="#0000cd">Калининградская область</text>
+      <title>Калининградская область (население: 1 023 000)
+
+общая: 70.99 лет
+
+городская местность: 71.27  (мужчины: 66.76, женщины: 75.42)
+
+сельская местность: 70.14  (мужчины: 65.74, женщины: 74.57)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_50"/>
+      <text x="685" y="-703" dy="0.7ex" class="hidden_text" stroke="#006400">Калужская область</text>
+      <title>Калужская область (население: 1 007 000)
+
+общая: 69.16 лет
+
+городская местность: 68.88  (мужчины: 63.69, женщины: 74.09)
+
+сельская местность: 70.16  (мужчины: 66.38, женщины: 74.05)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_51"/>
+      <text x="693" y="-706" dy="0.7ex" class="hidden_text" stroke="#b22222">Астраханская область</text>
+      <title>Астраханская область (население: 994 000)
+
+общая: 69.9 лет
+
+городская местность: 69.63  (мужчины: 65.36, женщины: 73.75)
+
+сельская местность: 70.43  (мужчины: 66.76, женщины: 74.17)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_52"/>
+      <text x="696" y="-699" dy="0.7ex" class="hidden_text" stroke="#006400">Тамбовская область</text>
+      <title>Тамбовская область (население: 988 000)
+
+общая: 69.88 лет
+
+городская местность: 69.94  (мужчины: 65.29, женщины: 74.29)
+
+сельская местность: 69.72  (мужчины: 65.39, женщины: 74.35)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_53"/>
+      <title>Республика Саха (Якутия) (население: 987 000)
+
+общая: 69.98 лет
+
+городская местность: 70.44  (мужчины: 66.21, женщины: 74.67)
+
+сельская местность: 68.86  (мужчины: 64.27, женщины: 73.95)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_54"/>
+      <text x="697" y="-674" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Бурятия</text>
+      <title>Республика Бурятия (население: 984 000)
+
+общая: 68.91 лет
+
+городская местность: 70.03  (мужчины: 64.78, женщины: 74.91)
+
+сельская местность: 67.21  (мужчины: 62.99, женщины: 72.01)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_55"/>
+      <text x="685" y="-698" dy="0.7ex" class="hidden_text" stroke="#006400">Ивановская область</text>
+      <title>Ивановская область (население: 982 000)
+
+общая: 69.02 лет
+
+городская местность: 68.85  (мужчины: 63.5, женщины: 73.82)
+
+сельская местность: 69.68  (мужчины: 66.18, женщины: 73.64)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_56"/>
+      <text x="679" y="-674" dy="0.7ex" class="hidden_text" stroke="#006400">Смоленская область</text>
+      <title>Смоленская область (население: 915 000)
+
+общая: 68.0 лет
+
+городская местность: 68.29  (мужчины: 63.28, женщины: 73.12)
+
+сельская местность: 67.24  (мужчины: 63.2, женщины: 71.79)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_57"/>
+      <title>Кабардино-Балкарская Республика (население: 870 000)
+
+общая: 73.77 лет
+
+городская местность: 74.1  (мужчины: 70.27, женщины: 77.34)
+
+сельская местность: 73.36  (мужчины: 69.5, женщины: 77.25)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_58"/>
+      <text x="681" y="-681" dy="0.7ex" class="hidden_text" stroke="#ff0000">Курганская область</text>
+      <title>Курганская область (население: 812 000)
+
+общая: 68.29 лет
+
+городская местность: 68.42  (мужчины: 63.11, женщины: 73.53)
+
+сельская местность: 67.95  (мужчины: 63.45, женщины: 73.14)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_59"/>
+      <text x="687" y="-653" dy="0.7ex" class="hidden_text" stroke="#0000cd">Коми</text>
+      <title>Республика Коми (население: 809 000)
+
+общая: 68.32 лет
+
+городская местность: 69.02  (мужчины: 64.1, женщины: 73.73)
+
+сельская местность: 65.16  (мужчины: 61.39, женщины: 69.96)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_60"/>
+      <text x="667" y="-648" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Амурская область</text>
+      <title>Амурская область (население: 777 000)
+
+общая: 66.3 лет
+
+городская местность: 67.01  (мужчины: 62.18, женщины: 71.78)
+
+сельская местность: 64.63  (мужчины: 60.71, женщины: 69.37)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_61"/>
+      <text x="701" y="-699" dy="0.7ex" class="hidden_text" stroke="#4169e1">Мордовия</text>
+      <title>Республика Мордовия (население: 775 000)
+
+общая: 70.24 лет
+
+городская местность: 70.4  (мужчины: 66.14, женщины: 74.28)
+
+сельская местность: 69.7  (мужчины: 65.72, женщины: 73.94)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_62"/>
+      <text x="678" y="-701" dy="0.7ex" class="hidden_text" stroke="#0000cd">Мурманская область</text>
+      <title>Мурманская область (население: 729 000)
+
+общая: 68.29 лет
+
+городская местность: 68.16  (мужчины: 63.47, женщины: 72.83)
+
+сельская местность: 69.97  (мужчины: 66.53, женщины: 72.88)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_63"/>
+      <text x="690" y="-683" dy="0.7ex" class="hidden_text" stroke="#006400">Орловская область</text>
+      <title>Орловская область (население: 719 000)
+
+общая: 68.97 лет
+
+городская местность: 69.32  (мужчины: 64.24, женщины: 74.08)
+
+сельская местность: 68.19  (мужчины: 63.68, женщины: 73.06)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_64"/>
+      <title>Республика Северная Осетия-Алания (население: 691 000)
+
+общая: 72.47 лет
+
+городская местность: 72.19  (мужчины: 67.82, женщины: 75.99)
+
+сельская местность: 73.02  (мужчины: 68.54, женщины: 77.52)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_65"/>
+      <text x="698" y="-681" dy="0.7ex" class="hidden_text" stroke="#4169e1">Марий Эл</text>
+      <title>Республика Марий Эл (население: 673 000)
+
+общая: 69.46 лет
+
+городская местность: 70.17  (мужчины: 64.66, женщины: 75.38)
+
+сельская местность: 67.95  (мужчины: 62.71, женщины: 74.46)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_66"/>
+      <text x="687" y="-679" dy="0.7ex" class="hidden_text" stroke="#006400">Костромская область</text>
+      <title>Костромская область (население: 625 000)
+
+общая: 68.78 лет
+
+городская местность: 69.02  (мужчины: 63.91, женщины: 73.9)
+
+сельская местность: 67.79  (мужчины: 64.08, женщины: 72.03)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_67"/>
+      <text x="673" y="-676" dy="0.7ex" class="hidden_text" stroke="#0000cd">Псковская область</text>
+      <title>Псковская область (население: 617 000)
+
+общая: 67.69 лет
+
+городская местность: 67.63  (мужчины: 62.36, женщины: 72.73)
+
+сельская местность: 67.45  (мужчины: 63.83, женщины: 71.59)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_68"/>
+      <text x="680" y="-626" dy="0.7ex" class="hidden_text" stroke="#0000cd">Карелия</text>
+      <title>Республика Карелия (население: 606 000)
+
+общая: 67.31 лет
+
+городская местность: 68.31  (мужчины: 63.03, женщины: 73.31)
+
+сельская местность: 62.49  (мужчины: 58.63, женщины: 67.37)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_69"/>
+      <title>Новгородская область (население: 589 000)
+
+общая: 67.64 лет
+
+городская местность: 67.27  (мужчины: 61.86, женщины: 72.49)
+
+сельская местность: 68.39  (мужчины: 64.05, женщины: 73.1)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_70"/>
+      <text x="723" y="-673" dy="0.7ex" class="hidden_text" stroke="#ff0000">Ямало-Ненецкий АО</text>
+      <title>Ямало-Ненецкий АО (Тюменская область) (население: 550 000)
+
+общая: 71.7 лет
+
+городская местность: 72.52  (мужчины: 69.09, женщины: 75.96)
+
+сельская местность: 67.2  (мужчины: 63.22, женщины: 71.67)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_71"/>
+      <text x="689" y="-670" dy="0.7ex" class="hidden_text" stroke="#808000">Хакасия</text>
+      <title>Республика Хакасия (население: 530 000)
+
+общая: 68.49 лет
+
+городская местность: 69.15  (мужчины: 64.22, женщины: 73.86)
+
+сельская местность: 66.91  (мужчины: 62.62, женщины: 71.47)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_72"/>
+      <title>Республика Ингушетия (население: 520 000)
+
+общая: 80.52 лет
+
+городская местность: 81.67  (мужчины: 78.14, женщины: 83.67)
+
+сельская местность: 79.24  (мужчины: 76.22, женщины: 81.84)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_73"/>
+      <title>город федерального значения Севастополь (население: 516 000)
+
+общая: 72.25 лет
+
+городская местность: 72.13  (мужчины: 67.73, женщины: 76.33)
+
+сельская местность: 73.9  (мужчины: 69.63, женщины: 77.35)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_74"/>
+      <text x="684" y="-668" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Сахалинская область</text>
+      <title>Сахалинская область (население: 485 000)
+
+общая: 68.42 лет
+
+городская местность: 68.68  (мужчины: 63.8, женщины: 73.74)
+
+сельская местность: 66.76  (мужчины: 62.87, женщины: 71.21)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_75"/>
+      <text x="716" y="-707" dy="0.7ex" class="hidden_text" stroke="#b22222">Адыгея</text>
+      <title>Республика Адыгея (население: 466 000)
+
+общая: 71.22 лет
+
+городская местность: 71.85  (мужчины: 66.84, женщины: 76.43)
+
+сельская местность: 70.67  (мужчины: 66.26, женщины: 75.06)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_76"/>
+      <title>Карачаево-Черкесская Республика (население: 465 000)
+
+общая: 73.47 лет
+
+городская местность: 73.42  (мужчины: 69.12, женщины: 77.03)
+
+сельская местность: 73.48  (мужчины: 69.39, женщины: 77.5)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_77"/>
+      <text x="689" y="-632" dy="0.7ex" class="hidden_text" stroke="#808000">Тыва</text>
+      <title>Республика Тыва (население: 331 000)
+
+общая: 66.88 лет
+
+городская местность: 69.13  (мужчины: 64.46, женщины: 73.2)
+
+сельская местность: 63.13  (мужчины: 59.92, женщины: 65.42)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_78"/>
+      <text x="686" y="-651" dy="0.7ex" class="hidden_text" stroke="#ff8c00">Камчатский край</text>
+      <title>Камчатский край (население: 312 000)
+
+общая: 68.09 лет
+
+городская местность: 68.87  (мужчины: 64.23, женщины: 73.83)
+
+сельская местность: 65.06  (мужчины: 61.12, женщины: 69.67)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_79"/>
+      <text x="712" y="-714" dy="0.7ex" class="hidden_text" stroke="#b22222">Калмыкия</text>
+      <title>Республика Калмыкия (население: 269 000)
+
+общая: 71.4 лет
+
+городская местность: 71.49  (мужчины: 66.89, женщины: 75.06)
+
+сельская местность: 71.38  (мужчины: 67.57, женщины: 75.6)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_80"/>
+      <text x="688" y="-670" dy="0.7ex" class="hidden_text" stroke="#808000">Алтай</text>
+      <title>Республика Алтай (население: 221 000)
+
+общая: 67.86 лет
+
+городская местность: 69.07  (мужчины: 62.87, женщины: 74.26)
+
+сельская местность: 66.98  (мужчины: 61.86, женщины: 72.76)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_81"/>
+      <title>Еврейская автономная область (население: 155 000)
+
+общая: 66.12 лет
+
+городская местность: 66.14  (мужчины: 61.42, женщины: 70.52)
+
+сельская местность: 66.42  (мужчины: 61.95, женщины: 70.24)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_82"/>
+      <title>Магаданская область (население: 138 000)
+
+общая: 67.41 лет
+
+городская местность: 67.77  (мужчины: 62.82, женщины: 72.88)
+
+сельская местность: 59.29  (мужчины: 55.39, женщины: 60.71)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_83"/>
+      <title>Чукотский автономный округ (население: 50 000)
+
+общая: 64.87 лет
+
+городская местность: 69.88  (мужчины: 66.21, женщины: 74.22)
+
+сельская местность: 50.78  (мужчины: 48.15, женщины: 49.68)</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_84"/>
+      <text x="717" y="-624" dy="0.7ex" class="hidden_text" stroke="#0000cd">Ненецкий АО</text>
+      <title>Ненецкий АО (Архангельская область) (население: 44 000)
+
+общая: 69.39 лет
+
+городская местность: 71.84  (мужчины: 67.83, женщины: 75.63)
+
+сельская местность: 62.49  (мужчины: 57.05, женщины: 70.8)</title>
+    </g>
+  </g>
+</svg>

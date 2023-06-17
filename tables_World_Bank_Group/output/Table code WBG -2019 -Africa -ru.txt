@@ -1,0 +1,122 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! Страны
+! style="width:4em;"| {{abbr|Общая|Всё население в среднем|0}}
+! style="width:4em;"| {{abbr|М|Мужчины|0}}
+! style="width:4em;"| {{abbr|Ж|Женщины|0}}
+! style="width:4em;"| {{abbr|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами|0}}
+! style="width:4em;"| {{abbr|Δ<br>2014|Изменение показателя для всего населения по сравнению с 2014 годом|0}}
+! style="width:4em;"| {{abbr|Δ<br>2000|Изменение показателя для всего населения по сравнению с 2000 годом|0}}
+|-{{static row numbers arrows|7}}
+|-
+|align=left|{{флагификация|Algeria}} ||style="text-align:center; background:#e0ffd8;"| 76,47 ||style="text-align:center; background:#eaf3ff;"| 75,24 ||style="text-align:center; background:#fee7f6;"| 77,76 ||style="text-align:center;"| 2,52 ||style="text-align:center; background:#fff8dc;"| 1,36 ||style="text-align:center; background:#fff8dc;"| 6,00
+|-
+|align=left|{{флагификация|Cabo Verde}} ||style="text-align:center; background:#e0ffd8;"| 76,00 ||style="text-align:center; background:#eaf3ff;"| 71,57 ||style="text-align:center; background:#fee7f6;"| 80,18 ||style="text-align:center;"| 8,61 ||style="text-align:center; background:#fff8dc;"| 0,76 ||style="text-align:center; background:#fff8dc;"| 7,39
+|-
+|align=left|{{флагификация|Tunisia}} ||style="text-align:center; background:#e0ffd8;"| 75,99 ||style="text-align:center; background:#eaf3ff;"| 72,89 ||style="text-align:center; background:#fee7f6;"| 79,38 ||style="text-align:center;"| 6,48 ||style="text-align:center; background:#fff8dc;"| 0,34 ||style="text-align:center; background:#fff8dc;"| 2,30
+|-
+|align=left|{{флагификация|Morocco}} ||style="text-align:center; background:#e0ffd8;"| 74,27 ||style="text-align:center; background:#eaf3ff;"| 72,25 ||style="text-align:center; background:#fee7f6;"| 76,45 ||style="text-align:center;"| 4,20 ||style="text-align:center; background:#fff8dc;"| 1,73 ||style="text-align:center; background:#fff8dc;"| 7,48
+|-
+|align=left|{{флагификация|Mauritius}} ||style="text-align:center; background:#e0ffd8;"| 74,24 ||style="text-align:center; background:#eaf3ff;"| 71,07 ||style="text-align:center; background:#fee7f6;"| 77,56 ||style="text-align:center;"| 6,49 ||style="text-align:center; background:#fff8dc;"| 0,04 ||style="text-align:center; background:#fff8dc;"| 2,57
+|-
+|align=left|{{флагификация|Seychelles}} ||style="text-align:center; background:#e0ffd8;"| 74,05 ||style="text-align:center; background:#eaf3ff;"| 69,90 ||style="text-align:center; background:#fee7f6;"| 78,40 ||style="text-align:center;"| 8,50 ||style="text-align:center; background:#fff8dc;"| 0,82 ||style="text-align:center; background:#fff8dc;"| 1,27
+|-class=static-row-header
+|align=center| '''Мир''' ||style="text-align:center; background:#e0ffd8;"| '''72,98''' ||style="text-align:center; background:#eaf3ff;"| '''70,62''' ||style="text-align:center; background:#fee7f6;"| '''75,47''' ||style="text-align:center;"| '''4,85''' ||style="text-align:center; background:#fff8dc;"| '''1,10''' ||style="text-align:center; background:#fff8dc;"| '''5,28'''
+|-
+|align=left|{{флагификация|Libya}} ||style="text-align:center; background:#e0ffd8;"| 72,46 ||style="text-align:center; background:#eaf3ff;"| 69,50 ||style="text-align:center; background:#fee7f6;"| 75,77 ||style="text-align:center;"| 6,27 ||style="text-align:center; background:#fff8dc;"| 0,95 ||style="text-align:center; background:#fff8dc;"| 1,78
+|-
+|align=left|{{флагификация|Egypt}} ||style="text-align:center; background:#e0ffd8;"| 71,36 ||style="text-align:center; background:#eaf3ff;"| 69,05 ||style="text-align:center; background:#fee7f6;"| 73,71 ||style="text-align:center;"| 4,66 ||style="text-align:center; background:#fff8dc;"| 0,94 ||style="text-align:center; background:#fff8dc;"| 3,35
+|-
+|align=left|{{флагификация|Senegal}} ||style="text-align:center; background:#e0ffd8;"| 68,53 ||style="text-align:center; background:#eaf3ff;"| 65,95 ||style="text-align:center; background:#fee7f6;"| 70,95 ||style="text-align:center;"| 5,01 ||style="text-align:center; background:#fff8dc;"| 2,07 ||style="text-align:center; background:#fff8dc;"| 11,58
+|-
+|align=left|{{флагификация|Sao Tome and Principe}} ||style="text-align:center; background:#e0ffd8;"| 68,52 ||style="text-align:center; background:#eaf3ff;"| 65,83 ||style="text-align:center; background:#fee7f6;"| 71,62 ||style="text-align:center;"| 5,79 ||style="text-align:center; background:#fff8dc;"| 1,68 ||style="text-align:center; background:#fff8dc;"| 6,87
+|-
+|align=left|{{флагификация|Eritrea}} ||style="text-align:center; background:#e0ffd8;"| 67,30 ||style="text-align:center; background:#eaf3ff;"| 65,22 ||style="text-align:center; background:#fee7f6;"| 69,31 ||style="text-align:center;"| 4,09 ||style="text-align:center; background:#fff8dc;"| 1,70 ||style="text-align:center; background:#fff8dc;"| 11,19
+|-
+|align=left|{{флагификация|Tanzania}} ||style="text-align:center; background:#e0ffd8;"| 66,99 ||style="text-align:center; background:#eaf3ff;"| 64,92 ||style="text-align:center; background:#fee7f6;"| 69,12 ||style="text-align:center;"| 4,20 ||style="text-align:center; background:#fff8dc;"| 3,12 ||style="text-align:center; background:#fff8dc;"| 14,63
+|-
+|align=left|{{флагификация|Gabon}} ||style="text-align:center; background:#e0ffd8;"| 66,60 ||style="text-align:center; background:#eaf3ff;"| 64,58 ||style="text-align:center; background:#fee7f6;"| 68,86 ||style="text-align:center;"| 4,28 ||style="text-align:center; background:#fff8dc;"| 1,63 ||style="text-align:center; background:#fff8dc;"| 5,53
+|-
+|align=left|{{флагификация|Rwanda}} ||style="text-align:center; background:#e0ffd8;"| 66,44 ||style="text-align:center; background:#eaf3ff;"| 64,18 ||style="text-align:center; background:#fee7f6;"| 68,48 ||style="text-align:center;"| 4,30 ||style="text-align:center; background:#fff8dc;"| 1,50 ||style="text-align:center; background:#fff8dc;"| 19,31
+|-
+|align=left|{{флагификация|South Africa}} ||style="text-align:center; background:#e0ffd8;"| 66,17 ||style="text-align:center; background:#eaf3ff;"| 62,83 ||style="text-align:center; background:#fee7f6;"| 69,11 ||style="text-align:center;"| 6,27 ||style="text-align:center; background:#fff8dc;"| 2,79 ||style="text-align:center; background:#fff8dc;"| 7,70
+|-
+|align=left|{{флагификация|Madagascar}} ||style="text-align:center; background:#e0ffd8;"| 65,88 ||style="text-align:center; background:#eaf3ff;"| 63,66 ||style="text-align:center; background:#fee7f6;"| 68,21 ||style="text-align:center;"| 4,55 ||style="text-align:center; background:#fff8dc;"| 1,63 ||style="text-align:center; background:#fff8dc;"| 7,94
+|-
+|align=left|{{флагификация|Sudan}} ||style="text-align:center; background:#e0ffd8;"| 65,88 ||style="text-align:center; background:#eaf3ff;"| 63,43 ||style="text-align:center; background:#fee7f6;"| 68,39 ||style="text-align:center;"| 4,96 ||style="text-align:center; background:#fff8dc;"| 1,61 ||style="text-align:center; background:#fff8dc;"| 7,56
+|-
+|align=left|{{флагификация|Ethiopia}} ||style="text-align:center; background:#e0ffd8;"| 65,84 ||style="text-align:center; background:#eaf3ff;"| 63,05 ||style="text-align:center; background:#fee7f6;"| 68,80 ||style="text-align:center;"| 5,74 ||style="text-align:center; background:#fff8dc;"| 2,93 ||style="text-align:center; background:#fff8dc;"| 15,30
+|-
+|align=left|{{флагификация|Mauritania}} ||style="text-align:center; background:#e0ffd8;"| 65,69 ||style="text-align:center; background:#eaf3ff;"| 63,78 ||style="text-align:center; background:#fee7f6;"| 67,65 ||style="text-align:center;"| 3,87 ||style="text-align:center; background:#fff8dc;"| 1,53 ||style="text-align:center; background:#fff8dc;"| 4,66
+|-
+|align=left|{{флагификация|Botswana}} ||style="text-align:center; background:#e0ffd8;"| 65,46 ||style="text-align:center; background:#eaf3ff;"| 62,93 ||style="text-align:center; background:#fee7f6;"| 67,89 ||style="text-align:center;"| 4,96 ||style="text-align:center; background:#fff8dc;"| 2,86 ||style="text-align:center; background:#fff8dc;"| 14,45
+|-
+|align=left|{{флагификация|Ghana}} ||style="text-align:center; background:#e0ffd8;"| 64,74 ||style="text-align:center; background:#eaf3ff;"| 62,69 ||style="text-align:center; background:#fee7f6;"| 66,83 ||style="text-align:center;"| 4,14 ||style="text-align:center; background:#fff8dc;"| 1,69 ||style="text-align:center; background:#fff8dc;"| 6,54
+|-
+|align=left|{{флагификация|Malawi}} ||style="text-align:center; background:#e0ffd8;"| 64,12 ||style="text-align:center; background:#eaf3ff;"| 60,40 ||style="text-align:center; background:#fee7f6;"| 67,97 ||style="text-align:center;"| 7,57 ||style="text-align:center; background:#fff8dc;"| 3,22 ||style="text-align:center; background:#fff8dc;"| 19,60
+|-
+|align=left|{{флагификация|Comoros}} ||style="text-align:center; background:#e0ffd8;"| 64,07 ||style="text-align:center; background:#eaf3ff;"| 62,01 ||style="text-align:center; background:#fee7f6;"| 66,31 ||style="text-align:center;"| 4,30 ||style="text-align:center; background:#fff8dc;"| 1,55 ||style="text-align:center; background:#fff8dc;"| 5,31
+|-
+|align=left|{{флагификация|Gambia}} ||style="text-align:center; background:#e0ffd8;"| 63,76 ||style="text-align:center; background:#eaf3ff;"| 62,33 ||style="text-align:center; background:#fee7f6;"| 65,19 ||style="text-align:center;"| 2,86 ||style="text-align:center; background:#fff8dc;"| 1,49 ||style="text-align:center; background:#fff8dc;"| 6,81
+|-
+|align=left|{{флагификация|Djibouti}} ||style="text-align:center; background:#e0ffd8;"| 63,09 ||style="text-align:center; background:#eaf3ff;"| 60,70 ||style="text-align:center; background:#fee7f6;"| 65,56 ||style="text-align:center;"| 4,87 ||style="text-align:center; background:#fff8dc;"| 1,44 ||style="text-align:center; background:#fff8dc;"| 6,51
+|-
+|align=left|{{флагификация|Namibia}} ||style="text-align:center; background:#e0ffd8;"| 63,08 ||style="text-align:center; background:#eaf3ff;"| 59,43 ||style="text-align:center; background:#fee7f6;"| 66,64 ||style="text-align:center;"| 7,21 ||style="text-align:center; background:#fff8dc;"| 3,25 ||style="text-align:center; background:#fff8dc;"| 11,09
+|-
+|align=left|{{флагификация|Uganda}} ||style="text-align:center; background:#e0ffd8;"| 62,99 ||style="text-align:center; background:#eaf3ff;"| 60,89 ||style="text-align:center; background:#fee7f6;"| 64,99 ||style="text-align:center;"| 4,10 ||style="text-align:center; background:#fff8dc;"| 2,58 ||style="text-align:center; background:#fff8dc;"| 14,65
+|-
+|align=left|{{флагификация|Kenya}} ||style="text-align:center; background:#e0ffd8;"| 62,94 ||style="text-align:center; background:#eaf3ff;"| 60,68 ||style="text-align:center; background:#fee7f6;"| 65,28 ||style="text-align:center;"| 4,60 ||style="text-align:center; background:#fff8dc;"| 1,13 ||style="text-align:center; background:#fff8dc;"| 8,53
+|-
+|align=left|{{флагификация|Niger}} ||style="text-align:center; background:#e0ffd8;"| 62,90 ||style="text-align:center; background:#eaf3ff;"| 61,87 ||style="text-align:center; background:#fee7f6;"| 63,94 ||style="text-align:center;"| 2,07 ||style="text-align:center; background:#fff8dc;"| 2,11 ||style="text-align:center; background:#fff8dc;"| 13,57
+|-
+|align=left|{{флагификация|Zambia}} ||style="text-align:center; background:#e0ffd8;"| 62,79 ||style="text-align:center; background:#eaf3ff;"| 60,08 ||style="text-align:center; background:#fee7f6;"| 65,41 ||style="text-align:center;"| 5,33 ||style="text-align:center; background:#fff8dc;"| 2,09 ||style="text-align:center; background:#fff8dc;"| 17,56
+|-
+|align=left|{{флагификация|Congo, Rep.}} ||style="text-align:center; background:#e0ffd8;"| 62,75 ||style="text-align:center; background:#eaf3ff;"| 61,35 ||style="text-align:center; background:#fee7f6;"| 64,17 ||style="text-align:center;"| 2,82 ||style="text-align:center; background:#fff8dc;"| -0,20 ||style="text-align:center; background:#fff8dc;"| 9,06
+|-
+|align=left|{{флагификация|Angola}} ||style="text-align:center; background:#e0ffd8;"| 62,45 ||style="text-align:center; background:#eaf3ff;"| 59,98 ||style="text-align:center; background:#fee7f6;"| 64,92 ||style="text-align:center;"| 4,95 ||style="text-align:center; background:#fff8dc;"| 2,41 ||style="text-align:center; background:#fff8dc;"| 16,42
+|-
+|align=left|{{флагификация|Burundi}} ||style="text-align:center; background:#e0ffd8;"| 62,35 ||style="text-align:center; background:#eaf3ff;"| 60,34 ||style="text-align:center; background:#fee7f6;"| 64,35 ||style="text-align:center;"| 4,01 ||style="text-align:center; background:#fff8dc;"| 2,48 ||style="text-align:center; background:#fff8dc;"| 14,84
+|-
+|align=left|{{флагификация|Equatorial Guinea}} ||style="text-align:center; background:#e0ffd8;"| 61,64 ||style="text-align:center; background:#eaf3ff;"| 59,98 ||style="text-align:center; background:#fee7f6;"| 63,54 ||style="text-align:center;"| 3,56 ||style="text-align:center; background:#fff8dc;"| 2,05 ||style="text-align:center; background:#fff8dc;"| 8,42
+|-
+|align=left|{{флагификация|Cameroon}} ||style="text-align:center; background:#e0ffd8;"| 61,58 ||style="text-align:center; background:#eaf3ff;"| 60,19 ||style="text-align:center; background:#fee7f6;"| 63,00 ||style="text-align:center;"| 2,81 ||style="text-align:center; background:#fff8dc;"| 2,65 ||style="text-align:center; background:#fff8dc;"| 8,65
+|-
+|align=left|{{флагификация|Zimbabwe}} ||style="text-align:center; background:#e0ffd8;"| 61,29 ||style="text-align:center; background:#eaf3ff;"| 58,64 ||style="text-align:center; background:#fee7f6;"| 63,66 ||style="text-align:center;"| 5,02 ||style="text-align:center; background:#fff8dc;"| 2,45 ||style="text-align:center; background:#fff8dc;"| 16,61
+|-
+|align=left|{{флагификация|Mozambique}} ||style="text-align:center; background:#e0ffd8;"| 61,17 ||style="text-align:center; background:#eaf3ff;"| 58,31 ||style="text-align:center; background:#fee7f6;"| 63,92 ||style="text-align:center;"| 5,61 ||style="text-align:center; background:#fff8dc;"| 3,89 ||style="text-align:center; background:#fff8dc;"| 11,67
+|-
+|align=left|{{флагификация|Liberia}} ||style="text-align:center; background:#e0ffd8;"| 61,10 ||style="text-align:center; background:#eaf3ff;"| 59,89 ||style="text-align:center; background:#fee7f6;"| 62,30 ||style="text-align:center;"| 2,41 ||style="text-align:center; background:#fff8dc;"| 1,98 ||style="text-align:center; background:#fff8dc;"| 9,75
+|-
+|align=left|{{флагификация|Togo}} ||style="text-align:center; background:#e0ffd8;"| 60,90 ||style="text-align:center; background:#eaf3ff;"| 60,35 ||style="text-align:center; background:#fee7f6;"| 61,44 ||style="text-align:center;"| 1,09 ||style="text-align:center; background:#fff8dc;"| 2,05 ||style="text-align:center; background:#fff8dc;"| 6,16
+|-
+|align=left|{{флагификация|Guinea-Bissau}} ||style="text-align:center; background:#e0ffd8;"| 60,88 ||style="text-align:center; background:#eaf3ff;"| 58,76 ||style="text-align:center; background:#fee7f6;"| 62,87 ||style="text-align:center;"| 4,11 ||style="text-align:center; background:#fff8dc;"| 2,27 ||style="text-align:center; background:#fff8dc;"| 10,76
+|-
+|align=left|{{флагификация|Eswatini}} ||style="text-align:center; background:#e0ffd8;"| 60,55 ||style="text-align:center; background:#eaf3ff;"| 56,98 ||style="text-align:center; background:#fee7f6;"| 64,35 ||style="text-align:center;"| 7,38 ||style="text-align:center; background:#fff8dc;"| 7,50 ||style="text-align:center; background:#fff8dc;"| 13,29
+|-
+|align=left|{{флагификация|Benin}} ||style="text-align:center; background:#e0ffd8;"| 60,45 ||style="text-align:center; background:#eaf3ff;"| 59,05 ||style="text-align:center; background:#fee7f6;"| 61,86 ||style="text-align:center;"| 2,81 ||style="text-align:center; background:#fff8dc;"| 1,33 ||style="text-align:center; background:#fff8dc;"| 3,88
+|-
+|align=left|{{флагификация|DR Congo}} ||style="text-align:center; background:#e0ffd8;"| 60,28 ||style="text-align:center; background:#eaf3ff;"| 58,34 ||style="text-align:center; background:#fee7f6;"| 62,24 ||style="text-align:center;"| 3,91 ||style="text-align:center; background:#fff8dc;"| 1,98 ||style="text-align:center; background:#fff8dc;"| 8,50
+|-
+|align=left|{{флагификация|Sierra Leone}} ||style="text-align:center; background:#e0ffd8;"| 60,26 ||style="text-align:center; background:#eaf3ff;"| 58,94 ||style="text-align:center; background:#fee7f6;"| 61,55 ||style="text-align:center;"| 2,61 ||style="text-align:center; background:#fff8dc;"| 3,86 ||style="text-align:center; background:#fff8dc;"| 15,21
+|-
+|align=left|{{флагификация|Burkina Faso}} ||style="text-align:center; background:#e0ffd8;"| 60,04 ||style="text-align:center; background:#eaf3ff;"| 58,17 ||style="text-align:center; background:#fee7f6;"| 61,82 ||style="text-align:center;"| 3,65 ||style="text-align:center; background:#fff8dc;"| 1,68 ||style="text-align:center; background:#fff8dc;"| 9,19
+|-
+|align=left|{{флагификация|Guinea}} ||style="text-align:center; background:#e0ffd8;"| 59,72 ||style="text-align:center; background:#eaf3ff;"| 58,54 ||style="text-align:center; background:#fee7f6;"| 60,82 ||style="text-align:center;"| 2,27 ||style="text-align:center; background:#fff8dc;"| 1,83 ||style="text-align:center; background:#fff8dc;"| 7,24
+|-
+|align=left|{{флагификация|Mali}} ||style="text-align:center; background:#e0ffd8;"| 59,66 ||style="text-align:center; background:#eaf3ff;"| 58,52 ||style="text-align:center; background:#fee7f6;"| 60,84 ||style="text-align:center;"| 2,32 ||style="text-align:center; background:#fff8dc;"| 1,76 ||style="text-align:center; background:#fff8dc;"| 9,12
+|-
+|align=left|{{флагификация|Cote d'Ivoire}} ||style="text-align:center; background:#e0ffd8;"| 59,32 ||style="text-align:center; background:#eaf3ff;"| 58,16 ||style="text-align:center; background:#fee7f6;"| 60,59 ||style="text-align:center;"| 2,43 ||style="text-align:center; background:#fff8dc;"| 2,11 ||style="text-align:center; background:#fff8dc;"| 8,48
+|-
+|align=left|{{флагификация|Somalia}} ||style="text-align:center; background:#e0ffd8;"| 57,08 ||style="text-align:center; background:#eaf3ff;"| 55,12 ||style="text-align:center; background:#fee7f6;"| 59,09 ||style="text-align:center;"| 3,97 ||style="text-align:center; background:#fff8dc;"| 2,80 ||style="text-align:center; background:#fff8dc;"| 6,42
+|-
+|align=left|{{флагификация|South Sudan}} ||style="text-align:center; background:#e0ffd8;"| 55,91 ||style="text-align:center; background:#eaf3ff;"| 54,47 ||style="text-align:center; background:#fee7f6;"| 57,29 ||style="text-align:center;"| 2,82 ||style="text-align:center; background:#fff8dc;"| 0,94 ||style="text-align:center; background:#fff8dc;"| 9,88
+|-
+|align=left|{{флагификация|Central African Republic}} ||style="text-align:center; background:#e0ffd8;"| 55,02 ||style="text-align:center; background:#eaf3ff;"| 53,05 ||style="text-align:center; background:#fee7f6;"| 57,11 ||style="text-align:center;"| 4,06 ||style="text-align:center; background:#fff8dc;"| 4,46 ||style="text-align:center; background:#fff8dc;"| 9,62
+|-
+|align=left|{{флагификация|Lesotho}} ||style="text-align:center; background:#e0ffd8;"| 54,17 ||style="text-align:center; background:#eaf3ff;"| 51,41 ||style="text-align:center; background:#fee7f6;"| 57,05 ||style="text-align:center;"| 5,65 ||style="text-align:center; background:#fff8dc;"| 4,14 ||style="text-align:center; background:#fff8dc;"| 5,75
+|-
+|align=left|{{флагификация|Chad}} ||style="text-align:center; background:#e0ffd8;"| 53,26 ||style="text-align:center; background:#eaf3ff;"| 51,66 ||style="text-align:center; background:#fee7f6;"| 54,91 ||style="text-align:center;"| 3,24 ||style="text-align:center; background:#fff8dc;"| 2,06 ||style="text-align:center; background:#fff8dc;"| 5,82
+|-
+|align=left|{{флагификация|Nigeria}} ||style="text-align:center; background:#e0ffd8;"| 52,91 ||style="text-align:center; background:#eaf3ff;"| 52,65 ||style="text-align:center; background:#fee7f6;"| 53,16 ||style="text-align:center;"| 0,51 ||style="text-align:center; background:#fff8dc;"| 1,12 ||style="text-align:center; background:#fff8dc;"| 5,72
+|}
