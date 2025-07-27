@@ -1,0 +1,10 @@
+{{mw-datatable}}{{sticky header}}{{table alignment}}
+{| class="wikitable mw-datatable sticky-header-multi sortable col5center" style="text-align:right;"
+|-
+! rowspan=2 class="unsortable" style="vertical-align:middle;"|Age
+! colspan=2|Percentage surviving
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{tooltip|F <small>Δ</small> M|Change between female and male}}
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:6ex;"|{{tooltip|F / M|Ratio of female survivors to male survivors}}
+|-
+! class="unsortable" style="vertical-align:middle;"|male
+! class="unsortable" style="vertical-align:middle;"|female

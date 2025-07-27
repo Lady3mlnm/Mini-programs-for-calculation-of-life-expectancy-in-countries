@@ -1,0 +1,128 @@
+{
+  "groups": {
+    "#007800": {
+      "label": "85.5 - 85.74",
+      "paths": [
+        "Shiga",
+        "Kyoto",
+        "Nagano"
+      ]
+    },
+    "#008800": {
+      "label": "85¼ - 85.49",
+      "paths": [
+        "Nara",
+        "Okayama",
+        "Kumamoto",
+        "Hiroshima",
+        "Tottori",
+        "Ishikawa"
+      ]
+    },
+    "#009800": {
+      "label": "85.0 - 85.24",
+      "paths": [
+        "Toyama",
+        "Oita",
+        "Kanagawa",
+        "Gifu",
+        "Hyogo",
+        "Yamanashi"
+      ]
+    },
+    "#00a700": {
+      "label": "84¾ - 84.99",
+      "paths": [
+        "Shimane",
+        "Tokyo",
+        "Fukui",
+        "Fukuoka",
+        "Saga",
+        "Miyagi"
+      ]
+    },
+    "#00b800": {
+      "label": "84.5 - 84.74",
+      "paths": [
+        "Niigata",
+        "Japan",
+        "Aichi",
+        "Mie",
+        "Yamaguchi",
+        "Kochi",
+        "Kagawa",
+        "Ehime",
+        "Shizuoka",
+        "Chiba",
+        "Okinawa"
+      ]
+    },
+    "#00cb00": {
+      "label": "84¼ - 84.49",
+      "paths": [
+        "Wakayama",
+        "Yamagata",
+        "Tokushima",
+        "Miyazaki",
+        "Saitama",
+        "Kagoshima",
+        "Nagasaki",
+        "Hokkaido",
+        "Gunma"
+      ]
+    },
+    "#00e000": {
+      "label": "84.0 - 84.24",
+      "paths": [
+        "Osaka",
+        "Tochigi",
+        "Iwate",
+        "Akita"
+      ]
+    },
+    "#00f000": {
+      "label": "83¾ - 83.99",
+      "paths": [
+        "Fukushima",
+        "Ibaraki"
+      ]
+    },
+    "#b8ff00": {
+      "label": "83.0 - 83.24",
+      "paths": [
+        "Aomori"
+      ]
+    }
+  },
+  "title": "2020",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 150,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "zoomLevel": "1.00",
+  "zoomX": "0.00",
+  "zoomY": "0.00",
+  "v6": true,
+  "page": "japan",
+  "legendPosition": "custom",
+  "legendX": 84,
+  "legendY": 36,
+  "legendSize": "medium",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

@@ -1,0 +1,20 @@
+{{sticky header}}{{table alignment}}
+{| class="wikitable sticky-header-multi sortable col1right" style="text-align:center;"
+|-
+! rowspan=2 class="unsortable" style="vertical-align:middle;"|Возраст
+! colspan=4|2010
+! colspan=4 style="border-left-width:2px;"|2020
+! colspan=4 style="border-left-width:2px;"|2023
+|-
+! class="unsortable" style="width:3.5em;"|{{comment|Общая|Всё население в среднем}}
+! class="unsortable" style="width:3em;"|{{comment|М|Мужчины}}
+! class="unsortable" style="width:3em;"|{{comment|Ж|Женщины}}
+! class="unsortable"|{{comment|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами}}
+! class="unsortable" style="border-left-width:2px;width:3.5em;"|Общая
+! class="unsortable" style="width:3em;"|М
+! class="unsortable" style="width:3em;"|Ж
+! class="unsortable"|ЖΔМ
+! class="unsortable" style="border-left-width:2px;width:3.5em;"|Общая
+! class="unsortable" style="width:3em;"|М
+! class="unsortable" style="width:3em;"|Ж
+! class="unsortable"|ЖΔМ

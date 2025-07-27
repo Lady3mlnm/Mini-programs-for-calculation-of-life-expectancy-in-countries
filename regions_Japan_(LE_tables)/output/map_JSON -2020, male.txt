@@ -1,0 +1,138 @@
+{
+  "groups": {
+    "#042136": {
+      "label": "82¾ - 82.99",
+      "paths": [
+        "Shiga"
+      ]
+    },
+    "#062f4c": {
+      "label": "82.5 - 82.74",
+      "paths": [
+        "Nagano"
+      ]
+    },
+    "#073a5e": {
+      "label": "82¼ - 82.49",
+      "paths": [
+        "Nara",
+        "Kyoto"
+      ]
+    },
+    "#08436e": {
+      "label": "82.0 - 82.24",
+      "paths": [
+        "Gifu",
+        "Hiroshima",
+        "Toyama",
+        "Okayama",
+        "Kanagawa"
+      ]
+    },
+    "#0a4e7f": {
+      "label": "81¾ - 81.99",
+      "paths": [
+        "Ishikawa",
+        "Kumamoto",
+        "Miyagi",
+        "Tokyo",
+        "Fukui",
+        "Oita",
+        "Hyogo",
+        "Yamanashi",
+        "Tottori",
+        "Aichi"
+      ]
+    },
+    "#0b578d": {
+      "label": "81.5 - 81.74",
+      "paths": [
+        "Shimane",
+        "Mie",
+        "Shizuoka",
+        "Japan",
+        "Niigata",
+        "Fukuoka",
+        "Yamagata",
+        "Chiba"
+      ]
+    },
+    "#0c609c": {
+      "label": "81¼ - 81.49",
+      "paths": [
+        "Saitama",
+        "Ehime",
+        "Kagawa",
+        "Saga",
+        "Gunma",
+        "Tokushima"
+      ]
+    },
+    "#0d68a9": {
+      "label": "81.0 - 81.24",
+      "paths": [
+        "Wakayama",
+        "Tochigi",
+        "Yamaguchi",
+        "Kochi",
+        "Miyazaki",
+        "Hokkaido"
+      ]
+    },
+    "#0e71b7": {
+      "label": "80¾ - 80.99",
+      "paths": [
+        "Kagoshima",
+        "Nagasaki",
+        "Okinawa",
+        "Osaka",
+        "Iwate",
+        "Ibaraki",
+        "Fukushima"
+      ]
+    },
+    "#1182d4": {
+      "label": "80¼ - 80.49",
+      "paths": [
+        "Akita"
+      ]
+    },
+    "#40a6ef": {
+      "label": "79¼ - 79.49",
+      "paths": [
+        "Aomori"
+      ]
+    }
+  },
+  "title": "2020: ♂",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 150,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "zoomLevel": "1.00",
+  "zoomX": "0.00",
+  "zoomY": "0.00",
+  "v6": true,
+  "page": "japan",
+  "legendPosition": "custom",
+  "legendX": 84,
+  "legendY": 36,
+  "legendSize": "medium",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

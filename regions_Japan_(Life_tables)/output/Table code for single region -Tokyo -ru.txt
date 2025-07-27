@@ -1,0 +1,69 @@
+{{sticky header}}{{table alignment}}
+{| class="wikitable sticky-header-multi sortable col1right" style="text-align:center;"
+|-
+! rowspan=2 class="unsortable" style="vertical-align:middle;"|Возраст
+! colspan=4|2010
+! colspan=4 style="border-left-width:2px;"|2020
+! colspan=4 style="border-left-width:2px;"|2023
+|-
+! class="unsortable" style="width:3.5em;"|{{comment|Общая|Всё население в среднем}}
+! class="unsortable" style="width:3em;"|{{comment|М|Мужчины}}
+! class="unsortable" style="width:3em;"|{{comment|Ж|Женщины}}
+! class="unsortable"|{{comment|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами}}
+! class="unsortable" style="border-left-width:2px;width:3.5em;"|Общая
+! class="unsortable" style="width:3em;"|М
+! class="unsortable" style="width:3em;"|Ж
+! class="unsortable"|ЖΔМ
+! class="unsortable" style="border-left-width:2px;width:3.5em;"|Общая
+! class="unsortable" style="width:3em;"|М
+! class="unsortable" style="width:3em;"|Ж
+! class="unsortable"|ЖΔМ
+|-
+|style="padding-right:2ex;"| 0 ||style="background:#e0ffd8;"| 83,03 ||style="background:#eaf3ff;"| 79,70 ||style="background:#fee7f6;"| 86,26 || 6,56 ||style="background:#e0ffd8;border-left-width:2px;"| 84,97 ||style="background:#eaf3ff;"| 81,86 ||style="background:#fee7f6;"| 87,96 || 6,10 ||style="background:#e0ffd8;border-left-width:2px;"| 84,62 ||style="background:#eaf3ff;"| 81,59 ||style="background:#fee7f6;"| 87,60 || 6,01
+|-
+|style="padding-right:2ex;"| 1 ||style="background:#e0ffd8;"| 82,20 ||style="background:#eaf3ff;"| 78,87 ||style="background:#fee7f6;"| 85,43 || 6,56 ||style="background:#e0ffd8;border-left-width:2px;"| 84,09 ||style="background:#eaf3ff;"| 80,97 ||style="background:#fee7f6;"| 87,09 || 6,12 ||style="background:#e0ffd8;border-left-width:2px;"| 83,74 ||style="background:#eaf3ff;"| 80,71 ||style="background:#fee7f6;"| 86,74 || 6,03
+|-
+|style="padding-right:2ex;"| 5 ||style="background:#e0ffd8;"| 78,26 ||style="background:#eaf3ff;"| 74,93 ||style="background:#fee7f6;"| 81,48 || 6,55 ||style="background:#e0ffd8;border-left-width:2px;"| 80,13 ||style="background:#eaf3ff;"| 77,02 ||style="background:#fee7f6;"| 83,13 || 6,11 ||style="background:#e0ffd8;border-left-width:2px;"| 79,80 ||style="background:#eaf3ff;"| 76,76 ||style="background:#fee7f6;"| 82,79 || 6,03
+|-
+|style="padding-right:2ex;"| 10 ||style="background:#e0ffd8;"| 73,29 ||style="background:#eaf3ff;"| 69,96 ||style="background:#fee7f6;"| 76,51 || 6,55 ||style="background:#e0ffd8;border-left-width:2px;"| 75,16 ||style="background:#eaf3ff;"| 72,04 ||style="background:#fee7f6;"| 78,15 || 6,11 ||style="background:#e0ffd8;border-left-width:2px;"| 74,83 ||style="background:#eaf3ff;"| 71,79 ||style="background:#fee7f6;"| 77,81 || 6,02
+|-
+|style="padding-right:2ex;"| 15 ||style="background:#e0ffd8;"| 68,33 ||style="background:#eaf3ff;"| 65,01 ||style="background:#fee7f6;"| 71,55 || 6,54 ||style="background:#e0ffd8;border-left-width:2px;"| 70,19 ||style="background:#eaf3ff;"| 67,07 ||style="background:#fee7f6;"| 73,19 || 6,12 ||style="background:#e0ffd8;border-left-width:2px;"| 69,85 ||style="background:#eaf3ff;"| 66,82 ||style="background:#fee7f6;"| 72,85 || 6,03
+|-
+|style="padding-right:2ex;"| 20 ||style="background:#e0ffd8;"| 63,39 ||style="background:#eaf3ff;"| 60,08 ||style="background:#fee7f6;"| 66,60 || 6,52 ||style="background:#e0ffd8;border-left-width:2px;"| 65,25 ||style="background:#eaf3ff;"| 62,14 ||style="background:#fee7f6;"| 68,24 || 6,10 ||style="background:#e0ffd8;border-left-width:2px;"| 64,95 ||style="background:#eaf3ff;"| 61,91 ||style="background:#fee7f6;"| 67,94 || 6,03
+|-
+|style="padding-right:2ex;"| 25 ||style="background:#e0ffd8;"| 58,50 ||style="background:#eaf3ff;"| 55,21 ||style="background:#fee7f6;"| 61,67 || 6,46 ||style="background:#e0ffd8;border-left-width:2px;"| 60,35 ||style="background:#eaf3ff;"| 57,26 ||style="background:#fee7f6;"| 63,31 || 6,05 ||style="background:#e0ffd8;border-left-width:2px;"| 60,07 ||style="background:#eaf3ff;"| 57,05 ||style="background:#fee7f6;"| 63,04 || 5,99
+|-
+|style="padding-right:2ex;"| 30 ||style="background:#e0ffd8;"| 53,61 ||style="background:#eaf3ff;"| 50,35 ||style="background:#fee7f6;"| 56,75 || 6,40 ||style="background:#e0ffd8;border-left-width:2px;"| 55,44 ||style="background:#eaf3ff;"| 52,36 ||style="background:#fee7f6;"| 58,39 || 6,03 ||style="background:#e0ffd8;border-left-width:2px;"| 55,17 ||style="background:#eaf3ff;"| 52,17 ||style="background:#fee7f6;"| 58,13 || 5,96
+|-
+|style="padding-right:2ex;"| 35 ||style="background:#e0ffd8;"| 48,74 ||style="background:#eaf3ff;"| 45,49 ||style="background:#fee7f6;"| 51,85 || 6,36 ||style="background:#e0ffd8;border-left-width:2px;"| 50,53 ||style="background:#eaf3ff;"| 47,47 ||style="background:#fee7f6;"| 53,46 || 5,99 ||style="background:#e0ffd8;border-left-width:2px;"| 50,27 ||style="background:#eaf3ff;"| 47,29 ||style="background:#fee7f6;"| 53,21 || 5,92
+|-
+|style="padding-right:2ex;"| 40 ||style="background:#e0ffd8;"| 43,90 ||style="background:#eaf3ff;"| 40,68 ||style="background:#fee7f6;"| 46,98 || 6,30 ||style="background:#e0ffd8;border-left-width:2px;"| 45,65 ||style="background:#eaf3ff;"| 42,61 ||style="background:#fee7f6;"| 48,56 || 5,95 ||style="background:#e0ffd8;border-left-width:2px;"| 45,40 ||style="background:#eaf3ff;"| 42,43 ||style="background:#fee7f6;"| 48,31 || 5,88
+|-
+|style="padding-right:2ex;"| 45 ||style="background:#e0ffd8;"| 39,13 ||style="background:#eaf3ff;"| 35,94 ||style="background:#fee7f6;"| 42,16 || 6,22 ||style="background:#e0ffd8;border-left-width:2px;"| 40,83 ||style="background:#eaf3ff;"| 37,82 ||style="background:#fee7f6;"| 43,69 || 5,87 ||style="background:#e0ffd8;border-left-width:2px;"| 40,58 ||style="background:#eaf3ff;"| 37,63 ||style="background:#fee7f6;"| 43,46 || 5,83
+|-
+|style="padding-right:2ex;"| 50 ||style="background:#e0ffd8;"| 34,45 ||style="background:#eaf3ff;"| 31,33 ||style="background:#fee7f6;"| 37,40 || 6,07 ||style="background:#e0ffd8;border-left-width:2px;"| 36,09 ||style="background:#eaf3ff;"| 33,11 ||style="background:#fee7f6;"| 38,90 || 5,79 ||style="background:#e0ffd8;border-left-width:2px;"| 35,81 ||style="background:#eaf3ff;"| 32,91 ||style="background:#fee7f6;"| 38,63 || 5,72
+|-
+|style="padding-right:2ex;"| 55 ||style="background:#e0ffd8;"| 29,92 ||style="background:#eaf3ff;"| 26,88 ||style="background:#fee7f6;"| 32,75 || 5,87 ||style="background:#e0ffd8;border-left-width:2px;"| 31,47 ||style="background:#eaf3ff;"| 28,54 ||style="background:#fee7f6;"| 34,20 || 5,66 ||style="background:#e0ffd8;border-left-width:2px;"| 31,19 ||style="background:#eaf3ff;"| 28,33 ||style="background:#fee7f6;"| 33,95 || 5,62
+|-
+|style="padding-right:2ex;"| 60 ||style="background:#e0ffd8;"| 25,56 ||style="background:#eaf3ff;"| 22,66 ||style="background:#fee7f6;"| 28,19 || 5,53 ||style="background:#e0ffd8;border-left-width:2px;"| 26,97 ||style="background:#eaf3ff;"| 24,15 ||style="background:#fee7f6;"| 29,57 || 5,42 ||style="background:#e0ffd8;border-left-width:2px;"| 26,69 ||style="background:#eaf3ff;"| 23,92 ||style="background:#fee7f6;"| 29,32 || 5,40
+|-
+|style="padding-right:2ex;"| 65 ||style="background:#e0ffd8;"| 21,39 ||style="background:#eaf3ff;"| 18,70 ||style="background:#fee7f6;"| 23,72 || 5,02 ||style="background:#e0ffd8;border-left-width:2px;"| 22,69 ||style="background:#eaf3ff;"| 20,01 ||style="background:#fee7f6;"| 25,06 || 5,05 ||style="background:#e0ffd8;border-left-width:2px;"| 22,38 ||style="background:#eaf3ff;"| 19,75 ||style="background:#fee7f6;"| 24,79 || 5,04
+|-
+|style="padding-right:2ex;"| 70 ||style="background:#e0ffd8;"| 17,40 ||style="background:#eaf3ff;"| 14,98 ||style="background:#fee7f6;"| 19,36 || 4,38 ||style="background:#e0ffd8;border-left-width:2px;"| 18,61 ||style="background:#eaf3ff;"| 16,17 ||style="background:#fee7f6;"| 20,66 || 4,49 ||style="background:#e0ffd8;border-left-width:2px;"| 18,28 ||style="background:#eaf3ff;"| 15,87 ||style="background:#fee7f6;"| 20,37 || 4,50
+|-
+|style="padding-right:2ex;"| 75 ||style="background:#e0ffd8;"| 13,62 ||style="background:#eaf3ff;"| 11,52 ||style="background:#fee7f6;"| 15,19 || 3,67 ||style="background:#e0ffd8;border-left-width:2px;"| 14,81 ||style="background:#eaf3ff;"| 12,67 ||style="background:#fee7f6;"| 16,45 || 3,78 ||style="background:#e0ffd8;border-left-width:2px;"| 14,47 ||style="background:#eaf3ff;"| 12,35 ||style="background:#fee7f6;"| 16,17 || 3,82
+|-
+|style="padding-right:2ex;"| 80 ||style="background:#e0ffd8;"| 10,21 ||style="background:#eaf3ff;"| 8,43 ||style="background:#fee7f6;"| 11,36 || 2,93 ||style="background:#e0ffd8;border-left-width:2px;"| 11,30 ||style="background:#eaf3ff;"| 9,52 ||style="background:#fee7f6;"| 12,49 || 2,97 ||style="background:#e0ffd8;border-left-width:2px;"| 11,02 ||style="background:#eaf3ff;"| 9,26 ||style="background:#fee7f6;"| 12,25 || 2,99
+|-
+|style="padding-right:2ex;"| 85 ||style="background:#e0ffd8;"| 7,37 ||style="background:#eaf3ff;"| 5,97 ||style="background:#fee7f6;"| 8,11 || 2,14 ||style="background:#e0ffd8;border-left-width:2px;"| 8,20 ||style="background:#eaf3ff;"| 6,79 ||style="background:#fee7f6;"| 8,95 || 2,16 ||style="background:#e0ffd8;border-left-width:2px;"| 7,96 ||style="background:#eaf3ff;"| 6,60 ||style="background:#fee7f6;"| 8,77 || 2,17
+|-
+|style="padding-right:2ex;"| 90 ||style="background:#e0ffd8;"| 5,14 ||style="background:#eaf3ff;"| 4,15 ||style="background:#fee7f6;"| 5,54 || 1,39 ||style="background:#e0ffd8;border-left-width:2px;"| 5,70 ||style="background:#eaf3ff;"| 4,71 ||style="background:#fee7f6;"| 6,09 || 1,38 ||style="background:#e0ffd8;border-left-width:2px;"| 5,54 ||style="background:#eaf3ff;"| 4,57 ||style="background:#fee7f6;"| 5,97 || 1,40
+|-
+|style="padding-right:2ex;"| 95 ||style="background:#e0ffd8;"| 3,51 ||style="background:#eaf3ff;"| 2,90 ||style="background:#fee7f6;"| 3,69 || 0,79 ||style="background:#e0ffd8;border-left-width:2px;"| 3,83 ||style="background:#eaf3ff;"| 3,24 ||style="background:#fee7f6;"| 3,99 || 0,75 ||style="background:#e0ffd8;border-left-width:2px;"| 3,76 ||style="background:#eaf3ff;"| 3,15 ||style="background:#fee7f6;"| 3,93 || 0,78
+|-
+|style="padding-right:2ex;"| 100 ||style="background:#e0ffd8;"| 2,43 ||style="background:#eaf3ff;"| 2,09 ||style="background:#fee7f6;"| 2,49 || 0,40 ||style="background:#e0ffd8;border-left-width:2px;"| 2,58 ||style="background:#eaf3ff;"| 2,29 ||style="background:#fee7f6;"| 2,62 || 0,33 ||style="background:#e0ffd8;border-left-width:2px;"| 2,55 ||style="background:#eaf3ff;"| 2,24 ||style="background:#fee7f6;"| 2,60 || 0,36
+|-
+|style="padding-right:2ex;"| 105 ||style="background:#e0ffd8;"| 1,76 ||style="background:#eaf3ff;"| 1,61 ||style="background:#fee7f6;"| 1,78 || 0,17 ||style="background:#e0ffd8;border-left-width:2px;"| 1,81 ||style="background:#eaf3ff;"| 1,71 ||style="background:#fee7f6;"| 1,82 || 0,11 ||style="background:#e0ffd8;border-left-width:2px;"| 1,81 ||style="background:#eaf3ff;"| 1,68 ||style="background:#fee7f6;"| 1,82 || 0,14
+|-
+|style="padding-right:2ex;"| 110 ||style="background:#e0ffd8;"| 1,39 ||style="background:#eaf3ff;"| 1,33 ||style="background:#fee7f6;"| 1,39 || 0,06 ||style="background:#e0ffd8;border-left-width:2px;"| 1,40 ||style="background:#eaf3ff;"| 1,38 ||style="background:#fee7f6;"| 1,40 || 0,02 ||style="background:#e0ffd8;border-left-width:2px;"| 1,40 ||style="background:#eaf3ff;"| 1,37 ||style="background:#fee7f6;"| 1,40 || 0,03
+|}

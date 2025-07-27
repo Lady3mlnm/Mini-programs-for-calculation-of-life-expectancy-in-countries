@@ -1,0 +1,3 @@
+This is collection of scripts used by me for creation of tables and charts about life expectancy in Japan for the Wikipedia page "[List of Japanese prefectures by life expectancy](https://en.wikipedia.org/wiki/List_of_Japanese_prefectures_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_префектурах_Японии). The data is taken from the [Japanese Mortality Database](https://www.ipss.go.jp/p-toukei/JMD/index-en.asp) > Life tables for males, females, total.
+
+Before using scripts for creation tables and charts, launch the script `0_Download_Japan_Life_tables` that will download from the database the fresh data and will save them to the folder `data-Life_tables`.

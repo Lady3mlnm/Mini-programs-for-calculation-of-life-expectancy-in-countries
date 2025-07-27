@@ -1,0 +1,1 @@
+This folder contains raw data that are automatically downloaded here by the script `0_Download_data-LE_at_birth`.
