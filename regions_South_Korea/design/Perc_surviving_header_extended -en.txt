@@ -1,0 +1,24 @@
+{{mw-datatable}}{{sticky header}}{{table alignment}}
+{| class="wikitable mw-datatable sticky-header-multi sortable col5center col9center col13center" style="text-align:right;"
+|-
+! rowspan=3 class="unsortable" style="vertical-align:middle;"|Age
+! colspan=4|South Korea on average
+! colspan=4 style="border-left-width:2px;"|[[Gyeonggi Province]]
+! colspan=4 style="border-left-width:2px;"|[[Seoul]]
+|-
+! colspan=2|Percentage surviving
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:7ex;"|{{tooltip|F <small>Δ</small> M|Change between female and male}}
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:6ex;"|{{tooltip|F / M|Ratio of female survivors to male survivors}}
+! colspan=2 style="border-left-width:2px;"|Percentage surviving
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:7ex;"|F <small>Δ</small> M
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:6ex;"|F / M
+! colspan=2 style="border-left-width:2px;"|Percentage surviving
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:7ex;"|F <small>Δ</small> M
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:6ex;"|F / M
+|-
+! class="unsortable" style="vertical-align:middle;"|male
+! class="unsortable" style="vertical-align:middle;"|female
+! class="unsortable" style="vertical-align:middle;border-left-width:2px;"|male
+! class="unsortable" style="vertical-align:middle;"|female
+! class="unsortable" style="vertical-align:middle;border-left-width:2px;"|male
+! class="unsortable" style="vertical-align:middle;"|female

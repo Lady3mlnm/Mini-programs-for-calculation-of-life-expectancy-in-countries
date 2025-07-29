@@ -1,0 +1,1 @@
+This folder contains files with pieces of Wikipedia markup that are used for creation of tables.

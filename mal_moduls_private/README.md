@@ -1,0 +1,1 @@
+This is collection of the functions and data scructures that I periodically use across different projects. They are required for work of many scripts in this repository.

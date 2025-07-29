@@ -1,0 +1,28 @@
+{{static row numbers}}{{mw-datatable}}{{sticky header}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers sticky-header-multi sort-under col1left" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Provinces of South Korea|province]] or<br>[[List of provincial-level cities of South Korea|provincial-level city]]
+! colspan=7|Life expectancy for population in general
+! colspan=4 style="border-left-width:2px;"|Life expectancy for male
+! colspan=4 style="border-left-width:2px;"|Life expectancy for female
+! colspan=4 style="border-left-width:2px;"|{{tooltip|Female <small>Δ</small> Male|Difference in life expectancy for female and male}}
+|-
+! style="vertical-align:middle;"| {{tooltip|at birth|Life expectancy at birth}}
+! {{tooltip|bonus<br>0→65|Bonus for survival - additional years of life expectancy (minus years already lived), received by a person if he lives to 65 years old, compared with life expectancy at birth. Big bonus here means high mortality in childhood and adulthood.}}
+! style="vertical-align:middle;"| {{tooltip|at 65|Life expectancy at age 65}}
+! {{tooltip|bonus<br>65→80|Bonus for survival - additional years of life expectancy (minus years already lived), received by a person if he lives to 80 years old, compared with life expectancy at age 65. Big bonus here means high mortality in this period.}}
+! style="vertical-align:middle;"| {{tooltip|at 80|Life expectancy at age 80}}
+! {{tooltip|bonus<br>80→100|Bonus for survival - additional years of life expectancy (minus years already lived), received by a person if he lives to 100 years old, compared with life expectancy at age 80. If life expectancy at the age of 80 was less than 20 years then this bonus has already been partially spent. Big bonus here means high mortality in this period.}}
+! style="vertical-align:middle;"| {{tooltip|at 100|Life expectancy at age 100}}
+! style="vertical-align:middle;border-left-width:2px;"|at birth
+! style="vertical-align:middle;"| at 65
+! style="vertical-align:middle;"| at 80
+! style="vertical-align:middle;"| at 100
+! style="vertical-align:middle;border-left-width:2px;"|at birth
+! style="vertical-align:middle;"| at 65
+! style="vertical-align:middle;"| at 80
+! style="vertical-align:middle;"| at 100
+! style="vertical-align:middle;border-left-width:2px;"|at birth
+! style="vertical-align:middle;"| at 65
+! style="vertical-align:middle;"| at 80
+! style="vertical-align:middle;"| at 100

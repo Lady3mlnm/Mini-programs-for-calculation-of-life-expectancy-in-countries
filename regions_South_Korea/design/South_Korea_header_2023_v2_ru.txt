@@ -1,0 +1,29 @@
+{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sticky-header-multi sort-under col1left" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление Республики Корея#Таблица всех территориально-административных единиц 1-го уровня|Регион]]
+! colspan=4|ОПЖ при рождении
+! rowspan=2 style="border-left-width:2px;"|{{comment|Приз за<br>дожитие<br>до 65|Дополнительные годы ОПЖ (за вычетом уже прожитых лет), получаемые в человеком, если он доживёт до 65 лет, по сравнению с ОПЖ при рождении. Большой приз за дожитие здесь означает высокую смертность в юношеском и взрослом возрасте.}}
+! colspan=4 style="border-left-width:2px;"|ОПЖ в 65 лет
+! rowspan=2 style="border-left-width:2px;"|{{comment|Приз за<br>дожитие<br>65 → 80|Дополнительные годы ОПЖ (за вычетом уже прожитых лет), получаемые в человеком, если он доживёт до 80 лет, по сравнению с ОПЖ в 65 лет. Большой приз за дожитие здесь означает высокую смертность в этом возрастном промежутке.}}
+! colspan=4 style="border-left-width:2px;"|ОПЖ в 80 лет
+! rowspan=2 style="border-left-width:2px;"|{{comment|Приз за<br>дожитие<br>80 → 100|Дополнительные годы ОПЖ (за вычетом уже прожитых лет), получаемые в человеком, если он доживёт до 100 лет, по сравнению с ОПЖ в 80 лет. Если ОПЖ в 80 лет была меньше 20 лет, то это приз уже частично израсходован. Большой приз за дожитие здесь означает высокую смертность в этом возрастном промежутке.}}
+! colspan=4 style="border-left-width:2px;"|ОПЖ в 100 лет
+|-
+! style="vertical-align:middle;"|{{comment|Общая|Всё население в среднем}}
+! style="vertical-align:middle;"|{{comment|М|Мужчины}}
+! style="vertical-align:middle;"|{{comment|Ж|Женщины}}
+! style="vertical-align:middle;"|{{comment|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами}}
+! style="vertical-align:middle;border-left-width:2px;"|Общая
+! style="vertical-align:middle;"|М
+! style="vertical-align:middle;"|Ж
+! style="vertical-align:middle;"|ЖΔМ
+! style="vertical-align:middle;border-left-width:2px;"|Общая
+! style="vertical-align:middle;"|М
+! style="vertical-align:middle;"|Ж
+! style="vertical-align:middle;"|ЖΔМ
+! style="vertical-align:middle;border-left-width:2px;"|Общая
+! style="vertical-align:middle;"|М
+! style="vertical-align:middle;"|Ж
+! style="vertical-align:middle;"|ЖΔМ
+|-{{static row numbers arrows|20}}
