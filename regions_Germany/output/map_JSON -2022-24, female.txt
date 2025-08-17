@@ -1,0 +1,97 @@
+{
+  "groups": {
+    "#ef3b59": {
+      "label": "84.0 - 84.24",
+      "paths": [
+        "Baden-Württemberg",
+        "Sachsen"
+      ]
+    },
+    "#f2657d": {
+      "label": "83.5 - 83.74",
+      "paths": [
+        "Bayern"
+      ]
+    },
+    "#f3768b": {
+      "label": "83¼ - 83.49",
+      "paths": [
+        "Hessen",
+        "Berlin_state",
+        "Brandenburg"
+      ]
+    },
+    "#f58698": {
+      "label": "83.0 - 83.24",
+      "paths": [
+        "Rheinland-Pfalz",
+        "Hamburg_state",
+        "Thüringen"
+      ]
+    },
+    "#f696a6": {
+      "label": "82¾ - 82.99",
+      "paths": [
+        "Schleswig-Holstein",
+        "Mecklenburg-Vorpommern"
+      ]
+    },
+    "#f7a5b2": {
+      "label": "82.5 - 82.74",
+      "paths": [
+        "Nordrhein-Westfalen",
+        "Niedersachsen"
+      ]
+    },
+    "#f8b3be": {
+      "label": "82¼ - 82.49",
+      "paths": [
+        "Sachsen-Anhalt"
+      ]
+    },
+    "#f9bfc6": {
+      "label": "82.0 - 82.24",
+      "paths": [
+        "Bremen_state"
+      ]
+    },
+    "#facdd3": {
+      "label": "81¾ - 81.99",
+      "paths": [
+        "Saarland"
+      ]
+    }
+  },
+  "title": "2022/2024: ♀",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 100,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "levelsVisibility": [
+    "show",
+    "show",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 810,
+  "legendY": 630,
+  "legendSize": "larger",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

@@ -1,0 +1,3 @@
+This is collection of scripts used by me for creation of tables and maps about life expectancy in Germany for the Wikipedia page "[List of German states by life expectancy](https://en.wikipedia.org/wiki/List_of_German_states_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_землях_Германии). The data is copied from the [Federal Statistical Office <i>(Destatis)</i> website](https://www.destatis.de/EN/Themes/Society-Environment/Population/Deaths-Life-Expectancy/Tables/liste-life-expectancy.html).
+
+Use online service [MapCharts](https://www.mapchart.net/germany.html) for creation maps.

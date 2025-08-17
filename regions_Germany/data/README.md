@@ -1,0 +1,1 @@
+This folder contains raw data that are copied from the [Federal Statistical Office <i>(Destatis)</i> website](https://www.destatis.de/EN/Themes/Society-Environment/Population/Deaths-Life-Expectancy/Tables/liste-life-expectancy.html). Simple copy-paste data from the page to according CSV-files.

@@ -1,0 +1,17 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Земли Германии#Современное состояние|земля]]
+! colspan=4|2021/2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|изменение средней арифметической ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2022/2024
+|-
+! style="vertical-align:middle;width:3.5em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|ср. арифм.|среднее арифметическое для ОПЖ мужчин и женщин}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|муж
+! style="vertical-align:middle;width:3.5em;"|жен
+! style="vertical-align:middle;width:3.5em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3.5em;"|ср. арифм.
+|-{{static row numbers arrows|10}}

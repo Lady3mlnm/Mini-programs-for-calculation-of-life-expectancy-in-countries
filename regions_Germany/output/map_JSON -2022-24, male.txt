@@ -1,0 +1,107 @@
+{
+  "groups": {
+    "#107ac6": {
+      "label": "79¾ - 79.99",
+      "paths": [
+        "Baden-Württemberg"
+      ]
+    },
+    "#128be1": {
+      "label": "79¼ - 79.49",
+      "paths": [
+        "Bayern"
+      ]
+    },
+    "#2e9eee": {
+      "label": "78¾ - 78.99",
+      "paths": [
+        "Hessen"
+      ]
+    },
+    "#40a6ef": {
+      "label": "78.5 - 78.74",
+      "paths": [
+        "Rheinland-Pfalz"
+      ]
+    },
+    "#51aef0": {
+      "label": "78¼ - 78.49",
+      "paths": [
+        "Berlin_state",
+        "Hamburg_state",
+        "Schleswig-Holstein"
+      ]
+    },
+    "#61b5f2": {
+      "label": "78.0 - 78.24",
+      "paths": [
+        "Sachsen",
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "#6ebcf3": {
+      "label": "77¾ - 77.99",
+      "paths": [
+        "Niedersachsen"
+      ]
+    },
+    "#80c4f4": {
+      "label": "77.5 - 77.74",
+      "paths": [
+        "Brandenburg"
+      ]
+    },
+    "#92ccf6": {
+      "label": "77¼ - 77.49",
+      "paths": [
+        "Thüringen",
+        "Saarland"
+      ]
+    },
+    "#c2e3fa": {
+      "label": "76.5 - 76.74",
+      "paths": [
+        "Mecklenburg-Vorpommern",
+        "Bremen_state"
+      ]
+    },
+    "#edf7fd": {
+      "label": "75¾ - 75.99",
+      "paths": [
+        "Sachsen-Anhalt"
+      ]
+    }
+  },
+  "title": "2022/2024: ♂",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 100,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "levelsVisibility": [
+    "show",
+    "show",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 810,
+  "legendY": 630,
+  "legendSize": "larger",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

@@ -1,0 +1,44 @@
+﻿Parameters of cropping maps images in an image editor:
+x: 256
+y: 148
+width: 5600
+height: 6250
+
+
+
+
+--- snippets for using in 'Summany' > 'description' field in Wikimedia Commons ---
+    Legend for
+male:
+{{Legend|#107ac6|79.¾–79.99}}
+{{Legend|#1182d4|79.5–79.74}}
+{{Legend|#128be1|79¼–79.49}}
+{{Legend|#1c95ec|79.0–79.24}}
+{{Legend|#2e9eee|78¾–78.99}}
+{{Legend|#40a6ef|78.5–78.74}}
+{{Legend|#51aef0|78¼–78.49}}
+{{Legend|#61b5f2|78.0–78.24}}
+{{Legend|#6ebcf3|77¾–77.99}}
+{{Legend|#80c4f4|77.5–77.74}}
+{{Legend|#92ccf6|77¼–77.49}}
+{{Legend|#a2d4f7|77.0–77.24}}
+{{Legend|#b3dbf8|76¾–76.99}}
+{{Legend|#c2e3fa|76.5–76.74}}
+{{Legend|#d4ebfb|76¼–76.49}}
+{{Legend|#e4f2fc|76.0–76.24}}
+{{Legend|#edf7fd|75¾–75.99}}
+{{Legend|#f4fafe|75.5–75.74}}
+{{Legend|#f8fbfe|75¼–75.49}}
+
+
+female:
+{{Legend|#ef3b59|84.0–84.24}}
+{{Legend|#f1536e|83¾–83.99}}
+{{Legend|#f2657d|83.5–83.74}}
+{{Legend|#f3768b|83¼–83.49}}
+{{Legend|#f58698|83.0–83.24}}
+{{Legend|#f696a6|82¾–82.99}}
+{{Legend|#f7a5b2|82.5–82.74}}
+{{Legend|#f8b3be|82¼–82.49}}
+{{Legend|#f9bfc6|82.0–82.24}}
+{{Legend|#facdd3|81¾–81.99}}

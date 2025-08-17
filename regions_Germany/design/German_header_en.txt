@@ -1,0 +1,16 @@
+{{static row numbers}}{{mw-datatable}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers sort-under col1left" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[States of Germany#List|state]]
+! colspan=4|2021/2023
+! rowspan=2 style="vertical-align:middle;width:3.5em;border-left-width:2px;"|{{tooltip|change|change in arithmetic mean life expectancy between periods}}
+! colspan=4 style="border-left-width:2px;"|2022/2024
+|-
+! style="vertical-align:middle;width:4em;"|male
+! style="vertical-align:middle;width:4em;"|female
+! style="vertical-align:middle;width:4em;"|{{tooltip|sex gap|Difference in life expectancy for female and male}}
+! style="width:4em;"|{{tooltip|arith. mean|Arithmetic mean for life expectancy of male and female}}
+! style="vertical-align:middle;width:4em;border-left-width:2px;"|male
+! style="vertical-align:middle;width:4em;"|female
+! style="vertical-align:middle;width:4em;"|sex gap
+! style="width:4em;"|arith. mean

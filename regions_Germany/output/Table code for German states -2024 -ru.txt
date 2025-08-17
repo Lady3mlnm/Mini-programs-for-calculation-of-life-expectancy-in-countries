@@ -1,0 +1,52 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Земли Германии#Современное состояние|земля]]
+! colspan=4|2021/2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|изменение средней арифметической ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2022/2024
+|-
+! style="vertical-align:middle;width:3.5em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|ср. арифм.|среднее арифметическое для ОПЖ мужчин и женщин}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|муж
+! style="vertical-align:middle;width:3.5em;"|жен
+! style="vertical-align:middle;width:3.5em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3.5em;"|ср. арифм.
+|-{{static row numbers arrows|10}}
+|-class=static-row-header
+| '''Германия в целом''' ||style="background:#eaf3ff;"| '''78,17''' ||style="background:#fee7f6;"| '''82,99''' ||style="background:#fff8dc;"| '''4,82''' || '''80,58''' ||style="color:darkgreen;border-left-width:2px;"| '''0,25''' ||style="background:#eaf3ff;border-left-width:2px;"| '''78,47''' ||style="background:#fee7f6;"| '''83,19''' ||style="background:#fff8dc;"| '''4,72''' || '''80,83'''
+|-
+| [[Баден-Вюртемберг|Ба́ден-Вю́ртемберг]] ||style="background:#eaf3ff;"| 79,64 ||style="background:#fee7f6;"| 83,93 ||style="background:#fff8dc;"| 4,29 || 81,78 ||style="color:darkgreen;border-left-width:2px;"| 0,24 ||style="background:#eaf3ff;border-left-width:2px;"| 79,92 ||style="background:#fee7f6;"| 84,13 ||style="background:#fff8dc;"| 4,21 || 82,02
+|-
+| [[Бавария|Бава́рия]] ||style="background:#eaf3ff;"| 78,94 ||style="background:#fee7f6;"| 83,51 ||style="background:#fff8dc;"| 4,57 || 81,22 ||style="color:darkgreen;border-left-width:2px;"| 0,31 ||style="background:#eaf3ff;border-left-width:2px;"| 79,34 ||style="background:#fee7f6;"| 83,74 ||style="background:#fff8dc;"| 4,40 || 81,54
+|-
+| [[Гессен|Ге́ссен]] ||style="background:#eaf3ff;"| 78,63 ||style="background:#fee7f6;"| 83,11 ||style="background:#fff8dc;"| 4,48 || 80,87 ||style="color:darkgreen;border-left-width:2px;"| 0,21 ||style="background:#eaf3ff;border-left-width:2px;"| 78,88 ||style="background:#fee7f6;"| 83,28 ||style="background:#fff8dc;"| 4,40 || 81,08
+|-
+| [[Саксония (земля)|Саксо́ния]] ||style="background:#eaf3ff;"| 77,41 ||style="background:#fee7f6;"| 83,61 ||style="background:#fff8dc;"| 6,20 || 80,51 ||style="color:darkgreen;border-left-width:2px;"| 0,52 ||style="background:#eaf3ff;border-left-width:2px;"| 78,04 ||style="background:#fee7f6;"| 84,02 ||style="background:#fff8dc;"| 5,98 || 81,03
+|-
+| [[Берлин|Берли́н (город-земля)]] ||style="background:#eaf3ff;"| 78,08 ||style="background:#fee7f6;"| 83,17 ||style="background:#fff8dc;"| 5,09 || 80,62 ||style="color:darkgreen;border-left-width:2px;"| 0,21 ||style="background:#eaf3ff;border-left-width:2px;"| 78,37 ||style="background:#fee7f6;"| 83,29 ||style="background:#fff8dc;"| 4,92 || 80,83
+|-
+| [[Рейнланд-Пфальц|Ре́йнланд-Пфальц]] ||style="background:#eaf3ff;"| 78,34 ||style="background:#fee7f6;"| 82,92 ||style="background:#fff8dc;"| 4,58 || 80,63 ||style="color:darkgreen;border-left-width:2px;"| 0,18 ||style="background:#eaf3ff;border-left-width:2px;"| 78,60 ||style="background:#fee7f6;"| 83,03 ||style="background:#fff8dc;"| 4,43 || 80,82
+|-
+| [[Гамбург|Га́мбург (город-земля)]] ||style="background:#eaf3ff;"| 78,14 ||style="background:#fee7f6;"| 82,98 ||style="background:#fff8dc;"| 4,84 || 80,56 ||style="color:darkgreen;border-left-width:2px;"| 0,19 ||style="background:#eaf3ff;border-left-width:2px;"| 78,41 ||style="background:#fee7f6;"| 83,10 ||style="background:#fff8dc;"| 4,69 || 80,76
+|-
+| [[Шлезвиг-Гольштейн|Шле́звиг-Гольште́йн]] ||style="background:#eaf3ff;"| 78,25 ||style="background:#fee7f6;"| 82,72 ||style="background:#fff8dc;"| 4,47 || 80,48 ||style="color:darkgreen;border-left-width:2px;"| 0,07 ||style="background:#eaf3ff;border-left-width:2px;"| 78,34 ||style="background:#fee7f6;"| 82,76 ||style="background:#fff8dc;"| 4,42 || 80,55
+|-
+| [[Бранденбург|Бра́нденбург]] ||style="background:#eaf3ff;"| 77,17 ||style="background:#fee7f6;"| 83,09 ||style="background:#fff8dc;"| 5,92 || 80,13 ||style="color:darkgreen;border-left-width:2px;"| 0,41 ||style="background:#eaf3ff;border-left-width:2px;"| 77,66 ||style="background:#fee7f6;"| 83,42 ||style="background:#fff8dc;"| 5,76 || 80,54
+|-
+| [[Северный Рейн-Вестфалия|Северный Рейн-Вестфа́лия]] ||style="background:#eaf3ff;"| 77,91 ||style="background:#fee7f6;"| 82,43 ||style="background:#fff8dc;"| 4,52 || 80,17 ||style="color:darkgreen;border-left-width:2px;"| 0,18 ||style="background:#eaf3ff;border-left-width:2px;"| 78,13 ||style="background:#fee7f6;"| 82,58 ||style="background:#fff8dc;"| 4,45 || 80,35
+|-
+| [[Нижняя Саксония|Нижняя Саксо́ния]] ||style="background:#eaf3ff;"| 77,77 ||style="background:#fee7f6;"| 82,59 ||style="background:#fff8dc;"| 4,82 || 80,18 ||style="color:darkgreen;border-left-width:2px;"| 0,11 ||style="background:#eaf3ff;border-left-width:2px;"| 77,96 ||style="background:#fee7f6;"| 82,63 ||style="background:#fff8dc;"| 4,67 || 80,29
+|-
+| [[Тюрингия]] ||style="background:#eaf3ff;"| 76,76 ||style="background:#fee7f6;"| 82,59 ||style="background:#fff8dc;"| 5,83 || 79,68 ||style="color:darkgreen;border-left-width:2px;"| 0,58 ||style="background:#eaf3ff;border-left-width:2px;"| 77,38 ||style="background:#fee7f6;"| 83,14 ||style="background:#fff8dc;"| 5,76 || 80,26
+|-
+| [[Саар|Саа́р]] ||style="background:#eaf3ff;"| 77,09 ||style="background:#fee7f6;"| 81,92 ||style="background:#fff8dc;"| 4,83 || 79,50 ||style="color:darkgreen;border-left-width:2px;"| 0,17 ||style="background:#eaf3ff;border-left-width:2px;"| 77,38 ||style="background:#fee7f6;"| 81,97 ||style="background:#fff8dc;"| 4,59 || 79,68
+|-
+| [[Мекленбург-Передняя Померания|Ме́кленбург-Передняя Помера́ния]] ||style="background:#eaf3ff;"| 76,24 ||style="background:#fee7f6;"| 82,58 ||style="background:#fff8dc;"| 6,34 || 79,41 ||style="color:darkgreen;border-left-width:2px;"| 0,25 ||style="background:#eaf3ff;border-left-width:2px;"| 76,53 ||style="background:#fee7f6;"| 82,78 ||style="background:#fff8dc;"| 6,25 || 79,66
+|-
+| [[Бремен (земля)|Бре́мен (город-земля)]] ||style="background:#eaf3ff;"| 76,74 ||style="background:#fee7f6;"| 82,08 ||style="background:#fff8dc;"| 5,34 || 79,41 ||style="color:crimson;border-left-width:2px;"| −0,01 ||style="background:#eaf3ff;border-left-width:2px;"| 76,74 ||style="background:#fee7f6;"| 82,06 ||style="background:#fff8dc;"| 5,32 || 79,40
+|-
+| [[Саксония-Анхальт|Саксо́ния-А́нхальт]] ||style="background:#eaf3ff;"| 75,49 ||style="background:#fee7f6;"| 82,07 ||style="background:#fff8dc;"| 6,58 || 78,78 ||style="color:darkgreen;border-left-width:2px;"| 0,32 ||style="background:#eaf3ff;border-left-width:2px;"| 75,93 ||style="background:#fee7f6;"| 82,27 ||style="background:#fff8dc;"| 6,34 || 79,10
+|}
