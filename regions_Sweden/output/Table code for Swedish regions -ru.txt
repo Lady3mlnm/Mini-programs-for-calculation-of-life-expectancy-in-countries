@@ -1,0 +1,68 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Лены Швеции#Список ленов|лен]]
+! colspan=4|2014-2018
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|изменение средней арифметической ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2019-2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|изменение средней арифметической ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2020-2024
+|-
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3em;"|{{comment|ср. арифм.|среднее арифметическое для ОПЖ мужчин и женщин}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;"|ср. арифм.
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;"|ср. арифм.
+|-{{static row numbers arrows|15}}
+|-class=static-row-header
+|style="text-align:left;"| '''Швеция''' ||style="background:#eaf3ff;"| '''80,55''' ||style="background:#fee7f6;"| '''84,10''' ||style="background:#fff8dc;"| '''3,55''' || '''82,33''' || style="color:darkgreen;border-left-width:2px;"| '''0,62''' ||style="background:#eaf3ff;border-left-width:2px;"| '''81,21''' ||style="background:#fee7f6;"| '''84,69''' ||style="background:#fff8dc;"| '''3,48''' || '''82,95''' || style="color:darkgreen;border-left-width:2px;"| '''0,16''' ||style="background:#eaf3ff;border-left-width:2px;"| '''81,40''' ||style="background:#fee7f6;"| '''84,81''' ||style="background:#fff8dc;"| '''3,41''' || '''83,11'''
+|-
+| [[Халланд (лен)|Ха́лланд]] ||style="background:#eaf3ff;"| 81,52 ||style="background:#fee7f6;"| 84,78 ||style="background:#fff8dc;"| 3,26 || 83,15 || style="color:darkgreen;border-left-width:2px;"| 0,88 ||style="background:#eaf3ff;border-left-width:2px;"| 82,52 ||style="background:#fee7f6;"| 85,53 ||style="background:#fff8dc;"| 3,01 || 84,03 || style="color:darkgreen;border-left-width:2px;"| 0,08 ||style="background:#eaf3ff;border-left-width:2px;"| 82,64 ||style="background:#fee7f6;"| 85,57 ||style="background:#fff8dc;"| 2,93 || 84,11
+|-
+| [[Стокгольм (лен)|Стокго́льм]] ||style="background:#eaf3ff;"| 81,04 ||style="background:#fee7f6;"| 84,56 ||style="background:#fff8dc;"| 3,52 || 82,80 || style="color:darkgreen;border-left-width:2px;"| 0,78 ||style="background:#eaf3ff;border-left-width:2px;"| 81,74 ||style="background:#fee7f6;"| 85,41 ||style="background:#fff8dc;"| 3,67 || 83,58 || style="color:darkgreen;border-left-width:2px;"| 0,24 ||style="background:#eaf3ff;border-left-width:2px;"| 82,07 ||style="background:#fee7f6;"| 85,57 ||style="background:#fff8dc;"| 3,50 || 83,82
+|-
+| [[Уппсала (лен)|Уппса́ла]] ||style="background:#eaf3ff;"| 81,38 ||style="background:#fee7f6;"| 84,65 ||style="background:#fff8dc;"| 3,27 || 83,02 || style="color:darkgreen;border-left-width:2px;"| 0,59 ||style="background:#eaf3ff;border-left-width:2px;"| 82,00 ||style="background:#fee7f6;"| 85,22 ||style="background:#fff8dc;"| 3,22 || 83,61 || style="color:darkgreen;border-left-width:2px;"| 0,06 ||style="background:#eaf3ff;border-left-width:2px;"| 82,06 ||style="background:#fee7f6;"| 85,29 ||style="background:#fff8dc;"| 3,23 || 83,67
+|-
+| [[Крунуберг|Кру́нуберг]] ||style="background:#eaf3ff;"| 81,56 ||style="background:#fee7f6;"| 84,73 ||style="background:#fff8dc;"| 3,17 || 83,14 || style="color:darkgreen;border-left-width:2px;"| 0,31 ||style="background:#eaf3ff;border-left-width:2px;"| 81,96 ||style="background:#fee7f6;"| 84,95 ||style="background:#fff8dc;"| 2,99 || 83,45 || style="color:darkgreen;border-left-width:2px;"| 0,09 ||style="background:#eaf3ff;border-left-width:2px;"| 82,09 ||style="background:#fee7f6;"| 85,00 ||style="background:#fff8dc;"| 2,91 || 83,55
+|-
+| [[Йёнчёпинг (лен)|Йёнчёпинг]] ||style="background:#eaf3ff;"| 81,00 ||style="background:#fee7f6;"| 84,54 ||style="background:#fff8dc;"| 3,54 || 82,77 || style="color:darkgreen;border-left-width:2px;"| 0,55 ||style="background:#eaf3ff;border-left-width:2px;"| 81,55 ||style="background:#fee7f6;"| 85,08 ||style="background:#fff8dc;"| 3,53 || 83,31 || style="color:darkgreen;border-left-width:2px;"| 0,16 ||style="background:#eaf3ff;border-left-width:2px;"| 81,75 ||style="background:#fee7f6;"| 85,19 ||style="background:#fff8dc;"| 3,44 || 83,47
+|-
+| [[Готланд (лен)|Го́тланд]] ||style="background:#eaf3ff;"| 80,43 ||style="background:#fee7f6;"| 84,18 ||style="background:#fff8dc;"| 3,75 || 82,31 || style="color:darkgreen;border-left-width:2px;"| 1,04 ||style="background:#eaf3ff;border-left-width:2px;"| 81,32 ||style="background:#fee7f6;"| 85,38 ||style="background:#fff8dc;"| 4,06 || 83,35 || style="color:darkgreen;border-left-width:2px;"| 0,12 ||style="background:#eaf3ff;border-left-width:2px;"| 81,40 ||style="background:#fee7f6;"| 85,53 ||style="background:#fff8dc;"| 4,13 || 83,47
+|-
+| [[Даларна (лен)|Да́ларна]] ||style="background:#eaf3ff;"| 80,47 ||style="background:#fee7f6;"| 83,82 ||style="background:#fff8dc;"| 3,35 || 82,14 || style="color:darkgreen;border-left-width:2px;"| 0,84 ||style="background:#eaf3ff;border-left-width:2px;"| 81,20 ||style="background:#fee7f6;"| 84,76 ||style="background:#fff8dc;"| 3,56 || 82,98 || style="color:darkgreen;border-left-width:2px;"| 0,16 ||style="background:#eaf3ff;border-left-width:2px;"| 81,51 ||style="background:#fee7f6;"| 84,78 ||style="background:#fff8dc;"| 3,27 || 83,14
+|-
+| [[Кальмар (лен)|Ка́льмар]] ||style="background:#eaf3ff;"| 80,18 ||style="background:#fee7f6;"| 83,88 ||style="background:#fff8dc;"| 3,70 || 82,03 || style="color:darkgreen;border-left-width:2px;"| 1,05 ||style="background:#eaf3ff;border-left-width:2px;"| 81,24 ||style="background:#fee7f6;"| 84,91 ||style="background:#fff8dc;"| 3,67 || 83,08 || style="color:darkgreen;border-left-width:2px;"| 0,06 ||style="background:#eaf3ff;border-left-width:2px;"| 81,33 ||style="background:#fee7f6;"| 84,95 ||style="background:#fff8dc;"| 3,62 || 83,14
+|-
+| [[Эстергётланд (лен)|Э́стергётланд]] ||style="background:#eaf3ff;"| 80,78 ||style="background:#fee7f6;"| 84,20 ||style="background:#fff8dc;"| 3,42 || 82,49 || style="color:darkgreen;border-left-width:2px;"| 0,47 ||style="background:#eaf3ff;border-left-width:2px;"| 81,34 ||style="background:#fee7f6;"| 84,57 ||style="background:#fff8dc;"| 3,23 || 82,95 || style="color:darkgreen;border-left-width:2px;"| 0,13 ||style="background:#eaf3ff;border-left-width:2px;"| 81,41 ||style="background:#fee7f6;"| 84,76 ||style="background:#fff8dc;"| 3,35 || 83,08
+|-
+| [[Вестра-Гёталанд|Ве́стра-Гёталанд]] ||style="background:#eaf3ff;"| 80,53 ||style="background:#fee7f6;"| 84,07 ||style="background:#fff8dc;"| 3,54 || 82,30 || style="color:darkgreen;border-left-width:2px;"| 0,54 ||style="background:#eaf3ff;border-left-width:2px;"| 81,11 ||style="background:#fee7f6;"| 84,57 ||style="background:#fff8dc;"| 3,46 || 82,84 || style="color:darkgreen;border-left-width:2px;"| 0,16 ||style="background:#eaf3ff;border-left-width:2px;"| 81,26 ||style="background:#fee7f6;"| 84,75 ||style="background:#fff8dc;"| 3,49 || 83,00
+|-
+| [[Сконе (лен)|Ско́не]] ||style="background:#eaf3ff;"| 80,59 ||style="background:#fee7f6;"| 84,22 ||style="background:#fff8dc;"| 3,63 || 82,41 || style="color:darkgreen;border-left-width:2px;"| 0,46 ||style="background:#eaf3ff;border-left-width:2px;"| 81,14 ||style="background:#fee7f6;"| 84,59 ||style="background:#fff8dc;"| 3,45 || 82,86 || style="color:darkgreen;border-left-width:2px;"| 0,14 ||style="background:#eaf3ff;border-left-width:2px;"| 81,32 ||style="background:#fee7f6;"| 84,68 ||style="background:#fff8dc;"| 3,36 || 83,00
+|-
+| [[Эребру (лен)|Э́ребру]] ||style="background:#eaf3ff;"| 79,91 ||style="background:#fee7f6;"| 84,03 ||style="background:#fff8dc;"| 4,12 || 81,97 || style="color:darkgreen;border-left-width:2px;"| 0,66 ||style="background:#eaf3ff;border-left-width:2px;"| 80,71 ||style="background:#fee7f6;"| 84,55 ||style="background:#fff8dc;"| 3,84 || 82,63 || style="color:darkgreen;border-left-width:2px;"| 0,20 ||style="background:#eaf3ff;border-left-width:2px;"| 80,99 ||style="background:#fee7f6;"| 84,67 ||style="background:#fff8dc;"| 3,68 || 82,83
+|-
+| [[Вестерботтен (лен)|Ве́стерботтен]] ||style="background:#eaf3ff;"| 80,36 ||style="background:#fee7f6;"| 83,68 ||style="background:#fff8dc;"| 3,32 || 82,02 || style="color:darkgreen;border-left-width:2px;"| 0,68 ||style="background:#eaf3ff;border-left-width:2px;"| 81,16 ||style="background:#fee7f6;"| 84,24 ||style="background:#fff8dc;"| 3,08 || 82,70 || style="color:darkgreen;border-left-width:2px;"| 0,05 ||style="background:#eaf3ff;border-left-width:2px;"| 81,23 ||style="background:#fee7f6;"| 84,26 ||style="background:#fff8dc;"| 3,03 || 82,75
+|-
+| [[Вермланд (лен)|Ве́рмланд]] ||style="background:#eaf3ff;"| 79,75 ||style="background:#fee7f6;"| 83,80 ||style="background:#fff8dc;"| 4,05 || 81,78 || style="color:darkgreen;border-left-width:2px;"| 0,83 ||style="background:#eaf3ff;border-left-width:2px;"| 80,71 ||style="background:#fee7f6;"| 84,50 ||style="background:#fff8dc;"| 3,79 || 82,61 || style="color:darkgreen;border-left-width:2px;"| 0,10 ||style="background:#eaf3ff;border-left-width:2px;"| 80,83 ||style="background:#fee7f6;"| 84,59 ||style="background:#fff8dc;"| 3,76 || 82,71
+|-
+| [[Емтланд (лен)|Е́мтланд]] ||style="background:#eaf3ff;"| 80,04 ||style="background:#fee7f6;"| 83,54 ||style="background:#fff8dc;"| 3,50 || 81,79 || style="color:darkgreen;border-left-width:2px;"| 0,63 ||style="background:#eaf3ff;border-left-width:2px;"| 80,70 ||style="background:#fee7f6;"| 84,15 ||style="background:#fff8dc;"| 3,45 || 82,42 || style="color:darkgreen;border-left-width:2px;"| 0,26 ||style="background:#eaf3ff;border-left-width:2px;"| 81,11 ||style="background:#fee7f6;"| 84,26 ||style="background:#fff8dc;"| 3,15 || 82,69
+|-
+| [[Вестманланд (лен)|Ве́стманланд]] ||style="background:#eaf3ff;"| 80,33 ||style="background:#fee7f6;"| 83,87 ||style="background:#fff8dc;"| 3,54 || 82,10 || style="color:darkgreen;border-left-width:2px;"| 0,31 ||style="background:#eaf3ff;border-left-width:2px;"| 80,53 ||style="background:#fee7f6;"| 84,29 ||style="background:#fff8dc;"| 3,76 || 82,41 || style="color:darkgreen;border-left-width:2px;"| 0,25 ||style="background:#eaf3ff;border-left-width:2px;"| 80,87 ||style="background:#fee7f6;"| 84,44 ||style="background:#fff8dc;"| 3,57 || 82,66
+|-
+| [[Блекинге (лен)|Бле́кинге]] ||style="background:#eaf3ff;"| 79,77 ||style="background:#fee7f6;"| 83,84 ||style="background:#fff8dc;"| 4,07 || 81,81 || style="color:darkgreen;border-left-width:2px;"| 0,76 ||style="background:#eaf3ff;border-left-width:2px;"| 81,02 ||style="background:#fee7f6;"| 84,12 ||style="background:#fff8dc;"| 3,10 || 82,57 || style="color:darkgreen;border-left-width:2px;"| 0,08 ||style="background:#eaf3ff;border-left-width:2px;"| 81,08 ||style="background:#fee7f6;"| 84,22 ||style="background:#fff8dc;"| 3,14 || 82,65
+|-
+| [[Сёдерманланд (лен)|Сёдерманланд]] ||style="background:#eaf3ff;"| 80,03 ||style="background:#fee7f6;"| 83,78 ||style="background:#fff8dc;"| 3,75 || 81,91 || style="color:darkgreen;border-left-width:2px;"| 0,38 ||style="background:#eaf3ff;border-left-width:2px;"| 80,61 ||style="background:#fee7f6;"| 83,95 ||style="background:#fff8dc;"| 3,34 || 82,28 || style="color:darkgreen;border-left-width:2px;"| 0,16 ||style="background:#eaf3ff;border-left-width:2px;"| 80,79 ||style="background:#fee7f6;"| 84,08 ||style="background:#fff8dc;"| 3,29 || 82,44
+|-
+| [[Евлеборг|Е́влеборг]] ||style="background:#eaf3ff;"| 79,54 ||style="background:#fee7f6;"| 83,05 ||style="background:#fff8dc;"| 3,51 || 81,30 || style="color:darkgreen;border-left-width:2px;"| 0,74 ||style="background:#eaf3ff;border-left-width:2px;"| 80,22 ||style="background:#fee7f6;"| 83,85 ||style="background:#fff8dc;"| 3,63 || 82,03 || style="color:darkgreen;border-left-width:2px;"| 0,16 ||style="background:#eaf3ff;border-left-width:2px;"| 80,46 ||style="background:#fee7f6;"| 83,92 ||style="background:#fff8dc;"| 3,46 || 82,19
+|-
+| [[Норрботтен (лен)|Но́ррботтен]] ||style="background:#eaf3ff;"| 79,14 ||style="background:#fee7f6;"| 83,20 ||style="background:#fff8dc;"| 4,06 || 81,17 || style="color:darkgreen;border-left-width:2px;"| 0,56 ||style="background:#eaf3ff;border-left-width:2px;"| 79,95 ||style="background:#fee7f6;"| 83,52 ||style="background:#fff8dc;"| 3,57 || 81,73 || style="color:darkgreen;border-left-width:2px;"| 0,22 ||style="background:#eaf3ff;border-left-width:2px;"| 80,10 ||style="background:#fee7f6;"| 83,82 ||style="background:#fff8dc;"| 3,72 || 81,96
+|-
+| [[Вестерноррланд|Ве́стерноррланд]] ||style="background:#eaf3ff;"| 79,54 ||style="background:#fee7f6;"| 83,00 ||style="background:#fff8dc;"| 3,46 || 81,27 || style="color:darkgreen;border-left-width:2px;"| 0,54 ||style="background:#eaf3ff;border-left-width:2px;"| 80,09 ||style="background:#fee7f6;"| 83,52 ||style="background:#fff8dc;"| 3,43 || 81,81 || style="color:darkgreen;border-left-width:2px;"| 0,11 ||style="background:#eaf3ff;border-left-width:2px;"| 80,09 ||style="background:#fee7f6;"| 83,74 ||style="background:#fff8dc;"| 3,65 || 81,92
+|}

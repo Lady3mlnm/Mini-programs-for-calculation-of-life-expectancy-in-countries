@@ -1,0 +1,23 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Лены Швеции#Список ленов|лен]]
+! colspan=4|2014-2018
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|изменение средней арифметической ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2019-2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|изменение средней арифметической ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2020-2024
+|-
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3em;"|{{comment|ср. арифм.|среднее арифметическое для ОПЖ мужчин и женщин}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;"|ср. арифм.
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;"|ср. арифм.
+|-{{static row numbers arrows|15}}

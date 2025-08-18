@@ -1,0 +1,2 @@
+This folder contains raw data taken from the [Statistics Sweden website](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BE__BE0101__BE0101I/Medellivsl/).<br>
+<i>(Select all → Show table → Tools → Save result as… > Tab delimited with heading)</i>
