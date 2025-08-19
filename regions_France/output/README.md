@@ -1,0 +1,1 @@
+This is folder for saving results of the scripts work. Now it contains examples <i>(only metropolitan regions)</i> of what the scripts generate. You can remove these files and the scripts will recreate them or create their updated analogues.

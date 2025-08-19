@@ -1,0 +1,25 @@
+{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sticky-header-multi col1left col2left col7right col12right col17right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Код INSEE|код]]
+! rowspan=2 style="vertical-align:middle;"|[[Список департаментов Франции|департамент]]
+! colspan=4|2015
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|2015<br>→2019|Изменение в продолжительности жизни между 2015 и 2019 годами}}
+! colspan=4 style="border-left-width:2px;"|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2019<br>→2024
+! colspan=4 style="border-left-width:2px;"|2024
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2019<br>→2024
+|-
+! style="width:2.5em;vertical-align:middle;"|{{comment|муж|мужчины}}
+! style="width:2.5em;vertical-align:middle;"|{{comment|жен|женщины}}
+! {{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="width:3em;"|{{comment|ср. арифм.|среднее арифметическое для ОПЖ мужчин и женщин}}
+! style="width:2.5em;vertical-align:middle;border-left-width:2px;"|муж
+! style="width:2.5em;vertical-align:middle;"|жен
+! жен<br>{{nobr|<small>Δ</small> муж}}
+! style="width:3em;"|ср. арифм.
+! style="width:2.5em;vertical-align:middle;border-left-width:2px;"|муж
+! style="width:2.5em;vertical-align:middle;"|жен
+! жен<br>{{nobr|<small>Δ</small> муж}}
+! style="width:3em;"|ср. арифм.
+|-{{static row numbers arrows|17}}

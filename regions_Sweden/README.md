@@ -1,3 +1,3 @@
 This is collection of scripts used by me for creation of tables about life expectancy in Sweden for the Wikipedia page "[List of Swedish counties by life expectancy](https://en.wikipedia.org/wiki/List_of_Swedish_counties_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_ленах_Швеции). The data is taken from the [Statistics Sweden website](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__BE__BE0101__BE0101I/Medellivsl/).
 
-At this moment the online service [MapCharts](https://www.mapchart.net) doesn't have template for creation maps for Sweden, so the script for map creation is not complete.
+Script for map generation is not completed since, as I've understood at the process of its creation, the [template for Sweden at MapCharts](https://www.mapchart.net/sweden.html) uses other division of the country to regions that the Statistics Sweden applies.

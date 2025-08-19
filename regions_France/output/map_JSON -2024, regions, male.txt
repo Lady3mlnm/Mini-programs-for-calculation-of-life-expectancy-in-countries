@@ -1,0 +1,84 @@
+{
+  "groups": {
+    "#0b578d": {
+      "label": "81.5–81.9",
+      "paths": [
+        "Ile_de_France",
+        "Corse"
+      ]
+    },
+    "#0d68a9": {
+      "label": "81.0–81.4",
+      "paths": [
+        "Auvergne_Rhone_Alpes"
+      ]
+    },
+    "#107ac6": {
+      "label": "80.5–80.9",
+      "paths": [
+        "Provence_Alpes_Cote_d_Azure"
+      ]
+    },
+    "#128be1": {
+      "label": "80.0–80.4",
+      "paths": [
+        "Pays_de_la_Loire",
+        "Occitanie"
+      ]
+    },
+    "#2e9eee": {
+      "label": "79.5–79.9",
+      "paths": [
+        "Nouvelle_Aquitaine"
+      ]
+    },
+    "#51aef0": {
+      "label": "79.0–79.4",
+      "paths": [
+        "Bretagne",
+        "Centre_Val_de_Loire",
+        "Bourgogne_Franche_Comte",
+        "Grand_Est"
+      ]
+    },
+    "#6ebcf3": {
+      "label": "78.5–78.9",
+      "paths": [
+        "Normandie"
+      ]
+    },
+    "#92ccf6": {
+      "label": "78.0–78.4",
+      "paths": [
+        "Hauts_de_France"
+      ]
+    }
+  },
+  "title": "2024: ♂",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#333333",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 100,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "legendPosition": "custom",
+  "legendX": 120,
+  "legendY": 500,
+  "legendSize": "large",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

@@ -1,0 +1,68 @@
+﻿Parameters of cropping maps images in an image editor:
+
+Regions:
+x: 545
+y: 27
+width: 3700
+height: 3400
+
+Departments:
+x: 265
+y: 420
+width: 5850
+height: 5500
+
+
+
+--- snippets for using in 'Summany' > 'description' field in Wikimedia Commons ---
+    Legend for
+regions > male:
+{{Legend|#0b578d|81.5–81.9}}
+{{Legend|#0d68a9|81.0–81.4}}
+{{Legend|#107ac6|80.5–80.9}}
+{{Legend|#128be1|80.0–80.4}}
+{{Legend|#2e9eee|79.5–79.9}}
+{{Legend|#51aef0|79.0–79.4}}
+{{Legend|#6ebcf3|78.5–78.9}}
+{{Legend|#92ccf6|78.0–78.4}}
+{{Legend|#b3dbf8|77.5–77.9}}
+{{Legend|#d4ebfb|77.0–77.4}}
+
+regions > female:
+{{Legend|#d81132|86.5–86.9}}
+{{Legend|#ef3b59|86.0–86.4}}
+{{Legend|#f2657d|85.5–85.9}}
+{{Legend|#f58698|85.0–85.4}}
+{{Legend|#f7a5b2|84.5–84.9}}
+{{Legend|#f9bfc6|84.0–84.4}}
+{{Legend|#fbd8db|83.5–83.9}}
+
+
+
+departments > male:
+{{Legend|#062f4c|82.5–82.9}}
+{{Legend|#08436e|82.0–82.4}}
+{{Legend|#0b578d|81.5–81.9}}
+{{Legend|#0d68a9|81.0–81.4}}
+{{Legend|#107ac6|80.5–80.9}}
+{{Legend|#128be1|80.0–80.4}}
+{{Legend|#2e9eee|79.5–79.9}}
+{{Legend|#51aef0|79.0–79.4}}
+{{Legend|#6ebcf3|78.5–78.9}}
+{{Legend|#92ccf6|78.0–78.4}}
+{{Legend|#b3dbf8|77.5–77.9}}
+{{Legend|#d4ebfb|77.0–77.4}}
+{{Legend|#edf7fd|76.5–76.9}}
+{{Legend|#f8fbfe|76.0–76.4}}
+
+department > female:
+{{Legend|#a30d19|87.0–87.4}}
+{{Legend|#d81132|86.5–86.9}}
+{{Legend|#ef3b59|86.0–86.4}}
+{{Legend|#f2657d|85.5–85.9}}
+{{Legend|#f58698|85.0–85.4}}
+{{Legend|#f7a5b2|84.5–84.9}}
+{{Legend|#f9bfc6|84.0–84.4}}
+{{Legend|#fbd8db|83.5–83.9}}
+{{Legend|#fdebed|83.0–83.4}}
+{{Legend|#fef8f9|82.5–82.9}}
