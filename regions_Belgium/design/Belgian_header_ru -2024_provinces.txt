@@ -1,0 +1,23 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left col6right col11right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление Бельгии#Провинции|Провинция]]<br>или [[Административное деление Бельгии#Регионы|регион]]
+! colspan=4|2020-2022
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение 1|изменение общей ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2021-2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|изменение 2
+! colspan=4 style="border-left-width:2px;"|2022-2024
+|-
+! style="vertical-align:middle;width:4em;"|{{comment|общая|Всё население в среднем}}
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:4em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:3em;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:4em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:3em;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+|-{{static row numbers arrows|15}}

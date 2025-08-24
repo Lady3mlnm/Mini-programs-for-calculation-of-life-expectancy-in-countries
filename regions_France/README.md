@@ -1,1 +1,5 @@
 This is collection of scripts used by me for creation of tables and maps about life expectancy in France for the Wikipedia page "[List of French departments by life expectancy](https://en.wikipedia.org/wiki/List_of_French_departments_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_департаментах_Франции). I created also [alternative design](https://en.wikipedia.org/wiki/User:Lady3mlnm/List_of_French_departments_by_life_expectancy_(alternative)) of the tables to explore date from a different point of view. The data is taken from the [INSEE website](https://www.insee.fr/fr/statistiques/2012749).
+
+Use online service [MapCharts](https://www.mapchart.net/france.html) for creation maps.
+
+There are alternative data from the "[French Human Mortality Database](https://frdata.org/en/french-human-mortality-database/)". But at this moment this database contains only data till 2021, and does not contain data for the country as a whole.

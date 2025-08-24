@@ -1,0 +1,2 @@
+This folder contains data downloaded from the site "[For a healthy Belgium](https://www.healthybelgium.be/en/health-status/life-expectancy-and-quality-of-life/life-expectancy)".<br>
+(Original source: "[Statistics Belgium](https://statbel.fgov.be/en/themes/population/mortality-life-expectancy-and-causes-death/life-expectancy-and-life-tables)").

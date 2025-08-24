@@ -1,0 +1,33 @@
+{{table alignment}}
+{| class="wikitable sortable col1left col7right col9right col11right col13right col15right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление Бельгии#Регионы|регион]]
+! colspan=4|2024
+! colspan=12 style="border-left-width:2px;"|исторические данные
+|-
+! style="vertical-align:middle;width:4em;"|{{comment|Общая|Всё население в среднем}}
+! style="vertical-align:middle;width:3em;"|{{comment|М|Мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|Ж|Женщины}}
+! style="vertical-align:middle;"|{{comment|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами}}
+! style="border-left-width:2px;vertical-align:middle;width:3em;padding-left:1em;"|2019
+! style="text-align:left;"|{{comment|2019<br>→2020|Изменение в продолжительности жизни между 2019 и 2020 годами}}
+! style="vertical-align:middle;width:3em;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;width:3em;"|2021
+! style="text-align:left;"|2021<br>→2022
+! style="vertical-align:middle;width:3em;"|2022
+! style="text-align:left;"|2022<br>→2023
+! style="vertical-align:middle;width:3em;"|2023
+! style="text-align:left;"|2023<br>→2024
+! style="vertical-align:middle;width:3em;"|2024
+! style="text-align:center;border-left-width:2px;width:4em;"|2019<br>→2024
+|-{{static row numbers arrows|17}}
+|-
+| [[Фландрия (историческая область)|Фла́ндрия]] ||style="background:#e0ffd8;"| 84,05 ||style="background:#eaf3ff;"| 82,17 ||style="background:#fee7f6;"| 85,89 ||style="background:#fff8dc;"| 3,72 ||style="border-left-width:2px;padding-left:1em;"| 82,70 ||style="color:crimson;"| −0,70 || 82,00 ||style="color:darkgreen;"| 0,68 || 82,68 ||style="color:crimson;"| −0,06 || 82,62 ||style="color:darkgreen;"| 0,55 || 83,17 ||style="color:darkgreen;"| 0,89 ||style="background:#e0ffd8;"| 84,05 ||style="color:darkgreen;border-left-width:2px;"| 1,35
+|-
+| '''Бельгия''' ||style="background:#e0ffd8;"| '''82,35''' ||style="background:#eaf3ff;"| '''80,26''' ||style="background:#fee7f6;"| '''84,40''' ||style="background:#fff8dc;"| '''4,14''' ||style="border-left-width:2px;padding-left:1em;"| '''81,83''' ||style="color:crimson;"| '''−1,04''' || '''80,79''' ||style="color:darkgreen;"| '''0,86''' || '''81,65''' ||style="color:darkgreen;"| '''0,04''' || '''81,69''' ||style="color:darkgreen;"| '''0,59''' || '''82,28''' ||style="color:darkgreen;"| '''0,08''' ||style="background:#e0ffd8;"| '''82,35''' ||style="color:darkgreen;border-left-width:2px;"| '''0,52'''
+|-
+| [[Брюссельский столичный регион|Брюссе́ль]] ||style="background:#e0ffd8;"| 82,15 ||style="background:#eaf3ff;"| 79,78 ||style="background:#fee7f6;"| 84,32 ||style="background:#fff8dc;"| 4,55 ||style="border-left-width:2px;padding-left:1em;"| 81,59 ||style="color:crimson;"| −1,98 || 79,61 ||style="color:darkgreen;"| 1,67 || 81,28 ||style="color:darkgreen;"| 0,31 || 81,58 ||style="color:darkgreen;"| 0,59 || 82,18 ||style="color:crimson;"| −0,03 ||style="background:#e0ffd8;"| 82,15 ||style="color:darkgreen;border-left-width:2px;"| 0,56
+|-
+| [[Валлония]] ||style="background:#e0ffd8;"| 80,70 ||style="background:#eaf3ff;"| 78,33 ||style="background:#fee7f6;"| 82,98 ||style="background:#fff8dc;"| 4,65 ||style="border-left-width:2px;padding-left:1em;"| 80,28 ||style="color:crimson;"| −1,33 || 78,94 ||style="color:darkgreen;"| 0,93 || 79,87 ||style="color:darkgreen;"| 0,14 || 80,02 ||style="color:darkgreen;"| 0,63 || 80,64 ||style="color:darkgreen;"| 0,05 ||style="background:#e0ffd8;"| 80,70 ||style="color:darkgreen;border-left-width:2px;"| 0,42
+|}

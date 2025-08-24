@@ -1,0 +1,3 @@
+This is collection of scripts used by me for creation of tables and charts about life expectancy in Belgium for the Wikipedia page "[List of Belgian provinces by life expectancy](https://en.wikipedia.org/wiki/List_of_Belgian_provinces_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_провинциях_Бельгии). The data is taken from the site "[For a healthy Belgium](https://www.healthybelgium.be/en/health-status/life-expectancy-and-quality-of-life/life-expectancy)". (Original source: "[Statistics Belgium](https://statbel.fgov.be/en/themes/population/mortality-life-expectancy-and-causes-death/life-expectancy-and-life-tables)").
+
+Use online service [MapCharts](https://www.mapchart.net/belgium.html) for creation maps.

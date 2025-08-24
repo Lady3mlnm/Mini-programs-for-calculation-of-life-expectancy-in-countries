@@ -1,0 +1,52 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left col6right col11right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление Бельгии#Провинции|Провинция]]<br>или [[Административное деление Бельгии#Регионы|регион]]
+! colspan=4|2020-2022
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение 1|изменение общей ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2021-2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|изменение 2
+! colspan=4 style="border-left-width:2px;"|2022-2024
+|-
+! style="vertical-align:middle;width:4em;"|{{comment|общая|Всё население в среднем}}
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:4em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:3em;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:4em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:3em;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+|-{{static row numbers arrows|15}}
+|-class=static-row-header
+| '''[[Бельгия|Бельгия в целом]]''' ||style="background:#e0ffd8;"| '''81,38''' ||style="background:#eaf3ff;"| '''79,10''' ||style="background:#fee7f6;"| '''83,62''' || '''4,52''' ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| '''0,50''' ||style="background:#e0ffd8;border-left-width:2px;"| '''81,87''' ||style="background:#eaf3ff;"| '''79,66''' ||style="background:#fee7f6;"| '''84,04''' || '''4,38''' ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| '''0,23''' ||style="background:#e0ffd8;border-left-width:2px;"| '''82,11''' ||style="background:#eaf3ff;"| '''80,00''' ||style="background:#fee7f6;"| '''84,16''' || '''4,16'''
+|-
+| [[Лимбург (провинция Бельгии)|Ли́мбург]] ||style="background:#e0ffd8;"| 82,46 ||style="background:#eaf3ff;"| 80,53 ||style="background:#fee7f6;"| 84,41 || 3,88 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,37 ||style="background:#e0ffd8;border-left-width:2px;"| 82,83 ||style="background:#eaf3ff;"| 80,92 ||style="background:#fee7f6;"| 84,74 || 3,83 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,98 ||style="background:#e0ffd8;border-left-width:2px;"| 83,81 ||style="background:#eaf3ff;"| 82,04 ||style="background:#fee7f6;"| 85,54 || 3,51
+|-
+| [[Фламандский Брабант|Фламандский Браба́нт]] ||style="background:#e0ffd8;"| 82,93 ||style="background:#eaf3ff;"| 80,81 ||style="background:#fee7f6;"| 84,99 || 4,18 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,44 ||style="background:#e0ffd8;border-left-width:2px;"| 83,37 ||style="background:#eaf3ff;"| 81,29 ||style="background:#fee7f6;"| 85,37 || 4,08 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,28 ||style="background:#e0ffd8;border-left-width:2px;"| 83,65 ||style="background:#eaf3ff;"| 81,72 ||style="background:#fee7f6;"| 85,50 || 3,78
+|-
+| [[Восточная Фландрия|Восточная Фла́ндрия]] ||style="background:#e0ffd8;"| 82,19 ||style="background:#eaf3ff;"| 79,99 ||style="background:#fee7f6;"| 84,36 || 4,37 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,31 ||style="background:#e0ffd8;border-left-width:2px;"| 82,50 ||style="background:#eaf3ff;"| 80,34 ||style="background:#fee7f6;"| 84,62 || 4,28 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,61 ||style="background:#e0ffd8;border-left-width:2px;"| 83,11 ||style="background:#eaf3ff;"| 81,09 ||style="background:#fee7f6;"| 85,06 || 3,97
+|-
+| [[Антверпен (провинция)|Антве́рпен]] ||style="background:#e0ffd8;"| 82,34 ||style="background:#eaf3ff;"| 80,44 ||style="background:#fee7f6;"| 84,23 || 3,79 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,46 ||style="background:#e0ffd8;border-left-width:2px;"| 82,80 ||style="background:#eaf3ff;"| 80,95 ||style="background:#fee7f6;"| 84,60 || 3,65 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,29 ||style="background:#e0ffd8;border-left-width:2px;"| 83,09 ||style="background:#eaf3ff;"| 81,33 ||style="background:#fee7f6;"| 84,81 || 3,48
+|-
+| [[Западная Фландрия|Западная Фла́ндрия]] ||style="background:#e0ffd8;"| 82,29 ||style="background:#eaf3ff;"| 80,04 ||style="background:#fee7f6;"| 84,57 || 4,53 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,40 ||style="background:#e0ffd8;border-left-width:2px;"| 82,69 ||style="background:#eaf3ff;"| 80,48 ||style="background:#fee7f6;"| 84,91 || 4,44 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,29 ||style="background:#e0ffd8;border-left-width:2px;"| 82,98 ||style="background:#eaf3ff;"| 80,88 ||style="background:#fee7f6;"| 85,07 || 4,19
+|-
+| [[Валлонский Брабант|Валлонский Браба́нт]] ||style="background:#e0ffd8;"| 82,48 ||style="background:#eaf3ff;"| 80,28 ||style="background:#fee7f6;"| 84,52 || 4,25 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,44 ||style="background:#e0ffd8;border-left-width:2px;"| 82,92 ||style="background:#eaf3ff;"| 80,74 ||style="background:#fee7f6;"| 84,93 || 4,19 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,05 ||style="background:#e0ffd8;border-left-width:2px;"| 82,97 ||style="background:#eaf3ff;"| 80,83 ||style="background:#fee7f6;"| 84,93 || 4,10
+|-
+| [[Брюссельский столичный регион|Брюссе́ль]] ||style="background:#e0ffd8;"| 80,82 ||style="background:#eaf3ff;"| 78,19 ||style="background:#fee7f6;"| 83,27 || 5,08 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,86 ||style="background:#e0ffd8;border-left-width:2px;"| 81,68 ||style="background:#eaf3ff;"| 79,13 ||style="background:#fee7f6;"| 84,01 || 4,88 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,29 ||style="background:#e0ffd8;border-left-width:2px;"| 81,97 ||style="background:#eaf3ff;"| 79,51 ||style="background:#fee7f6;"| 84,21 || 4,70
+|-
+| [[Люксембург (провинция)|Люксембу́рг]] ||style="background:#e0ffd8;"| 80,07 ||style="background:#eaf3ff;"| 77,56 ||style="background:#fee7f6;"| 82,67 || 5,11 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,25 ||style="background:#e0ffd8;border-left-width:2px;"| 80,32 ||style="background:#eaf3ff;"| 77,78 ||style="background:#fee7f6;"| 82,91 || 5,14 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,32 ||style="background:#e0ffd8;border-left-width:2px;"| 80,63 ||style="background:#eaf3ff;"| 78,26 ||style="background:#fee7f6;"| 83,05 || 4,79
+|-
+| [[Намюр (провинция)|Намю́р]] ||style="background:#e0ffd8;"| 79,78 ||style="background:#eaf3ff;"| 77,17 ||style="background:#fee7f6;"| 82,39 || 5,22 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,52 ||style="background:#e0ffd8;border-left-width:2px;"| 80,30 ||style="background:#eaf3ff;"| 77,87 ||style="background:#fee7f6;"| 82,66 || 4,79 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,32 ||style="background:#e0ffd8;border-left-width:2px;"| 80,62 ||style="background:#eaf3ff;"| 78,34 ||style="background:#fee7f6;"| 82,82 || 4,48
+|-
+| [[Льеж (провинция)|Льеж]] ||style="background:#e0ffd8;"| 79,49 ||style="background:#eaf3ff;"| 77,13 ||style="background:#fee7f6;"| 81,83 || 4,71 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,75 ||style="background:#e0ffd8;border-left-width:2px;"| 80,24 ||style="background:#eaf3ff;"| 77,99 ||style="background:#fee7f6;"| 82,42 || 4,44 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,23 ||style="background:#e0ffd8;border-left-width:2px;"| 80,47 ||style="background:#eaf3ff;"| 78,37 ||style="background:#fee7f6;"| 82,50 || 4,13
+|-
+| [[Эно|Эно́]] ||style="background:#e0ffd8;"| 78,70 ||style="background:#eaf3ff;"| 75,87 ||style="background:#fee7f6;"| 81,48 || 5,61 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,58 ||style="background:#e0ffd8;border-left-width:2px;"| 79,28 ||style="background:#eaf3ff;"| 76,48 ||style="background:#fee7f6;"| 82,00 || 5,52 ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| 0,35 ||style="background:#e0ffd8;border-left-width:2px;"| 79,63 ||style="background:#eaf3ff;"| 76,90 ||style="background:#fee7f6;"| 82,29 || 5,39
+|-class=static-row-header
+| '''[[Фландрия (историческая область)|Фла́ндрия в среднем]]''' ||style="background:#e0ffd8;"| '''82,43''' ||style="background:#eaf3ff;"| '''80,35''' ||style="background:#fee7f6;"| '''84,50''' || '''4,15''' ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| '''0,39''' ||style="background:#e0ffd8;border-left-width:2px;"| '''82,82''' ||style="background:#eaf3ff;"| '''80,78''' ||style="background:#fee7f6;"| '''84,83''' || '''4,05''' ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| '''0,46''' ||style="background:#e0ffd8;border-left-width:2px;"| '''83,28''' ||style="background:#eaf3ff;"| '''81,37''' ||style="background:#fee7f6;"| '''85,15''' || '''3,78'''
+|-class=static-row-header
+| '''[[Валлония|Валлония в среднем]]''' ||style="background:#e0ffd8;"| '''79,61''' ||style="background:#eaf3ff;"| '''77,04''' ||style="background:#fee7f6;"| '''82,14''' || '''5,11''' ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| '''0,57''' ||style="background:#e0ffd8;border-left-width:2px;"| '''80,18''' ||style="background:#eaf3ff;"| '''77,68''' ||style="background:#fee7f6;"| '''82,61''' || '''4,93''' ||style="color:darkgreen;padding-right:3.5ex;border-left-width:2px;"| '''0,28''' ||style="background:#e0ffd8;border-left-width:2px;"| '''80,45''' ||style="background:#eaf3ff;"| '''78,06''' ||style="background:#fee7f6;"| '''82,77''' || '''4,71'''
+|}

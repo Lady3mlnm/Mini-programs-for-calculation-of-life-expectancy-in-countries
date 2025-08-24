@@ -1,0 +1,82 @@
+{
+  "groups": {
+    "#00a000": {
+      "label": "83.5–83.99",
+      "paths": [
+        "Limburg_province",
+        "Flemish_Brabant_province"
+      ]
+    },
+    "#00b800": {
+      "label": "83.0–83.49",
+      "paths": [
+        "East_Flanders_province",
+        "Antwerp_province"
+      ]
+    },
+    "#00d800": {
+      "label": "82.5–82.99",
+      "paths": [
+        "West_Flanders_province",
+        "Waloon_Brabant_province"
+      ]
+    },
+    "#82ff00": {
+      "label": "81.5–81.99",
+      "paths": [
+        "Brussels_province"
+      ]
+    },
+    "#ffff00": {
+      "label": "80.5–80.99",
+      "paths": [
+        "Luxembourg_province",
+        "Namur_province"
+      ]
+    },
+    "#ffd800": {
+      "label": "80.0–80.49",
+      "paths": [
+        "Liege_province"
+      ]
+    },
+    "#ffac00": {
+      "label": "79.5–79.99",
+      "paths": [
+        "Hainaut_province"
+      ]
+    }
+  },
+  "title": "2022 – 2024",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 150,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "levelsVisibility": [
+    "show",
+    "show",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 120,
+  "legendY": 512,
+  "legendSize": "larger",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}
