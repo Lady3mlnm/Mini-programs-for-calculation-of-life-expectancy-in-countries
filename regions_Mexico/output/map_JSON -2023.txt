@@ -1,0 +1,122 @@
+{
+  "groups": {
+    "#00ff00": {
+      "label": "77.5–77.9",
+      "paths": [
+        "Nuevo_León"
+      ]
+    },
+    "#b8ff00": {
+      "label": "77.0–77.4",
+      "paths": [
+        "Baja_California_Sur"
+      ]
+    },
+    "#ffff00": {
+      "label": "76.5–76.9",
+      "paths": [
+        "Coahuila",
+        "Aguascalientes",
+        "Mexico_City",
+        "Sonora"
+      ]
+    },
+    "#ffe000": {
+      "label": "76.0–76.4",
+      "paths": [
+        "Chihuahua",
+        "Baja_California",
+        "Querétaro",
+        "Colima"
+      ]
+    },
+    "#ffc000": {
+      "label": "75.5–75.9",
+      "paths": [
+        "Sinaloa",
+        "Jalisco",
+        "Quintana_Roo",
+        "Tamaulipas"
+      ]
+    },
+    "#ffa000": {
+      "label": "75.0–75.4",
+      "paths": [
+        "Nayarit",
+        "Durango",
+        "San_Luis_Potosí"
+      ]
+    },
+    "#ff8000": {
+      "label": "74.5–74.9",
+      "paths": [
+        "State_of_México",
+        "Yucatán",
+        "Guanajuato"
+      ]
+    },
+    "#ff5000": {
+      "label": "74.0–74.4",
+      "paths": [
+        "Campeche",
+        "Zacatecas",
+        "Morelos",
+        "Tlaxcala"
+      ]
+    },
+    "#ff0000": {
+      "label": "73.5–73.9",
+      "paths": [
+        "Michoacán",
+        "Hidalgo",
+        "Puebla",
+        "Tabasco",
+        "Veracruz"
+      ]
+    },
+    "#d00000": {
+      "label": "73.0–73.4",
+      "paths": [
+        "Oaxaca"
+      ]
+    },
+    "#a00000": {
+      "label": "72.5–72.9",
+      "paths": [
+        "Guerrero",
+        "Chiapas"
+      ]
+    }
+  },
+  "title": 2023,
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 121.14347839355469,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "levelsVisibility": [
+    "show",
+    "show",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 747.7223919785803,
+  "legendY": 30.466462110793174,
+  "legendSize": "large",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}
