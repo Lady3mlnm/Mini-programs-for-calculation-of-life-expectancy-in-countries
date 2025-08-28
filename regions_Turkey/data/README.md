@@ -1,0 +1,2 @@
+This folder contains data downloaded from the site of the [Turkish Statistical Institute](https://data.tuik.gov.tr/Kategori/GetKategori?p=nufus-ve-demografi-109&dil=2) <i>(TurkStat)</i>.<br>
+At the site select the tab "Statistical Tables" and use search query "Life expectancy at birth by provinces and sex".

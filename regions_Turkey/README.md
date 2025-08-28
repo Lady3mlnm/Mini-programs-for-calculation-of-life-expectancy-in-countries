@@ -1,0 +1,3 @@
+This is collection of scripts used by me for creation of tables and maps about life expectancy in Turkey for the Wikipedia page "[List of Turkish provinces by life expectancy](https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_провинциях_Турции). The data is taken from the site of the [Turkish Statistical Institute](https://data.tuik.gov.tr/Kategori/GetKategori?p=nufus-ve-demografi-109&dil=2) <i>(TurkStat)</i>.
+
+Use online service [MapCharts](https://www.mapchart.net/turkiye.html) to create maps.

@@ -1,0 +1,191 @@
+{
+  "groups": {
+    "#00a700": {
+      "label": "80¾ - 80.99",
+      "paths": [
+        "Tunceli"
+      ]
+    },
+    "#00ff00": {
+      "label": "79.5 - 79.74",
+      "paths": [
+        "Sirnak",
+        "Mardin"
+      ]
+    },
+    "#88ff00": {
+      "label": "79¼ - 79.49",
+      "paths": [
+        "Bingöl",
+        "Muğla",
+        "Hakkari"
+      ]
+    },
+    "#b8ff00": {
+      "label": "79.0 - 79.24",
+      "paths": [
+        "Ankara",
+        "Erzincan",
+        "Bolu",
+        "Bayburt",
+        "Artvin",
+        "Iğdır",
+        "Trabzon",
+        "Burdur"
+      ]
+    },
+    "#deff00": {
+      "label": "78¾ - 78.99",
+      "paths": [
+        "Giresun",
+        "Gümüşhane",
+        "Malatya"
+      ]
+    },
+    "#ffff00": {
+      "label": "78.5 - 78.74",
+      "paths": [
+        "Adiyaman",
+        "Çorum",
+        "Isparta",
+        "Batman",
+        "Rize",
+        "Istanbul",
+        "Karaman"
+      ]
+    },
+    "#ffef00": {
+      "label": "78¼ - 78.49",
+      "paths": [
+        "Kars",
+        "Ardahan",
+        "Elazig",
+        "Antalya",
+        "Kahramanmaraş"
+      ]
+    },
+    "#ffe000": {
+      "label": "78.0 - 78.24",
+      "paths": [
+        "Ordu",
+        "Siirt",
+        "Amasya",
+        "Izmir",
+        "Diyarbakır",
+        "Denizli",
+        "Sivas",
+        "Aydin",
+        "Aksaray",
+        "Karabük"
+      ]
+    },
+    "#ffce00": {
+      "label": "77¾ - 77.99",
+      "paths": [
+        "Çankırı",
+        "Eskisehir",
+        "Yalova",
+        "Konya",
+        "Usak",
+        "Bitlis",
+        "Kirsehir"
+      ]
+    },
+    "#ffbc00": {
+      "label": "77.5 - 77.74",
+      "paths": [
+        "Kayseri",
+        "Sinop",
+        "Bursa",
+        "Erzurum",
+        "Nevsehir",
+        "Mersin",
+        "Van",
+        "Kocaeli",
+        "Tokat",
+        "BIlecik",
+        "Mus",
+        "Yozgat",
+        "Samsun",
+        "Nigde"
+      ]
+    },
+    "#ffac00": {
+      "label": "77¼ - 77.49",
+      "paths": [
+        "Çanakkale",
+        "Zonguldak",
+        "Düzce",
+        "Sakarya",
+        "Kastamonu",
+        "Balıkesir"
+      ]
+    },
+    "#ff9c00": {
+      "label": "77.0 - 77.24",
+      "paths": [
+        "Kırıkkale",
+        "Tekirdağ",
+        "Manisa",
+        "Sanliurfa"
+      ]
+    },
+    "#ff8700": {
+      "label": "76¾ - 76.99",
+      "paths": [
+        "Osmaniye",
+        "Bartın",
+        "Afyonkarahisar",
+        "Kırklareli",
+        "Kütahya",
+        "Edirne",
+        "Hatay",
+        "Agri",
+        "Adana"
+      ]
+    },
+    "#ff0000": {
+      "label": "76.0 - 76.24",
+      "paths": [
+        "Gaziantep",
+        "Kilis"
+      ]
+    }
+  },
+  "title": "2021 – 2023",
+  "hidden": [],
+  "background": "#fff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 560,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "zoomLevel": "1.00",
+  "zoomX": "0.00",
+  "zoomY": "0.00",
+  "v6": true,
+  "page": "turkiye",
+  "levelsVisibility": [
+    "show",
+    "hide",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 145,
+  "legendY": 410,
+  "legendSize": "small",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 4
+}

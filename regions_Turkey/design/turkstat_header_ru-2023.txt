@@ -1,0 +1,24 @@
+{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sticky-header-multi col1left col6right col11right col16right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|ил
+! colspan=4|2015-2017
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение<br>1|изменение в общей продолжительности жизни между периодами 2015-17 и 2018-20}}
+! colspan=4 style="border-left-width:2px;"|2018-2020
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение<br>2|изменение в общей продолжительности жизни между периодами 2018-20 и 2021-23}}
+! colspan=4 style="border-left-width:2px;"|2021-23
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение<br>суммарное|изменение в общей продолжительности жизни между периодами 2015-17 и 2021-23}}
+|-
+! style="vertical-align:middle;width:3.5em;"|{{comment|общая|всё население в среднем}}
+! style="vertical-align:middle;"|{{comment|M|мужчины}}
+! style="vertical-align:middle;"|{{comment|Ж|женщины}}
+! style="width:3.5em;"|{{comment|{{nobr|Ж <small>Δ</small> М}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|общая
+! style="vertical-align:middle;"|М
+! style="vertical-align:middle;"|Ж
+! style="width:3.5em;"|{{nobr|Ж <small>Δ</small> М}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|общая
+! style="vertical-align:middle;"|М
+! style="vertical-align:middle;"|Ж
+! style="width:3.5em;"|{{nobr|Ж <small>Δ</small> М}}
+|-{{static row numbers arrows|16}}

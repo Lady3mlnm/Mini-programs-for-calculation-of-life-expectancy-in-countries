@@ -1,0 +1,23 @@
+{{static row numbers}}{{mw-datatable}}{{sticky header}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers sticky-header-multi sort-under col1left col6right col11right col16right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|province
+! colspan=4|2015-2017
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|change<br>1|change in total life expectancy between periods 2015-17 and 2018-20}}
+! colspan=4 style="border-left-width:2px;"|2018-2020
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|change<br>2|change in total life expectancy between periods 2018-20 and 2021-23}}
+! colspan=4 style="border-left-width:2px;"|2021-2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|change<br>cumulative|change in total life expectancy between periods 2015-17 and 2021-23}}
+|-
+! style="vertical-align:middle;width:3.5em;"|{{tooltip|overall|all population on average}}
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! style="width:3.5em;"|{{tooltip|F {{nobr|<small>Δ</small> M}}|difference in life expectancy between females and males}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|overall
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! style="width:3.5em;"|F {{nobr|<small>Δ</small> M}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|overall
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! style="width:3.5em;"|F {{nobr|<small>Δ</small> M}}
