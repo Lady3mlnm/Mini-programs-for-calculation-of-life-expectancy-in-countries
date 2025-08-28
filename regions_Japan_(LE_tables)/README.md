@@ -2,4 +2,4 @@ This is collection of scripts used by me for creation of tables and maps about l
 
 I recommend at first launch the script `0_Download_data-LE_at_birth` that will download from the database the fresh data and will save them to the folder `data-LE_at_birth`.
 
-Use online service [MapCharts](https://www.mapchart.net/japan.html) for creation maps.
+Use online service [MapCharts](https://www.mapchart.net/japan.html) to create maps.
