@@ -1,0 +1,73 @@
+{{static row numbers}}
+{| class="wikitable sortable static-row-numbers" style="text-align:right;"
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! style="vertical-align:middle;"|region
+! style="vertical-align:middle;width:3em;"|{{tooltip|overall|all population on average}}
+! style="vertical-align:middle;width:3em;"|male
+! style="vertical-align:middle;width:3em;"|female
+! style="vertical-align:middle;width:3em;"|{{tooltip|{{nobr|sex gap}}|Difference in life expectancy for female and male}}
+|-class=static-row-header
+|style="text-align:left;"|'''China''' || style="text-align:center;background:#e0ffd8;"|'''77.6''' || style="text-align:center;background:#eaf3ff;"|'''74.7''' || style="text-align:center;background:#fee7f6;"|'''80.7''' || style="text-align:center;"|'''6.0'''
+|-
+|style="text-align:left;"|[[Shanghai]] || style="text-align:center;background:#e0ffd8;"|82.7 || style="text-align:center;background:#eaf3ff;"|80.3 || style="text-align:center;background:#fee7f6;"|85.0 || style="text-align:center;"|4.7
+|-
+|style="text-align:left;"|[[Beijing]] || style="text-align:center;background:#e0ffd8;"|82.7 || style="text-align:center;background:#eaf3ff;"|79.6 || style="text-align:center;background:#fee7f6;"|85.9 || style="text-align:center;"|6.3
+|-
+|style="text-align:left;"|[[Zhejiang]] || style="text-align:center;background:#e0ffd8;"|81.5 || style="text-align:center;background:#eaf3ff;"|78.8 || style="text-align:center;background:#fee7f6;"|84.5 || style="text-align:center;"|5.7
+|-
+|style="text-align:left;"|[[Guangdong]] || style="text-align:center;background:#e0ffd8;"|81.1 || style="text-align:center;background:#eaf3ff;"|77.8 || style="text-align:center;background:#fee7f6;"|84.7 || style="text-align:center;"|6.9
+|-
+|style="text-align:left;"|[[Jiangsu]] || style="text-align:center;background:#e0ffd8;"|80.8 || style="text-align:center;background:#eaf3ff;"|77.9 || style="text-align:center;background:#fee7f6;"|83.8 || style="text-align:center;"|5.9
+|-
+|style="text-align:left;"|[[Fujian]] || style="text-align:center;background:#e0ffd8;"|79.7 || style="text-align:center;background:#eaf3ff;"|76.6 || style="text-align:center;background:#fee7f6;"|83.1 || style="text-align:center;"|6.5
+|-
+|style="text-align:left;"|[[Tianjin]] || style="text-align:center;background:#e0ffd8;"|79.5 || style="text-align:center;background:#eaf3ff;"|76.8 || style="text-align:center;background:#fee7f6;"|82.7 || style="text-align:center;"|5.9
+|-
+|style="text-align:left;"|[[Shandong]] || style="text-align:center;background:#e0ffd8;"|78.7 || style="text-align:center;background:#eaf3ff;"|75.7 || style="text-align:center;background:#fee7f6;"|81.9 || style="text-align:center;"|6.2
+|-
+|style="text-align:left;"|[[Anhui]] || style="text-align:center;background:#e0ffd8;"|78.0 || style="text-align:center;background:#eaf3ff;"|75.3 || style="text-align:center;background:#fee7f6;"|81.1 || style="text-align:center;"|5.8
+|-
+|style="text-align:left;"|[[Jiangxi]] || style="text-align:center;background:#e0ffd8;"|77.6 || style="text-align:center;background:#eaf3ff;"|74.8 || style="text-align:center;background:#fee7f6;"|80.6 || style="text-align:center;"|5.8
+|-
+|style="text-align:left;"|[[Hubei]] || style="text-align:center;background:#e0ffd8;"|77.5 || style="text-align:center;background:#eaf3ff;"|75.0 || style="text-align:center;background:#fee7f6;"|80.3 || style="text-align:center;"|5.3
+|-
+|style="text-align:left;"|[[Henan]] || style="text-align:center;background:#e0ffd8;"|77.5 || style="text-align:center;background:#eaf3ff;"|74.4 || style="text-align:center;background:#fee7f6;"|80.7 || style="text-align:center;"|6.3
+|-
+|style="text-align:left;"|[[Liaoning]] || style="text-align:center;background:#e0ffd8;"|77.2 || style="text-align:center;background:#eaf3ff;"|73.8 || style="text-align:center;background:#fee7f6;"|81.0 || style="text-align:center;"|7.2
+|-
+|style="text-align:left;"|[[Jilin]] || style="text-align:center;background:#e0ffd8;"|77.1 || style="text-align:center;background:#eaf3ff;"|75.8 || style="text-align:center;background:#fee7f6;"|78.4 || style="text-align:center;"|2.6
+|-
+|style="text-align:left;"|[[Hainan]] || style="text-align:center;background:#e0ffd8;"|77.0 || style="text-align:center;background:#eaf3ff;"|74.6 || style="text-align:center;background:#fee7f6;"|79.7 || style="text-align:center;"|5.1
+|-
+|style="text-align:left;"|[[Shaanxi]] || style="text-align:center;background:#e0ffd8;"|76.7 || style="text-align:center;background:#eaf3ff;"|74.4 || style="text-align:center;background:#fee7f6;"|79.4 || style="text-align:center;"|5.0
+|-
+|style="text-align:left;"|[[Hunan]] || style="text-align:center;background:#e0ffd8;"|76.6 || style="text-align:center;background:#eaf3ff;"|73.6 || style="text-align:center;background:#fee7f6;"|80.1 || style="text-align:center;"|6.5
+|-
+|style="text-align:left;"|[[Chongqing]] || style="text-align:center;background:#e0ffd8;"|76.5 || style="text-align:center;background:#eaf3ff;"|73.8 || style="text-align:center;background:#fee7f6;"|79.5 || style="text-align:center;"|5.7
+|-
+|style="text-align:left;"|[[Shanxi]] || style="text-align:center;background:#e0ffd8;"|76.4 || style="text-align:center;background:#eaf3ff;"|73.9 || style="text-align:center;background:#fee7f6;"|79.3 || style="text-align:center;"|5.4
+|-
+|style="text-align:left;"|[[Inner Mongolia]] || style="text-align:center;background:#e0ffd8;"|76.3 || style="text-align:center;background:#eaf3ff;"|73.5 || style="text-align:center;background:#fee7f6;"|79.7 || style="text-align:center;"|6.2
+|-
+|style="text-align:left;"|[[Gansu]] || style="text-align:center;background:#e0ffd8;"|76.1 || style="text-align:center;background:#eaf3ff;"|73.6 || style="text-align:center;background:#fee7f6;"|78.9 || style="text-align:center;"|5.3
+|-
+|style="text-align:left;"|[[Guangxi]] || style="text-align:center;background:#e0ffd8;"|76.1 || style="text-align:center;background:#eaf3ff;"|72.6 || style="text-align:center;background:#fee7f6;"|80.2 || style="text-align:center;"|7.6
+|-
+|style="text-align:left;"|[[Ningxia]] || style="text-align:center;background:#e0ffd8;"|75.9 || style="text-align:center;background:#eaf3ff;"|73.4 || style="text-align:center;background:#fee7f6;"|78.6 || style="text-align:center;"|5.2
+|-
+|style="text-align:left;"|[[Hebei]] || style="text-align:center;background:#e0ffd8;"|75.7 || style="text-align:center;background:#eaf3ff;"|72.6 || style="text-align:center;background:#fee7f6;"|79.1 || style="text-align:center;"|6.5
+|-
+|style="text-align:left;"|[[Heilongjiang]] || style="text-align:center;background:#e0ffd8;"|75.5 || style="text-align:center;background:#eaf3ff;"|72.5 || style="text-align:center;background:#fee7f6;"|79.0 || style="text-align:center;"|6.5
+|-
+|style="text-align:left;"|[[Sichuan]] || style="text-align:center;background:#e0ffd8;"|75.5 || style="text-align:center;background:#eaf3ff;"|72.5 || style="text-align:center;background:#fee7f6;"|79.0 || style="text-align:center;"|6.5
+|-
+|style="text-align:left;"|[[Guizhou]] || style="text-align:center;background:#e0ffd8;"|74.8 || style="text-align:center;background:#eaf3ff;"|72.1 || style="text-align:center;background:#fee7f6;"|77.8 || style="text-align:center;"|5.7
+|-
+|style="text-align:left;"|[[Yunnan]] || style="text-align:center;background:#e0ffd8;"|74.2 || style="text-align:center;background:#eaf3ff;"|71.1 || style="text-align:center;background:#fee7f6;"|77.9 || style="text-align:center;"|6.8
+|-
+|style="text-align:left;"|[[Qinghai]] || style="text-align:center;background:#e0ffd8;"|72.1 || style="text-align:center;background:#eaf3ff;"|70.1 || style="text-align:center;background:#fee7f6;"|74.4 || style="text-align:center;"|4.3
+|-
+|style="text-align:left;"|[[Xinjiang]] || style="text-align:center;background:#e0ffd8;"|71.9 || style="text-align:center;background:#eaf3ff;"|70.0 || style="text-align:center;background:#fee7f6;"|74.2 || style="text-align:center;"|4.2
+|-
+|style="text-align:left;"|[[Tibet Autonomous Region|Tibet]] || style="text-align:center;background:#e0ffd8;"|70.1 || style="text-align:center;background:#eaf3ff;"|67.6 || style="text-align:center;background:#fee7f6;"|72.9 || style="text-align:center;"|5.3
+|}

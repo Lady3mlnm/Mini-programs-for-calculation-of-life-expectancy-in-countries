@@ -1,0 +1,8 @@
+{{static row numbers}}
+{| class="wikitable sortable static-row-numbers" style="text-align:right;"
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! style="vertical-align:middle;"|region
+! style="vertical-align:middle;width:3em;"|{{tooltip|overall|all population on average}}
+! style="vertical-align:middle;width:3em;"|male
+! style="vertical-align:middle;width:3em;"|female
+! style="vertical-align:middle;width:3em;"|{{tooltip|{{nobr|sex gap}}|Difference in life expectancy for female and male}}

@@ -1,0 +1,73 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! style="vertical-align:middle;"|регион
+! style="vertical-align:middle;width:3em;"|{{comment|общая|Всё население в среднем}}
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3em;"|{{comment|{{nobr|ж <small>Δ</small> м}}|разница между женщинами и мужчинами}}
+|-class=static-row-header
+|style="text-align:left;"|'''Китай в среднем''' || style="text-align:center;background:#e0ffd8;"|'''77,6''' || style="text-align:center;background:#eaf3ff;"|'''74,7''' || style="text-align:center;background:#fee7f6;"|'''80,7''' || style="text-align:center;"|'''6,0'''
+|-
+|style="text-align:left;"|[[Шанхай|Шанха́й]] || style="text-align:center;background:#e0ffd8;"|82,7 || style="text-align:center;background:#eaf3ff;"|80,3 || style="text-align:center;background:#fee7f6;"|85,0 || style="text-align:center;"|4,7
+|-
+|style="text-align:left;"|[[Пекин|Пеки́н]] || style="text-align:center;background:#e0ffd8;"|82,7 || style="text-align:center;background:#eaf3ff;"|79,6 || style="text-align:center;background:#fee7f6;"|85,9 || style="text-align:center;"|6,3
+|-
+|style="text-align:left;"|[[Чжэцзян|Чжэцзя́н]] || style="text-align:center;background:#e0ffd8;"|81,5 || style="text-align:center;background:#eaf3ff;"|78,8 || style="text-align:center;background:#fee7f6;"|84,5 || style="text-align:center;"|5,7
+|-
+|style="text-align:left;"|[[Гуандун|Гуанду́н]] || style="text-align:center;background:#e0ffd8;"|81,1 || style="text-align:center;background:#eaf3ff;"|77,8 || style="text-align:center;background:#fee7f6;"|84,7 || style="text-align:center;"|6,9
+|-
+|style="text-align:left;"|[[Цзянсу|Цзянсу́]] || style="text-align:center;background:#e0ffd8;"|80,8 || style="text-align:center;background:#eaf3ff;"|77,9 || style="text-align:center;background:#fee7f6;"|83,8 || style="text-align:center;"|5,9
+|-
+|style="text-align:left;"|[[Фуцзянь|Фуцзя́нь]] || style="text-align:center;background:#e0ffd8;"|79,7 || style="text-align:center;background:#eaf3ff;"|76,6 || style="text-align:center;background:#fee7f6;"|83,1 || style="text-align:center;"|6,5
+|-
+|style="text-align:left;"|[[Тяньцзинь|Тяньцзи́нь]] || style="text-align:center;background:#e0ffd8;"|79,5 || style="text-align:center;background:#eaf3ff;"|76,8 || style="text-align:center;background:#fee7f6;"|82,7 || style="text-align:center;"|5,9
+|-
+|style="text-align:left;"|[[Шаньдун|Шаньду́н]] || style="text-align:center;background:#e0ffd8;"|78,7 || style="text-align:center;background:#eaf3ff;"|75,7 || style="text-align:center;background:#fee7f6;"|81,9 || style="text-align:center;"|6,2
+|-
+|style="text-align:left;"|[[Аньхой|Аньхо́й]] || style="text-align:center;background:#e0ffd8;"|78,0 || style="text-align:center;background:#eaf3ff;"|75,3 || style="text-align:center;background:#fee7f6;"|81,1 || style="text-align:center;"|5,8
+|-
+|style="text-align:left;"|[[Цзянси|Цзянси́]] || style="text-align:center;background:#e0ffd8;"|77,6 || style="text-align:center;background:#eaf3ff;"|74,8 || style="text-align:center;background:#fee7f6;"|80,6 || style="text-align:center;"|5,8
+|-
+|style="text-align:left;"|[[Хубэй|Хубэ́й]] || style="text-align:center;background:#e0ffd8;"|77,5 || style="text-align:center;background:#eaf3ff;"|75,0 || style="text-align:center;background:#fee7f6;"|80,3 || style="text-align:center;"|5,3
+|-
+|style="text-align:left;"|[[Хэнань|Хэна́нь]] || style="text-align:center;background:#e0ffd8;"|77,5 || style="text-align:center;background:#eaf3ff;"|74,4 || style="text-align:center;background:#fee7f6;"|80,7 || style="text-align:center;"|6,3
+|-
+|style="text-align:left;"|[[Ляонин]] || style="text-align:center;background:#e0ffd8;"|77,2 || style="text-align:center;background:#eaf3ff;"|73,8 || style="text-align:center;background:#fee7f6;"|81,0 || style="text-align:center;"|7,2
+|-
+|style="text-align:left;"|[[Гирин|Гири́н]] || style="text-align:center;background:#e0ffd8;"|77,1 || style="text-align:center;background:#eaf3ff;"|75,8 || style="text-align:center;background:#fee7f6;"|78,4 || style="text-align:center;"|2,6
+|-
+|style="text-align:left;"|[[Хайнань|Хайна́нь]] || style="text-align:center;background:#e0ffd8;"|77,0 || style="text-align:center;background:#eaf3ff;"|74,6 || style="text-align:center;background:#fee7f6;"|79,7 || style="text-align:center;"|5,1
+|-
+|style="text-align:left;"|[[Шэньси|Шэньси́]] || style="text-align:center;background:#e0ffd8;"|76,7 || style="text-align:center;background:#eaf3ff;"|74,4 || style="text-align:center;background:#fee7f6;"|79,4 || style="text-align:center;"|5,0
+|-
+|style="text-align:left;"|[[Хунань|Хуна́нь]] || style="text-align:center;background:#e0ffd8;"|76,6 || style="text-align:center;background:#eaf3ff;"|73,6 || style="text-align:center;background:#fee7f6;"|80,1 || style="text-align:center;"|6,5
+|-
+|style="text-align:left;"|[[Чунцин|Чунци́н]] || style="text-align:center;background:#e0ffd8;"|76,5 || style="text-align:center;background:#eaf3ff;"|73,8 || style="text-align:center;background:#fee7f6;"|79,5 || style="text-align:center;"|5,7
+|-
+|style="text-align:left;"|[[Шаньси|Шаньси́]] || style="text-align:center;background:#e0ffd8;"|76,4 || style="text-align:center;background:#eaf3ff;"|73,9 || style="text-align:center;background:#fee7f6;"|79,3 || style="text-align:center;"|5,4
+|-
+|style="text-align:left;"|[[Внутренняя Монголия]] || style="text-align:center;background:#e0ffd8;"|76,3 || style="text-align:center;background:#eaf3ff;"|73,5 || style="text-align:center;background:#fee7f6;"|79,7 || style="text-align:center;"|6,2
+|-
+|style="text-align:left;"|[[Ганьсу|Ганьсу́]] || style="text-align:center;background:#e0ffd8;"|76,1 || style="text-align:center;background:#eaf3ff;"|73,6 || style="text-align:center;background:#fee7f6;"|78,9 || style="text-align:center;"|5,3
+|-
+|style="text-align:left;"|[[Гуанси-Чжуанский автономный район|Гуанси́-Чжуа́нский АО]] || style="text-align:center;background:#e0ffd8;"|76,1 || style="text-align:center;background:#eaf3ff;"|72,6 || style="text-align:center;background:#fee7f6;"|80,2 || style="text-align:center;"|7,6
+|-
+|style="text-align:left;"|[[Нинся-Хуэйский автономный район|Нинся́-Хуэйский АО]] || style="text-align:center;background:#e0ffd8;"|75,9 || style="text-align:center;background:#eaf3ff;"|73,4 || style="text-align:center;background:#fee7f6;"|78,6 || style="text-align:center;"|5,2
+|-
+|style="text-align:left;"|[[Хэбэй|Хэбэ́й]] || style="text-align:center;background:#e0ffd8;"|75,7 || style="text-align:center;background:#eaf3ff;"|72,6 || style="text-align:center;background:#fee7f6;"|79,1 || style="text-align:center;"|6,5
+|-
+|style="text-align:left;"|[[Хэйлунцзян|Хэйлунцзя́н]] || style="text-align:center;background:#e0ffd8;"|75,5 || style="text-align:center;background:#eaf3ff;"|72,5 || style="text-align:center;background:#fee7f6;"|79,0 || style="text-align:center;"|6,5
+|-
+|style="text-align:left;"|[[Сычуань|Сычуа́нь]] || style="text-align:center;background:#e0ffd8;"|75,5 || style="text-align:center;background:#eaf3ff;"|72,5 || style="text-align:center;background:#fee7f6;"|79,0 || style="text-align:center;"|6,5
+|-
+|style="text-align:left;"|[[Гуйчжоу|Гуйчжо́у]] || style="text-align:center;background:#e0ffd8;"|74,8 || style="text-align:center;background:#eaf3ff;"|72,1 || style="text-align:center;background:#fee7f6;"|77,8 || style="text-align:center;"|5,7
+|-
+|style="text-align:left;"|[[Юньнань|Юньна́нь]] || style="text-align:center;background:#e0ffd8;"|74,2 || style="text-align:center;background:#eaf3ff;"|71,1 || style="text-align:center;background:#fee7f6;"|77,9 || style="text-align:center;"|6,8
+|-
+|style="text-align:left;"|[[Цинхай|Цинха́й]] || style="text-align:center;background:#e0ffd8;"|72,1 || style="text-align:center;background:#eaf3ff;"|70,1 || style="text-align:center;background:#fee7f6;"|74,4 || style="text-align:center;"|4,3
+|-
+|style="text-align:left;"|[[Синьцзян-Уйгурский автономный район|Синьцзя́н-Уйгу́рский АР]] || style="text-align:center;background:#e0ffd8;"|71,9 || style="text-align:center;background:#eaf3ff;"|70,0 || style="text-align:center;background:#fee7f6;"|74,2 || style="text-align:center;"|4,2
+|-
+|style="text-align:left;"|[[Тибетский автономный район|Тибетский АР]] || style="text-align:center;background:#e0ffd8;"|70,1 || style="text-align:center;background:#eaf3ff;"|67,6 || style="text-align:center;background:#fee7f6;"|72,9 || style="text-align:center;"|5,3
+|}

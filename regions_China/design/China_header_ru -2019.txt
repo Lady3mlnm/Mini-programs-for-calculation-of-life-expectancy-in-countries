@@ -1,0 +1,8 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! style="vertical-align:middle;"|регион
+! style="vertical-align:middle;width:3em;"|{{comment|общая|Всё население в среднем}}
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3em;"|{{comment|{{nobr|ж <small>Δ</small> м}}|разница между женщинами и мужчинами}}
