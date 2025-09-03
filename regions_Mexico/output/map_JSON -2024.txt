@@ -9,65 +9,65 @@
     "#b8ff00": {
       "label": "77.0–77.4",
       "paths": [
-        "Baja_California_Sur"
+        "Baja_California_Sur",
+        "Coahuila"
       ]
     },
     "#ffff00": {
       "label": "76.5–76.9",
       "paths": [
-        "Coahuila",
         "Aguascalientes",
         "Mexico_City",
-        "Sonora"
+        "Sonora",
+        "Baja_California",
+        "Chihuahua"
       ]
     },
     "#ffe000": {
       "label": "76.0–76.4",
       "paths": [
-        "Chihuahua",
-        "Baja_California",
         "Querétaro",
-        "Colima"
+        "Colima",
+        "Sinaloa",
+        "Jalisco",
+        "Quintana_Roo"
       ]
     },
     "#ffc000": {
       "label": "75.5–75.9",
       "paths": [
-        "Sinaloa",
-        "Jalisco",
-        "Quintana_Roo",
-        "Tamaulipas"
+        "Tamaulipas",
+        "Nayarit",
+        "Durango"
       ]
     },
     "#ffa000": {
       "label": "75.0–75.4",
       "paths": [
-        "Nayarit",
-        "Durango",
-        "San_Luis_Potosí"
+        "San_Luis_Potosí",
+        "State_of_México",
+        "Yucatán"
       ]
     },
     "#ff8000": {
       "label": "74.5–74.9",
       "paths": [
-        "State_of_México",
-        "Yucatán",
-        "Guanajuato"
+        "Guanajuato",
+        "Campeche"
       ]
     },
     "#ff5000": {
       "label": "74.0–74.4",
       "paths": [
-        "Campeche",
         "Zacatecas",
         "Morelos",
-        "Tlaxcala"
+        "Tlaxcala",
+        "Michoacán"
       ]
     },
     "#ff0000": {
       "label": "73.5–73.9",
       "paths": [
-        "Michoacán",
         "Hidalgo",
         "Puebla",
         "Tabasco",
@@ -77,18 +77,13 @@
     "#d00000": {
       "label": "73.0–73.4",
       "paths": [
-        "Oaxaca"
-      ]
-    },
-    "#a00000": {
-      "label": "72.5–72.9",
-      "paths": [
+        "Oaxaca",
         "Guerrero",
         "Chiapas"
       ]
     }
   },
-  "title": 2023,
+  "title": 2024,
   "hidden": [],
   "background": "#ffffff",
   "borders": "#000",

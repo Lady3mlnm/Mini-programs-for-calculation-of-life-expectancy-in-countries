@@ -2,8 +2,8 @@
 {| {{static row numbers table}}
 |- {{static row numbers header}}
 ! rowspan=2 style="vertical-align:middle;"|[[Административное деление Мексики#Федеративные образования|штат]]
-! colspan=4|2023
-! colspan=11 style="border-left-width:2px;"|Исторические данные
+! colspan=4|2024
+! colspan=13 style="border-left-width:2px;"|Исторические данные
 ! colspan=2 style="border-left-width:2px;"|Эффект [[Пандемия COVID-19|COVID-19]]
 |- {{static row numbers header}}
 ! style="vertical-align:middle;width:4em;"|{{comment|Общая|Всё население в среднем}}
@@ -21,6 +21,8 @@
 ! style="vertical-align:middle; width:3em;"|2022
 ! style="text-align:left;"|2022<br>→2023
 ! style="vertical-align:middle; width:3em;"|2023
-! style="border-left-width:2px; text-align:middle;"|2019<br>→2023
-! style="text-align:middle;"|2014<br>→2023
-|-{{static row numbers arrows|18}}
+! style="text-align:left;"|2023<br>→2024
+! style="vertical-align:middle; width:3em;"|2024
+! style="border-left-width:2px; text-align:middle;"|2019<br>→2024
+! style="text-align:middle;"|2014<br>→2024
+|-{{static row numbers arrows|20}}
