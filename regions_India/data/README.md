@@ -1,0 +1,5 @@
+This folder contains raw data for scripts work.
+
+The data from the [National Family Health Survey (NFHS)](https://en.wikipedia.org/wiki/National_Family_Health_Survey) are taken from the science paper "[Impact of COVID-19 on subnational variations in life expectancy and life disparity at birth in India: evidence from NFHS and SRS data](https://pmc.ncbi.nlm.nih.gov/articles/PMC10476359/)", see supplementary information. I know that indicator for Andaman and Nicobar Islands for females for 2019-2021 period looks unbelievably high, but this number is given in the paper. [PubPeer](https://pubpeer.com/publications/28C6B205830AA675EAB38C28D6CE6E) doesn't contain comments for this article.
+
+The data from the "Sample Registration System" (SRS) are taken from the site of [RCCGI](https://en.wikipedia.org/wiki/Registrar_General_and_Census_Commissioner_of_India): for [2015-2019 period](https://censusindia.gov.in/nada/index.php/catalog/43473), for [2016-2020 period](https://censusindia.gov.in/nada/index.php/catalog/44377). At this time the site does not load, at least from abroad.

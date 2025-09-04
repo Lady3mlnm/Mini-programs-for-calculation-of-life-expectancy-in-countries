@@ -1,0 +1,21 @@
+{{static row numbers}}{{sort under}}
+{| class="wikitable sortable static-row-numbers sort-under" style="text-align:right;"
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! rowspan=2 style="vertical-align:middle;"|[[States and union territories of India#States and union territories|state]]
+! colspan=4|on the whole
+! colspan=4 style="border-left-width:2px;"|urban
+! colspan=4 style="border-left-width:2px;"|rural
+! rowspan=2 style="width:3em;vertical-align:middle;border-left-width:2px;"|{{tooltip|urban<br>{{nobr|<small>Δ</small> rural}}|difference between urban and rural population}}
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! style="vertical-align:middle;"|{{tooltip|overall|all population on average}}
+! style="vertical-align:middle;"|males
+! style="vertical-align:middle;"|females
+! style="width:2.5em;"|{{tooltip|F {{nobr|<small>Δ</small> M}}|difference in life expectancy between females and males}}
+! style="vertical-align:middle;border-left-width:2px;"|overall
+! style="vertical-align:middle;"|males
+! style="vertical-align:middle;"|females
+! style="width:2.5em;"|F {{nobr|<small>Δ</small> M}}
+! style="vertical-align:middle;border-left-width:2px;"|overall
+! style="vertical-align:middle;"|males
+! style="vertical-align:middle;"|females
+! style="width:2.5em;"|F {{nobr|<small>Δ</small> M}}

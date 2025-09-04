@@ -1,0 +1,17 @@
+{{static row numbers}}
+{| {{static row numbers table}}
+|- {{static row numbers header}}
+! rowspan=2 style="vertical-align:middle;"|[[Штаты и территории Индии#Список штатов и территорий Индии|штат или<br>союзная территория]]
+! colspan=4|2015-2016
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|Изменение общей ОПЖ между периодами}}
+! colspan=4 style="border-left-width:2px;"|2019-2021
+|- {{static row numbers header}}
+! style="vertical-align:middle;width:3.5em;"|{{comment|общая|всё население в среднем}}
+! style="vertical-align:middle;width:2.5em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:2.5em;"|{{comment|жен|женщины}}
+! style="width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.5em;"|муж
+! style="vertical-align:middle;width:2.5em;"|жен
+! style="vertical-align:middle;width:3.5em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+|-{{static row numbers arrows|10}}

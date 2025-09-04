@@ -1,0 +1,16 @@
+{{static row numbers}}{{sort under}}
+{| class="wikitable sortable static-row-numbers sort-under" style="text-align:right;"
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! rowspan=2 style="vertical-align:middle;"|[[States and union territories of India#States and union territories|state]]
+! colspan=4|2015-2016
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|change|Change in overall life expectancy between periods}}
+! colspan=4 style="border-left-width:2px;"|2019-2021
+|- class="static-row-header" style="text-align:center;vertical-align:bottom;"
+! style="vertical-align:middle;"|{{tooltip|overall|all population on average}}
+! style="vertical-align:middle;"|males
+! style="vertical-align:middle;"|females
+! style="width:2.6em;"|{{tooltip|F {{nobr|<small>Δ</small> M}}|difference in life expectancy between females and males}}
+! style="vertical-align:middle;border-left-width:2px;"|overall
+! style="vertical-align:middle;"|males
+! style="vertical-align:middle;"|females
+! style="width:2.6em;"|F {{nobr|<small>Δ</small> M}}
