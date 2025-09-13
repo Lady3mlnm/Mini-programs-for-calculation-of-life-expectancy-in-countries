@@ -1,0 +1,22 @@
+{{static row numbers}}{{mw-datatable}}{{sticky header}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers sticky-header-multi sort-under col1left col6right col11right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[List of states and territories of the United States#States|state]]
+! colspan=4|2018
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|2018<br>→2019|Change in overall life expectancy between 2018 and 2019}}
+! colspan=4 style="border-left-width:2px;"|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|2019<br>→2021|Decline in life expectancy due to the COVID-19 pandemic}}
+! colspan=4 style="border-left-width:2px;"|2021
+|-
+! style="vertical-align:middle;"|{{tooltip|overall|all population on average}}
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! {{tooltip|{{nobr|F <small>Δ</small> M}}|difference in life expectancy between females and males}}
+! style="vertical-align:middle;border-left-width:2px;"|overall
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! {{nobr|F <small>Δ</small> M}}
+! style="vertical-align:middle;border-left-width:2px;"|overall
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! {{nobr|F <small>Δ</small> M}}

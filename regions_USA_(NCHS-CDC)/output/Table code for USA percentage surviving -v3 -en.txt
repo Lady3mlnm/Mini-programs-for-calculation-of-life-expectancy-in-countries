@@ -1,0 +1,33 @@
+{{mw-datatable}}
+{| class="wikitable sortable mw-datatable" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|Hispanic origin<br>and race
+! colspan=4|Percentage surviving to 65 years
+! colspan=4 style="border-left-width:2px;"|percentage surviving to 85 years
+! colspan=4 style="border-left-width:2px;"|percentage surviving to 100 years
+|-
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! {{tooltip|{{nobr|F <small>Δ</small> M}}|difference between females and males}}
+! {{tooltip|{{nobr|F / M}}|proportion of female survivors to male survivors}}
+! style="vertical-align:middle;border-left-width:2px;"|male
+! style="vertical-align:middle;"|female
+! {{nobr|F <small>Δ</small> M}}
+! {{nobr|F / M}}
+! style="vertical-align:middle;border-left-width:2px;"|male
+! style="vertical-align:middle;"|female
+! {{nobr|F <small>Δ</small> M}}
+! {{nobr|F / M}}
+|-
+|style="text-align:left;"| '''total population''' ||style="color:blue;"| '''80.0''' ||style="color:red;"| '''87.8''' ||style="color:darkgray;"| '''7.8''' ||style="color:darkgray;"| '''1.10''' ||style="color:blue;border-left-width:2px;"| '''36.3''' ||style="color:red;"| '''50.3''' ||style="color:darkgray;"| '''14.1''' ||style="color:darkgray;"| '''1.39''' ||style="color:blue;border-left-width:2px;"| '''1.1''' ||style="color:red;"| '''3.0''' ||style="color:darkgray;"| '''1.9''' ||style="color:darkgray;"| '''2.73'''
+|-
+|style="text-align:left;"| non-Hispanic Asian ||style="color:blue;"| 90.4 ||style="color:red;"| 95.0 ||style="color:darkgray;"| 4.6 ||style="color:darkgray;"| 1.05 ||style="color:blue;border-left-width:2px;"| 57.0 ||style="color:red;"| 69.6 ||style="color:darkgray;"| 12.6 ||style="color:darkgray;"| 1.22 ||style="color:blue;border-left-width:2px;"| 4.2 ||style="color:red;"| 7.9 ||style="color:darkgray;"| 3.6 ||style="color:darkgray;"| 1.86
+|-
+|style="text-align:left;"| Hispanic ||style="color:blue;"| 84.1 ||style="color:red;"| 91.2 ||style="color:darkgray;"| 7.1 ||style="color:darkgray;"| 1.08 ||style="color:blue;border-left-width:2px;"| 44.6 ||style="color:red;"| 60.0 ||style="color:darkgray;"| 15.4 ||style="color:darkgray;"| 1.34 ||style="color:blue;border-left-width:2px;"| 2.4 ||style="color:red;"| 6.1 ||style="color:darkgray;"| 3.7 ||style="color:darkgray;"| 2.51
+|-
+|style="text-align:left;"| non-Hispanic White ||style="color:blue;"| 80.0 ||style="color:red;"| 87.6 ||style="color:darkgray;"| 7.6 ||style="color:darkgray;"| 1.10 ||style="color:blue;border-left-width:2px;"| 36.0 ||style="color:red;"| 49.7 ||style="color:darkgray;"| 13.7 ||style="color:darkgray;"| 1.38 ||style="color:blue;border-left-width:2px;"| 1.0 ||style="color:red;"| 2.7 ||style="color:darkgray;"| 1.8 ||style="color:darkgray;"| 2.84
+|-
+|style="text-align:left;"| non-Hispanic Black ||style="color:blue;"| 70.5 ||style="color:red;"| 81.8 ||style="color:darkgray;"| 11.3 ||style="color:darkgray;"| 1.16 ||style="color:blue;border-left-width:2px;"| 25.4 ||style="color:red;"| 41.8 ||style="color:darkgray;"| 16.4 ||style="color:darkgray;"| 1.65 ||style="color:blue;border-left-width:2px;"| 1.2 ||style="color:red;"| 3.4 ||style="color:darkgray;"| 2.2 ||style="color:darkgray;"| 2.87
+|-
+|style="text-align:left;"| non-Hispanic American Indian or Alaska Native ||style="color:blue;"| 62.5 ||style="color:red;"| 74.3 ||style="color:darkgray;"| 11.8 ||style="color:darkgray;"| 1.19 ||style="color:blue;border-left-width:2px;"| 23.7 ||style="color:red;"| 36.7 ||style="color:darkgray;"| 13.0 ||style="color:darkgray;"| 1.55 ||style="color:blue;border-left-width:2px;"| 1.6 ||style="color:red;"| 4.0 ||style="color:darkgray;"| 2.4 ||style="color:darkgray;"| 2.46
+|}

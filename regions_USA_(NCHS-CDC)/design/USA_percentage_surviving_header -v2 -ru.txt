@@ -1,0 +1,16 @@
+{| class="wikitable sortable" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|Латиноамериканское<br>происхождение и раса
+! colspan=3|Процент выживших к 65 годам
+! colspan=3 style="border-left-width:2px;"|Процент выживших к 85 годам
+! colspan=3 style="border-left-width:2px;"|Процент выживших к 100 годам
+|-
+! style="vertical-align:middle;width:4em;"|{{comment|М|мужчины}}
+! style="vertical-align:middle;width:4em;"|{{comment|Ж|женщины}}
+! style="width:3.5em;"|{{comment|Ж <small>Δ</small> М|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:4em;border-left-width:2px;"|М
+! style="vertical-align:middle;width:4em;"|Ж
+! style="width:3.5em;"|Ж <small>Δ</small> М
+! style="vertical-align:middle;width:4em;border-left-width:2px;"|М
+! style="vertical-align:middle;width:4em;"|Ж
+! style="width:3.5em;"|Ж <small>Δ</small> М

@@ -1,0 +1,17 @@
+{{mw-datatable}}
+{| class="wikitable sortable mw-datatable" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|Hispanic origin<br>and race
+! colspan=3|Percentage surviving to 65 years
+! colspan=3 style="border-left-width:2px;"|percentage surviving to 85 years
+! colspan=3 style="border-left-width:2px;"|percentage surviving to 100 years
+|-
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! {{tooltip|{{nobr|F <small>Δ</small> M}}|difference between females and males}}
+! style="vertical-align:middle;border-left-width:2px;"|male
+! style="vertical-align:middle;"|female
+! {{nobr|F <small>Δ</small> M}}
+! style="vertical-align:middle;border-left-width:2px;"|male
+! style="vertical-align:middle;"|female
+! {{nobr|F <small>Δ</small> M}}

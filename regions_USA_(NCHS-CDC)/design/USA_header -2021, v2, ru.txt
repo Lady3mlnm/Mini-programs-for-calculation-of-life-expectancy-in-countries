@@ -1,0 +1,23 @@
+{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sticky-header-multi col1left col6right col11right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление США#Штаты|штат]]
+! colspan=4|2018
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|2018<br>→2019|изменение ОПЖ между 2018 и 2019 годами}}
+! colspan=4 style="border-left-width:2px;"|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|2019<br>→2021|падение ОПЖ вследствие пандемии ковид-19}}
+! colspan=4 style="border-left-width:2px;"|2021
+|-
+! style="vertical-align:middle;width:3.5em;"|{{comment|общая|всё население в среднем}}
+! style="vertical-align:middle;width:2.5em;"|{{comment|М|мужчины}}
+! style="vertical-align:middle;width:2.5em;"|{{comment|Ж|женщины}}
+! style="width:3em;"|{{comment|Ж <small>Δ</small> М|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.5em;"|М
+! style="vertical-align:middle;width:2.5em;"|Ж
+! style="vertical-align:middle;width:3em;"|Ж <small>Δ</small> М
+! style="vertical-align:middle;width:3.5em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.5em;"|М
+! style="vertical-align:middle;width:2.5em;"|Ж
+! style="vertical-align:middle;width:3em;"|Ж <small>Δ</small> М
+|-{{static row numbers arrows|15}}
