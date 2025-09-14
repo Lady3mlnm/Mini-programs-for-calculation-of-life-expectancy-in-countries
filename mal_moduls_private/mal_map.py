@@ -34,7 +34,7 @@ def bin_values_in_dataframe(df, selected_col, *, step=None, prec=2, fn_bin=None,
 
     # depending on step, use different functions for assingning values to bins
     
-    if step == 0.25:
+    if step == 0.2:
         addition = float("0.199999"[:prec+2])
         fn_bin = lambda x: f"{x * 10 // 2 / 5:.1f}–{round(x * 10 // 2 / 5 + addition, prec)}" if pd.notna(x) else pd.NA
     elif step == 0.25:
