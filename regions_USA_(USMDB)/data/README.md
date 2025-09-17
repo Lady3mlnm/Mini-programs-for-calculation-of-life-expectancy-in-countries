@@ -1,0 +1,1 @@
+Before running the scripts, download data from the [US Mortality DataBase](https://usa.mortality.org/) / [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/19WYUX) (131 Mb) and unpack them to this folder.

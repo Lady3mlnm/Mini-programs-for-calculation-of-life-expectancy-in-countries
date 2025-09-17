@@ -1,0 +1,10 @@
+{{table alignment}}
+{| class="wikitable col5center" style="text-align:right;"
+|-
+! rowspan=2 style="vertical-align:middle;"|Возраст
+! colspan=2|Процент выживших
+! rowspan=2 style="vertical-align:middle;width:7ex;"|{{comment|Ж <small>Δ</small> М|разница между женщинами и мужчинами}}
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{comment|Ж / М|пропорция доли выживших женщин к доле выживших мужчин}}
+|-
+! style="vertical-align:middle;"|муж
+! style="vertical-align:middle;"|жен

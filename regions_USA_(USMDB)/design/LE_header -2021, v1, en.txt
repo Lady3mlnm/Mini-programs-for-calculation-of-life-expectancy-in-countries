@@ -1,0 +1,23 @@
+{{static row numbers}}{{mw-datatable}}{{sticky header}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers sticky-header-multi sort-under col1left col6right col11right col16right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|State / Territory
+! colspan=4|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|2019<br>→2020|Change in overall life expectancy between 2019 and 2020}}
+! colspan=4 style="border-left-width:2px;"|2020
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2020<br>→2021
+! colspan=4 style="border-left-width:2px;"|2021
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|2019<br>→2021|Decline in life expectancy due to the COVID-19 pandemic}}
+|-
+! style="vertical-align:middle;width:5ex;"|{{tooltip|All|all population on average}}
+! style="vertical-align:middle;"|Male
+! style="vertical-align:middle;"|Female
+! {{tooltip|{{nobr|F <small>Δ</small> M}}|difference in life expectancy between females and males}}
+! style="vertical-align:middle;width:5ex;border-left-width:2px;"|All
+! style="vertical-align:middle;"|Male
+! style="vertical-align:middle;"|Female
+! {{nobr|F <small>Δ</small> M}}
+! style="vertical-align:middle;width:5ex;border-left-width:2px;"|All
+! style="vertical-align:middle;"|Male
+! style="vertical-align:middle;"|Female
+! {{nobr|F <small>Δ</small> M}}
