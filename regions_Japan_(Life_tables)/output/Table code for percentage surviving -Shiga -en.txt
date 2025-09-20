@@ -1,0 +1,57 @@
+{{mw-datatable}}{{sticky header}}{{table alignment}}
+{| class="wikitable mw-datatable sticky-header-multi sortable col5center" style="text-align:right;"
+|-
+! rowspan=2 class="unsortable" style="vertical-align:middle;"|Age
+! colspan=2|Percentage surviving
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{tooltip|F <small>Δ</small> M|Change between female and male}}
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:6ex;"|{{tooltip|F / M|Ratio of female survivors to male survivors}}
+|-
+! class="unsortable" style="vertical-align:middle;"|male
+! class="unsortable" style="vertical-align:middle;"|female
+|-
+|style="padding-right:3ex;"| 1 ||style="color:blue;padding-right:3ex;"| 99.8 ||style="color:red;padding-right:3ex;"| 99.8 ||style="color:darkgray;padding-right:3ex;"| -0.1 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 5 ||style="color:blue;padding-right:3ex;"| 99.8 ||style="color:red;padding-right:3ex;"| 99.7 ||style="color:darkgray;padding-right:3ex;"| -0.1 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 10 ||style="color:blue;padding-right:3ex;"| 99.8 ||style="color:red;padding-right:3ex;"| 99.7 ||style="color:darkgray;padding-right:3ex;"| -0.1 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 15 ||style="color:blue;padding-right:3ex;"| 99.7 ||style="color:red;padding-right:3ex;"| 99.6 ||style="color:darkgray;padding-right:3ex;"| -0.1 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 20 ||style="color:blue;padding-right:3ex;"| 99.5 ||style="color:red;padding-right:3ex;"| 99.6 ||style="color:darkgray;padding-right:3ex;"| 0.0 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 25 ||style="color:blue;padding-right:3ex;"| 99.3 ||style="color:red;padding-right:3ex;"| 99.4 ||style="color:darkgray;padding-right:3ex;"| 0.1 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 30 ||style="color:blue;padding-right:3ex;"| 99.1 ||style="color:red;padding-right:3ex;"| 99.3 ||style="color:darkgray;padding-right:3ex;"| 0.2 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 35 ||style="color:blue;padding-right:3ex;"| 98.9 ||style="color:red;padding-right:3ex;"| 99.1 ||style="color:darkgray;padding-right:3ex;"| 0.2 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 40 ||style="color:blue;padding-right:3ex;"| 98.6 ||style="color:red;padding-right:3ex;"| 98.9 ||style="color:darkgray;padding-right:3ex;"| 0.3 ||style="color:darkgray;"| 1.00
+|-
+|style="padding-right:3ex;"| 45 ||style="color:blue;padding-right:3ex;"| 98.1 ||style="color:red;padding-right:3ex;"| 98.6 ||style="color:darkgray;padding-right:3ex;"| 0.5 ||style="color:darkgray;"| 1.01
+|-
+|style="padding-right:3ex;"| 50 ||style="color:blue;padding-right:3ex;"| 97.4 ||style="color:red;padding-right:3ex;"| 98.2 ||style="color:darkgray;padding-right:3ex;"| 0.8 ||style="color:darkgray;"| 1.01
+|-
+|style="padding-right:3ex;"| 55 ||style="color:blue;padding-right:3ex;"| 96.3 ||style="color:red;padding-right:3ex;"| 97.7 ||style="color:darkgray;padding-right:3ex;"| 1.3 ||style="color:darkgray;"| 1.01
+|-
+|style="padding-right:3ex;"| 60 ||style="color:blue;padding-right:3ex;"| 94.7 ||style="color:red;padding-right:3ex;"| 96.9 ||style="color:darkgray;padding-right:3ex;"| 2.2 ||style="color:darkgray;"| 1.02
+|-
+|style="padding-right:3ex;"| 65 ||style="color:blue;padding-right:3ex;"| 91.7 ||style="color:red;padding-right:3ex;"| 95.5 ||style="color:darkgray;padding-right:3ex;"| 3.8 ||style="color:darkgray;"| 1.04
+|-
+|style="padding-right:3ex;"| 70 ||style="color:blue;padding-right:3ex;"| 86.9 ||style="color:red;padding-right:3ex;"| 93.5 ||style="color:darkgray;padding-right:3ex;"| 6.7 ||style="color:darkgray;"| 1.08
+|-
+|style="padding-right:3ex;"| 75 ||style="color:blue;padding-right:3ex;"| 79.5 ||style="color:red;padding-right:3ex;"| 90.1 ||style="color:darkgray;padding-right:3ex;"| 10.6 ||style="color:darkgray;"| 1.13
+|-
+|style="padding-right:3ex;"| 80 ||style="color:blue;padding-right:3ex;"| 68.9 ||style="color:red;padding-right:3ex;"| 84.3 ||style="color:darkgray;padding-right:3ex;"| 15.4 ||style="color:darkgray;"| 1.22
+|-
+|style="padding-right:3ex;"| 85 ||style="color:blue;padding-right:3ex;"| 53.0 ||style="color:red;padding-right:3ex;"| 73.6 ||style="color:darkgray;padding-right:3ex;"| 20.7 ||style="color:darkgray;"| 1.39
+|-
+|style="padding-right:3ex;"| 90 ||style="color:blue;padding-right:3ex;"| 31.7 ||style="color:red;padding-right:3ex;"| 54.8 ||style="color:darkgray;padding-right:3ex;"| 23.1 ||style="color:darkgray;"| 1.73
+|-
+|style="padding-right:3ex;"| 95 ||style="color:blue;padding-right:3ex;"| 12.2 ||style="color:red;padding-right:3ex;"| 29.4 ||style="color:darkgray;padding-right:3ex;"| 17.3 ||style="color:darkgray;"| 2.42
+|-
+|style="padding-right:3ex;"| 100 ||style="color:blue;padding-right:1ex;"| 2.351 ||style="color:red;padding-right:1ex;"| 8.725 ||style="color:darkgray;"| 6.374 ||style="color:darkgray;"| 3.71
+|-
+|style="padding-right:3ex;"| 105 ||style="color:blue;padding-right:1ex;"| 0.184 ||style="color:red;padding-right:1ex;"| 1.047 ||style="color:darkgray;"| 0.863 ||style="color:darkgray;"| 5.69
+|-
+|style="padding-right:3ex;"| 110 ||style="color:blue;padding-right:1ex;"| 0.006 ||style="color:red;padding-right:1ex;"| 0.043 ||style="color:darkgray;"| 0.037 ||style="color:darkgray;"| 7.17
+|}
