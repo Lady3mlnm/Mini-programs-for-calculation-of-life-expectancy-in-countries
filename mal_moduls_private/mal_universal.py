@@ -15,18 +15,18 @@ def compare_lists(ls_1, ls_2, sep=', '):
     print(f"Unique elements in list_1: {len(ls_1_unique)}:")
     print(*ls_1_unique, sep=sep)
     print()
-    
+
     ls_2_unique = [el for el in ls_2 if el not in ls_1]
     print("Number of elements in list_2:", len(ls_2))
     print(f"Unique elements in list_2: {len(ls_2_unique)}:")
     print(*ls_2_unique, sep=sep)
 
 
-def min_and_max_values(df, *, nmb=3, prec=2, max_lng=11, row_center=None, shorten=False):
+def min_and_max_values(df, *, nmb=3, prec=2, max_lng=11, row_center=None, shorten=False, show_difference=False):
     '''
     The functions shows values in with maximum and minimum values in each column of dataframe wiht indication of the record name to that this value belongs.
     df: dataframe
-    nmb: int
+    nmb: int or tuple
         number of maximal and minimal elements to show
     prec: int
         precision of values
@@ -37,11 +37,13 @@ def min_and_max_values(df, *, nmb=3, prec=2, max_lng=11, row_center=None, shorte
     shorten: bool
         Whether the program should shorten some long names in output, e.g. 'Hong Kong SAR, China' → 'Hong Kong'.
         Positive side effect: the function works correctly if DataFrame has long country names but the passed parameter 'row_center' contain a short country name.
+    show_difference: bool
+        Add record with difference between maximum and minimum values in columns
     return: dataframe
     '''
 
     print(f"Number of records: {len(df)}")
-    
+
     # if the user wants to see in output short country names
     if shorten:
         dd_shorten = {
@@ -61,39 +63,67 @@ def min_and_max_values(df, *, nmb=3, prec=2, max_lng=11, row_center=None, shorte
             'Western Sahara': 'W. Sahara',
             'Russian Federation': 'Russia'
         }
-        
+
         df = df.copy().rename(index = dd_shorten)
         if isinstance(row_center, str):
             row_center = dd_shorten.get(row_center, row_center)
         elif isinstance(row_center, list):
             row_center = [dd_shorten.get(region, region) for region in row_center]
 
-            
-    def find_largests(df):
-        t_df = df.nlargest(nmb)
+    # Determine number of maximum and minimum records that will be shown
+    if isinstance(nmb, int):
+        n_min = n_max = nmb
+    elif isinstance(nmb, tuple) and len(nmb)==2:
+        (n_max, n_min) = nmb
+    else:
+        raise ValueError("Wrong value for parameter 'nmb'")
+
+
+    def find_largests(df, *, n):
+        t_df = df.nlargest(n)
         t_df = t_df.reset_index()
         return t_df.apply(lambda v: f"{round(v.iloc[1], prec)} -{v.iloc[0] if len(v.iloc[0])<=max_lng else v.iloc[0][:max_lng-1]+'…'}", axis=1)
 
-    def find_smallests(df):
-        t_df = df.nsmallest(nmb).iloc[::-1]
+    def find_smallests(df, *, n):
+        t_df = df.nsmallest(n).iloc[::-1]
         t_df = t_df.reset_index()
         return t_df.apply(lambda v: f"{round(v.iloc[1], prec)} -{v.iloc[0] if len(v.iloc[0])<=max_lng else v.iloc[0][:max_lng-1]+'…'}", axis=1)
-    
+
     # Depending on type of the variable 'row_center', there are various ways to form output dataFrame
     if isinstance(row_center, list):
         df_center = df.loc[row_center] \
                       .map(lambda v: f" – {round(v, prec)} –")
-        final_df = pd.concat([df.apply(find_largests), df_center, df.apply(find_smallests)])
-        final_df.index = ['max'] + [f'max_{n}' for n in range(2, nmb+1)] + df_center.index.to_list() + [f'min_{n}' for n in range(nmb, 1, -1)] + ['min']
+        final_df = pd.concat([df.apply(find_largests , n=n_max),
+                              df_center,
+                              df.apply(find_smallests, n=n_min)])
+        final_df.index = ['max'] + [f'max_{n}' for n in range(2, n_max+1)] + \
+                         df_center.index.to_list() + \
+                         [f'min_{n}' for n in range(n_min, 1, -1)] + ['min']
+
     elif isinstance(row_center, str) or isinstance(row_center, pd.Series):
         ser_center = (df.loc[row_center] if isinstance(row_center, str) else row_center) \
                         .map(lambda v: f" – {round(v, prec)} –")
-        final_df = pd.concat([df.apply(find_largests), ser_center.to_frame().T, df.apply(find_smallests)])
-        final_df.index = ['max'] + [f'max_{n}' for n in range(2, nmb+1)] + [ser_center.name] + [f'min_{n}' for n in range(nmb, 1, -1)] + ['min']
+        final_df = pd.concat([df.apply(find_largests , n=n_max),
+                              ser_center.to_frame().T,
+                              df.apply(find_smallests, n=n_min)])
+        final_df.index = ['max'] + [f'max_{n}' for n in range(2, n_max+1)] + \
+                         [ser_center.name] + \
+                         [f'min_{n}' for n in range(n_min, 1, -1)] + ['min']
+
     elif row_center is None:
-        final_df = pd.concat([df.apply(find_largests), df.apply(find_smallests)])
-        final_df.index = ['max'] + [f'max_{n}' for n in range(2, nmb+1)] + [f'min_{n}' for n in range(nmb, 1, -1)] + ['min']
+        final_df = pd.concat([df.apply(find_largests , n=n_max),
+                              df.apply(find_smallests, n=n_min)])
+        final_df.index = ['max'] + [f'max_{n}' for n in range(2, n_max+1)] + \
+                         [f'min_{n}' for n in range(n_min, 1, -1)] + ['min']
     else:
         raise TypeError("Parameter row_center has wrong type")
-    
+
+    # Add record with difference between max and min values if that is required
+    if show_difference:
+        # index_names = final_df.index.to_list()
+        final_df = pd.concat([final_df.head(len(final_df) - n_min),
+                              (df.max() - df.min()).round(prec).to_frame().T.map(lambda v: f"{round(v, prec)}"),
+                              final_df.tail(n_min)])
+        final_df.rename(index={0: 'Δ'}, inplace=True)
+
     return final_df.style.set_properties(**{'text-align': 'left'})
