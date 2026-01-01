@@ -1,0 +1,1 @@
+This is one of folders for saving generated charts of LE and HALE development). Now it contains only 1 such chart as example. Other folders will be autocreated when the script `WHO_charts.ipynb` will be launched.

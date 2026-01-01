@@ -1,0 +1,1 @@
+This is folder for saving generated interactive SVG bubble charts. Now it contains only 1 such chart as example. 

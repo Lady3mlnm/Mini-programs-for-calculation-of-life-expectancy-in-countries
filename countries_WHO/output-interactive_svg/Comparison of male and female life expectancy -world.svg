@@ -1,0 +1,3695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="350 -908 560 445">
+  <title>Comparison gender life expectancy WHO-2019</title>
+  <desc>Comparison of countries by life expectancy at birth according to estimation of the World Health Organization for 2019 (https://apps.who.int/gho/data/node.main.688). Squares of bubles are proportional to the population of countries, according to estimation of the United Nations for 2019 (https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/EXCEL_FILES/1_Population/WPP2019_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.xlsx). Grouping of countries to subregions is according to the classification of the United Nations. Code of the program for creation of this chart: https://github.com/Lady3mlnm/Mini-programs-for-calculation-of-life-expectancy-in-countries/tree/main/SVG-diagrams-world.</desc>
+  <style type="text/css">
+    #main         { font-family:Helvetica,Arial,sans-serif; font-size:14px; text-anchor:middle;
+                    stroke-opacity:0; fill-opacity:0.5; cursor:default; }
+    #main:hover   { stroke-opacity:0; fill-opacity:0.1; }
+    .nofade,
+    .active:hover { stroke-opacity:1; fill-opacity:1; }
+    .hidden_text  { font-size:14px; text-anchor:end; fill:none; pointer-events:none; }
+  </style>
+  <defs>
+
+    <!-- determine appearance of circles -->
+    <radialGradient id="grad_euw" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#6600cc" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#6600cc" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#6600cc" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_eun" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#6495ed" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#6495ed" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#6495ed" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_eus" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#cc00cc" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#cc00cc" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#cc00cc" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_eue" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#008000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#008000" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#008000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_asc" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#993300" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#993300" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#993300" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_asw" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#004800" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#004800" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#004800" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ass" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#d2691e" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#d2691e" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#d2691e" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_ase" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#ff0000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#ff0000" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#ff0000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_asse" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#808000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#808000" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#808000" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_oc" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#0000ff" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#0000ff" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#0000ff" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_na" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#0099cc" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#0099cc" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#0099cc" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_sa" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#32cd32" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#32cd32" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#32cd32" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="grad_af" cx="50%" cy="50%" r="50%" fx="25%" fy="25%">
+      <stop offset="50%" stop-color="#696969" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#696969" stop-opacity="0.05"/>
+      <stop offset="99%" stop-color="#696969" stop-opacity="0.25"/>
+    </radialGradient>
+
+    <!-- determine each country -->
+    <g id="bubble_0" fill="#ff0000">
+      <text x="708.0" y="-849.0" dy="0.7ex" text-anchor="end" stroke="none">China</text>
+      <circle cx="745" cy="-803" r="1"/>
+      <circle cx="745" cy="-803" r="47.69" stroke="#ff0000" fill="url(#grad_ase)"/>
+    </g>
+    <g id="bubble_1" fill="#d2691e">
+      <text x="740.0" y="-690.0" dy="0.7ex" text-anchor="start" stroke="none">India</text>
+      <circle cx="691" cy="-724" r="1"/>
+      <circle cx="691" cy="-724" r="46.59" stroke="#d2691e" fill="url(#grad_ass)"/>
+    </g>
+    <g id="bubble_2" fill="#0099cc">
+      <text x="798.0" y="-782.0" dy="0.7ex" text-anchor="start" stroke="none">USA</text>
+      <circle cx="765" cy="-809" r="1"/>
+      <circle cx="765" cy="-809" r="22.97" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_3" fill="#808000">
+      <text x="748.0" y="-710.0" dy="0.7ex" text-anchor="start" stroke="none">Indonesia</text>
+      <circle cx="695" cy="-732" r="1"/>
+      <circle cx="695" cy="-732" r="20.63" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_4" fill="#d2691e">
+      <text x="675.0" y="-653.0" dy="0.7ex" text-anchor="start" stroke="none">Pakistan</text>
+      <circle cx="663" cy="-677" r="1"/>
+      <circle cx="663" cy="-677" r="18.99" stroke="#d2691e" fill="url(#grad_ass)"/>
+    </g>
+    <g id="bubble_5" fill="#696969">
+      <text x="645.0" y="-624.0" dy="0.7ex" text-anchor="start" stroke="none">Nigeria</text>
+      <circle cx="616" cy="-645" r="1"/>
+      <circle cx="616" cy="-645" r="18.09" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_6" fill="#32cd32">
+      <text x="692.0" y="-819.0" dy="0.7ex" text-anchor="end" stroke="none">Brazil</text>
+      <circle cx="722" cy="-787" r="1"/>
+      <circle cx="722" cy="-787" r="18.0" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_7" fill="#d2691e">
+      <text x="752.0" y="-738.0" dy="0.7ex" text-anchor="start" stroke="none">Bangladesh</text>
+      <circle cx="726" cy="-752" r="1"/>
+      <circle cx="726" cy="-752" r="16.05" stroke="#d2691e" fill="url(#grad_ass)"/>
+    </g>
+    <g id="bubble_8" fill="#008000">
+      <text x="661.0" y="-790.0" dy="0.7ex" text-anchor="end" stroke="none">Russia</text>
+      <circle cx="681" cy="-780" r="1"/>
+      <circle cx="681" cy="-780" r="15.13" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_9" fill="#ff0000">
+      <text x="827.0" y="-890.0" dy="0.7ex" text-anchor="start" stroke="none">Japan</text>
+      <circle cx="817" cy="-871" r="1"/>
+      <circle cx="817" cy="-871" r="14.07" stroke="#ff0000" fill="url(#grad_ase)"/>
+    </g>
+    <g id="bubble_10" fill="#0099cc">
+      <text x="696.0" y="-833.0" dy="0.7ex" text-anchor="end" stroke="none">Mexico</text>
+      <circle cx="728" cy="-788" r="1"/>
+      <circle cx="728" cy="-788" r="14.02" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_11" fill="#696969">
+      <text x="686.0" y="-668.0" dy="0.7ex" text-anchor="start" stroke="none">Ethiopia</text>
+      <circle cx="671" cy="-705" r="1"/>
+      <circle cx="671" cy="-705" r="13.45" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_12" fill="#808000">
+      <text x="632.0" y="-738.0" dy="0.7ex" text-anchor="end" stroke="none">Philippines</text>
+      <circle cx="660" cy="-732" r="1"/>
+      <circle cx="660" cy="-732" r="13.16" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_13" fill="#696969">
+      <circle cx="689" cy="-743" r="1"/>
+      <circle cx="689" cy="-743" r="12.96" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_14" fill="#808000">
+      <text x="682.0" y="-805.0" dy="0.7ex" text-anchor="end" stroke="none">Vietnam</text>
+      <circle cx="695" cy="-780" r="1"/>
+      <circle cx="695" cy="-780" r="12.32" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_15" fill="#696969">
+      <text x="576.0" y="-651.0" dy="0.7ex" text-anchor="end" stroke="none">Congo DR</text>
+      <circle cx="596" cy="-640" r="1"/>
+      <circle cx="596" cy="-640" r="12.05" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_16" fill="#d2691e">
+      <circle cx="763" cy="-794" r="1"/>
+      <circle cx="763" cy="-794" r="11.66" stroke="#d2691e" fill="url(#grad_ass)"/>
+    </g>
+    <g id="bubble_17" fill="#004800">
+      <circle cx="750" cy="-801" r="1"/>
+      <circle cx="750" cy="-801" r="11.55" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_18" fill="#6600cc">
+      <text x="770.0" y="-860.0" dy="0.7ex" text-anchor="end" stroke="none">Germany</text>
+      <circle cx="787" cy="-831" r="1"/>
+      <circle cx="787" cy="-831" r="11.43" stroke="#6600cc" fill="url(#grad_euw)"/>
+    </g>
+    <g id="bubble_19" fill="#808000">
+      <circle cx="733" cy="-806" r="1"/>
+      <circle cx="733" cy="-806" r="10.57" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_20" fill="#6495ed">
+      <text x="804.0" y="-797.0" dy="0.7ex" text-anchor="start" stroke="none">UK</text>
+      <circle cx="795" cy="-829" r="1"/>
+      <circle cx="795" cy="-829" r="10.24" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_21" fill="#6600cc">
+      <text x="785.0" y="-871.0" dy="0.7ex" text-anchor="end" stroke="none">France</text>
+      <circle cx="797" cy="-851" r="1"/>
+      <circle cx="797" cy="-851" r="10.13" stroke="#6600cc" fill="url(#grad_euw)"/>
+    </g>
+    <g id="bubble_22" fill="#cc00cc">
+      <circle cx="809" cy="-849" r="1"/>
+      <circle cx="809" cy="-849" r="9.69" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_23" fill="#696969">
+      <circle cx="625" cy="-688" r="1"/>
+      <circle cx="625" cy="-688" r="9.65" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_24" fill="#696969">
+      <circle cx="652" cy="-683" r="1"/>
+      <circle cx="652" cy="-683" r="9.62" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_25" fill="#808000">
+      <circle cx="656" cy="-720" r="1"/>
+      <circle cx="656" cy="-720" r="9.07" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_26" fill="#ff0000">
+      <text x="797.0" y="-885.0" dy="0.7ex" text-anchor="end" stroke="none">South Korea</text>
+      <circle cx="805" cy="-865" r="1"/>
+      <circle cx="805" cy="-865" r="8.99" stroke="#ff0000" fill="url(#grad_ase)"/>
+    </g>
+    <g id="bubble_27" fill="#696969">
+      <circle cx="640" cy="-689" r="1"/>
+      <circle cx="640" cy="-689" r="8.94" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_28" fill="#32cd32">
+      <circle cx="753" cy="-805" r="1"/>
+      <circle cx="753" cy="-805" r="8.83" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_29" fill="#cc00cc">
+      <text x="833.0" y="-854.0" dy="0.7ex" text-anchor="start" stroke="none">Spain</text>
+      <circle cx="805" cy="-856" r="1"/>
+      <circle cx="805" cy="-856" r="8.61" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_30" fill="#696969">
+      <circle cx="683" cy="-705" r="1"/>
+      <circle cx="683" cy="-705" r="8.44" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_31" fill="#32cd32">
+      <circle cx="740" cy="-799" r="1"/>
+      <circle cx="740" cy="-799" r="8.38" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_32" fill="#008000">
+      <text x="661.0" y="-773.0" dy="0.7ex" text-anchor="end" stroke="none">Ukraine</text>
+      <circle cx="679" cy="-778" r="1"/>
+      <circle cx="679" cy="-778" r="8.38" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_33" fill="#696969">
+      <text x="765.0" y="-751.0" dy="0.7ex" text-anchor="start" stroke="none">Algeria</text>
+      <circle cx="762" cy="-770" r="1"/>
+      <circle cx="762" cy="-770" r="8.22" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_34" fill="#696969">
+      <text x="620.0" y="-715.0" dy="0.7ex" text-anchor="end" stroke="none">Uganda</text>
+      <circle cx="628" cy="-693" r="1"/>
+      <circle cx="628" cy="-693" r="8.2" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_35" fill="#004800">
+      <circle cx="702" cy="-753" r="1"/>
+      <circle cx="702" cy="-753" r="8.02" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_36" fill="#008000">
+      <circle cx="739" cy="-815" r="1"/>
+      <circle cx="739" cy="-815" r="7.73" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_37" fill="#d2691e">
+      <text x="616.0" y="-608.0" dy="0.7ex" text-anchor="start" stroke="none">Afghanistan</text>
+      <circle cx="600" cy="-625" r="1"/>
+      <circle cx="600" cy="-625" r="7.69" stroke="#d2691e" fill="url(#grad_ass)"/>
+    </g>
+    <g id="bubble_38" fill="#0099cc">
+      <text x="820.0" y="-826.0" dy="0.7ex" text-anchor="start" stroke="none">Canada</text>
+      <circle cx="801" cy="-839" r="1"/>
+      <circle cx="801" cy="-839" r="7.68" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_39" fill="#696969">
+      <text x="748.0" y="-724.0" dy="0.7ex" text-anchor="start" stroke="none">Morocco</text>
+      <circle cx="728" cy="-746" r="1"/>
+      <circle cx="728" cy="-746" r="7.52" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_40" fill="#004800">
+      <circle cx="639" cy="-700" r="1"/>
+      <circle cx="639" cy="-700" r="7.41" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_41" fill="#808000">
+      <circle cx="727" cy="-769" r="1"/>
+      <circle cx="727" cy="-769" r="7.23" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_42" fill="#993300">
+      <circle cx="701" cy="-742" r="1"/>
+      <circle cx="701" cy="-742" r="7.18" stroke="#993300" fill="url(#grad_asc)"/>
+    </g>
+    <g id="bubble_43" fill="#32cd32">
+      <circle cx="766" cy="-798" r="1"/>
+      <circle cx="766" cy="-798" r="7.12" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_44" fill="#696969">
+      <circle cx="603" cy="-646" r="1"/>
+      <circle cx="603" cy="-646" r="7.11" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_45" fill="#696969">
+      <circle cx="634" cy="-685" r="1"/>
+      <circle cx="634" cy="-685" r="6.99" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_46" fill="#004800">
+      <text x="791.0" y="-766.0" dy="0.7ex" text-anchor="start" stroke="none">Saudi Arabia</text>
+      <circle cx="764" cy="-777" r="1"/>
+      <circle cx="764" cy="-777" r="6.9" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_47" fill="#696969">
+      <text x="531.0" y="-618.0" dy="0.7ex" text-anchor="end" stroke="none">Mozambique</text>
+      <circle cx="553" cy="-616" r="1"/>
+      <circle cx="553" cy="-616" r="6.83" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_48" fill="#32cd32">
+      <circle cx="683" cy="-773" r="1"/>
+      <circle cx="683" cy="-773" r="6.72" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_49" fill="#d2691e">
+      <circle cx="695" cy="-731" r="1"/>
+      <circle cx="695" cy="-731" r="6.66" stroke="#d2691e" fill="url(#grad_ass)"/>
+    </g>
+    <g id="bubble_50" fill="#696969">
+      <circle cx="628" cy="-648" r="1"/>
+      <circle cx="628" cy="-648" r="6.64" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_51" fill="#696969">
+      <circle cx="611" cy="-661" r="1"/>
+      <circle cx="611" cy="-661" r="6.64" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_52" fill="#ff0000">
+      <circle cx="693" cy="-753" r="1"/>
+      <circle cx="693" cy="-753" r="6.38" stroke="#ff0000" fill="url(#grad_ase)"/>
+    </g>
+    <g id="bubble_53" fill="#696969">
+      <circle cx="600" cy="-640" r="1"/>
+      <circle cx="600" cy="-640" r="6.31" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_54" fill="#0000ff">
+      <text x="827.0" y="-840.0" dy="0.7ex" text-anchor="start" stroke="none">Australia</text>
+      <circle cx="807" cy="-845" r="1"/>
+      <circle cx="807" cy="-845" r="6.31" stroke="#0000ff" fill="url(#grad_oc)"/>
+    </g>
+    <g id="bubble_55" fill="#696969">
+      <circle cx="596" cy="-615" r="1"/>
+      <circle cx="596" cy="-615" r="5.99" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_56" fill="#d2691e">
+      <circle cx="743" cy="-803" r="1"/>
+      <circle cx="743" cy="-803" r="5.92" stroke="#d2691e" fill="url(#grad_ass)"/>
+    </g>
+    <g id="bubble_57" fill="#696969">
+      <circle cx="612" cy="-624" r="1"/>
+      <circle cx="612" cy="-624" r="5.74" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_58" fill="#696969">
+      <circle cx="600" cy="-650" r="1"/>
+      <circle cx="600" cy="-650" r="5.72" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_59" fill="#004800">
+      <circle cx="653" cy="-734" r="1"/>
+      <circle cx="653" cy="-734" r="5.64" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_60" fill="#008000">
+      <circle cx="717" cy="-792" r="1"/>
+      <circle cx="717" cy="-792" r="5.52" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_61" fill="#993300">
+      <circle cx="688" cy="-772" r="1"/>
+      <circle cx="688" cy="-772" r="5.48" stroke="#993300" fill="url(#grad_asc)"/>
+    </g>
+    <g id="bubble_62" fill="#32cd32">
+      <circle cx="786" cy="-833" r="1"/>
+      <circle cx="786" cy="-833" r="5.48" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_63" fill="#696969">
+      <circle cx="604" cy="-660" r="1"/>
+      <circle cx="604" cy="-660" r="5.45" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_64" fill="#696969">
+      <circle cx="594" cy="-639" r="1"/>
+      <circle cx="594" cy="-639" r="5.38" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_65" fill="#6600cc">
+      <circle cx="808" cy="-837" r="1"/>
+      <circle cx="808" cy="-837" r="5.23" stroke="#6600cc" fill="url(#grad_euw)"/>
+    </g>
+    <g id="bubble_66" fill="#32cd32">
+      <circle cx="753" cy="-802" r="1"/>
+      <circle cx="753" cy="-802" r="5.21" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_67" fill="#0099cc">
+      <circle cx="701" cy="-752" r="1"/>
+      <circle cx="701" cy="-752" r="5.17" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_68" fill="#696969">
+      <text x="582.0" y="-597.0" dy="0.7ex" text-anchor="start" stroke="none">Chad</text>
+      <circle cx="578" cy="-609" r="1"/>
+      <circle cx="578" cy="-609" r="5.11" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_69" fill="#808000">
+      <circle cx="668" cy="-721" r="1"/>
+      <circle cx="668" cy="-721" r="5.07" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_70" fill="#696969">
+      <circle cx="670" cy="-702" r="1"/>
+      <circle cx="670" cy="-702" r="5.05" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_71" fill="#696969">
+      <text x="512.0" y="-580.0" dy="0.7ex" text-anchor="end" stroke="none">Somalia</text>
+      <circle cx="528" cy="-577" r="1"/>
+      <circle cx="528" cy="-577" r="5.0" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_72" fill="#696969">
+      <circle cx="569" cy="-610" r="1"/>
+      <circle cx="569" cy="-610" r="4.88" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_73" fill="#696969">
+      <circle cx="598" cy="-623" r="1"/>
+      <circle cx="598" cy="-623" r="4.51" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_74" fill="#696969">
+      <circle cx="656" cy="-696" r="1"/>
+      <circle cx="656" cy="-696" r="4.47" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_75" fill="#696969">
+      <circle cx="617" cy="-665" r="1"/>
+      <circle cx="617" cy="-665" r="4.46" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_76" fill="#696969">
+      <circle cx="623" cy="-662" r="1"/>
+      <circle cx="623" cy="-662" r="4.38" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_77" fill="#696969">
+      <circle cx="750" cy="-799" r="1"/>
+      <circle cx="750" cy="-799" r="4.31" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_78" fill="#32cd32">
+      <circle cx="720" cy="-737" r="1"/>
+      <circle cx="720" cy="-737" r="4.27" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_79" fill="#6600cc">
+      <circle cx="795" cy="-836" r="1"/>
+      <circle cx="795" cy="-836" r="4.24" stroke="#6600cc" fill="url(#grad_euw)"/>
+    </g>
+    <g id="bubble_80" fill="#0099cc">
+      <circle cx="753" cy="-801" r="1"/>
+      <circle cx="753" cy="-801" r="4.18" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_81" fill="#0099cc">
+      <text x="650.0" y="-640.0" dy="0.7ex" text-anchor="start" stroke="none">Haiti</text>
+      <circle cx="631" cy="-641" r="1"/>
+      <circle cx="631" cy="-641" r="4.17" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_82" fill="#0099cc">
+      <circle cx="708" cy="-771" r="1"/>
+      <circle cx="708" cy="-771" r="4.13" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_83" fill="#cc00cc">
+      <circle cx="788" cy="-830" r="1"/>
+      <circle cx="788" cy="-830" r="4.09" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_84" fill="#004800">
+      <circle cx="797" cy="-803" r="1"/>
+      <circle cx="797" cy="-803" r="4.08" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_85" fill="#008000">
+      <circle cx="763" cy="-819" r="1"/>
+      <circle cx="763" cy="-819" r="4.06" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_86" fill="#696969">
+      <circle cx="567" cy="-611" r="1"/>
+      <circle cx="567" cy="-611" r="4.04" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_87" fill="#cc00cc">
+      <circle cx="783" cy="-841" r="1"/>
+      <circle cx="783" cy="-841" r="4.02" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_88" fill="#6495ed">
+      <circle cx="811" cy="-842" r="1"/>
+      <circle cx="811" cy="-842" r="4.01" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_89" fill="#004800">
+      <circle cx="733" cy="-780" r="1"/>
+      <circle cx="733" cy="-780" r="3.97" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_90" fill="#0099cc">
+      <circle cx="699" cy="-729" r="1"/>
+      <circle cx="699" cy="-729" r="3.94" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_91" fill="#008000">
+      <circle cx="729" cy="-795" r="1"/>
+      <circle cx="729" cy="-795" r="3.91" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_92" fill="#0000ff">
+      <circle cx="655" cy="-679" r="1"/>
+      <circle cx="655" cy="-679" r="3.87" stroke="#0000ff" fill="url(#grad_oc)"/>
+    </g>
+    <g id="bubble_93" fill="#993300">
+      <circle cx="722" cy="-753" r="1"/>
+      <circle cx="722" cy="-753" r="3.86" stroke="#993300" fill="url(#grad_asc)"/>
+    </g>
+    <g id="bubble_94" fill="#008000">
+      <circle cx="697" cy="-796" r="1"/>
+      <circle cx="697" cy="-796" r="3.84" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_95" fill="#004800">
+      <text x="814.0" y="-812.0" dy="0.7ex" text-anchor="start" stroke="none">UAE</text>
+      <circle cx="809" cy="-822" r="1"/>
+      <circle cx="809" cy="-822" r="3.83" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_96" fill="#6600cc">
+      <circle cx="794" cy="-837" r="1"/>
+      <circle cx="794" cy="-837" r="3.73" stroke="#6600cc" fill="url(#grad_euw)"/>
+    </g>
+    <g id="bubble_97" fill="#004800">
+      <circle cx="807" cy="-843" r="1"/>
+      <circle cx="807" cy="-843" r="3.68" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_98" fill="#6600cc">
+      <circle cx="817" cy="-851" r="1"/>
+      <circle cx="817" cy="-851" r="3.66" stroke="#6600cc" fill="url(#grad_euw)"/>
+    </g>
+    <g id="bubble_99" fill="#696969">
+      <circle cx="612" cy="-663" r="1"/>
+      <circle cx="612" cy="-663" r="3.64" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_100" fill="#696969">
+      <circle cx="595" cy="-613" r="1"/>
+      <circle cx="595" cy="-613" r="3.48" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_101" fill="#808000">
+      <circle cx="661" cy="-707" r="1"/>
+      <circle cx="661" cy="-707" r="3.36" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_102" fill="#008000">
+      <circle cx="715" cy="-786" r="1"/>
+      <circle cx="715" cy="-786" r="3.3" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_103" fill="#cc00cc">
+      <circle cx="732" cy="-784" r="1"/>
+      <circle cx="732" cy="-784" r="3.3" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_104" fill="#696969">
+      <circle cx="714" cy="-757" r="1"/>
+      <circle cx="714" cy="-757" r="3.3" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_105" fill="#993300">
+      <circle cx="657" cy="-725" r="1"/>
+      <circle cx="657" cy="-725" r="3.26" stroke="#993300" fill="url(#grad_asc)"/>
+    </g>
+    <g id="bubble_106" fill="#32cd32">
+      <circle cx="721" cy="-781" r="1"/>
+      <circle cx="721" cy="-781" r="3.19" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_107" fill="#993300">
+      <circle cx="699" cy="-771" r="1"/>
+      <circle cx="699" cy="-771" r="3.19" stroke="#993300" fill="url(#grad_asc)"/>
+    </g>
+    <g id="bubble_108" fill="#0099cc">
+      <circle cx="763" cy="-812" r="1"/>
+      <circle cx="763" cy="-812" r="3.18" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_109" fill="#0099cc">
+      <circle cx="694" cy="-787" r="1"/>
+      <circle cx="694" cy="-787" r="3.12" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_110" fill="#6495ed">
+      <circle cx="794" cy="-830" r="1"/>
+      <circle cx="794" cy="-830" r="3.01" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_111" fill="#004800">
+      <circle cx="769" cy="-814" r="1"/>
+      <circle cx="769" cy="-814" r="3.01" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_112" fill="#808000">
+      <circle cx="818" cy="-859" r="1"/>
+      <circle cx="818" cy="-859" r="2.98" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_113" fill="#696969">
+      <circle cx="624" cy="-630" r="1"/>
+      <circle cx="624" cy="-630" r="2.96" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_114" fill="#6495ed">
+      <circle cx="791" cy="-841" r="1"/>
+      <circle cx="791" cy="-841" r="2.94" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_115" fill="#008000">
+      <circle cx="742" cy="-809" r="1"/>
+      <circle cx="742" cy="-809" r="2.92" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_116" fill="#6495ed">
+      <circle cx="811" cy="-841" r="1"/>
+      <circle cx="811" cy="-841" r="2.89" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_117" fill="#696969">
+      <circle cx="626" cy="-642" r="1"/>
+      <circle cx="626" cy="-642" r="2.81" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_118" fill="#0099cc">
+      <circle cx="779" cy="-827" r="1"/>
+      <circle cx="779" cy="-827" r="2.79" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_119" fill="#0000ff">
+      <circle cx="801" cy="-834" r="1"/>
+      <circle cx="801" cy="-834" r="2.79" stroke="#0000ff" fill="url(#grad_oc)"/>
+    </g>
+    <g id="bubble_120" fill="#696969">
+      <circle cx="503" cy="-558" r="1"/>
+      <circle cx="503" cy="-558" r="2.78" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_121" fill="#6495ed">
+      <circle cx="802" cy="-836" r="1"/>
+      <circle cx="802" cy="-836" r="2.78" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_122" fill="#004800">
+      <circle cx="730" cy="-788" r="1"/>
+      <circle cx="730" cy="-788" r="2.68" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_123" fill="#696969">
+      <circle cx="700" cy="-703" r="1"/>
+      <circle cx="700" cy="-703" r="2.64" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_124" fill="#004800">
+      <circle cx="802" cy="-864" r="1"/>
+      <circle cx="802" cy="-864" r="2.63" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_125" fill="#0099cc">
+      <circle cx="762" cy="-818" r="1"/>
+      <circle cx="762" cy="-818" r="2.57" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_126" fill="#cc00cc">
+      <circle cx="755" cy="-815" r="1"/>
+      <circle cx="755" cy="-815" r="2.5" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_127" fill="#004800">
+      <circle cx="691" cy="-784" r="1"/>
+      <circle cx="691" cy="-784" r="2.44" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_128" fill="#32cd32">
+      <circle cx="733" cy="-805" r="1"/>
+      <circle cx="733" cy="-805" r="2.3" stroke="#32cd32" fill="url(#grad_sa)"/>
+    </g>
+    <g id="bubble_129" fill="#cc00cc">
+      <circle cx="746" cy="-795" r="1"/>
+      <circle cx="746" cy="-795" r="2.29" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_130" fill="#0099cc">
+      <circle cx="768" cy="-840" r="1"/>
+      <circle cx="768" cy="-840" r="2.27" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_131" fill="#696969">
+      <circle cx="610" cy="-665" r="1"/>
+      <circle cx="610" cy="-665" r="2.25" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_132" fill="#ff0000">
+      <text x="643.0" y="-755.0" dy="0.7ex" text-anchor="end" stroke="none">Mongolia</text>
+      <circle cx="662" cy="-754" r="1"/>
+      <circle cx="662" cy="-754" r="2.25" stroke="#ff0000" fill="url(#grad_ase)"/>
+    </g>
+    <g id="bubble_133" fill="#008000">
+      <circle cx="693" cy="-771" r="1"/>
+      <circle cx="693" cy="-771" r="2.21" stroke="#008000" fill="url(#grad_eue)"/>
+    </g>
+    <g id="bubble_134" fill="#004800">
+      <circle cx="708" cy="-797" r="1"/>
+      <circle cx="708" cy="-797" r="2.13" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_135" fill="#cc00cc">
+      <circle cx="761" cy="-798" r="1"/>
+      <circle cx="761" cy="-798" r="2.12" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_136" fill="#0099cc">
+      <circle cx="694" cy="-751" r="1"/>
+      <circle cx="694" cy="-751" r="2.1" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_137" fill="#004800">
+      <circle cx="784" cy="-798" r="1"/>
+      <circle cx="784" cy="-798" r="2.09" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_138" fill="#6495ed">
+      <circle cx="714" cy="-808" r="1"/>
+      <circle cx="714" cy="-808" r="2.09" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_139" fill="#696969">
+      <circle cx="599" cy="-669" r="1"/>
+      <circle cx="599" cy="-669" r="2.04" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_140" fill="#696969">
+      <circle cx="629" cy="-669" r="1"/>
+      <circle cx="629" cy="-669" r="1.96" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_141" fill="#696969">
+      <circle cx="627" cy="-669" r="1"/>
+      <circle cx="627" cy="-669" r="1.91" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_142" fill="#696969">
+      <circle cx="626" cy="-677" r="1"/>
+      <circle cx="626" cy="-677" r="1.88" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_143" fill="#696969">
+      <circle cx="489" cy="-549" r="1"/>
+      <circle cx="489" cy="-549" r="1.86" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_144" fill="#cc00cc">
+      <circle cx="785" cy="-840" r="1"/>
+      <circle cx="785" cy="-840" r="1.8" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_145" fill="#696969">
+      <circle cx="564" cy="-614" r="1"/>
+      <circle cx="564" cy="-614" r="1.75" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_146" fill="#6495ed">
+      <circle cx="710" cy="-799" r="1"/>
+      <circle cx="710" cy="-799" r="1.73" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_147" fill="#cc00cc">
+      <circle cx="762" cy="-769" r="1"/>
+      <circle cx="762" cy="-769" r="1.72" stroke="#cc00cc" fill="url(#grad_eus)"/>
+    </g>
+    <g id="bubble_148" fill="#696969">
+      <circle cx="598" cy="-630" r="1"/>
+      <circle cx="598" cy="-630" r="1.62" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_149" fill="#004800">
+      <circle cx="753" cy="-768" r="1"/>
+      <circle cx="753" cy="-768" r="1.52" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_150" fill="#0099cc">
+      <circle cx="707" cy="-775" r="1"/>
+      <circle cx="707" cy="-775" r="1.52" stroke="#0099cc" fill="url(#grad_na)"/>
+    </g>
+    <g id="bubble_151" fill="#6495ed">
+      <circle cx="746" cy="-826" r="1"/>
+      <circle cx="746" cy="-826" r="1.44" stroke="#6495ed" fill="url(#grad_eun)"/>
+    </g>
+    <g id="bubble_152" fill="#808000">
+      <circle cx="670" cy="-700" r="1"/>
+      <circle cx="670" cy="-700" r="1.43" stroke="#808000" fill="url(#grad_asse)"/>
+    </g>
+    <g id="bubble_153" fill="#004800">
+      <circle cx="802" cy="-841" r="1"/>
+      <circle cx="802" cy="-841" r="1.42" stroke="#004800" fill="url(#grad_asw)"/>
+    </g>
+    <g id="bubble_154" fill="#696969">
+      <circle cx="708" cy="-774" r="1"/>
+      <circle cx="708" cy="-774" r="1.42" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_155" fill="#696969">
+      <circle cx="524" cy="-593" r="1"/>
+      <circle cx="524" cy="-593" r="1.36" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+    <g id="bubble_156" fill="#696969">
+      <circle cx="636" cy="-672" r="1"/>
+      <circle cx="636" cy="-672" r="1.3" stroke="#696969" fill="url(#grad_af)"/>
+    </g>
+
+    <!-- vertical grid -->
+    <path id="grid_x" d="M 0 -500 V -900"/>
+    <g id="grid_x_5">
+      <use xlink:href="#grid_x"/>
+      <use xlink:href="#grid_x" transform="translate(10,0)"/>
+      <use xlink:href="#grid_x" transform="translate(20,0)"/>
+      <use xlink:href="#grid_x" transform="translate(30,0)"/>
+      <use xlink:href="#grid_x" transform="translate(40,0)"/>
+      <use xlink:href="#grid_x" transform="translate(50,0)"/>
+    </g>
+
+    <!-- horizontal grid -->
+    <path id="grid_y" d="M 400 0 H 900"/>
+    <g id="grid_y_5">
+      <use xlink:href="#grid_y"/>
+      <use xlink:href="#grid_y" transform="translate(0,-10)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-20)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-30)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-40)"/>
+      <use xlink:href="#grid_y" transform="translate(0,-50)"/>
+    </g>
+  </defs>
+
+
+
+  <g id="main">
+    <g class="nofade">
+      <!-- background for the whole diagram -->
+      <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+
+      <!-- draw grid -->
+      <g stroke-opacity="0.05" stroke="#000000">
+        <use xlink:href="#grid_x_5" transform="translate(400,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(450,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(500,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(550,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(600,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(650,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(700,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(750,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(800,0)"/>
+        <use xlink:href="#grid_x_5" transform="translate(850,0)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-500)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-550)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-600)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-650)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-700)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-750)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-800)"/>
+        <use xlink:href="#grid_y_5" transform="translate(0,-850)"/>
+      </g>
+
+      <!-- labels for axes -->
+      <g fill="#999999">  <!-- color of font -->
+        <text x="650" y="-467">Male life expectancy at birth in years</text>
+        <text transform="rotate(-90)" x="705" y="365">Female life expectancy at birth in years</text>
+        <text x="450" y="-483">45</text>
+        <text x="500" y="-483">50</text>
+        <text x="550" y="-483">55</text>
+        <text x="600" y="-483">60</text>
+        <text x="650" y="-483">65</text>
+        <text x="700" y="-483">70</text>
+        <text x="750" y="-483">75</text>
+        <text x="800" y="-483">80</text>
+        <text x="850" y="-483">85</text>
+        <text x="900" y="-483">90</text>
+        <text x="385" y="-494">50</text>
+        <text x="385" y="-544">55</text>
+        <text x="385" y="-594">60</text>
+        <text x="385" y="-644">65</text>
+        <text x="385" y="-694">70</text>
+        <text x="385" y="-744">75</text>
+        <text x="385" y="-794">80</text>
+        <text x="385" y="-844">85</text>
+        <text x="385" y="-894">90</text>
+      </g>
+
+      <!-- diagonal line -->
+      <path d="M 500 -500 L 900 -900" stroke="#00cc00" stroke-width="0.8" stroke-opacity="0.4"/>
+    </g>
+
+    <!-- menu -->
+    <g text-anchor="start">
+
+      <!-- rectangle around items -->
+      <rect class="nofade" x="403" y="-896" width="147" height="236" rx="5" ry="5" stroke="#999999" fill="#ffffff"/>
+
+      <!-- single items -->
+      <g class="active">
+        <text x="425" y="-881" fill="#6600cc">Europe Western</text>
+        <circle cx="415" cy="-886" r="8" fill="url(#grad_euw)"/>
+        <circle cx="415" cy="-886" r="1" fill="#6600cc"/>
+        <use xlink:href="#bubble_18"/>
+        <use xlink:href="#bubble_21"/>
+        <use xlink:href="#bubble_65"/>
+        <use xlink:href="#bubble_79"/>
+        <use xlink:href="#bubble_96"/>
+        <use xlink:href="#bubble_98"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-863" fill="#6495ed">Europe Northern</text>
+        <circle cx="415" cy="-868" r="8" fill="url(#grad_eun)"/>
+        <circle cx="415" cy="-868" r="1" fill="#6495ed"/>
+        <use xlink:href="#bubble_20"/>
+        <use xlink:href="#bubble_88"/>
+        <use xlink:href="#bubble_110"/>
+        <use xlink:href="#bubble_114"/>
+        <use xlink:href="#bubble_116"/>
+        <use xlink:href="#bubble_121"/>
+        <use xlink:href="#bubble_138"/>
+        <use xlink:href="#bubble_146"/>
+        <use xlink:href="#bubble_151"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-845" fill="#cc00cc">Europe Southern</text>
+        <circle cx="415" cy="-850" r="8" fill="url(#grad_eus)"/>
+        <circle cx="415" cy="-850" r="1" fill="#cc00cc"/>
+        <use xlink:href="#bubble_22"/>
+        <use xlink:href="#bubble_29"/>
+        <use xlink:href="#bubble_83"/>
+        <use xlink:href="#bubble_87"/>
+        <use xlink:href="#bubble_103"/>
+        <use xlink:href="#bubble_126"/>
+        <use xlink:href="#bubble_129"/>
+        <use xlink:href="#bubble_135"/>
+        <use xlink:href="#bubble_144"/>
+        <use xlink:href="#bubble_147"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-827" fill="#008000">Europe Eastern</text>
+        <circle cx="415" cy="-832" r="8" fill="url(#grad_eue)"/>
+        <circle cx="415" cy="-832" r="1" fill="#008000"/>
+        <use xlink:href="#bubble_8"/>
+        <use xlink:href="#bubble_32"/>
+        <use xlink:href="#bubble_36"/>
+        <use xlink:href="#bubble_60"/>
+        <use xlink:href="#bubble_85"/>
+        <use xlink:href="#bubble_91"/>
+        <use xlink:href="#bubble_94"/>
+        <use xlink:href="#bubble_102"/>
+        <use xlink:href="#bubble_115"/>
+        <use xlink:href="#bubble_133"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-809" fill="#993300">Asia Central</text>
+        <circle cx="415" cy="-814" r="8" fill="url(#grad_asc)"/>
+        <circle cx="415" cy="-814" r="1" fill="#993300"/>
+        <use xlink:href="#bubble_42"/>
+        <use xlink:href="#bubble_61"/>
+        <use xlink:href="#bubble_93"/>
+        <use xlink:href="#bubble_105"/>
+        <use xlink:href="#bubble_107"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-791" fill="#004800">Asia Western</text>
+        <circle cx="415" cy="-796" r="8" fill="url(#grad_asw)"/>
+        <circle cx="415" cy="-796" r="1" fill="#004800"/>
+        <use xlink:href="#bubble_17"/>
+        <use xlink:href="#bubble_35"/>
+        <use xlink:href="#bubble_40"/>
+        <use xlink:href="#bubble_46"/>
+        <use xlink:href="#bubble_59"/>
+        <use xlink:href="#bubble_84"/>
+        <use xlink:href="#bubble_89"/>
+        <use xlink:href="#bubble_95"/>
+        <use xlink:href="#bubble_97"/>
+        <use xlink:href="#bubble_111"/>
+        <use xlink:href="#bubble_122"/>
+        <use xlink:href="#bubble_124"/>
+        <use xlink:href="#bubble_127"/>
+        <use xlink:href="#bubble_134"/>
+        <use xlink:href="#bubble_137"/>
+        <use xlink:href="#bubble_149"/>
+        <use xlink:href="#bubble_153"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-773" fill="#d2691e">Asia South</text>
+        <circle cx="415" cy="-778" r="8" fill="url(#grad_ass)"/>
+        <circle cx="415" cy="-778" r="1" fill="#d2691e"/>
+        <use xlink:href="#bubble_1"/>
+        <use xlink:href="#bubble_4"/>
+        <use xlink:href="#bubble_7"/>
+        <use xlink:href="#bubble_16"/>
+        <use xlink:href="#bubble_37"/>
+        <use xlink:href="#bubble_49"/>
+        <use xlink:href="#bubble_56"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-755" fill="#ff0000">Asia Eastern</text>
+        <circle cx="415" cy="-760" r="8" fill="url(#grad_ase)"/>
+        <circle cx="415" cy="-760" r="1" fill="#ff0000"/>
+        <use xlink:href="#bubble_0"/>
+        <use xlink:href="#bubble_9"/>
+        <use xlink:href="#bubble_26"/>
+        <use xlink:href="#bubble_52"/>
+        <use xlink:href="#bubble_132"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-737" fill="#808000">Asia South-Eastern</text>
+        <circle cx="415" cy="-742" r="8" fill="url(#grad_asse)"/>
+        <circle cx="415" cy="-742" r="1" fill="#808000"/>
+        <use xlink:href="#bubble_3"/>
+        <use xlink:href="#bubble_12"/>
+        <use xlink:href="#bubble_14"/>
+        <use xlink:href="#bubble_19"/>
+        <use xlink:href="#bubble_25"/>
+        <use xlink:href="#bubble_41"/>
+        <use xlink:href="#bubble_69"/>
+        <use xlink:href="#bubble_101"/>
+        <use xlink:href="#bubble_112"/>
+        <use xlink:href="#bubble_152"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-719" fill="#0000ff">Oceania</text>
+        <circle cx="415" cy="-724" r="8" fill="url(#grad_oc)"/>
+        <circle cx="415" cy="-724" r="1" fill="#0000ff"/>
+        <use xlink:href="#bubble_54"/>
+        <use xlink:href="#bubble_92"/>
+        <use xlink:href="#bubble_119"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-701" fill="#0099cc">North America</text>
+        <circle cx="415" cy="-706" r="8" fill="url(#grad_na)"/>
+        <circle cx="415" cy="-706" r="1" fill="#0099cc"/>
+        <use xlink:href="#bubble_2"/>
+        <use xlink:href="#bubble_10"/>
+        <use xlink:href="#bubble_38"/>
+        <use xlink:href="#bubble_67"/>
+        <use xlink:href="#bubble_80"/>
+        <use xlink:href="#bubble_81"/>
+        <use xlink:href="#bubble_82"/>
+        <use xlink:href="#bubble_90"/>
+        <use xlink:href="#bubble_108"/>
+        <use xlink:href="#bubble_109"/>
+        <use xlink:href="#bubble_118"/>
+        <use xlink:href="#bubble_125"/>
+        <use xlink:href="#bubble_130"/>
+        <use xlink:href="#bubble_136"/>
+        <use xlink:href="#bubble_150"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-683" fill="#32cd32">South America</text>
+        <circle cx="415" cy="-688" r="8" fill="url(#grad_sa)"/>
+        <circle cx="415" cy="-688" r="1" fill="#32cd32"/>
+        <use xlink:href="#bubble_6"/>
+        <use xlink:href="#bubble_28"/>
+        <use xlink:href="#bubble_31"/>
+        <use xlink:href="#bubble_43"/>
+        <use xlink:href="#bubble_48"/>
+        <use xlink:href="#bubble_62"/>
+        <use xlink:href="#bubble_66"/>
+        <use xlink:href="#bubble_78"/>
+        <use xlink:href="#bubble_106"/>
+        <use xlink:href="#bubble_128"/>
+      </g>
+      <g class="active">
+        <text x="425" y="-665" fill="#696969">Africa</text>
+        <circle cx="415" cy="-670" r="8" fill="url(#grad_af)"/>
+        <circle cx="415" cy="-670" r="1" fill="#696969"/>
+        <use xlink:href="#bubble_5"/>
+        <use xlink:href="#bubble_11"/>
+        <use xlink:href="#bubble_13"/>
+        <use xlink:href="#bubble_15"/>
+        <use xlink:href="#bubble_23"/>
+        <use xlink:href="#bubble_24"/>
+        <use xlink:href="#bubble_27"/>
+        <use xlink:href="#bubble_30"/>
+        <use xlink:href="#bubble_33"/>
+        <use xlink:href="#bubble_34"/>
+        <use xlink:href="#bubble_39"/>
+        <use xlink:href="#bubble_44"/>
+        <use xlink:href="#bubble_45"/>
+        <use xlink:href="#bubble_47"/>
+        <use xlink:href="#bubble_50"/>
+        <use xlink:href="#bubble_51"/>
+        <use xlink:href="#bubble_53"/>
+        <use xlink:href="#bubble_55"/>
+        <use xlink:href="#bubble_57"/>
+        <use xlink:href="#bubble_58"/>
+        <use xlink:href="#bubble_63"/>
+        <use xlink:href="#bubble_64"/>
+        <use xlink:href="#bubble_68"/>
+        <use xlink:href="#bubble_70"/>
+        <use xlink:href="#bubble_71"/>
+        <use xlink:href="#bubble_72"/>
+        <use xlink:href="#bubble_73"/>
+        <use xlink:href="#bubble_74"/>
+        <use xlink:href="#bubble_75"/>
+        <use xlink:href="#bubble_76"/>
+        <use xlink:href="#bubble_77"/>
+        <use xlink:href="#bubble_86"/>
+        <use xlink:href="#bubble_99"/>
+        <use xlink:href="#bubble_100"/>
+        <use xlink:href="#bubble_104"/>
+        <use xlink:href="#bubble_113"/>
+        <use xlink:href="#bubble_117"/>
+        <use xlink:href="#bubble_120"/>
+        <use xlink:href="#bubble_123"/>
+        <use xlink:href="#bubble_131"/>
+        <use xlink:href="#bubble_139"/>
+        <use xlink:href="#bubble_140"/>
+        <use xlink:href="#bubble_141"/>
+        <use xlink:href="#bubble_142"/>
+        <use xlink:href="#bubble_143"/>
+        <use xlink:href="#bubble_145"/>
+        <use xlink:href="#bubble_148"/>
+        <use xlink:href="#bubble_154"/>
+        <use xlink:href="#bubble_155"/>
+        <use xlink:href="#bubble_156"/>
+      </g>
+    </g>
+
+    <!-- pop-up notes -->
+    <g class="active">
+      <use xlink:href="#bubble_0"/>
+      <title>China
+
+Life Expectancy:
+male:	74.58
+overall:	77.31
+female:	80.36
+
+Healthy Life Expectancy (HALE):
+male:	66.99    (89.8% from LE)
+overall:	68.45    (88.5% from LE)
+female:	70.08    (87.2% from LE)
+
+Population: 1 455 351 282</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_1"/>
+      <title>India
+
+Life Expectancy:
+male:	69.18
+overall:	70.73
+female:	72.41
+
+Healthy Life Expectancy (HALE):
+male:	60.70    (87.7% from LE)
+overall:	60.88    (86.1% from LE)
+female:	61.08    (84.4% from LE)
+
+Population: 1 389 030 312</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_2"/>
+      <title>USA
+
+Life Expectancy:
+male:	76.53
+overall:	78.74
+female:	80.98
+
+Healthy Life Expectancy (HALE):
+male:	65.13    (85.1% from LE)
+overall:	66.02    (83.8% from LE)
+female:	66.93    (82.7% from LE)
+
+Population: 337 790 067</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_3"/>
+      <title>Indonesia
+
+Life Expectancy:
+male:	69.55
+overall:	71.40
+female:	73.26
+
+Healthy Life Expectancy (HALE):
+male:	62.48    (89.8% from LE)
+overall:	63.29    (88.6% from LE)
+female:	64.09    (87.5% from LE)
+
+Population: 272 489 381</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_4"/>
+      <title>Pakistan
+
+Life Expectancy:
+male:	66.30
+overall:	67.03
+female:	67.79
+
+Healthy Life Expectancy (HALE):
+male:	58.12    (87.7% from LE)
+overall:	57.80    (86.2% from LE)
+female:	57.50    (84.8% from LE)
+
+Population: 230 800 899</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_5"/>
+      <title>Nigeria
+
+Life Expectancy:
+male:	61.68
+overall:	63.07
+female:	64.51
+
+Healthy Life Expectancy (HALE):
+male:	54.68    (88.7% from LE)
+overall:	54.81    (86.9% from LE)
+female:	54.95    (85.2% from LE)
+
+Population: 209 485 641</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_6"/>
+      <title>Brazil
+
+Life Expectancy:
+male:	72.22
+overall:	75.48
+female:	78.73
+
+Healthy Life Expectancy (HALE):
+male:	62.96    (87.2% from LE)
+overall:	64.53    (85.5% from LE)
+female:	66.07    (83.9% from LE)
+
+Population: 207 455 459</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_7"/>
+      <title>Bangladesh
+
+Life Expectancy:
+male:	72.64
+overall:	73.95
+female:	75.26
+
+Healthy Life Expectancy (HALE):
+male:	64.12    (88.3% from LE)
+overall:	63.98    (86.5% from LE)
+female:	63.86    (84.9% from LE)
+
+Population: 164 913 055</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_8"/>
+      <title>Russia
+
+Life Expectancy:
+male:	68.17
+overall:	73.22
+female:	78.00
+
+Healthy Life Expectancy (HALE):
+male:	60.41    (88.6% from LE)
+overall:	63.72    (87.0% from LE)
+female:	66.84    (85.7% from LE)
+
+Population: 146 533 067</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_9"/>
+      <title>Japan
+
+Life Expectancy:
+male:	81.70
+overall:	84.47
+female:	87.15
+
+Healthy Life Expectancy (HALE):
+male:	72.09    (88.2% from LE)
+overall:	73.58    (87.1% from LE)
+female:	75.01    (86.1% from LE)
+
+Population: 126 699 424</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_10"/>
+      <title>Mexico
+
+Life Expectancy:
+male:	72.80
+overall:	75.83
+female:	78.89
+
+Healthy Life Expectancy (HALE):
+male:	63.92    (87.8% from LE)
+overall:	65.46    (86.3% from LE)
+female:	67.02    (85.0% from LE)
+
+Population: 125 762 982</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_11"/>
+      <title>Ethiopia
+
+Life Expectancy:
+male:	67.17
+overall:	68.85
+female:	70.54
+
+Healthy Life Expectancy (HALE):
+male:	59.20    (88.1% from LE)
+overall:	59.93    (87.0% from LE)
+female:	60.67    (86.0% from LE)
+
+Population: 115 737 383</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_12"/>
+      <title>Philippines
+
+Life Expectancy:
+male:	66.05
+overall:	69.43
+female:	73.22
+
+Healthy Life Expectancy (HALE):
+male:	59.28    (89.8% from LE)
+overall:	61.26    (88.2% from LE)
+female:	63.47    (86.7% from LE)
+
+Population: 110 804 683</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_13"/>
+      <text x="678" y="-753" dy="0.7ex" class="hidden_text" stroke="#696969">Egypt</text>
+      <title>Egypt
+
+Life Expectancy:
+male:	68.97
+overall:	71.59
+female:	74.30
+
+Healthy Life Expectancy (HALE):
+male:	61.66    (89.4% from LE)
+overall:	62.52    (87.3% from LE)
+female:	63.40    (85.3% from LE)
+
+Population: 107 553 158</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_14"/>
+      <title>Vietnam
+
+Life Expectancy:
+male:	69.51
+overall:	73.71
+female:	78.00
+
+Healthy Life Expectancy (HALE):
+male:	62.68    (90.2% from LE)
+overall:	65.39    (88.7% from LE)
+female:	68.16    (87.4% from LE)
+
+Population: 97 173 776</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_15"/>
+      <title>Congo DR
+
+Life Expectancy:
+male:	59.67
+overall:	61.84
+female:	64.08
+
+Healthy Life Expectancy (HALE):
+male:	52.46    (87.9% from LE)
+overall:	53.50    (86.5% from LE)
+female:	54.59    (85.2% from LE)
+
+Population: 92 947 442</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_16"/>
+      <text x="753" y="-803" dy="0.7ex" class="hidden_text" stroke="#d2691e">Iran</text>
+      <title>Iran
+
+Life Expectancy:
+male:	76.36
+overall:	77.78
+female:	79.40
+
+Healthy Life Expectancy (HALE):
+male:	66.60    (87.2% from LE)
+overall:	66.56    (85.6% from LE)
+female:	66.60    (83.9% from LE)
+
+Population: 87 051 648</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_17"/>
+      <text x="740" y="-810" dy="0.7ex" class="hidden_text" stroke="#004800">Turkey</text>
+      <title>Turkey
+
+Life Expectancy:
+male:	75.09
+overall:	77.62
+female:	80.13
+
+Healthy Life Expectancy (HALE):
+male:	66.63    (88.7% from LE)
+overall:	67.24    (86.6% from LE)
+female:	67.80    (84.6% from LE)
+
+Population: 85 357 672</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_18"/>
+      <title>Germany
+
+Life Expectancy:
+male:	78.75
+overall:	80.97
+female:	83.19
+
+Healthy Life Expectancy (HALE):
+male:	69.00    (87.6% from LE)
+overall:	69.44    (85.8% from LE)
+female:	69.86    (84.0% from LE)
+
+Population: 83 559 186</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_19"/>
+      <text x="724" y="-814" dy="0.7ex" class="hidden_text" stroke="#808000">Thailand</text>
+      <title>Thailand
+
+Life Expectancy:
+male:	73.30
+overall:	76.92
+female:	80.64
+
+Healthy Life Expectancy (HALE):
+male:	64.85    (88.5% from LE)
+overall:	67.14    (87.3% from LE)
+female:	69.50    (86.2% from LE)
+
+Population: 71 522 271</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_20"/>
+      <title>United Kingdom
+
+Life Expectancy:
+male:	79.50
+overall:	81.22
+female:	82.92
+
+Healthy Life Expectancy (HALE):
+male:	69.38    (87.3% from LE)
+overall:	69.74    (85.9% from LE)
+female:	70.07    (84.5% from LE)
+
+Population: 67 110 958</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_21"/>
+      <title>France
+
+Life Expectancy:
+male:	79.77
+overall:	82.53
+female:	85.15
+
+Healthy Life Expectancy (HALE):
+male:	69.78    (87.5% from LE)
+overall:	70.72    (85.7% from LE)
+female:	71.60    (84.1% from LE)
+
+Population: 65 729 459</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_22"/>
+      <text x="801" y="-856" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Italy</text>
+      <title>Italy
+
+Life Expectancy:
+male:	80.94
+overall:	82.99
+female:	84.91
+
+Healthy Life Expectancy (HALE):
+male:	70.85    (87.5% from LE)
+overall:	71.43    (86.1% from LE)
+female:	71.92    (84.7% from LE)
+
+Population: 60 130 136</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_23"/>
+      <text x="617" y="-695" dy="0.7ex" class="hidden_text" stroke="#696969">South Africa</text>
+      <title>South Africa
+
+Life Expectancy:
+male:	62.50
+overall:	65.84
+female:	68.85
+
+Healthy Life Expectancy (HALE):
+male:	54.65    (87.4% from LE)
+overall:	56.29    (85.5% from LE)
+female:	57.73    (83.8% from LE)
+
+Population: 59 587 885</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_24"/>
+      <text x="644" y="-690" dy="0.7ex" class="hidden_text" stroke="#696969">Tanzania</text>
+      <title>Tanzania
+
+Life Expectancy:
+male:	65.20
+overall:	66.79
+female:	68.37
+
+Healthy Life Expectancy (HALE):
+male:	57.97    (88.9% from LE)
+overall:	58.31    (87.3% from LE)
+female:	58.68    (85.8% from LE)
+
+Population: 59 174 891</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_25"/>
+      <text x="648" y="-727" dy="0.7ex" class="hidden_text" stroke="#808000">Myanmar</text>
+      <title>Myanmar
+
+Life Expectancy:
+male:	65.69
+overall:	68.81
+female:	72.04
+
+Healthy Life Expectancy (HALE):
+male:	58.83    (89.6% from LE)
+overall:	60.66    (88.2% from LE)
+female:	62.56    (86.8% from LE)
+
+Population: 52 640 713</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_26"/>
+      <title>South Korea
+
+Life Expectancy:
+male:	80.56
+overall:	83.69
+female:	86.56
+
+Healthy Life Expectancy (HALE):
+male:	70.62    (87.7% from LE)
+overall:	72.50    (86.6% from LE)
+female:	74.19    (85.7% from LE)
+
+Population: 51 767 846</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_27"/>
+      <text x="632" y="-696" dy="0.7ex" class="hidden_text" stroke="#696969">Kenya</text>
+      <title>Kenya
+
+Life Expectancy:
+male:	64.07
+overall:	66.50
+female:	68.99
+
+Healthy Life Expectancy (HALE):
+male:	57.12    (89.2% from LE)
+overall:	58.25    (87.6% from LE)
+female:	59.40    (86.1% from LE)
+
+Population: 51 202 827</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_28"/>
+      <text x="745" y="-812" dy="0.7ex" class="hidden_text" stroke="#32cd32">Colombia</text>
+      <title>Colombia
+
+Life Expectancy:
+male:	75.33
+overall:	77.95
+female:	80.55
+
+Healthy Life Expectancy (HALE):
+male:	66.44    (88.2% from LE)
+overall:	67.90    (87.1% from LE)
+female:	69.34    (86.1% from LE)
+
+Population: 49 907 985</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_29"/>
+      <title>Spain
+
+Life Expectancy:
+male:	80.54
+overall:	83.14
+female:	85.66
+
+Healthy Life Expectancy (HALE):
+male:	70.90    (88.0% from LE)
+overall:	71.69    (86.2% from LE)
+female:	72.42    (84.5% from LE)
+
+Population: 47 435 119</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_30"/>
+      <text x="676" y="-711" dy="0.7ex" class="hidden_text" stroke="#696969">Sudan</text>
+      <title>Sudan
+
+Life Expectancy:
+male:	68.35
+overall:	69.47
+female:	70.55
+
+Healthy Life Expectancy (HALE):
+male:	60.26    (88.2% from LE)
+overall:	60.11    (86.5% from LE)
+female:	59.98    (85.0% from LE)
+
+Population: 45 548 175</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_31"/>
+      <text x="733" y="-805" dy="0.7ex" class="hidden_text" stroke="#32cd32">Argentina</text>
+      <title>Argentina
+
+Life Expectancy:
+male:	74.00
+overall:	77.02
+female:	79.91
+
+Healthy Life Expectancy (HALE):
+male:	65.43    (88.4% from LE)
+overall:	66.90    (86.9% from LE)
+female:	68.27    (85.4% from LE)
+
+Population: 44 973 465</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_32"/>
+      <title>Ukraine
+
+Life Expectancy:
+male:	67.99
+overall:	73.00
+female:	77.81
+
+Healthy Life Expectancy (HALE):
+male:	60.10    (88.4% from LE)
+overall:	63.47    (86.9% from LE)
+female:	66.70    (85.7% from LE)
+
+Population: 44 957 458</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_33"/>
+      <title>Algeria
+
+Life Expectancy:
+male:	76.24
+overall:	76.55
+female:	77.08
+
+Healthy Life Expectancy (HALE):
+male:	67.04    (87.9% from LE)
+overall:	66.14    (86.4% from LE)
+female:	65.34    (84.8% from LE)
+
+Population: 43 294 546</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_34"/>
+      <title>Uganda
+
+Life Expectancy:
+male:	62.82
+overall:	66.09
+female:	69.31
+
+Healthy Life Expectancy (HALE):
+male:	55.58    (88.5% from LE)
+overall:	57.55    (87.1% from LE)
+female:	59.50    (85.8% from LE)
+
+Population: 42 999 637</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_35"/>
+      <text x="695" y="-759" dy="0.7ex" class="hidden_text" stroke="#004800">Iraq</text>
+      <title>Iraq
+
+Life Expectancy:
+male:	70.26
+overall:	72.90
+female:	75.37
+
+Healthy Life Expectancy (HALE):
+male:	61.17    (87.1% from LE)
+overall:	62.41    (85.6% from LE)
+female:	63.52    (84.3% from LE)
+
+Population: 41 192 171</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_36"/>
+      <text x="732" y="-821" dy="0.7ex" class="hidden_text" stroke="#008000">Poland</text>
+      <title>Poland
+
+Life Expectancy:
+male:	73.94
+overall:	77.73
+female:	81.50
+
+Healthy Life Expectancy (HALE):
+male:	65.08    (88.0% from LE)
+overall:	67.56    (86.9% from LE)
+female:	70.01    (85.9% from LE)
+
+Population: 38 225 885</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_37"/>
+      <title>Afghanistan
+
+Life Expectancy:
+male:	60.04
+overall:	61.22
+female:	62.55
+
+Healthy Life Expectancy (HALE):
+male:	51.87    (86.4% from LE)
+overall:	52.31    (85.4% from LE)
+female:	52.84    (84.5% from LE)
+
+Population: 37 856 121</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_38"/>
+      <title>Canada
+
+Life Expectancy:
+male:	80.12
+overall:	82.02
+female:	83.90
+
+Healthy Life Expectancy (HALE):
+male:	69.66    (86.9% from LE)
+overall:	70.30    (85.7% from LE)
+female:	70.91    (84.5% from LE)
+
+Population: 37 782 935</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_39"/>
+      <title>Morocco
+
+Life Expectancy:
+male:	72.85
+overall:	73.75
+female:	74.64
+
+Healthy Life Expectancy (HALE):
+male:	64.13    (88.0% from LE)
+overall:	63.60    (86.2% from LE)
+female:	63.04    (84.5% from LE)
+
+Population: 36 210 898</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_40"/>
+      <text x="633" y="-705" dy="0.7ex" class="hidden_text" stroke="#004800">Yemen</text>
+      <title>Yemen
+
+Life Expectancy:
+male:	63.95
+overall:	66.90
+female:	70.01
+
+Healthy Life Expectancy (HALE):
+male:	56.40    (88.2% from LE)
+overall:	57.36    (85.7% from LE)
+female:	58.35    (83.3% from LE)
+
+Population: 35 111 408</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_41"/>
+      <text x="721" y="-774" dy="0.7ex" class="hidden_text" stroke="#808000">Malaysia</text>
+      <title>Malaysia
+
+Life Expectancy:
+male:	72.71
+overall:	74.68
+female:	76.99
+
+Healthy Life Expectancy (HALE):
+male:	64.68    (89.0% from LE)
+overall:	65.49    (87.7% from LE)
+female:	66.47    (86.3% from LE)
+
+Population: 33 440 595</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_42"/>
+      <text x="695" y="-747" dy="0.7ex" class="hidden_text" stroke="#993300">Uzbekistan</text>
+      <title>Uzbekistan
+
+Life Expectancy:
+male:	70.15
+overall:	72.27
+female:	74.28
+
+Healthy Life Expectancy (HALE):
+male:	62.85    (89.6% from LE)
+overall:	63.62    (88.0% from LE)
+female:	64.32    (86.6% from LE)
+
+Population: 32 964 701</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_43"/>
+      <text x="760" y="-803" dy="0.7ex" class="hidden_text" stroke="#32cd32">Peru</text>
+      <title>Peru
+
+Life Expectancy:
+male:	76.69
+overall:	78.29
+female:	79.88
+
+Healthy Life Expectancy (HALE):
+male:	67.97    (88.6% from LE)
+overall:	68.41    (87.4% from LE)
+female:	68.86    (86.2% from LE)
+
+Population: 32 449 303</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_44"/>
+      <text x="597" y="-651" dy="0.7ex" class="hidden_text" stroke="#696969">Angola</text>
+      <title>Angola
+
+Life Expectancy:
+male:	60.33
+overall:	62.49
+female:	64.65
+
+Healthy Life Expectancy (HALE):
+male:	53.24    (88.2% from LE)
+overall:	54.32    (86.9% from LE)
+female:	55.40    (85.7% from LE)
+
+Population: 32 375 632</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_45"/>
+      <text x="628" y="-690" dy="0.7ex" class="hidden_text" stroke="#696969">Ghana</text>
+      <title>Ghana
+
+Life Expectancy:
+male:	63.47
+overall:	65.97
+female:	68.59
+
+Healthy Life Expectancy (HALE):
+male:	56.84    (89.6% from LE)
+overall:	57.94    (87.8% from LE)
+female:	59.12    (86.2% from LE)
+
+Population: 31 258 945</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_46"/>
+      <title>Saudi Arabia
+
+Life Expectancy:
+male:	76.45
+overall:	76.93
+female:	77.75
+
+Healthy Life Expectancy (HALE):
+male:	66.37    (86.8% from LE)
+overall:	66.15    (86.0% from LE)
+female:	65.63    (84.4% from LE)
+
+Population: 30 472 811</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_47"/>
+      <title>Mozambique
+
+Life Expectancy:
+male:	55.39
+overall:	58.51
+female:	61.67
+
+Healthy Life Expectancy (HALE):
+male:	49.27    (89.0% from LE)
+overall:	50.65    (86.6% from LE)
+female:	52.06    (84.4% from LE)
+
+Population: 29 884 380</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_48"/>
+      <text x="677" y="-778" dy="0.7ex" class="hidden_text" stroke="#32cd32">Venezuela</text>
+      <title>Venezuela
+
+Life Expectancy:
+male:	68.38
+overall:	72.71
+female:	77.35
+
+Healthy Life Expectancy (HALE):
+male:	60.57    (88.6% from LE)
+overall:	63.40    (87.2% from LE)
+female:	66.43    (85.9% from LE)
+
+Population: 28 938 098</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_49"/>
+      <text x="689" y="-736" dy="0.7ex" class="hidden_text" stroke="#d2691e">Nepal</text>
+      <title>Nepal
+
+Life Expectancy:
+male:	69.56
+overall:	71.36
+female:	73.10
+
+Healthy Life Expectancy (HALE):
+male:	61.01    (87.7% from LE)
+overall:	61.53    (86.2% from LE)
+female:	62.08    (84.9% from LE)
+
+Population: 28 414 064</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_50"/>
+      <text x="622" y="-653" dy="0.7ex" class="hidden_text" stroke="#696969">Madagascar</text>
+      <title>Madagascar
+
+Life Expectancy:
+male:	62.83
+overall:	63.82
+female:	64.82
+
+Healthy Life Expectancy (HALE):
+male:	56.09    (89.3% from LE)
+overall:	56.16    (88.0% from LE)
+female:	56.23    (86.7% from LE)
+
+Population: 28 219 554</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_51"/>
+      <text x="605" y="-666" dy="0.7ex" class="hidden_text" stroke="#696969">Côte d'Ivoire</text>
+      <title>Côte d'Ivoire
+
+Life Expectancy:
+male:	61.19
+overall:	63.48
+female:	66.19
+
+Healthy Life Expectancy (HALE):
+male:	54.42    (88.9% from LE)
+overall:	55.42    (87.3% from LE)
+female:	56.64    (85.6% from LE)
+
+Population: 28 193 009</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_52"/>
+      <text x="687" y="-758" dy="0.7ex" class="hidden_text" stroke="#ff0000">North Korea</text>
+      <title>North Korea
+
+Life Expectancy:
+male:	69.34
+overall:	72.32
+female:	75.30
+
+Healthy Life Expectancy (HALE):
+male:	62.89    (90.7% from LE)
+overall:	64.51    (89.2% from LE)
+female:	66.15    (87.8% from LE)
+
+Population: 26 037 632</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_53"/>
+      <text x="594" y="-645" dy="0.7ex" class="hidden_text" stroke="#696969">Cameroon</text>
+      <title>Cameroon
+
+Life Expectancy:
+male:	60.08
+overall:	62.03
+female:	64.06
+
+Healthy Life Expectancy (HALE):
+male:	53.56    (89.1% from LE)
+overall:	54.24    (87.4% from LE)
+female:	54.96    (85.8% from LE)
+
+Population: 25 506 095</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_54"/>
+      <title>Australia
+
+Life Expectancy:
+male:	80.72
+overall:	82.64
+female:	84.57
+
+Healthy Life Expectancy (HALE):
+male:	69.68    (86.3% from LE)
+overall:	70.26    (85.0% from LE)
+female:	70.84    (83.8% from LE)
+
+Population: 25 482 714</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_55"/>
+      <text x="591" y="-619" dy="0.7ex" class="hidden_text" stroke="#696969">Niger</text>
+      <title>Niger
+
+Life Expectancy:
+male:	59.64
+overall:	60.57
+female:	61.52
+
+Healthy Life Expectancy (HALE):
+male:	53.31    (89.4% from LE)
+overall:	53.15    (87.7% from LE)
+female:	52.99    (86.1% from LE)
+
+Population: 22 947 757</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_56"/>
+      <text x="738" y="-807" dy="0.7ex" class="hidden_text" stroke="#d2691e">Sri Lanka</text>
+      <title>Sri Lanka
+
+Life Expectancy:
+male:	74.32
+overall:	77.45
+female:	80.33
+
+Healthy Life Expectancy (HALE):
+male:	65.35    (87.9% from LE)
+overall:	67.09    (86.6% from LE)
+female:	68.69    (85.5% from LE)
+
+Population: 22 410 552</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_57"/>
+      <text x="607" y="-628" dy="0.7ex" class="hidden_text" stroke="#696969">Mali</text>
+      <title>Mali
+
+Life Expectancy:
+male:	61.28
+overall:	61.83
+female:	62.41
+
+Healthy Life Expectancy (HALE):
+male:	54.23    (88.5% from LE)
+overall:	53.81    (87.0% from LE)
+female:	53.40    (85.6% from LE)
+
+Population: 21 068 405</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_58"/>
+      <text x="595" y="-654" dy="0.7ex" class="hidden_text" stroke="#696969">Burkina Faso</text>
+      <title>Burkina Faso
+
+Life Expectancy:
+male:	60.08
+overall:	62.61
+female:	65.06
+
+Healthy Life Expectancy (HALE):
+male:	53.78    (89.5% from LE)
+overall:	54.96    (87.8% from LE)
+female:	56.09    (86.2% from LE)
+
+Population: 20 961 952</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_59"/>
+      <text x="648" y="-738" dy="0.7ex" class="hidden_text" stroke="#004800">Syria</text>
+      <title>Syria
+
+Life Expectancy:
+male:	65.37
+overall:	69.17
+female:	73.49
+
+Healthy Life Expectancy (HALE):
+male:	57.46    (87.9% from LE)
+overall:	59.66    (86.3% from LE)
+female:	62.21    (84.7% from LE)
+
+Population: 20 353 534</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_60"/>
+      <text x="712" y="-796" dy="0.7ex" class="hidden_text" stroke="#008000">Romania</text>
+      <title>Romania
+
+Life Expectancy:
+male:	71.78
+overall:	75.46
+female:	79.23
+
+Healthy Life Expectancy (HALE):
+male:	63.77    (88.8% from LE)
+overall:	66.18    (87.7% from LE)
+female:	68.64    (86.6% from LE)
+
+Population: 19 501 542</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_61"/>
+      <text x="683" y="-776" dy="0.7ex" class="hidden_text" stroke="#993300">Kazakhstan</text>
+      <title>Kazakhstan
+
+Life Expectancy:
+male:	68.84
+overall:	73.20
+female:	77.20
+
+Healthy Life Expectancy (HALE):
+male:	61.26    (89.0% from LE)
+overall:	63.97    (87.4% from LE)
+female:	66.45    (86.1% from LE)
+
+Population: 19 209 555</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_62"/>
+      <text x="781" y="-837" dy="0.7ex" class="hidden_text" stroke="#32cd32">Chile</text>
+      <title>Chile
+
+Life Expectancy:
+male:	78.66
+overall:	81.03
+female:	83.34
+
+Healthy Life Expectancy (HALE):
+male:	68.65    (87.3% from LE)
+overall:	69.37    (85.6% from LE)
+female:	70.05    (84.1% from LE)
+
+Population: 19 197 744</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_63"/>
+      <text x="599" y="-664" dy="0.7ex" class="hidden_text" stroke="#696969">Malawi</text>
+      <title>Malawi
+
+Life Expectancy:
+male:	60.43
+overall:	63.23
+female:	66.05
+
+Healthy Life Expectancy (HALE):
+male:	54.20    (89.7% from LE)
+overall:	55.54    (87.8% from LE)
+female:	56.91    (86.2% from LE)
+
+Population: 19 025 752</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_64"/>
+      <text x="589" y="-643" dy="0.7ex" class="hidden_text" stroke="#696969">Zambia</text>
+      <title>Zambia
+
+Life Expectancy:
+male:	59.43
+overall:	61.76
+female:	63.95
+
+Healthy Life Expectancy (HALE):
+male:	52.67    (88.6% from LE)
+overall:	53.87    (87.2% from LE)
+female:	54.97    (86.0% from LE)
+
+Population: 18 513 839</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_65"/>
+      <text x="803" y="-841" dy="0.7ex" class="hidden_text" stroke="#6600cc">Netherlands</text>
+      <title>Netherlands
+
+Life Expectancy:
+male:	80.85
+overall:	82.34
+female:	83.76
+
+Healthy Life Expectancy (HALE):
+male:	71.05    (87.9% from LE)
+overall:	71.08    (86.3% from LE)
+female:	71.07    (84.8% from LE)
+
+Population: 17 537 507</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_66"/>
+      <text x="748" y="-806" dy="0.7ex" class="hidden_text" stroke="#32cd32">Ecuador</text>
+      <title>Ecuador
+
+Life Expectancy:
+male:	75.32
+overall:	77.75
+female:	80.23
+
+Healthy Life Expectancy (HALE):
+male:	66.42    (88.2% from LE)
+overall:	67.62    (87.0% from LE)
+female:	68.83    (85.8% from LE)
+
+Population: 17 340 021</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_67"/>
+      <text x="696" y="-756" dy="0.7ex" class="hidden_text" stroke="#0099cc">Guatemala</text>
+      <title>Guatemala
+
+Life Expectancy:
+male:	70.19
+overall:	72.71
+female:	75.20
+
+Healthy Life Expectancy (HALE):
+male:	61.18    (87.2% from LE)
+overall:	62.54    (86.0% from LE)
+female:	63.88    (84.9% from LE)
+
+Population: 17 103 803</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_68"/>
+      <title>Chad
+
+Life Expectancy:
+male:	57.84
+overall:	59.37
+female:	60.94
+
+Healthy Life Expectancy (HALE):
+male:	51.37    (88.8% from LE)
+overall:	51.78    (87.2% from LE)
+female:	52.20    (85.7% from LE)
+
+Population: 16 685 223</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_69"/>
+      <text x="663" y="-725" dy="0.7ex" class="hidden_text" stroke="#808000">Cambodia</text>
+      <title>Cambodia
+
+Life Expectancy:
+male:	66.87
+overall:	69.56
+female:	72.16
+
+Healthy Life Expectancy (HALE):
+male:	59.77    (89.4% from LE)
+overall:	61.25    (88.1% from LE)
+female:	62.68    (86.9% from LE)
+
+Population: 16 481 304</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_70"/>
+      <text x="665" y="-706" dy="0.7ex" class="hidden_text" stroke="#696969">Senegal</text>
+      <title>Senegal
+
+Life Expectancy:
+male:	67.08
+overall:	68.76
+female:	70.28
+
+Healthy Life Expectancy (HALE):
+male:	59.62    (88.9% from LE)
+overall:	59.87    (87.1% from LE)
+female:	60.11    (85.5% from LE)
+
+Population: 16 352 922</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_71"/>
+      <title>Somalia
+
+Life Expectancy:
+male:	52.87
+overall:	55.21
+female:	57.75
+
+Healthy Life Expectancy (HALE):
+male:	47.28    (89.4% from LE)
+overall:	48.65    (88.1% from LE)
+female:	50.14    (86.8% from LE)
+
+Population: 16 030 971</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_72"/>
+      <text x="565" y="-613" dy="0.7ex" class="hidden_text" stroke="#696969">Zimbabwe</text>
+      <title>Zimbabwe
+
+Life Expectancy:
+male:	56.90
+overall:	59.07
+female:	61.02
+
+Healthy Life Expectancy (HALE):
+male:	50.90    (89.5% from LE)
+overall:	51.95    (87.9% from LE)
+female:	52.93    (86.7% from LE)
+
+Population: 15 271 368</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_73"/>
+      <text x="594" y="-626" dy="0.7ex" class="hidden_text" stroke="#696969">Guinea</text>
+      <title>Guinea
+
+Life Expectancy:
+male:	59.80
+overall:	61.13
+female:	62.36
+
+Healthy Life Expectancy (HALE):
+male:	53.36    (89.2% from LE)
+overall:	53.51    (87.5% from LE)
+female:	53.67    (86.1% from LE)
+
+Population: 13 034 346</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_74"/>
+      <text x="652" y="-699" dy="0.7ex" class="hidden_text" stroke="#696969">Rwanda</text>
+      <title>Rwanda
+
+Life Expectancy:
+male:	65.65
+overall:	67.76
+female:	69.62
+
+Healthy Life Expectancy (HALE):
+male:	58.15    (88.6% from LE)
+overall:	59.10    (87.2% from LE)
+female:	59.93    (86.1% from LE)
+
+Population: 12 776 103</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_75"/>
+      <text x="613" y="-668" dy="0.7ex" class="hidden_text" stroke="#696969">Benin</text>
+      <title>Benin
+
+Life Expectancy:
+male:	61.76
+overall:	64.14
+female:	66.58
+
+Healthy Life Expectancy (HALE):
+male:	54.94    (89.0% from LE)
+overall:	55.87    (87.1% from LE)
+female:	56.83    (85.4% from LE)
+
+Population: 12 726 755</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_76"/>
+      <text x="619" y="-665" dy="0.7ex" class="hidden_text" stroke="#696969">Burundi</text>
+      <title>Burundi
+
+Life Expectancy:
+male:	62.37
+overall:	64.32
+female:	66.23
+
+Healthy Life Expectancy (HALE):
+male:	55.10    (88.3% from LE)
+overall:	56.21    (87.4% from LE)
+female:	57.29    (86.5% from LE)
+
+Population: 12 255 336</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_77"/>
+      <text x="746" y="-802" dy="0.7ex" class="hidden_text" stroke="#696969">Tunisia</text>
+      <title>Tunisia
+
+Life Expectancy:
+male:	75.09
+overall:	77.51
+female:	79.99
+
+Healthy Life Expectancy (HALE):
+male:	66.03    (87.9% from LE)
+overall:	66.68    (86.0% from LE)
+female:	67.38    (84.2% from LE)
+
+Population: 11 875 081</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_78"/>
+      <text x="716" y="-740" dy="0.7ex" class="hidden_text" stroke="#32cd32">Bolivia</text>
+      <title>Bolivia
+
+Life Expectancy:
+male:	72.03
+overall:	72.92
+female:	73.79
+
+Healthy Life Expectancy (HALE):
+male:	63.72    (88.5% from LE)
+overall:	63.64    (87.3% from LE)
+female:	63.54    (86.1% from LE)
+
+Population: 11 671 386</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_79"/>
+      <text x="791" y="-839" dy="0.7ex" class="hidden_text" stroke="#6600cc">Belgium</text>
+      <title>Belgium
+
+Life Expectancy:
+male:	79.50
+overall:	81.61
+female:	83.66
+
+Healthy Life Expectancy (HALE):
+male:	69.61    (87.6% from LE)
+overall:	70.10    (85.9% from LE)
+female:	70.55    (84.3% from LE)
+
+Population: 11 490 618</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_80"/>
+      <text x="749" y="-804" dy="0.7ex" class="hidden_text" stroke="#0099cc">Cuba</text>
+      <title>Cuba
+
+Life Expectancy:
+male:	75.30
+overall:	77.66
+female:	80.12
+
+Healthy Life Expectancy (HALE):
+male:	66.74    (88.6% from LE)
+overall:	67.80    (87.3% from LE)
+female:	68.88    (86.0% from LE)
+
+Population: 11 202 846</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_81"/>
+      <title>Haiti
+
+Life Expectancy:
+male:	63.18
+overall:	63.66
+female:	64.16
+
+Healthy Life Expectancy (HALE):
+male:	55.56    (87.9% from LE)
+overall:	55.00    (86.4% from LE)
+female:	54.47    (84.9% from LE)
+
+Population: 11 105 163</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_82"/>
+      <text x="704" y="-774" dy="0.7ex" class="hidden_text" stroke="#0099cc">Dominican Republic</text>
+      <title>Dominican Republic
+
+Life Expectancy:
+male:	70.87
+overall:	73.91
+female:	77.18
+
+Healthy Life Expectancy (HALE):
+male:	62.41    (88.1% from LE)
+overall:	64.14    (86.8% from LE)
+female:	66.01    (85.5% from LE)
+
+Population: 10 894 043</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_83"/>
+      <text x="784" y="-833" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Greece</text>
+      <title>Greece
+
+Life Expectancy:
+male:	78.80
+overall:	80.91
+female:	83.01
+
+Healthy Life Expectancy (HALE):
+male:	69.14    (87.7% from LE)
+overall:	69.82    (86.3% from LE)
+female:	70.47    (84.9% from LE)
+
+Population: 10 718 576</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_84"/>
+      <text x="793" y="-806" dy="0.7ex" class="hidden_text" stroke="#004800">Jordan</text>
+      <title>Jordan
+
+Life Expectancy:
+male:	79.73
+overall:	79.79
+female:	80.34
+
+Healthy Life Expectancy (HALE):
+male:	69.59    (87.3% from LE)
+overall:	68.36    (85.7% from LE)
+female:	67.32    (83.8% from LE)
+
+Population: 10 671 891</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_85"/>
+      <text x="759" y="-822" dy="0.7ex" class="hidden_text" stroke="#008000">Czechia</text>
+      <title>Czechia
+
+Life Expectancy:
+male:	76.30
+overall:	79.14
+female:	81.93
+
+Healthy Life Expectancy (HALE):
+male:	66.92    (87.7% from LE)
+overall:	68.49    (86.5% from LE)
+female:	70.01    (85.5% from LE)
+
+Population: 10 554 875</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_86"/>
+      <text x="563" y="-614" dy="0.7ex" class="hidden_text" stroke="#696969">South Sudan</text>
+      <title>South Sudan
+
+Life Expectancy:
+male:	56.78
+overall:	59.00
+female:	61.16
+
+Healthy Life Expectancy (HALE):
+male:	49.90    (87.9% from LE)
+overall:	50.96    (86.4% from LE)
+female:	52.00    (85.0% from LE)
+
+Population: 10 423 384</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_87"/>
+      <text x="779" y="-844" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Portugal</text>
+      <title>Portugal
+
+Life Expectancy:
+male:	78.38
+overall:	81.37
+female:	84.15
+
+Healthy Life Expectancy (HALE):
+male:	68.81    (87.8% from LE)
+overall:	70.06    (86.1% from LE)
+female:	71.20    (84.6% from LE)
+
+Population: 10 343 213</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_88"/>
+      <text x="807" y="-845" dy="0.7ex" class="hidden_text" stroke="#6495ed">Sweden</text>
+      <title>Sweden
+
+Life Expectancy:
+male:	81.17
+overall:	82.71
+female:	84.24
+
+Healthy Life Expectancy (HALE):
+male:	71.33    (87.9% from LE)
+overall:	71.41    (86.3% from LE)
+female:	71.46    (84.8% from LE)
+
+Population: 10 279 125</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_89"/>
+      <text x="729" y="-783" dy="0.7ex" class="hidden_text" stroke="#004800">Azerbaijan</text>
+      <title>Azerbaijan
+
+Life Expectancy:
+male:	73.38
+overall:	75.80
+female:	78.09
+
+Healthy Life Expectancy (HALE):
+male:	65.57    (89.4% from LE)
+overall:	66.62    (87.9% from LE)
+female:	67.63    (86.6% from LE)
+
+Population: 10 110 475</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_90"/>
+      <text x="695" y="-732" dy="0.7ex" class="hidden_text" stroke="#0099cc">Honduras</text>
+      <title>Honduras
+
+Life Expectancy:
+male:	69.99
+overall:	71.44
+female:	72.90
+
+Healthy Life Expectancy (HALE):
+male:	61.85    (88.4% from LE)
+overall:	62.35    (87.3% from LE)
+female:	62.85    (86.2% from LE)
+
+Population: 9 943 633</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_91"/>
+      <text x="725" y="-798" dy="0.7ex" class="hidden_text" stroke="#008000">Hungary</text>
+      <title>Hungary
+
+Life Expectancy:
+male:	72.98
+overall:	76.34
+female:	79.52
+
+Healthy Life Expectancy (HALE):
+male:	64.67    (88.6% from LE)
+overall:	66.59    (87.2% from LE)
+female:	68.39    (86.0% from LE)
+
+Population: 9 770 346</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_92"/>
+      <text x="651" y="-682" dy="0.7ex" class="hidden_text" stroke="#0000ff">Papua New Guinea</text>
+      <title>Papua New Guinea
+
+Life Expectancy:
+male:	65.57
+overall:	66.67
+female:	67.92
+
+Healthy Life Expectancy (HALE):
+male:	58.09    (88.6% from LE)
+overall:	58.47    (87.7% from LE)
+female:	58.92    (86.7% from LE)
+
+Population: 9 609 010</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_93"/>
+      <text x="718" y="-756" dy="0.7ex" class="hidden_text" stroke="#993300">Tajikistan</text>
+      <title>Tajikistan
+
+Life Expectancy:
+male:	72.28
+overall:	73.81
+female:	75.37
+
+Healthy Life Expectancy (HALE):
+male:	64.42    (89.1% from LE)
+overall:	64.91    (87.9% from LE)
+female:	65.42    (86.8% from LE)
+
+Population: 9 529 966</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_94"/>
+      <text x="693" y="-799" dy="0.7ex" class="hidden_text" stroke="#008000">Belarus</text>
+      <title>Belarus
+
+Life Expectancy:
+male:	69.73
+overall:	74.82
+female:	79.66
+
+Healthy Life Expectancy (HALE):
+male:	62.14    (89.1% from LE)
+overall:	65.44    (87.5% from LE)
+female:	68.56    (86.1% from LE)
+
+Population: 9 435 419</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_95"/>
+      <title>United Arab Emirates
+
+Life Expectancy:
+male:	80.98
+overall:	81.41
+female:	82.29
+
+Healthy Life Expectancy (HALE):
+male:	70.24    (86.7% from LE)
+overall:	69.69    (85.6% from LE)
+female:	68.69    (83.5% from LE)
+
+Population: 9 377 847</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_96"/>
+      <text x="791" y="-839" dy="0.7ex" class="hidden_text" stroke="#6600cc">Austria</text>
+      <title>Austria
+
+Life Expectancy:
+male:	79.45
+overall:	81.65
+female:	83.78
+
+Healthy Life Expectancy (HALE):
+male:	69.73    (87.8% from LE)
+overall:	70.44    (86.3% from LE)
+female:	71.10    (84.9% from LE)
+
+Population: 8 880 876</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_97"/>
+      <text x="804" y="-845" dy="0.7ex" class="hidden_text" stroke="#004800">Israel</text>
+      <title>Israel
+
+Life Expectancy:
+male:	80.74
+overall:	82.57
+female:	84.32
+
+Healthy Life Expectancy (HALE):
+male:	71.17    (88.1% from LE)
+overall:	71.51    (86.6% from LE)
+female:	71.78    (85.1% from LE)
+
+Population: 8 657 474</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_98"/>
+      <text x="814" y="-853" dy="0.7ex" class="hidden_text" stroke="#6600cc">Switzerland</text>
+      <title>Switzerland
+
+Life Expectancy:
+male:	81.76
+overall:	83.48
+female:	85.12
+
+Healthy Life Expectancy (HALE):
+male:	71.33    (87.2% from LE)
+overall:	71.53    (85.7% from LE)
+female:	71.67    (84.2% from LE)
+
+Population: 8 577 524</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_99"/>
+      <text x="609" y="-665" dy="0.7ex" class="hidden_text" stroke="#696969">Togo</text>
+      <title>Togo
+
+Life Expectancy:
+male:	61.21
+overall:	63.65
+female:	66.34
+
+Healthy Life Expectancy (HALE):
+male:	54.83    (89.6% from LE)
+overall:	55.81    (87.7% from LE)
+female:	56.91    (85.8% from LE)
+
+Population: 8 463 068</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_100"/>
+      <text x="592" y="-615" dy="0.7ex" class="hidden_text" stroke="#696969">Sierra Leone</text>
+      <title>Sierra Leone
+
+Life Expectancy:
+male:	59.50
+overall:	60.40
+female:	61.30
+
+Healthy Life Expectancy (HALE):
+male:	52.68    (88.5% from LE)
+overall:	52.63    (87.1% from LE)
+female:	52.58    (85.8% from LE)
+
+Population: 7 731 991</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_101"/>
+      <text x="658" y="-709" dy="0.7ex" class="hidden_text" stroke="#808000">Laos</text>
+      <title>Laos
+
+Life Expectancy:
+male:	66.14
+overall:	68.36
+female:	70.72
+
+Healthy Life Expectancy (HALE):
+male:	59.43    (89.9% from LE)
+overall:	60.60    (88.6% from LE)
+female:	61.84    (87.4% from LE)
+
+Population: 7 237 636</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_102"/>
+      <text x="712" y="-788" dy="0.7ex" class="hidden_text" stroke="#008000">Bulgaria</text>
+      <title>Bulgaria
+
+Life Expectancy:
+male:	71.52
+overall:	75.00
+female:	78.62
+
+Healthy Life Expectancy (HALE):
+male:	63.46    (88.7% from LE)
+overall:	65.67    (87.6% from LE)
+female:	67.95    (86.4% from LE)
+
+Population: 6 975 469</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_103"/>
+      <text x="729" y="-786" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Serbia</text>
+      <title>Serbia
+
+Life Expectancy:
+male:	73.26
+overall:	75.92
+female:	78.46
+
+Healthy Life Expectancy (HALE):
+male:	65.08    (88.8% from LE)
+overall:	66.55    (87.7% from LE)
+female:	67.94    (86.6% from LE)
+
+Population: 6 966 153</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_104"/>
+      <text x="711" y="-759" dy="0.7ex" class="hidden_text" stroke="#696969">Libya</text>
+      <title>Libya
+
+Life Expectancy:
+male:	71.47
+overall:	73.54
+female:	75.70
+
+Healthy Life Expectancy (HALE):
+male:	62.73    (87.8% from LE)
+overall:	63.36    (86.2% from LE)
+female:	63.99    (84.5% from LE)
+
+Population: 6 951 033</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_105"/>
+      <text x="654" y="-727" dy="0.7ex" class="hidden_text" stroke="#993300">Turkmenistan</text>
+      <title>Turkmenistan
+
+Life Expectancy:
+male:	65.70
+overall:	69.14
+female:	72.54
+
+Healthy Life Expectancy (HALE):
+male:	59.04    (89.9% from LE)
+overall:	61.13    (88.4% from LE)
+female:	63.20    (87.1% from LE)
+
+Population: 6 803 944</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_106"/>
+      <text x="718" y="-783" dy="0.7ex" class="hidden_text" stroke="#32cd32">Paraguay</text>
+      <title>Paraguay
+
+Life Expectancy:
+male:	72.18
+overall:	75.08
+female:	78.16
+
+Healthy Life Expectancy (HALE):
+male:	63.47    (87.9% from LE)
+overall:	64.87    (86.4% from LE)
+female:	66.38    (84.9% from LE)
+
+Population: 6 515 058</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_107"/>
+      <text x="696" y="-773" dy="0.7ex" class="hidden_text" stroke="#993300">Kyrgyzstan</text>
+      <title>Kyrgyzstan
+
+Life Expectancy:
+male:	69.92
+overall:	73.59
+female:	77.14
+
+Healthy Life Expectancy (HALE):
+male:	62.68    (89.6% from LE)
+overall:	64.84    (88.1% from LE)
+female:	66.93    (86.8% from LE)
+
+Population: 6 494 035</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_108"/>
+      <text x="760" y="-814" dy="0.7ex" class="hidden_text" stroke="#0099cc">Nicaragua</text>
+      <title>Nicaragua
+
+Life Expectancy:
+male:	76.30
+overall:	78.87
+female:	81.27
+
+Healthy Life Expectancy (HALE):
+male:	66.26    (86.8% from LE)
+overall:	67.68    (85.8% from LE)
+female:	69.00    (84.9% from LE)
+
+Population: 6 483 657</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_109"/>
+      <text x="691" y="-789" dy="0.7ex" class="hidden_text" stroke="#0099cc">El Salvador</text>
+      <title>El Salvador
+
+Life Expectancy:
+male:	69.48
+overall:	74.28
+female:	78.73
+
+Healthy Life Expectancy (HALE):
+male:	60.89    (87.6% from LE)
+overall:	64.39    (86.7% from LE)
+female:	67.62    (85.9% from LE)
+
+Population: 6 222 318</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_110"/>
+      <text x="791" y="-832" dy="0.7ex" class="hidden_text" stroke="#6495ed">Denmark</text>
+      <title>Denmark
+
+Life Expectancy:
+male:	79.49
+overall:	81.28
+female:	83.06
+
+Healthy Life Expectancy (HALE):
+male:	69.86    (87.9% from LE)
+overall:	70.31    (86.5% from LE)
+female:	70.75    (85.2% from LE)
+
+Population: 5 814 618</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_111"/>
+      <text x="766" y="-816" dy="0.7ex" class="hidden_text" stroke="#004800">Lebanon</text>
+      <title>Lebanon
+
+Life Expectancy:
+male:	76.92
+overall:	79.29
+female:	81.47
+
+Healthy Life Expectancy (HALE):
+male:	66.73    (86.8% from LE)
+overall:	67.41    (85.0% from LE)
+female:	68.03    (83.5% from LE)
+
+Population: 5 794 594</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_112"/>
+      <text x="815" y="-861" dy="0.7ex" class="hidden_text" stroke="#808000">Singapore</text>
+      <title>Singapore
+
+Life Expectancy:
+male:	81.81
+overall:	83.90
+female:	85.98
+
+Healthy Life Expectancy (HALE):
+male:	72.66    (88.8% from LE)
+overall:	73.80    (88.0% from LE)
+female:	74.89    (87.1% from LE)
+
+Population: 5 669 563</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_113"/>
+      <text x="621" y="-632" dy="0.7ex" class="hidden_text" stroke="#696969">Congo Republic</text>
+      <title>Congo Republic
+
+Life Expectancy:
+male:	62.43
+overall:	62.76
+female:	63.08
+
+Healthy Life Expectancy (HALE):
+male:	55.30    (88.6% from LE)
+overall:	54.67    (87.1% from LE)
+female:	54.06    (85.7% from LE)
+
+Population: 5 616 661</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_114"/>
+      <text x="788" y="-843" dy="0.7ex" class="hidden_text" stroke="#6495ed">Finland</text>
+      <title>Finland
+
+Life Expectancy:
+male:	79.11
+overall:	81.65
+female:	84.15
+
+Healthy Life Expectancy (HALE):
+male:	69.05    (87.3% from LE)
+overall:	70.19    (86.0% from LE)
+female:	71.29    (84.7% from LE)
+
+Population: 5 521 759</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_115"/>
+      <text x="739" y="-811" dy="0.7ex" class="hidden_text" stroke="#008000">Slovakia</text>
+      <title>Slovakia
+
+Life Expectancy:
+male:	74.23
+overall:	77.61
+female:	80.90
+
+Healthy Life Expectancy (HALE):
+male:	65.48    (88.2% from LE)
+overall:	67.48    (86.9% from LE)
+female:	69.41    (85.8% from LE)
+
+Population: 5 450 626</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_116"/>
+      <text x="808" y="-843" dy="0.7ex" class="hidden_text" stroke="#6495ed">Norway</text>
+      <title>Norway
+
+Life Expectancy:
+male:	81.12
+overall:	82.66
+female:	84.16
+
+Healthy Life Expectancy (HALE):
+male:	71.04    (87.6% from LE)
+overall:	71.18    (86.1% from LE)
+female:	71.28    (84.7% from LE)
+
+Population: 5 347 730</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_117"/>
+      <text x="623" y="-644" dy="0.7ex" class="hidden_text" stroke="#696969">Liberia</text>
+      <title>Liberia
+
+Life Expectancy:
+male:	62.68
+overall:	63.44
+female:	64.20
+
+Healthy Life Expectancy (HALE):
+male:	54.54    (87.0% from LE)
+overall:	53.99    (85.1% from LE)
+female:	53.47    (83.3% from LE)
+
+Population: 5 043 721</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_118"/>
+      <text x="776" y="-829" dy="0.7ex" class="hidden_text" stroke="#0099cc">Costa Rica</text>
+      <title>Costa Rica
+
+Life Expectancy:
+male:	77.93
+overall:	80.30
+female:	82.71
+
+Healthy Life Expectancy (HALE):
+male:	68.09    (87.4% from LE)
+overall:	69.21    (86.2% from LE)
+female:	70.35    (85.1% from LE)
+
+Population: 4 999 553</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_119"/>
+      <text x="798" y="-836" dy="0.7ex" class="hidden_text" stroke="#0000ff">New Zealand</text>
+      <title>New Zealand
+
+Life Expectancy:
+male:	80.16
+overall:	81.81
+female:	83.43
+
+Healthy Life Expectancy (HALE):
+male:	69.50    (86.7% from LE)
+overall:	69.74    (85.2% from LE)
+female:	69.98    (83.9% from LE)
+
+Population: 4 989 403</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_120"/>
+      <text x="500" y="-560" dy="0.7ex" class="hidden_text" stroke="#696969">CAR</text>
+      <title>Central African Republic
+
+Life Expectancy:
+male:	50.31
+overall:	52.93
+female:	55.89
+
+Healthy Life Expectancy (HALE):
+male:	44.41    (88.3% from LE)
+overall:	45.97    (86.9% from LE)
+female:	47.75    (85.4% from LE)
+
+Population: 4 944 703</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_121"/>
+      <text x="799" y="-838" dy="0.7ex" class="hidden_text" stroke="#6495ed">Ireland</text>
+      <title>Ireland
+
+Life Expectancy:
+male:	80.27
+overall:	81.94
+female:	83.60
+
+Healthy Life Expectancy (HALE):
+male:	70.25    (87.5% from LE)
+overall:	70.48    (86.0% from LE)
+female:	70.71    (84.6% from LE)
+
+Population: 4 933 491</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_122"/>
+      <text x="727" y="-790" dy="0.7ex" class="hidden_text" stroke="#004800">Oman</text>
+      <title>Oman
+
+Life Expectancy:
+male:	73.09
+overall:	75.29
+female:	78.85
+
+Healthy Life Expectancy (HALE):
+male:	64.58    (88.4% from LE)
+overall:	65.53    (87.0% from LE)
+female:	66.76    (84.7% from LE)
+
+Population: 4 591 241</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_123"/>
+      <text x="697" y="-705" dy="0.7ex" class="hidden_text" stroke="#696969">Mauritania</text>
+      <title>Mauritania
+
+Life Expectancy:
+male:	70.00
+overall:	70.18
+female:	70.38
+
+Healthy Life Expectancy (HALE):
+male:	62.49    (89.3% from LE)
+overall:	61.59    (87.8% from LE)
+female:	60.82    (86.4% from LE)
+
+Population: 4 467 708</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_124"/>
+      <text x="799" y="-866" dy="0.7ex" class="hidden_text" stroke="#004800">Kuwait</text>
+      <title>Kuwait
+
+Life Expectancy:
+male:	80.27
+overall:	82.50
+female:	86.43
+
+Healthy Life Expectancy (HALE):
+male:	69.73    (86.9% from LE)
+overall:	70.48    (85.4% from LE)
+female:	71.79    (83.1% from LE)
+
+Population: 4 442 194</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_125"/>
+      <text x="759" y="-820" dy="0.7ex" class="hidden_text" stroke="#0099cc">Panama</text>
+      <title>Panama
+
+Life Expectancy:
+male:	76.20
+overall:	78.97
+female:	81.86
+
+Healthy Life Expectancy (HALE):
+male:	66.89    (87.8% from LE)
+overall:	68.31    (86.5% from LE)
+female:	69.79    (85.3% from LE)
+
+Population: 4 234 700</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_126"/>
+      <text x="753" y="-817" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Croatia</text>
+      <title>Croatia
+
+Life Expectancy:
+male:	75.58
+overall:	78.60
+female:	81.59
+
+Healthy Life Expectancy (HALE):
+male:	66.66    (88.2% from LE)
+overall:	68.38    (87.0% from LE)
+female:	70.07    (85.9% from LE)
+
+Population: 3 986 334</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_127"/>
+      <text x="689" y="-785" dy="0.7ex" class="hidden_text" stroke="#004800">Georgia</text>
+      <title>Georgia
+
+Life Expectancy:
+male:	69.10
+overall:	73.85
+female:	78.44
+
+Healthy Life Expectancy (HALE):
+male:	61.61    (89.2% from LE)
+overall:	64.85    (87.8% from LE)
+female:	67.98    (86.7% from LE)
+
+Population: 3 796 722</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_128"/>
+      <text x="731" y="-806" dy="0.7ex" class="hidden_text" stroke="#32cd32">Uruguay</text>
+      <title>Uruguay
+
+Life Expectancy:
+male:	73.36
+overall:	77.01
+female:	80.50
+
+Healthy Life Expectancy (HALE):
+male:	64.91    (88.5% from LE)
+overall:	66.81    (86.8% from LE)
+female:	68.60    (85.2% from LE)
+
+Population: 3 397 206</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_129"/>
+      <text x="744" y="-796" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Bosnia and Herzegovina</text>
+      <title>Bosnia and Herzegovina
+
+Life Expectancy:
+male:	74.64
+overall:	77.10
+female:	79.56
+
+Healthy Life Expectancy (HALE):
+male:	65.67    (88.0% from LE)
+overall:	67.01    (86.9% from LE)
+female:	68.35    (85.9% from LE)
+
+Population: 3 345 533</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_130"/>
+      <text x="766" y="-841" dy="0.7ex" class="hidden_text" stroke="#0099cc">Puerto Rico</text>
+      <title>Puerto Rico
+
+Life Expectancy:
+male:	76.86
+overall:	80.50
+female:	84.04
+
+Healthy Life Expectancy (HALE):
+male:	67.20    (87.4% from LE)
+overall:	69.44    (86.3% from LE)
+female:	71.62    (85.2% from LE)
+
+Population: 3 288 028</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_131"/>
+      <text x="608" y="-666" dy="0.7ex" class="hidden_text" stroke="#696969">Eritrea</text>
+      <title>Eritrea
+
+Life Expectancy:
+male:	61.00
+overall:	63.76
+female:	66.53
+
+Healthy Life Expectancy (HALE):
+male:	53.75    (88.1% from LE)
+overall:	55.67    (87.3% from LE)
+female:	57.59    (86.6% from LE)
+
+Population: 3 240 194</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_132"/>
+      <title>Mongolia
+
+Life Expectancy:
+male:	66.27
+overall:	70.75
+female:	75.47
+
+Healthy Life Expectancy (HALE):
+male:	58.89    (88.9% from LE)
+overall:	62.00    (87.6% from LE)
+female:	65.28    (86.5% from LE)
+
+Population: 3 232 113</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_133"/>
+      <text x="691" y="-772" dy="0.7ex" class="hidden_text" stroke="#008000">Moldova</text>
+      <title>Moldova
+
+Life Expectancy:
+male:	69.32
+overall:	73.32
+female:	77.17
+
+Healthy Life Expectancy (HALE):
+male:	62.01    (89.5% from LE)
+overall:	64.43    (87.9% from LE)
+female:	66.75    (86.5% from LE)
+
+Population: 3 112 562</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_134"/>
+      <text x="706" y="-798" dy="0.7ex" class="hidden_text" stroke="#004800">Armenia</text>
+      <title>Armenia
+
+Life Expectancy:
+male:	70.82
+overall:	75.67
+female:	79.79
+
+Healthy Life Expectancy (HALE):
+male:	63.56    (89.7% from LE)
+overall:	66.48    (87.9% from LE)
+female:	68.96    (86.4% from LE)
+
+Population: 2 903 972</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_135"/>
+      <text x="759" y="-799" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Albania</text>
+      <title>Albania
+
+Life Expectancy:
+male:	76.17
+overall:	77.94
+female:	79.87
+
+Healthy Life Expectancy (HALE):
+male:	67.48    (88.6% from LE)
+overall:	68.41    (87.8% from LE)
+female:	69.43    (86.9% from LE)
+
+Population: 2 885 010</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_136"/>
+      <text x="692" y="-752" dy="0.7ex" class="hidden_text" stroke="#0099cc">Jamaica</text>
+      <title>Jamaica
+
+Life Expectancy:
+male:	69.48
+overall:	72.24
+female:	75.14
+
+Healthy Life Expectancy (HALE):
+male:	62.11    (89.4% from LE)
+overall:	63.55    (88.0% from LE)
+female:	65.08    (86.6% from LE)
+
+Population: 2 823 271</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_137"/>
+      <text x="782" y="-799" dy="0.7ex" class="hidden_text" stroke="#004800">Qatar</text>
+      <title>Qatar
+
+Life Expectancy:
+male:	78.49
+overall:	78.90
+female:	79.84
+
+Healthy Life Expectancy (HALE):
+male:	68.37    (87.1% from LE)
+overall:	67.91    (86.1% from LE)
+female:	66.54    (83.3% from LE)
+
+Population: 2 797 921</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_138"/>
+      <text x="712" y="-809" dy="0.7ex" class="hidden_text" stroke="#6495ed">Lithuania</text>
+      <title>Lithuania
+
+Life Expectancy:
+male:	71.45
+overall:	76.25
+female:	80.82
+
+Healthy Life Expectancy (HALE):
+male:	63.10    (88.3% from LE)
+overall:	66.23    (86.9% from LE)
+female:	69.17    (85.6% from LE)
+
+Population: 2 795 058</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_139"/>
+      <text x="597" y="-670" dy="0.7ex" class="hidden_text" stroke="#696969">Namibia</text>
+      <title>Namibia
+
+Life Expectancy:
+male:	59.99
+overall:	63.49
+female:	66.90
+
+Healthy Life Expectancy (HALE):
+male:	53.34    (88.9% from LE)
+overall:	55.53    (87.5% from LE)
+female:	57.66    (86.2% from LE)
+
+Population: 2 650 494</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_140"/>
+      <text x="627" y="-670" dy="0.7ex" class="hidden_text" stroke="#696969">Gambia</text>
+      <title>Gambia
+
+Life Expectancy:
+male:	62.91
+overall:	64.91
+female:	66.98
+
+Healthy Life Expectancy (HALE):
+male:	56.31    (89.5% from LE)
+overall:	56.60    (87.2% from LE)
+female:	56.93    (85.0% from LE)
+
+Population: 2 456 844</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_141"/>
+      <text x="625" y="-670" dy="0.7ex" class="hidden_text" stroke="#696969">Botswana</text>
+      <title>Botswana
+
+Life Expectancy:
+male:	62.74
+overall:	64.92
+female:	66.95
+
+Healthy Life Expectancy (HALE):
+male:	55.04    (87.7% from LE)
+overall:	56.05    (86.3% from LE)
+female:	56.96    (85.1% from LE)
+
+Population: 2 332 083</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_142"/>
+      <text x="624" y="-678" dy="0.7ex" class="hidden_text" stroke="#696969">Gabon</text>
+      <title>Gabon
+
+Life Expectancy:
+male:	62.61
+overall:	64.97
+female:	67.75
+
+Healthy Life Expectancy (HALE):
+male:	55.38    (88.5% from LE)
+overall:	56.38    (86.8% from LE)
+female:	57.56    (85.0% from LE)
+
+Population: 2 267 706</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_143"/>
+      <text x="487" y="-550" dy="0.7ex" class="hidden_text" stroke="#696969">Lesotho</text>
+      <title>Lesotho
+
+Life Expectancy:
+male:	48.96
+overall:	51.78
+female:	54.91
+
+Healthy Life Expectancy (HALE):
+male:	43.39    (88.6% from LE)
+overall:	45.04    (87.0% from LE)
+female:	46.88    (85.4% from LE)
+
+Population: 2 209 405</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_144"/>
+      <text x="783" y="-841" dy="0.7ex" class="hidden_text" stroke="#cc00cc">Slovenia</text>
+      <title>Slovenia
+
+Life Expectancy:
+male:	78.57
+overall:	81.29
+female:	84.04
+
+Healthy Life Expectancy (HALE):
+male:	68.78    (87.5% from LE)
+overall:	70.23    (86.4% from LE)
+female:	71.69    (85.3% from LE)
+
+Population: 2 083 438</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_145"/>
+      <text x="562" y="-615" dy="0.7ex" class="hidden_text" stroke="#696969">Guinea-Bissau</text>
+      <title>Guinea-Bissau
+
+Life Expectancy:
+male:	56.41
+overall:	58.98
+female:	61.44
+
+Healthy Life Expectancy (HALE):
+male:	50.60    (89.7% from LE)
+overall:	51.81    (87.8% from LE)
+female:	52.96    (86.2% from LE)
+
+Population: 1 967 696</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_146"/>
+      <text x="708" y="-800" dy="0.7ex" class="hidden_text" stroke="#6495ed">Latvia</text>
+      <title>Latvia
+
+Life Expectancy:
+male:	71.05
+overall:	75.68
+female:	79.97
+
+Healthy Life Expectancy (HALE):
+male:	63.05    (88.7% from LE)
+overall:	66.02    (87.2% from LE)
+female:	68.74    (86.0% from LE)
+
+Population: 1 914 263</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_147"/>
+      <text x="760" y="-770" dy="0.7ex" class="hidden_text" stroke="#cc00cc">North Macedonia</text>
+      <title>North Macedonia
+
+Life Expectancy:
+male:	76.25
+overall:	76.15
+female:	76.92
+
+Healthy Life Expectancy (HALE):
+male:	67.25    (88.2% from LE)
+overall:	66.65    (87.5% from LE)
+female:	66.65    (86.6% from LE)
+
+Population: 1 897 641</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_148"/>
+      <text x="596" y="-631" dy="0.7ex" class="hidden_text" stroke="#696969">Equatorial Guinea</text>
+      <title>Equatorial Guinea
+
+Life Expectancy:
+male:	59.88
+overall:	61.39
+female:	63.05
+
+Healthy Life Expectancy (HALE):
+male:	52.76    (88.1% from LE)
+overall:	53.17    (86.6% from LE)
+female:	53.51    (84.9% from LE)
+
+Population: 1 670 177</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_149"/>
+      <text x="751" y="-769" dy="0.7ex" class="hidden_text" stroke="#004800">Bahrain</text>
+      <title>Bahrain
+
+Life Expectancy:
+male:	75.39
+overall:	76.03
+female:	76.86
+
+Healthy Life Expectancy (HALE):
+male:	66.30    (87.9% from LE)
+overall:	65.80    (86.5% from LE)
+female:	64.72    (84.2% from LE)
+
+Population: 1 485 670</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_150"/>
+      <text x="705" y="-776" dy="0.7ex" class="hidden_text" stroke="#0099cc">Trinidad and Tobago</text>
+      <title>Trinidad and Tobago
+
+Life Expectancy:
+male:	70.71
+overall:	74.09
+female:	77.54
+
+Healthy Life Expectancy (HALE):
+male:	62.06    (87.8% from LE)
+overall:	64.07    (86.5% from LE)
+female:	66.11    (85.3% from LE)
+
+Population: 1 484 894</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_151"/>
+      <text x="744" y="-827" dy="0.7ex" class="hidden_text" stroke="#6495ed">Estonia</text>
+      <title>Estonia
+
+Life Expectancy:
+male:	74.69
+overall:	78.89
+female:	82.61
+
+Healthy Life Expectancy (HALE):
+male:	65.80    (88.1% from LE)
+overall:	68.37    (86.7% from LE)
+female:	70.59    (85.4% from LE)
+
+Population: 1 326 822</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_152"/>
+      <text x="668" y="-701" dy="0.7ex" class="hidden_text" stroke="#808000">Timor-Leste</text>
+      <title>Timor-Leste
+
+Life Expectancy:
+male:	67.02
+overall:	68.50
+female:	70.08
+
+Healthy Life Expectancy (HALE):
+male:	58.96    (88.0% from LE)
+overall:	59.97    (87.5% from LE)
+female:	61.07    (87.1% from LE)
+
+Population: 1 300 945</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_153"/>
+      <text x="800" y="-842" dy="0.7ex" class="hidden_text" stroke="#004800">Cyprus</text>
+      <title>Cyprus
+
+Life Expectancy:
+male:	80.20
+overall:	82.18
+female:	84.16
+
+Healthy Life Expectancy (HALE):
+male:	70.69    (88.1% from LE)
+overall:	71.13    (86.6% from LE)
+female:	71.55    (85.0% from LE)
+
+Population: 1 286 671</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_154"/>
+      <text x="706" y="-775" dy="0.7ex" class="hidden_text" stroke="#696969">Mauritius</text>
+      <title>Mauritius
+
+Life Expectancy:
+male:	70.83
+overall:	74.06
+female:	77.43
+
+Healthy Life Expectancy (HALE):
+male:	62.46    (88.2% from LE)
+overall:	64.25    (86.8% from LE)
+female:	66.12    (85.4% from LE)
+
+Population: 1 286 270</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_155"/>
+      <text x="522" y="-594" dy="0.7ex" class="hidden_text" stroke="#696969">Eswatini</text>
+      <title>Eswatini
+
+Life Expectancy:
+male:	52.47
+overall:	55.75
+female:	59.38
+
+Healthy Life Expectancy (HALE):
+male:	46.64    (88.9% from LE)
+overall:	48.65    (87.3% from LE)
+female:	50.88    (85.7% from LE)
+
+Population: 1 179 874</title>
+    </g>
+    <g class="active">
+      <use xlink:href="#bubble_156"/>
+      <text x="634" y="-673" dy="0.7ex" class="hidden_text" stroke="#696969">Djibouti</text>
+      <title>Djibouti
+
+Life Expectancy:
+male:	63.63
+overall:	65.44
+female:	67.27
+
+Healthy Life Expectancy (HALE):
+male:	56.90    (89.4% from LE)
+overall:	57.61    (88.0% from LE)
+female:	58.34    (86.7% from LE)
+
+Population: 1 088 709</title>
+    </g>
+  </g>
+</svg>

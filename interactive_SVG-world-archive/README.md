@@ -1,0 +1,1 @@
+This is archive of old scripts that still can be useful for exploration and better understanding. The newer script for generation of interactive SVG bubble charts based on data of the World Health Organization is `WHO_svg.ipynb` in the folder [countries_WHO](../countries_WHO).

@@ -1,0 +1,23 @@
+abbr,color,region
+euw,#6600cc,Europe Western
+eun,#6495ed,Europe Northern
+eus,#cc00cc,Europe Southern
+eue,#008000,Europe Eastern
+asc,#993300,Asia Central
+asw,#004800,Asia Western
+ass,#d2691e,Asia South
+ase,#ff0000,Asia Eastern
+asse,#808000,Asia South-Eastern
+oc,#0000ff,Oceania
+na,#0099cc,North America
+sa,#32cd32,South America
+af,#696969,Africa
+-,#999999,other
+nam,#0000ff,North America
+car,#ba55d3,Caribbean
+ca,#d2691e,Central America
+afn,#008000,Africa Northern
+afw,#4169e1,Africa Western
+afm,#696969,Africa Middle
+afe,#dc143c,Africa Eastern
+afs,#a0522d,Africa Southern

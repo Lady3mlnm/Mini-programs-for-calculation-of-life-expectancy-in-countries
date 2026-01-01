@@ -1,0 +1,1 @@
+This is folder for saving generated bar charts with life expectancy and healthy life expectancy (HALE). Now it contains only 2 such charts as example. 

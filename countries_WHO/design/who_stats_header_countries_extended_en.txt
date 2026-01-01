@@ -1,0 +1,38 @@
+{{mw-datatable}}{{static row numbers}}{{sort under}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers sort-under sticky-header-multi sticky-table-col1 col1left col5right col6right col10right col11right col13right col18right col19right col23right col24right col26right" style=text-align:center;
+|-
+! rowspan=2 |Countries
+! colspan=5 |Life Expectancy at birth
+! colspan=5 style="border-left-width:2px;" |{{abbr|HALE|Healthy Life Expectancy}} at birth
+! colspan=3 style="border-left-width:2px;" |{{nobr|{{abbr|HALE / LE (%)|Ration of Healthy Life Expectancy to Life Expectancy in percent}} at birth}}
+! colspan=5 style="border-left-width:3px;" |Life Expectancy at age 60
+! colspan=5 style="border-left-width:2px;" |HALE at age 60
+! colspan=3 style="border-left-width:2px;" |{{nobr|HALE / LE (%) at age 60}}
+! rowspan=2 |
+|-
+! class=sticky-table-none| All
+! {{abbr|M|Males|0}}
+! {{abbr|F|Females|0}}
+! {{abbr|FΔM|Difference in life expectancy between females and males|0}}
+! {{abbr|Δ<br>2000|Improvement of the overall indicator compared to 2000|0}}
+! style="border-left-width:2px;"| All
+! M
+! F
+! FΔM
+! Δ<br>2000
+! style="border-left-width:2px;"| in 2000
+! {{abbr|Δ1|Change of the ratio for birth|0}}
+! in 2019
+! style="border-left-width:3px;"| All
+! M
+! F
+! FΔM
+! Δ<br>2000
+! style="border-left-width:2px;"| All
+! M
+! F
+! FΔM
+! Δ<br>2000
+! style="border-left-width:2px;"| in 2000
+! {{abbr|Δ2|Change of the ratio for birth|0}}
+! in 2019

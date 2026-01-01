@@ -1,0 +1,1 @@
+This is folder for saving generated tables. Now it contains only 1 such table as example. 

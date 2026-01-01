@@ -1,0 +1,246 @@
+name	region	choice	subregion	subregion abbr	code
+World	-	-	-	-	900
+Africa	-	-	-	-	903
+Asia	-	-	-	-	935
+Europe	-	-	-	-	908
+Latin America and the Caribbean	-	-	-	-	904
+Northern America	-	-	-	-	905
+Oceania	-	-	-	-	909
+Burundi	af	af	Eastern Africa	afe	108
+Comoros	af	af	Eastern Africa	afe	174
+Djibouti	af	af	Eastern Africa	afe	262
+Eritrea	af	af	Eastern Africa	afe	232
+Ethiopia	af	af	Eastern Africa	afe	231
+Kenya	af	af	Eastern Africa	afe	404
+Madagascar	af	af	Eastern Africa	afe	450
+Malawi	af	af	Eastern Africa	afe	454
+Mauritius	af	af	Eastern Africa	afe	480
+Mayotte	af	af	Eastern Africa	afe	175
+Mozambique	af	af	Eastern Africa	afe	508
+Réunion	af	af	Eastern Africa	afe	638
+Rwanda	af	af	Eastern Africa	afe	646
+Seychelles	af	af	Eastern Africa	afe	690
+Somalia	af	af	Eastern Africa	afe	706
+South Sudan	af	af	Eastern Africa	afe	728
+Uganda	af	af	Eastern Africa	afe	800
+United Republic of Tanzania	af	af	Eastern Africa	afe	834
+Zambia	af	af	Eastern Africa	afe	894
+Zimbabwe	af	af	Eastern Africa	afe	716
+Angola	af	af	Middle Africa	afm	24
+Cameroon	af	af	Middle Africa	afm	120
+Central African Republic	af	af	Middle Africa	afm	140
+Chad	af	af	Middle Africa	afm	148
+Congo	af	af	Middle Africa	afm	178
+Democratic Republic of the Congo	af	af	Middle Africa	afm	180
+Equatorial Guinea	af	af	Middle Africa	afm	226
+Gabon	af	af	Middle Africa	afm	266
+Sao Tome and Principe	af	af	Middle Africa	afm	678
+Botswana	af	af	Southern Africa	afs	72
+Eswatini	af	af	Southern Africa	afs	748
+Lesotho	af	af	Southern Africa	afs	426
+Namibia	af	af	Southern Africa	afs	516
+South Africa	af	af	Southern Africa	afs	710
+Benin	af	af	Western Africa	afw	204
+Burkina Faso	af	af	Western Africa	afw	854
+Cabo Verde	af	af	Western Africa	afw	132
+Côte d'Ivoire	af	af	Western Africa	afw	384
+Gambia	af	af	Western Africa	afw	270
+Ghana	af	af	Western Africa	afw	288
+Guinea	af	af	Western Africa	afw	324
+Guinea-Bissau	af	af	Western Africa	afw	624
+Liberia	af	af	Western Africa	afw	430
+Mali	af	af	Western Africa	afw	466
+Mauritania	af	af	Western Africa	afw	478
+Niger	af	af	Western Africa	afw	562
+Nigeria	af	af	Western Africa	afw	566
+Saint Helena	af	af	Western Africa	afw	654
+Senegal	af	af	Western Africa	afw	686
+Sierra Leone	af	af	Western Africa	afw	694
+Togo	af	af	Western Africa	afw	768
+Algeria	af	af	Northern Africa	afn	12
+Egypt	af	af	Northern Africa	afn	818
+Libya	af	af	Northern Africa	afn	434
+Morocco	af	af	Northern Africa	afn	504
+Sudan	af	af	Northern Africa	afn	729
+Tunisia	af	af	Northern Africa	afn	788
+Western Sahara	af	af	Northern Africa	afn	732
+Armenia	as	asw	Western Asia	asw	51
+Azerbaijan	as	asw	Western Asia	asw	31
+Bahrain	as	asw	Western Asia	asw	48
+Cyprus	as	asw	Western Asia	asw	196
+Georgia	as	asw	Western Asia	asw	268
+Iraq	as	asw	Western Asia	asw	368
+Israel	as	asw	Western Asia	asw	376
+Jordan	as	asw	Western Asia	asw	400
+Kuwait	as	asw	Western Asia	asw	414
+Lebanon	as	asw	Western Asia	asw	422
+Oman	as	asw	Western Asia	asw	512
+Qatar	as	asw	Western Asia	asw	634
+Saudi Arabia	as	asw	Western Asia	asw	682
+State of Palestine	as	asw	Western Asia	asw	275
+Syrian Arab Republic	as	asw	Western Asia	asw	760
+Türkiye	as	asw	Western Asia	asw	792
+United Arab Emirates	as	asw	Western Asia	asw	784
+Yemen	as	asw	Western Asia	asw	887
+Kazakhstan	as	asc	Central Asia	asc	398
+Kyrgyzstan	as	asc	Central Asia	asc	417
+Tajikistan	as	asc	Central Asia	asc	762
+Turkmenistan	as	asc	Central Asia	asc	795
+Uzbekistan	as	asc	Central Asia	asc	860
+Afghanistan	as	ass	Southern Asia	ass	4
+Bangladesh	as	ass	Southern Asia	ass	50
+Bhutan	as	ass	Southern Asia	ass	64
+India	as	ass	Southern Asia	ass	356
+Iran (Islamic Republic of)	as	ass	Southern Asia	ass	364
+Maldives	as	ass	Southern Asia	ass	462
+Nepal	as	ass	Southern Asia	ass	524
+Pakistan	as	ass	Southern Asia	ass	586
+Sri Lanka	as	ass	Southern Asia	ass	144
+China	as	ase	Eastern Asia	ase	156
+China, Hong Kong SAR	as	ase	Eastern Asia	ase	344
+China, Macao SAR	as	ase	Eastern Asia	ase	446
+China, Taiwan Province of China	as	ase	Eastern Asia	ase	158
+Dem. People's Republic of Korea	as	ase	Eastern Asia	ase	408
+Japan	as	ase	Eastern Asia	ase	392
+Mongolia	as	ase	Eastern Asia	ase	496
+Republic of Korea	as	ase	Eastern Asia	ase	410
+Brunei Darussalam	as	asse	South-Eastern Asia	asse	96
+Cambodia	as	asse	South-Eastern Asia	asse	116
+Indonesia	as	asse	South-Eastern Asia	asse	360
+Lao People's Democratic Republic	as	asse	South-Eastern Asia	asse	418
+Malaysia	as	asse	South-Eastern Asia	asse	458
+Myanmar	as	asse	South-Eastern Asia	asse	104
+Philippines	as	asse	South-Eastern Asia	asse	608
+Singapore	as	asse	South-Eastern Asia	asse	702
+Thailand	as	asse	South-Eastern Asia	asse	764
+Timor-Leste	as	asse	South-Eastern Asia	asse	626
+Viet Nam	as	asse	South-Eastern Asia	asse	704
+Anguilla	na	na	Caribbean	car	660
+Antigua and Barbuda	na	na	Caribbean	car	28
+Aruba	na	na	Caribbean	car	533
+Bahamas	na	na	Caribbean	car	44
+Barbados	na	na	Caribbean	car	52
+Bonaire, Sint Eustatius and Saba	na	na	Caribbean	car	535
+British Virgin Islands	na	na	Caribbean	car	92
+Cayman Islands	na	na	Caribbean	car	136
+Cuba	na	na	Caribbean	car	192
+Curaçao	na	na	Caribbean	car	531
+Dominica	na	na	Caribbean	car	212
+Dominican Republic	na	na	Caribbean	car	214
+Grenada	na	na	Caribbean	car	308
+Guadeloupe	na	na	Caribbean	car	312
+Haiti	na	na	Caribbean	car	332
+Jamaica	na	na	Caribbean	car	388
+Martinique	na	na	Caribbean	car	474
+Montserrat	na	na	Caribbean	car	500
+Puerto Rico	na	na	Caribbean	car	630
+Saint Barthélemy	na	na	Caribbean	car	652
+Saint Kitts and Nevis	na	na	Caribbean	car	659
+Saint Lucia	na	na	Caribbean	car	662
+Saint Martin (French part)	na	na	Caribbean	car	663
+Saint Vincent and the Grenadines	na	na	Caribbean	car	670
+Sint Maarten (Dutch part)	na	na	Caribbean	car	534
+Trinidad and Tobago	na	na	Caribbean	car	780
+Turks and Caicos Islands	na	na	Caribbean	car	796
+United States Virgin Islands	na	na	Caribbean	car	850
+Belize	na	na	Central America	ca	84
+Costa Rica	na	na	Central America	ca	188
+El Salvador	na	na	Central America	ca	222
+Guatemala	na	na	Central America	ca	320
+Honduras	na	na	Central America	ca	340
+Mexico	na	na	Central America	ca	484
+Nicaragua	na	na	Central America	ca	558
+Panama	na	na	Central America	ca	591
+Argentina	sa	sa	South America	sa	32
+Bolivia (Plurinational State of)	sa	sa	South America	sa	68
+Brazil	sa	sa	South America	sa	76
+Chile	sa	sa	South America	sa	152
+Colombia	sa	sa	South America	sa	170
+Ecuador	sa	sa	South America	sa	218
+Falkland Islands (Malvinas)	sa	sa	South America	sa	238
+French Guiana	sa	sa	South America	sa	254
+Guyana	sa	sa	South America	sa	328
+Paraguay	sa	sa	South America	sa	600
+Peru	sa	sa	South America	sa	604
+Suriname	sa	sa	South America	sa	740
+Uruguay	sa	sa	South America	sa	858
+Venezuela (Bolivarian Republic of)	sa	sa	South America	sa	862
+Australia	oc	oc	Oceania	oc	36
+New Zealand	oc	oc	Oceania	oc	554
+Fiji	oc	oc	Oceania	oc	242
+New Caledonia	oc	oc	Oceania	oc	540
+Papua New Guinea	oc	oc	Oceania	oc	598
+Solomon Islands	oc	oc	Oceania	oc	90
+Vanuatu	oc	oc	Oceania	oc	548
+Guam	oc	oc	Oceania	oc	316
+Kiribati	oc	oc	Oceania	oc	296
+Marshall Islands	oc	oc	Oceania	oc	584
+Micronesia (Fed. States of)	oc	oc	Oceania	oc	583
+Nauru	oc	oc	Oceania	oc	520
+Northern Mariana Islands	oc	oc	Oceania	oc	580
+Palau	oc	oc	Oceania	oc	585
+American Samoa	oc	oc	Oceania	oc	16
+Cook Islands	oc	oc	Oceania	oc	184
+French Polynesia	oc	oc	Oceania	oc	258
+Niue	oc	oc	Oceania	oc	570
+Samoa	oc	oc	Oceania	oc	882
+Tokelau	oc	oc	Oceania	oc	772
+Tonga	oc	oc	Oceania	oc	776
+Tuvalu	oc	oc	Oceania	oc	798
+Wallis and Futuna Islands	oc	oc	Oceania	oc	876
+Belarus	eu	eue	Eastern Europe	eue	112
+Bulgaria	eu	eue	Eastern Europe	eue	100
+Czechia	eu	eue	Eastern Europe	eue	203
+Hungary	eu	eue	Eastern Europe	eue	348
+Poland	eu	eue	Eastern Europe	eue	616
+Republic of Moldova	eu	eue	Eastern Europe	eue	498
+Romania	eu	eue	Eastern Europe	eue	642
+Russian Federation	eu	eue	Eastern Europe	eue	643
+Slovakia	eu	eue	Eastern Europe	eue	703
+Ukraine	eu	eue	Eastern Europe	eue	804
+Channel Islands	eu	eun	Northern Europe	eun	830
+Guernsey	eu	eun	Northern Europe	eun	831
+Jersey	eu	eun	Northern Europe	eun	832
+Isle of Man	eu	eun	Northern Europe	eun	833
+Denmark	eu	eun	Northern Europe	eun	208
+Estonia	eu	eun	Northern Europe	eun	233
+Faroe Islands	eu	eun	Northern Europe	eun	234
+Finland	eu	eun	Northern Europe	eun	246
+Iceland	eu	eun	Northern Europe	eun	352
+Ireland	eu	eun	Northern Europe	eun	372
+Isle of Man	eu	eun	Northern Europe	eun	833
+Latvia	eu	eun	Northern Europe	eun	428
+Lithuania	eu	eun	Northern Europe	eun	440
+Norway	eu	eun	Northern Europe	eun	578
+Sweden	eu	eun	Northern Europe	eun	752
+United Kingdom	eu	eun	Northern Europe	eun	826
+Albania	eu	eus	Southern Europe	eus	8
+Andorra	eu	eus	Southern Europe	eus	20
+Bosnia and Herzegovina	eu	eus	Southern Europe	eus	70
+Croatia	eu	eus	Southern Europe	eus	191
+Gibraltar	eu	eus	Southern Europe	eus	292
+Greece	eu	eus	Southern Europe	eus	300
+Holy See	eu	eus	Southern Europe	eus	336
+Italy	eu	eus	Southern Europe	eus	380
+Malta	eu	eus	Southern Europe	eus	470
+Montenegro	eu	eus	Southern Europe	eus	499
+North Macedonia	eu	eus	Southern Europe	eus	807
+Portugal	eu	eus	Southern Europe	eus	620
+San Marino	eu	eus	Southern Europe	eus	674
+Serbia	eu	eus	Southern Europe	eus	688
+Slovenia	eu	eus	Southern Europe	eus	705
+Spain	eu	eus	Southern Europe	eus	724
+Austria	eu	euw	Western Europe	euw	40
+Belgium	eu	euw	Western Europe	euw	56
+France	eu	euw	Western Europe	euw	250
+Germany	eu	euw	Western Europe	euw	276
+Liechtenstein	eu	euw	Western Europe	euw	438
+Luxembourg	eu	euw	Western Europe	euw	442
+Monaco	eu	euw	Western Europe	euw	492
+Netherlands	eu	euw	Western Europe	euw	528
+Switzerland	eu	euw	Western Europe	euw	756
+Bermuda	na	na	Northern America	nam	60
+Canada	na	na	Northern America	nam	124
+Greenland	na	na	Northern America	nam	304
+Saint Pierre and Miquelon	na	na	Northern America	nam	666
+United States of America	na	na	Northern America	nam	840
