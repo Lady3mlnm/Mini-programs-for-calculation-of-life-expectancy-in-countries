@@ -1,0 +1,169 @@
+{
+  "groups": {
+    "#006a00": {
+      "label": "85¾ - 85.99",
+      "paths": [
+        "Salamanca"
+      ]
+    },
+    "#007800": {
+      "label": "85.5 - 85.74",
+      "paths": [
+        "Madrid"
+      ]
+    },
+    "#008800": {
+      "label": "85¼ - 85.49",
+      "paths": [
+        "Segovia"
+      ]
+    },
+    "#009800": {
+      "label": "85.0 - 85.24",
+      "paths": [
+        "Álava",
+        "Valladolid"
+      ]
+    },
+    "#00b800": {
+      "label": "84.5 - 84.74",
+      "paths": [
+        "Navarra",
+        "Vizcaya",
+        "Guadalajara",
+        "Burgos",
+        "Zamora"
+      ]
+    },
+    "#00cb00": {
+      "label": "84¼ - 84.49",
+      "paths": [
+        "Soria",
+        "Gipuzkoa",
+        "Barcelona",
+        "Ávila",
+        "Toledo",
+        "Zaragoza"
+      ]
+    },
+    "#00e000": {
+      "label": "84.0 - 84.24",
+      "paths": [
+        "Pontevedra",
+        "A_Coruña",
+        "Huesca"
+      ]
+    },
+    "#00f000": {
+      "label": "83¾ - 83.99",
+      "paths": [
+        "Lugo",
+        "Lleida",
+        "León",
+        "La_Rioja",
+        "Teruel",
+        "Cantabria",
+        "Ourense",
+        "Girona"
+      ]
+    },
+    "#00ff00": {
+      "label": "83.5 - 83.74",
+      "paths": [
+        "Palencia",
+        "Cuenca",
+        "Albacete",
+        "Cáceres",
+        "Alicante"
+      ]
+    },
+    "#88ff00": {
+      "label": "83¼ - 83.49",
+      "paths": [
+        "Islas_Baleares",
+        "Granada",
+        "Murcia",
+        "Tarragona",
+        "Asturias",
+        "Valencia",
+        "Castellón"
+      ]
+    },
+    "#b8ff00": {
+      "label": "83.0 - 83.24",
+      "paths": [
+        "Córdoba",
+        "Málaga",
+        "Ciudad_Real"
+      ]
+    },
+    "#deff00": {
+      "label": "82¾ - 82.99",
+      "paths": [
+        "Santa_Cruz_de_Tenerife",
+        "Badajoz",
+        "Jaén"
+      ]
+    },
+    "#ffff00": {
+      "label": "82.5 - 82.74",
+      "paths": [
+        "Sevilla",
+        "Las_Palmas",
+        "Melilla",
+        "Cádiz"
+      ]
+    },
+    "#ffef00": {
+      "label": "82¼ - 82.49",
+      "paths": [
+        "Huelva"
+      ]
+    },
+    "#ffe000": {
+      "label": "82.0 - 82.24",
+      "paths": [
+        "Almería"
+      ]
+    },
+    "#ffbc00": {
+      "label": "81.5 - 81.74",
+      "paths": [
+        "Ceuta"
+      ]
+    }
+  },
+  "title": "2024",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 100,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "page": "spain",
+  "levelsVisibility": [
+    "show",
+    "hide",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 150,
+  "legendY": 320,
+  "legendSize": "large",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

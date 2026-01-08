@@ -1,0 +1,5 @@
+This is collection of scripts used by me for creation of tables and maps about life expectancy in provinces of Spain for the Wikipedia page "[List of Spanish provinces by life expectancy](https://en.wikipedia.org/wiki/List_of_Spanish_provinces_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_провинциях_Испании). I created also [alternative design](https://en.wikipedia.org/wiki/User:Lady3mlnm/List_of_Spanish_provinces_by_life_expectancy_(alternative)) of the tables to explore date from a different point of view. The data is taken from the ["Instituto Nacional de Estadística" (INE)](https://www.ine.es/jaxiT3/Tabla.htm?t=1485&L=1).
+
+Use online service [MapCharts](https://www.mapchart.net/spain.html) to create maps.
+
+Scripts for autonomous comminities are in the [next folder](../regions_Spain_autonomous_communities).

@@ -1,0 +1,111 @@
+{
+  "groups": {
+    "#020f19": {
+      "label": "83.0 - 83.24",
+      "paths": [
+        "Madrid_ac"
+      ]
+    },
+    "#08436e": {
+      "label": "82.0 - 82.24",
+      "paths": [
+        "Castile_and_León"
+      ]
+    },
+    "#0a4e7f": {
+      "label": "81¾ - 81.99",
+      "paths": [
+        "Navarre",
+        "Basque_Country"
+      ]
+    },
+    "#0b578d": {
+      "label": "81.5 - 81.74",
+      "paths": [
+        "Aragon",
+        "Catalonia"
+      ]
+    },
+    "#0c609c": {
+      "label": "81¼ - 81.49",
+      "paths": [
+        "Castilla-La_Mancha",
+        "La_Rioja_ac"
+      ]
+    },
+    "#0d68a9": {
+      "label": "81.0 - 81.24",
+      "paths": [
+        "Galicia",
+        "Balearic_Islands",
+        "Cantabria_ac"
+      ]
+    },
+    "#0e71b7": {
+      "label": "80¾ - 80.99",
+      "paths": [
+        "Valencia_ac",
+        "Murcia_ac"
+      ]
+    },
+    "#107ac6": {
+      "label": "80.5 - 80.74",
+      "paths": [
+        "Canary_Islands"
+      ]
+    },
+    "#1182d4": {
+      "label": "80¼ - 80.49",
+      "paths": [
+        "Extremadura",
+        "Asturias_ac"
+      ]
+    },
+    "#128be1": {
+      "label": "80.0 - 80.24",
+      "paths": [
+        "Andalusia",
+        "Melilla_ac"
+      ]
+    },
+    "#2e9eee": {
+      "label": "79.5 - 79.74",
+      "paths": [
+        "Ceuta_ac"
+      ]
+    }
+  },
+  "title": "2024: ♂",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 100,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "page": "spain",
+  "levelsVisibility": [
+    "show",
+    "show",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 150,
+  "legendY": 440,
+  "legendSize": "large",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}
