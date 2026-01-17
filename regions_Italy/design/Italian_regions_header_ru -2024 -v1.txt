@@ -1,0 +1,26 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left col7right col9right col11right col13right col15right col17right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление Италии#Области Италии|область]]
+! colspan=4|2024
+! colspan=14 style="border-left-width:2px;"|исторические данные
+|-
+! style="vertical-align:middle;width:3.5em;"|{{comment|общая|всё население в среднем}}
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="border-left-width:2px;width:3em;vertical-align:middle;"|2014
+! style="text-align:left;"|{{comment|2014<br>→2019|изменение в продолжительности жизни между 2014 и 2019 годами}}
+! style="vertical-align:middle;width:3em;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;width:3em;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;width:3em;"|2021
+! style="text-align:left;"|2021<br>→2022
+! style="vertical-align:middle;width:3em;"|2022
+! style="text-align:left;"|2022<br>→2023
+! style="vertical-align:middle;width:3em;"|2023
+! style="text-align:left;"|2023<br>→2024
+! style="vertical-align:middle;width:3em;"|2024
+! style="text-align:left;border-left-width:2px;"|2014<br>→2024
+|-{{static row numbers arrows|19}}

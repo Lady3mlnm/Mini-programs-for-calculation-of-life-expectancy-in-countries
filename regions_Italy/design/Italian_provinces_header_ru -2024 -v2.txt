@@ -1,0 +1,24 @@
+{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sticky-header-multi col1left col6right col11right col16right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Провинция Италии#Провинции Италии|провинция]] /<br>[[Метропольные города Италии#Метропольные города|метропольный город]]
+! colspan=4|2014
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|2014<br>→2019|Изменение в продолжительности жизни между 2014 и 2019 годами}}
+! colspan=4 style="border-left-width:2px;"|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2019<br>→2024
+! colspan=4 style="border-left-width:2px;"|2024
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2014<br>→2024
+|-
+! style="width:3em;"|{{comment|общая|всё население в среднем}}
+! style="width:2.5em;"|{{comment|М|мужчины}}
+! style="width:2.5em;"|{{comment|Ж|женщины}}
+! {{comment|{{nobr|Ж <small>Δ</small> М}}|разница между женщинами и мужчинами}}
+! style="width:3em;border-left-width:2px;"|общая
+! style="width:2.5em;"|М
+! style="width:2.5em;"|Ж
+! {{nobr|Ж <small>Δ</small> М}}
+! style="width:3em;border-left-width:2px;"|общая
+! style="width:2.5em;"|муж
+! style="width:2.5em;"|жен
+! {{nobr|Ж <small>Δ</small> М}}
+|-{{static row numbers arrows|16}}

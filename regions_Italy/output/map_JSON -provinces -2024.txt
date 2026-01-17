@@ -1,0 +1,180 @@
+{
+  "groups": {
+    "#009800": {
+      "label": "85.0 - 85.4",
+      "paths": [
+        "Treviso"
+      ]
+    },
+    "#00b800": {
+      "label": "84.5 - 84.9",
+      "paths": [
+        "Lecco",
+        "Monza_and_Brianza",
+        "Firenze",
+        "Vicenza",
+        "Verona",
+        "Trento",
+        "Bolzano",
+        "Milano",
+        "Pordenone",
+        "Ancona",
+        "Pesaro_Urbino",
+        "Rimini",
+        "Prato",
+        "Padova",
+        "Forli_Cesena_",
+        "Pistoia",
+        "Siena"
+      ]
+    },
+    "#00e000": {
+      "label": "84.0 - 84.4",
+      "paths": [
+        "Brescia",
+        "Perugia",
+        "Ravenna",
+        "Bologna",
+        "Como",
+        "Reggio_Emilia",
+        "Modena",
+        "Varese",
+        "Parma",
+        "Venezia",
+        "Ascoli_Piceno_",
+        "Udine",
+        "Macerata",
+        "Fermo",
+        "Arezzo",
+        "Gorizia",
+        "Bergamo",
+        "Pisa"
+      ]
+    },
+    "#00ff00": {
+      "label": "83.5 - 83.9",
+      "paths": [
+        "Torino",
+        "Genova",
+        "Savona",
+        "Matera",
+        "Barletta_Andria_Trani_",
+        "Bari",
+        "Roma",
+        "Novara",
+        "Lucca",
+        "La_Spezia",
+        "Livorno",
+        "Pescara",
+        "Piacenza",
+        "Teramo",
+        "Massa_and_Carrara",
+        "Lodi",
+        "Cremona",
+        "Cuneo",
+        "L_Aquila",
+        "Chieti",
+        "Terni"
+      ]
+    },
+    "#b8ff00": {
+      "label": "83.0 - 83.4",
+      "paths": [
+        "Lecce",
+        "Mantova",
+        "Ragusa",
+        "Vibo_Valentia",
+        "Belluno",
+        "Imperia",
+        "Rovigo",
+        "Ferrara",
+        "Verbano_Cusio_Ossola",
+        "Asti",
+        "Biella",
+        "Potenza",
+        "Sondrio",
+        "Catanzaro",
+        "Latina",
+        "Grosseto",
+        "Brindisi"
+      ]
+    },
+    "#ffff00": {
+      "label": "82.5 - 82.9",
+      "paths": [
+        "Frosinone",
+        "Trieste",
+        "Taranto",
+        "Foggia",
+        "Enna",
+        "Oristano",
+        "Alessandria",
+        "Aosta",
+        "Campobasso_",
+        "Salerno",
+        "Pavia",
+        "Rieti",
+        "Avellino",
+        "Reggio_Calabria",
+        "Vercelli",
+        "Palermo",
+        "Trapani",
+        "Catania",
+        "Crotone",
+        "Viterbo"
+      ]
+    },
+    "#ffe000": {
+      "label": "82.0 - 82.4",
+      "paths": [
+        "Messina",
+        "Benevento",
+        "Cosenza",
+        "Agrigento",
+        "Isernia",
+        "Caltanissetta"
+      ]
+    },
+    "#ffbc00": {
+      "label": "81.5 - 81.9",
+      "paths": [
+        "Napoli",
+        "Siracusa",
+        "Caserta"
+      ]
+    }
+  },
+  "title": "2024",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 125,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v6": true,
+  "page": "italy",
+  "levelsVisibility": [
+    "show",
+    "hide",
+    "transparent"
+  ],
+  "legendPosition": "custom",
+  "legendX": 850,
+  "legendY": 30,
+  "legendSize": "large",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

@@ -1,0 +1,163 @@
+{
+  "groups": {
+    "#009800": {
+      "div": "#box0",
+      "label": "85.0 - 85.4",
+      "paths": [
+        "Treviso"
+      ]
+    },
+    "#00b800": {
+      "div": "#box1",
+      "label": "84.5 - 84.9",
+      "paths": [
+        "Lecco",
+        "Monza_and_Brianza",
+        "Vicenza",
+        "Verona",
+        "Trento",
+        "Bolzano",
+        "Firenze",
+        "Milano",
+        "Pordenone",
+        "Ancona",
+        "Pesaro_Urbino",
+        "Rimini",
+        "Prato",
+        "Pistoia",
+        "Forli_Cesena_",
+        "Siena",
+        "Padova"
+      ]
+    },
+    "#00e000": {
+      "div": "#box2",
+      "label": "84.0 - 84.4",
+      "paths": [
+        "Brescia",
+        "Ravenna",
+        "Perugia",
+        "Como",
+        "Bologna",
+        "Venezia",
+        "Modena",
+        "Reggio_Emilia",
+        "Parma",
+        "Varese",
+        "Ascoli_Piceno_",
+        "Arezzo",
+        "Macerata",
+        "Udine",
+        "Fermo",
+        "Bergamo",
+        "Gorizia",
+        "Pisa"
+      ]
+    },
+    "#00ff00": {
+      "div": "#box3",
+      "label": "83.5 - 83.9",
+      "paths": [
+        "Torino",
+        "Genova",
+        "Savona",
+        "Cagliari",
+        "Matera",
+        "Barletta_Andria_Trani_",
+        "Bari",
+        "Novara",
+        "Roma",
+        "Lucca",
+        "La_Spezia",
+        "Teramo",
+        "Livorno",
+        "Massa_and_Carrara",
+        "Pescara",
+        "Piacenza",
+        "Lodi",
+        "Cremona",
+        "L_Aquila",
+        "Cuneo",
+        "Terni",
+        "Chieti"
+      ]
+    },
+    "#b8ff00": {
+      "div": "#box4",
+      "label": "83.0 - 83.4",
+      "paths": [
+        "Lecce",
+        "Mantova",
+        "Ragusa",
+        "Vibo_Valentia",
+        "Belluno",
+        "Asti",
+        "Ferrara",
+        "Rovigo",
+        "Verbano_Cusio_Ossola",
+        "Imperia",
+        "Sondrio",
+        "Biella",
+        "Catanzaro",
+        "Potenza",
+        "Latina",
+        "Grosseto",
+        "Brindisi"
+      ]
+    },
+    "#ffff00": {
+      "div": "#box5",
+      "label": "82.5 - 82.9",
+      "paths": [
+        "Frosinone",
+        "Sassari",
+        "Nuoro",
+        "Trieste",
+        "Taranto",
+        "Oristano",
+        "Enna",
+        "Alessandria",
+        "Foggia",
+        "Aosta",
+        "Campobasso_",
+        "Salerno",
+        "Sud_Sardegna",
+        "Avellino",
+        "Reggio_Calabria",
+        "Palermo",
+        "Rieti",
+        "Vercelli",
+        "Pavia",
+        "Catania",
+        "Viterbo",
+        "Trapani",
+        "Crotone"
+      ]
+    },
+    "#ffe000": {
+      "div": "#box6",
+      "label": "82.0 - 82.4",
+      "paths": [
+        "Messina",
+        "Cosenza",
+        "Benevento",
+        "Agrigento",
+        "Isernia",
+        "Caltanissetta"
+      ]
+    },
+    "#ffbc00": {
+      "div": "#box7",
+      "label": "81.5 - 81.9",
+      "paths": [
+        "Siracusa",
+        "Napoli",
+        "Caserta"
+      ]
+    }
+  },
+  "title": "2024",
+  "hidden": [],
+  "background": "#ffffff",
+  "borders": "#000000"
+}
