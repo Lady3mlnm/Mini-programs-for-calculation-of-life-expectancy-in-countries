@@ -1,0 +1,30 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left col6right col11right col16right col21right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление Австралии|штат]]
+! colspan=4|2019-2021
+! rowspan=2 style="vertical-align:middle;width:2.5em;border-left-width:2px;"|{{comment| Δ1 |Изменение между периодами 2019-2021 и 2020-2022}}
+! colspan=4 style="border-left-width:2px;"|2020-2022
+! rowspan=2 style="vertical-align:middle;width:2.5em;border-left-width:2px;"|{{comment| Δ2 |Изменение между периодами 2020-2022 и 2021-2023}}
+! colspan=4 style="border-left-width:2px;"|2021-2023
+! rowspan=2 style="vertical-align:middle;width:2.5em;border-left-width:2px;"|{{comment| Δ3 |Изменение между периодами 2021-2023 и 2022-2024}}
+! colspan=4 style="border-left-width:2px;"|2022-2024
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|общее<br>изменение|Изменение между периодами 2019-2021 и 2022-2024}}
+|- {{static row numbers header}}
+! style="vertical-align:middle;width:3em;"|{{comment|общая|Всё население в среднем}}
+! style="vertical-align:middle;width:2.4em;"|{{comment|муж|Мужчины}}
+! style="vertical-align:middle;width:2.4em;"|{{comment|жен|Женщины}}
+! style="width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|Разница ОПЖ для женщин и мужчин}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.4em;"|муж
+! style="vertical-align:middle;width:2.4em;"|жен
+! style="width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.4em;"|муж
+! style="vertical-align:middle;width:2.4em;"|жен
+! style="width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.4em;"|муж
+! style="vertical-align:middle;width:2.4em;"|жен
+! style="width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+|-{{static row numbers arrows|21}}

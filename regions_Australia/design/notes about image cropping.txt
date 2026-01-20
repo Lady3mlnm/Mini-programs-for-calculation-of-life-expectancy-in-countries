@@ -1,0 +1,6 @@
+﻿Parameters of cropping maps images in an image editor:
+
+X: 435
+Y: 175
+Width: 5500
+Height: 5050

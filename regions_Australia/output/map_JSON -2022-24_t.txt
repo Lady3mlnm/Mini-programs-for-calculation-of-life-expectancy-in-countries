@@ -1,0 +1,68 @@
+{
+  "groups": {
+    "#00ff00": {
+      "label": "83.5–83.9",
+      "paths": [
+        "Australian_Capital_Territory",
+        "Western_Australia"
+      ]
+    },
+    "#b8ff00": {
+      "label": "83.0–83.4",
+      "paths": [
+        "Victoria",
+        "New_South_Wales"
+      ]
+    },
+    "#ffff00": {
+      "label": "82.5–82.9",
+      "paths": [
+        "South_Australia",
+        "Queensland"
+      ]
+    },
+    "#ffe000": {
+      "label": "82.0–82.4",
+      "paths": [
+        "Tasmania"
+      ]
+    },
+    "#c80000": {
+      "label": "<80",
+      "paths": [
+        "Northern_Territory"
+      ]
+    }
+  },
+  "title": "2022 – 2024",
+  "hidden": [],
+  "background": "#fff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBorderColor": "#00000000",
+  "legendBgColor": "#00000000",
+  "legendWidth": 160,
+  "legendBoxShape": "square",
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#6a0707",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": false,
+  "uncoloredScriptColor": "#ffff33",
+  "zoomLevel": "1.00",
+  "zoomX": "0.00",
+  "zoomY": "0.00",
+  "v6": true,
+  "page": "australia",
+  "legendPosition": "custom",
+  "legendX": 95,
+  "legendY": 630,
+  "legendSize": "large",
+  "legendTranslateX": "0.00",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

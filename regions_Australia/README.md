@@ -1,0 +1,3 @@
+This is a script used by me for creation of tables and maps about life expectancy in Australia for the Wikipedia page "[List of Australian states by life expectancy](https://en.wikipedia.org/wiki/List_of_Australian_states_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_штатах_Австралии). The data is taken from the site of the [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/people/population/life-expectancy/latest-release).
+
+Use online service [MapCharts](https://www.mapchart.net/australia.html) to create maps.
