@@ -1,0 +1,95 @@
+{
+  "groups": {
+    "#004000": {
+      "label": "82.5\u201382.99",
+      "paths": [
+        "Quebec"
+      ]
+    },
+    "#006000": {
+      "label": "82.0\u201382.49",
+      "paths": [
+        "Ontario",
+        "British_Columbia"
+      ]
+    },
+    "#009000": {
+      "label": "81.5\u201381.99",
+      "paths": [
+        "Alberta"
+      ]
+    },
+    "#00b800": {
+      "label": "81.0\u201381.49",
+      "paths": [
+        "Prince_Edward_Island"
+      ]
+    },
+    "#00e000": {
+      "label": "80.5\u201380.99",
+      "paths": [
+        "New_Brunswick"
+      ]
+    },
+    "#00ff00": {
+      "label": "80.0\u201380.49",
+      "paths": [
+        "Nova_Scotia",
+        "Saskatchewan",
+        "Manitoba"
+      ]
+    },
+    "#b8ff00": {
+      "label": "79.5\u201379.99",
+      "paths": [
+        "Newfoundland_and_Labrador_"
+      ]
+    },
+    "#ffa000": {
+      "label": "77.5\u201377.99",
+      "paths": [
+        "Northwest_Territories"
+      ]
+    },
+    "#400000": {
+      "label": "<75",
+      "paths": [
+        "Nunavut"
+      ]
+    },
+    "#e0e0e0": {
+      "label": "n/a",
+      "paths": [
+        "Yukon"
+      ]
+    }
+  },
+  "title": "2017 \u2013 2019",
+  "hidden": [],
+  "background": "#fff",
+  "borders": "#000",
+  "legendFont": "Century Gothic",
+  "legendFontColor": "#000",
+  "legendBgColor": "#00000000",
+  "legendBoxShape": "square",
+  "legendBorderColor": "#00000000",
+  "legendWidth": 287,
+  "areBordersShown": true,
+  "defaultColor": "#d1dbdd",
+  "labelsColor": "#000000",
+  "labelsFont": "Arial",
+  "strokeWidth": "medium",
+  "areLabelsShown": true,
+  "uncoloredScriptColor": "#ffff33",
+  "v5": true,
+  "legendPosition": "custom",
+  "legendX": 1350,
+  "legendY": 120,
+  "canvasWidth": 1722,
+  "canvasHeight": 1490,
+  "legendSize": "large",
+  "legendStatus": "show",
+  "scalingPatterns": true,
+  "legendRowsSameColor": true,
+  "legendColumnCount": 1
+}

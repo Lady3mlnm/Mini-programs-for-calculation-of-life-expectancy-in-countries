@@ -1,0 +1,7 @@
+This folder contains raw data taken from the Statistics Canada.
+
+Since the raw data files have the big size, their preparation is more complex than for other countries. You have to download them from the site _(use option ""download entire table")_. Then you have to unzip them, select only table with values, zip it back to archive, and rename it according to the next:<br>
+- [Life expectancy and other elements of the complete life table, single-year estimates, Canada, all provinces except Prince Edward Island](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310083701) → `Canada-1year-2024.zip`
+- [Life expectancy and other elements of the complete life table, three-year estimates, Canada, all provinces except Prince Edward Island](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310011401) → `Canada-3years-provinces-2024.zip`
+- [Life expectancy and other elements of the abridged life table, three-year estimates, Prince Edward Island and the territories](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310014001) → `Canada-3years-small_terrotories-2024`
+- [Life expectancy, at birth and at age 65, by sex, three-year average, Canada, provinces, territories, health regions and peer groups](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310038901) → `Canada_Health_Regions_till_2017.zip`

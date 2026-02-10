@@ -1,0 +1,24 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left col6right col11right col16right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Провинции и территории Канады#Провинции и территории|провинция]]
+! colspan=4|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|2019<br>→2023|Изменение в продолжительности жизни между 2019 и 2023 годами}}
+! colspan=4 style="border-left-width:2px;"|2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2023<br>→2024
+! colspan=4 style="border-left-width:2px;"|2024
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2019<br>→2024
+|-
+! style="vertical-align:middle;width:3em;"|{{comment|общая|Всё население в среднем}}
+! style="vertical-align:middle;width:2.4em;"|{{comment|муж|Мужчины}}
+! style="vertical-align:middle;width:2.4em;"|{{comment|жен|Женщины}}
+! style="width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|Разница ОПЖ для женщин и мужчин}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.4em;"|муж
+! style="vertical-align:middle;width:2.4em;"|жен
+! style="width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.4em;"|муж
+! style="vertical-align:middle;width:2.4em;"|жен
+! style="width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+|-{{static row numbers arrows|16}}

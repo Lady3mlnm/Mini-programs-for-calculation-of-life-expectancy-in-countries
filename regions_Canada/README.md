@@ -1,0 +1,3 @@
+This is collection of scripts used by me for creation of tables, maps and charts about life expectancy in Canada for the Wikipedia page "[List of Canadian provinces and territories by life expectancy](https://en.wikipedia.org/wiki/List_of_Canadian_provinces_and_territories_by_life_expectancy)" and its [Russian analogue](https://ru.wikipedia.org/wiki/Продолжительность_жизни_в_провинциях_и_территориях_Канады). The data is taken from the website of [Statistics Canada](https://www150.statcan.gc.ca/n1/en/type/data).
+
+Use online service [MapCharts](https://www.mapchart.net/canada.html) to create maps.

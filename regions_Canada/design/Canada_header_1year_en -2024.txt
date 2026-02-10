@@ -1,0 +1,23 @@
+{{static row numbers}}{{mw-datatable}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers sort-under col1left col6right col11right col16right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Provinces and territories of Canada#Provinces|province]]
+! colspan=4|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|2019<br>→2023|Change in total life expectancy from 2019 to 2023}}
+! colspan=4 style="border-left-width:2px;"|2023
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2023<br>→2024
+! colspan=4 style="border-left-width:2px;"|2024
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2019<br>→2024
+|-
+! style="vertical-align:middle;width:3em;"|{{tooltip|overall|All population on average}}
+! style="vertical-align:middle;width:3em;"|male
+! style="vertical-align:middle;width:3em;"|female
+! {{tooltip|F {{nobr|<small>Δ</small> M}}|Difference in life expectancy between females and males}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|overall
+! style="vertical-align:middle;width:3em;"|male
+! style="vertical-align:middle;width:3em;"|female
+! F {{nobr|<small>Δ</small> M}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|overall
+! style="vertical-align:middle;width:3em;"|male
+! style="vertical-align:middle;width:3em;"|female
+! F {{nobr|<small>Δ</small> M}}

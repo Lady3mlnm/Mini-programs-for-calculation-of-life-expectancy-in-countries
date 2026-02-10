@@ -1,0 +1,17 @@
+{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sticky-header-multi col1left col2left col7right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|регион здравоохранения
+! rowspan=2 style="vertical-align:middle;"|[[Провинции и территории Канады#Провинции и территории|провинция]]
+! colspan=4|2010-2012
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{comment|изменение|изменение продолжительности жизни между периодами}}
+! colspan=4 style="border-left-width:2px;"|2015-2017
+|-
+! style="vertical-align:middle;width:3em;"|{{comment|общая|Всё население в среднем}}
+! style="vertical-align:middle;width:2.4em;"|{{comment|муж|Мужчины}}
+! style="vertical-align:middle;width:2.4em;"|{{comment|жен|Женщины}}
+! style="width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|Разница ОПЖ для женщин и мужчин}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|общая
+! style="vertical-align:middle;width:2.4em;"|муж
+! style="vertical-align:middle;width:2.4em;"|жен
+! style="width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
