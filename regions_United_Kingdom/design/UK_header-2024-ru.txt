@@ -1,0 +1,16 @@
+{{static row numbers}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers col1left col6right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Страны Великобритании|составляющая страна]]<br>или [[Регионы Англии|регион Англии]]
+! colspan=4|2017—2019
+! rowspan=2 style="vertical-align:middle;width:3em;border-left-width:2px;"|{{comment|изменение<br>сред. арифм.|изменение средней арифметической ОПЖ между периодами}}
+! colspan=4|2022—2024
+|-
+! style="vertical-align:middle;width:3em;"|{{comment|муж|мужчины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен|женщины}}
+! style="vertical-align:middle;width:3em;"|{{comment|жен<br>{{nobr|<small>Δ</small> муж}}|разница между женщинами и мужчинами}}
+! style="vertical-align:middle;width:3em;"|{{comment|сред. арифм.|среднее арифметическое для ОПЖ мужчин и женщин}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|муж
+! style="vertical-align:middle;width:3em;"|жен
+! style="vertical-align:middle;width:3em;"|жен<br>{{nobr|<small>Δ</small> муж}}
+! style="vertical-align:middle;width:3em;"|сред. арифм.

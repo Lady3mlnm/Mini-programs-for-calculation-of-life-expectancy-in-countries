@@ -1,0 +1,37 @@
+"Table 1: Summary statistics of latest life expectancy estimates, UK, 2017 to 2019"
+
+
+Males,,,,,,Females,,,,
+"Country 
+or region","Life 
+expectancy
+in 2017 
+to 2019",,"Life 
+expectancy
+in 2014 
+to 2016",Change,,"Life 
+expectancy
+in 2017 
+to 2019",,"Life 
+expectancy
+in 2014 
+to 2016",Change,
+,,,,Months,Weeks,,,,Months,Weeks
+England,79.8,*,79.5,2.8,12.0,83.4,*,83.1,2.8,12.0
+North East,78.0,,77.8,2.5,11.0,81.8,*,81.5,3.5,15.1
+North West,78.4,*,78.2,2.8,12.0,82.1,*,81.8,3.8,16.7
+Yorkshire and The Humber,78.8,,78.7,1.0,4.2,82.5,,82.4,1.0,4.2
+East Midlands,79.5,,79.4,1.8,7.8,82.9,,82.9,0.2,1.0
+West Midlands,79.0,*,78.8,3.0,13.0,82.9,,82.7,1.8,7.8
+East of England,80.5,,80.4,1.0,4.2,83.9,,83.7,1.9,8.3
+London,80.9,*,80.4,6.4,27.7,84.7,*,84.2,5.8,25.0
+South East,80.8,*,80.6,2.5,11.0,84.3,*,84.0,3.0,13.0
+South West,80.4,*,80.2,2.6,11.5,84.1,*,83.8,3.5,15.1
+Northern Ireland,78.8,,78.5,2.6,11.5,82.6,,82.3,2.9,12.5
+Scotland,77.2,,77.1,0.8,3.7,81.1,,81.1,0.0,0.0
+Wales,78.5,,78.4,1.0,4.2,82.3,,82.3,-0.2,-1.0
+
+Source: ,Office for National Statistics – Life expectancy for local areas of the UK
+Notes
+1,* denotes areas where life expectancy has increased significantly from 2014 to 2016 based on non-overlapping confidence intervals.
+2,Weeks have been determined by the change in life expectancy multiplied by 365.25 and divided by seven. These are based on life expectancy figures to two decimal places.

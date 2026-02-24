@@ -1,0 +1,3 @@
+This folder contains raw data about life expectancy from the website of the Office for National Statistics:
+* for [2017–2019 period](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/lifeexpectancyforlocalareasoftheuk/between2001to2003and2017to2019),
+* for [2022–2024 period](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/lifeexpectancyforlocalareasoftheuk/between2001to2003and2022to2024).

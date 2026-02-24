@@ -1,3 +1,3 @@
-This repository contains some of scripts that I used for creation tables, charts and maps for Wikipedia. The scripts are created inside the computational notebook Jupyter. You can freely use and modify this code to create similar things. I recommend to pay attention to recently updated folders.
+This repository contains some of scripts that I used for creation tables, charts and maps for Wikipedia. The scripts are created inside the computational notebook Jupyter. You can freely use and modify this code to create similar things.
 
-Scripts for [United Kingdom](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/lifeexpectancyforlocalareasoftheuk/between2001to2003and2021to2023) will be uploaded when the statistical agency of this country provide data for the next period.
+Some scripts can be outdated, I recommend to pay attention to recently updated folders.

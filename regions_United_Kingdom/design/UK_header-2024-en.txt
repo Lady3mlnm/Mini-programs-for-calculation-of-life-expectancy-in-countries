@@ -1,0 +1,16 @@
+{{static row numbers}}{{mw-datatable}}{{table alignment}}
+{| class="wikitable sortable mw-datatable static-row-numbers col1left col6right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Countries of the United Kingdom|constituent country]]<br>or<br>[[Regions of England#List of regions|region of England]]
+! colspan=4|2017–2019
+! rowspan=2 style="vertical-align:middle;width:3em;border-left-width:2px;"|{{tooltip|change|Change in arithmetic mean life expectancy between periods}}
+! colspan=4|2022–2024
+|-
+! style="vertical-align:middle;width:3em;"|male
+! style="vertical-align:middle;width:3em;"|female
+! style="vertical-align:middle;width:3em;"|{{tooltip|sex gap|Difference in life expectancy for female and male}}
+! style="vertical-align:middle;width:3em;"|{{tooltip|arith. mean|Arithmetic mean for life expectancy of male and female}}
+! style="vertical-align:middle;width:3em;border-left-width:2px;"|male
+! style="vertical-align:middle;width:3em;"|female
+! style="vertical-align:middle;width:3em;"|sex gap
+! style="vertical-align:middle;width:3em;"|arith. mean
