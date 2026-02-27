@@ -1,0 +1,29 @@
+{{static row numbers}}{{sticky header}}{{table alignment}}
+{| class="wikitable sortable static-row-numbers sticky-header-multi col1left col7right col9right col11right col13right col15right col17right col19right col21right col22right" style="text-align:center;"
+|-
+! rowspan=2 style="vertical-align:middle;"|[[Административное деление Мексики#Федеративные образования|штат]]
+! colspan=4|2025
+! colspan=17 style="border-left-width:2px;"|Исторические данные
+|-
+! style="vertical-align:middle;"|{{comment|Общая|Всё население в среднем}}
+! style="vertical-align:middle;width:2.5em;"|{{comment|М|Мужчины}}
+! style="vertical-align:middle;width:2.5em;"|{{comment|Ж|Женщины}}
+! style="vertical-align:middle;"|{{comment|ЖΔМ|Разница в продолжительности жизни между женщинами и мужчинами}}
+! style="border-left-width:2px;vertical-align:middle;width:3em;padding-left:1em;"|2013
+! style="text-align:left;"|{{comment|2013<br>→2019|Изменение в продолжительности жизни между 2013 и 2019 годами}}
+! style="vertical-align:middle;width:2.5em;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;width:2.5em;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;width:2.5em;"|2021
+! style="text-align:left;"|2021<br>→2022
+! style="vertical-align:middle;width:2.5em;"|2022
+! style="text-align:left;"|2022<br>→2023
+! style="vertical-align:middle;width:2.5em;"|2023
+! style="text-align:left;"|2023<br>→2024
+! style="vertical-align:middle;width:2.5em;"|2024
+! style="text-align:left;"|2024<br>→2025
+! style="vertical-align:middle;width:2.5em;"|2025
+! style="border-left-width:2px;text-align:middle;"|{{comment|2019<br>→2025|Восстановление после пандемии COVID-19}}
+! style="text-align:middle;"|2013<br>→2025
+|-{{static row numbers arrows|22}}

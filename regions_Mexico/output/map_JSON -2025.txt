@@ -10,17 +10,17 @@
       "label": "77.0–77.4",
       "paths": [
         "Baja_California_Sur",
-        "Coahuila"
+        "Coahuila",
+        "Aguascalientes",
+        "Mexico_City"
       ]
     },
     "#ffff00": {
       "label": "76.5–76.9",
       "paths": [
-        "Aguascalientes",
-        "Mexico_City",
         "Sonora",
-        "Baja_California",
-        "Chihuahua"
+        "Chihuahua",
+        "Baja_California"
       ]
     },
     "#ffe000": {
@@ -30,60 +30,60 @@
         "Colima",
         "Sinaloa",
         "Jalisco",
-        "Quintana_Roo"
+        "Quintana_Roo",
+        "Tamaulipas"
       ]
     },
     "#ffc000": {
       "label": "75.5–75.9",
       "paths": [
-        "Tamaulipas",
         "Nayarit",
-        "Durango"
+        "Durango",
+        "San_Luis_Potosí"
       ]
     },
     "#ffa000": {
       "label": "75.0–75.4",
       "paths": [
-        "San_Luis_Potosí",
         "State_of_México",
-        "Yucatán"
+        "Yucatán",
+        "Guanajuato"
       ]
     },
     "#ff8000": {
       "label": "74.5–74.9",
       "paths": [
-        "Guanajuato",
-        "Campeche"
+        "Campeche",
+        "Zacatecas",
+        "Morelos"
       ]
     },
     "#ff5000": {
       "label": "74.0–74.4",
       "paths": [
-        "Zacatecas",
-        "Morelos",
         "Tlaxcala",
-        "Michoacán"
+        "Michoacán",
+        "Hidalgo",
+        "Puebla",
+        "Tabasco"
       ]
     },
     "#ff0000": {
       "label": "73.5–73.9",
       "paths": [
-        "Hidalgo",
-        "Puebla",
-        "Tabasco",
-        "Veracruz"
+        "Veracruz",
+        "Oaxaca"
       ]
     },
     "#d00000": {
       "label": "73.0–73.4",
       "paths": [
-        "Oaxaca",
         "Guerrero",
         "Chiapas"
       ]
     }
   },
-  "title": 2024,
+  "title": 2025,
   "hidden": [],
   "background": "#ffffff",
   "borders": "#000",
