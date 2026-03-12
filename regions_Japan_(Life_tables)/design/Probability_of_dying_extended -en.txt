@@ -5,6 +5,7 @@
 ! colspan=5|Japan on average
 ! colspan=5 style="border-left-width:2px;"|[[Tokyo]]
 ! colspan=5 style="border-left-width:2px;"|[[Kyoto Prefecture|Kyoto]]
+! colspan=5 style="border-left-width:2px;"|[[Shiga Prefecture|Shiga]]
 |-
 ! colspan=3|{{tooltip|Probability of dying, %|Probability that someone aged exactly X will die before reaching age (X + 1)}}
 ! rowspan=2 class="unsortable" style="vertical-align:middle;width:7ex;"|{{tooltip|M <small>Δ</small> F|Difference of the prabability of dying for male and the one for female}}
@@ -15,8 +16,14 @@
 ! colspan=3 style="border-left-width:2px;"|Probability of dying, %
 ! rowspan=2 class="unsortable" style="vertical-align:middle;width:7ex;"|M <small>Δ</small> F
 ! rowspan=2 class="unsortable" style="vertical-align:middle;width:6ex;"|M / F
+! colspan=3 style="border-left-width:2px;"|Probability of dying, %
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:7ex;"|M <small>Δ</small> F
+! rowspan=2 class="unsortable" style="vertical-align:middle;width:6ex;"|M / F
 |-
 ! class="unsortable" style="vertical-align:middle;"|male
+! class="unsortable" style="vertical-align:middle;"|total
+! class="unsortable" style="vertical-align:middle;"|female
+! class="unsortable" style="vertical-align:middle;border-left-width:2px"|male
 ! class="unsortable" style="vertical-align:middle;"|total
 ! class="unsortable" style="vertical-align:middle;"|female
 ! class="unsortable" style="vertical-align:middle;border-left-width:2px"|male
