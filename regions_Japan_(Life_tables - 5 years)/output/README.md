@@ -1,0 +1,1 @@
+This is folder for saving results of the script work. Now it contains an examples of what the script generate. You can remove this file and the script will recreate it or create its updated analogue.
