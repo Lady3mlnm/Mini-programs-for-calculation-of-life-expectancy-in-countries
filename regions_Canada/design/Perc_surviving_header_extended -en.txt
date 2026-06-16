@@ -1,0 +1,26 @@
+{{mw-datatable}}{{sticky header}}{{table alignment}}
+{| class="wikitable mw-datatable sticky-header-multi col4center col7center col10center col13center" style="text-align:right;"
+|-
+! rowspan=3 style="vertical-align:middle;"|Age
+! colspan=3|Canada on average
+! colspan=3 style="border-left-width:2px;"|[[Ontario]]
+! colspan=3 style="border-left-width:2px;"|[[Quebec]]
+! colspan=3 style="border-left-width:2px;"|[[British Columbia]]
+|-
+! colspan=2|Percentage surviving
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{tooltip|F / M|Ratio of female survivors to male survivors}}
+! colspan=2 style="border-left-width:2px;"|Percentage surviving
+! rowspan=2 style="vertical-align:middle;width:6ex;"|F / M
+! colspan=2 style="border-left-width:2px;"|Percentage surviving
+! rowspan=2 style="vertical-align:middle;width:6ex;"|F / M
+! colspan=2 style="border-left-width:2px;"|Percentage surviving
+! rowspan=2 style="vertical-align:middle;width:6ex;"|F / M
+|-
+! style="vertical-align:middle;"|male
+! style="vertical-align:middle;"|female
+! style="vertical-align:middle;border-left-width:2px;"|male
+! style="vertical-align:middle;"|female
+! style="vertical-align:middle;border-left-width:2px;"|male
+! style="vertical-align:middle;"|female
+! style="vertical-align:middle;border-left-width:2px;"|male
+! style="vertical-align:middle;"|female

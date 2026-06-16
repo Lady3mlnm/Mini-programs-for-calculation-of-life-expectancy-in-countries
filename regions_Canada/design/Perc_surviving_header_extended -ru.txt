@@ -1,0 +1,26 @@
+{{sticky header}}{{table alignment}}
+{| class="wikitable sticky-header-multi col4center col7center col10center col13center" style="text-align:right;"
+|-
+! rowspan=3 style="vertical-align:middle;"|Возраст
+! colspan=3|Канада в среднем
+! colspan=3 style="border-left-width:2px;"|[[Онтарио]]
+! colspan=3 style="border-left-width:2px;"|[[Квебек]]
+! colspan=3 style="border-left-width:2px;"|[[Британская Колумбия]]
+|-
+! colspan=2|Процент выживших
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{comment|Ж / М|пропорция доли выживших женщин к доле выживших мужчин}}
+! colspan=2 style="border-left-width:2px;"|Процент выживших
+! rowspan=2 style="vertical-align:middle;width:6ex;"|Ж / М
+! colspan=2 style="border-left-width:2px;"|Процент выживших
+! rowspan=2 style="vertical-align:middle;width:6ex;"|Ж / М
+! colspan=2 style="border-left-width:2px;"|Процент выживших
+! rowspan=2 style="vertical-align:middle;width:6ex;"|Ж / М
+|-
+! style="vertical-align:middle;"|муж
+! style="vertical-align:middle;"|жен
+! style="vertical-align:middle;border-left-width:2px;"|муж
+! style="vertical-align:middle;"|жен
+! style="vertical-align:middle;border-left-width:2px;"|муж
+! style="vertical-align:middle;"|жен
+! style="vertical-align:middle;border-left-width:2px;"|муж
+! style="vertical-align:middle;"|жен
