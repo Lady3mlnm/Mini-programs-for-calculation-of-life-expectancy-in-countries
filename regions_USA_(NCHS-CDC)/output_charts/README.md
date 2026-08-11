@@ -1,4 +1,4 @@
-This is folder for saving charts. Now it contains two charts as exemples what the scripts generate:
+This is folder for saving charts. Now it contains three charts as exemples what the scripts generate:
 
 ![example 1 of charts](Life%20expectancy%20in%20USA%20by%20race%20-sex%20gap.png)
 

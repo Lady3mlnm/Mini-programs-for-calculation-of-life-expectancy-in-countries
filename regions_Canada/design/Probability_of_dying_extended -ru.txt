@@ -2,10 +2,10 @@
 {| class="wikitable sticky-header-multi sortable col4center col7center col10center col13center" style="text-align:right;"
 |-
 ! rowspan=3 class="unsortable" style="vertical-align:middle;"|Возраст
-! colspan=3|США в среднем
-! colspan=3 style="border-left-width:2px;"|[[Нью-Йорк (штат)|Нью-Йорк]]
-! colspan=3 style="border-left-width:2px;"|[[Калифорния]]
-! colspan=3 style="border-left-width:2px;"|[[Гавайи]]
+! colspan=3|Канада в среднем
+! colspan=3 style="border-left-width:2px;"|[[Онтарио]]
+! colspan=3 style="border-left-width:2px;"|[[Квебек]]
+! colspan=3 style="border-left-width:2px;"|[[Британская Колумбия]]
 |-
 ! colspan=2|{{comment|Вероятность смерти|Вероятность того, что человек в возрасте строго X умрёт до достижения возраста (X + 1), в процентах}}
 ! rowspan=2 style="vertical-align:middle;width:6ex;"|{{comment|М / Ж|Пропорция вероятности смерти мужчин к вероятности смерти женщин}}
