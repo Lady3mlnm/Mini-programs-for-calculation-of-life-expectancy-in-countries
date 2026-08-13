@@ -1,9 +1,15 @@
 {
   "groups": {
+    "#d81132": {
+      "label": "86.5–86.9",
+      "paths": [
+        "Ile_de_France"
+      ]
+    },
     "#ef3b59": {
       "label": "86.0–86.4",
       "paths": [
-        "Ile_de_France",
+        "Corse",
         "Auvergne_Rhone_Alpes",
         "Provence_Alpes_Cote_d_Azure",
         "Pays_de_la_Loire"
@@ -12,24 +18,23 @@
     "#f2657d": {
       "label": "85.5–85.9",
       "paths": [
-        "Corse",
-        "Occitanie"
+        "Occitanie",
+        "Nouvelle_Aquitaine"
       ]
     },
     "#f58698": {
       "label": "85.0–85.4",
       "paths": [
-        "Nouvelle_Aquitaine",
-        "Bretagne",
         "Centre_Val_de_Loire",
-        "Bourgogne_Franche_Comte"
+        "Bretagne",
+        "Bourgogne_Franche_Comte",
+        "Normandie"
       ]
     },
     "#f7a5b2": {
       "label": "84.5–84.9",
       "paths": [
-        "Grand_Est",
-        "Normandie"
+        "Grand_Est"
       ]
     },
     "#f9bfc6": {
@@ -39,7 +44,7 @@
       ]
     }
   },
-  "title": "2024: ♀",
+  "title": "2025: ♀",
   "hidden": [],
   "background": "#ffffff",
   "borders": "#000",
@@ -59,7 +64,7 @@
   "v6": true,
   "legendPosition": "custom",
   "legendX": 120,
-  "legendY": 500,
+  "legendY": 460,
   "legendSize": "large",
   "legendTranslateX": "0.00",
   "legendStatus": "show",
