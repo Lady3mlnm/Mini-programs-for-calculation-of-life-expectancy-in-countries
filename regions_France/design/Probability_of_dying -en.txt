@@ -1,0 +1,9 @@
+{{mw-datatable}}{{sticky header}}{{table alignment}}
+{| class="wikitable mw-datatable sticky-header-multi sortable col4center col7center col10center col13center" style="text-align:right;"
+|-
+! rowspan=2 class="unsortable" style="vertical-align:middle;"|Age
+! colspan=2|{{tooltip|Probability of dying, %|Probability that someone aged exactly X will die before reaching age (X + 1)}}
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{tooltip|M / F|Ratio of the prabability of dying for male to the one for female}}
+|-
+! class="unsortable" style="vertical-align:middle;"|male
+! class="unsortable" style="vertical-align:middle;"|female

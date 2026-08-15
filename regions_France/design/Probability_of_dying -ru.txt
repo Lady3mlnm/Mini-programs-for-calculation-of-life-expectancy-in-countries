@@ -1,0 +1,9 @@
+{{sticky header}}{{table alignment}}
+{| class="wikitable sticky-header-multi sortable col4center col7center col10center col13center" style="text-align:right;"
+|-
+! rowspan=2 class="unsortable" style="vertical-align:middle;"|Возраст
+! colspan=2|{{comment|Вероятность смерти|Вероятность того, что человек в возрасте строго X умрёт до достижения возраста (X + 1), в процентах, в процентах}}
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{comment|М / Ж|Пропорция вероятности смерти мужчин к вероятности смерти женщин}}
+|-
+! class="unsortable" style="vertical-align:middle;"|муж
+! class="unsortable" style="vertical-align:middle;"|жен

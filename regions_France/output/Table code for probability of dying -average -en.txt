@@ -1,0 +1,56 @@
+{{mw-datatable}}{{sticky header}}{{table alignment}}
+{| class="wikitable mw-datatable sticky-header-multi sortable col4center col7center col10center col13center" style="text-align:right;"
+|-
+! rowspan=2 class="unsortable" style="vertical-align:middle;"|Age
+! colspan=2|{{tooltip|Probability of dying, %|Probability that someone aged exactly X will die before reaching age (X + 1)}}
+! rowspan=2 style="vertical-align:middle;width:6ex;"|{{tooltip|M / F|Ratio of the prabability of dying for male to the one for female}}
+|-
+! class="unsortable" style="vertical-align:middle;"|male
+! class="unsortable" style="vertical-align:middle;"|female
+|-
+|style="padding-right:3ex;"| 0 ||style="color:blue;padding-right:3ex;"| 0.382 ||style="color:red;padding-right:3ex;"| 0.320 ||style="color:darkgray;"| 1.19
+|-
+|style="padding-right:3ex;"| 1 ||style="color:blue;padding-right:3ex;"| 0.056 ||style="color:red;padding-right:3ex;"| 0.053 ||style="color:darkgray;"| 1.07
+|-
+|style="padding-right:3ex;"| 5 ||style="color:blue;padding-right:3ex;"| 0.010 ||style="color:red;padding-right:3ex;"| 0.010 ||style="color:darkgray;"| 1.03
+|-
+|style="padding-right:3ex;"| 10 ||style="color:blue;padding-right:3ex;"| 0.006 ||style="color:red;padding-right:3ex;"| 0.007 ||style="color:darkgray;"| 0.82
+|-
+|style="padding-right:3ex;"| 15 ||style="color:blue;padding-right:3ex;"| 0.016 ||style="color:red;padding-right:3ex;"| 0.012 ||style="color:darkgray;"| 1.34
+|-
+|style="padding-right:3ex;"| 20 ||style="color:blue;padding-right:3ex;"| 0.052 ||style="color:red;padding-right:3ex;"| 0.021 ||style="color:darkgray;"| 2.53
+|-
+|style="padding-right:3ex;"| 25 ||style="color:blue;padding-right:3ex;"| 0.057 ||style="color:red;padding-right:3ex;"| 0.023 ||style="color:darkgray;"| 2.49
+|-
+|style="padding-right:3ex;"| 30 ||style="color:blue;padding-right:3ex;"| 0.074 ||style="color:red;padding-right:3ex;"| 0.026 ||style="color:darkgray;"| 2.87
+|-
+|style="padding-right:3ex;"| 35 ||style="color:blue;padding-right:3ex;"| 0.096 ||style="color:red;padding-right:3ex;"| 0.040 ||style="color:darkgray;"| 2.42
+|-
+|style="padding-right:3ex;"| 40 ||style="color:blue;padding-right:3ex;"| 0.139 ||style="color:red;padding-right:3ex;"| 0.063 ||style="color:darkgray;"| 2.19
+|-
+|style="padding-right:3ex;"| 45 ||style="color:blue;padding-right:3ex;"| 0.209 ||style="color:red;padding-right:3ex;"| 0.100 ||style="color:darkgray;"| 2.10
+|-
+|style="padding-right:3ex;"| 50 ||style="color:blue;padding-right:3ex;"| 0.322 ||style="color:red;padding-right:3ex;"| 0.171 ||style="color:darkgray;"| 1.88
+|-
+|style="padding-right:3ex;"| 55 ||style="color:blue;padding-right:3ex;"| 0.512 ||style="color:red;padding-right:3ex;"| 0.253 ||style="color:darkgray;"| 2.02
+|-
+|style="padding-right:3ex;"| 60 ||style="color:blue;padding-right:3ex;"| 0.761 ||style="color:red;padding-right:3ex;"| 0.399 ||style="color:darkgray;"| 1.91
+|-
+|style="padding-right:3ex;"| 65 ||style="color:blue;padding-right:3ex;"| 1.202 ||style="color:red;padding-right:3ex;"| 0.610 ||style="color:darkgray;"| 1.97
+|-
+|style="padding-right:3ex;"| 70 ||style="color:blue;padding-right:3ex;"| 1.758 ||style="color:red;padding-right:3ex;"| 0.906 ||style="color:darkgray;"| 1.94
+|-
+|style="padding-right:3ex;"| 75 ||style="color:blue;padding-right:3ex;"| 2.559 ||style="color:red;padding-right:3ex;"| 1.316 ||style="color:darkgray;"| 1.95
+|-
+|style="padding-right:3ex;"| 80 ||style="color:blue;padding-right:3ex;"| 4.005 ||style="color:red;padding-right:3ex;"| 2.368 ||style="color:darkgray;"| 1.69
+|-
+|style="padding-right:3ex;"| 85 ||style="color:blue;padding-right:3ex;"| 7.056 ||style="color:red;padding-right:3ex;"| 4.717 ||style="color:darkgray;"| 1.50
+|-
+|style="padding-right:3ex;"| 90 ||style="color:blue;padding-right:3ex;"| 13.065 ||style="color:red;padding-right:3ex;"| 9.382 ||style="color:darkgray;"| 1.39
+|-
+|style="padding-right:3ex;"| 95 ||style="color:blue;padding-right:3ex;"| 22.960 ||style="color:red;padding-right:3ex;"| 18.538 ||style="color:darkgray;"| 1.24
+|-
+|style="padding-right:3ex;"| 99 ||style="color:blue;padding-right:3ex;"| 32.810 ||style="color:red;padding-right:3ex;"| 28.026 ||style="color:darkgray;"| 1.17
+|-
+|style="padding-right:3ex;"| 100 ||style="color:blue;padding-right:3ex;"| 36.316 ||style="color:red;padding-right:3ex;"| 30.024 ||style="color:darkgray;"| 1.21
+|}
