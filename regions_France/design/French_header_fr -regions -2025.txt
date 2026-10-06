@@ -1,0 +1,30 @@
+{{Numérotation statique}}{{Tableau aligné}}
+{| class="wikitable sortable mw-datatable static-row-numbers sort-under col1left col6right col11right col16right col21right" style="text-align:center;"
+|-
+|- class="sortbottom static-row-header"
+! rowspan=2 style="vertical-align:middle;"|[[Région française#Liste et caractéristiques des régions actuelles|région]]
+! colspan=4|2015
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|{{tooltip|2015<br>→2019|Évolution de l’espérance de vie de 2015 à 2019}}
+! colspan=4 style="border-left-width:2px;"|2019
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2019<br>→2024
+! colspan=4 style="border-left-width:2px;"|2024
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2024<br>→2025
+! colspan=4 style="border-left-width:2px;"|2025
+! rowspan=2 style="vertical-align:middle;border-left-width:2px;"|2015<br>→2025
+|- class="sortbottom static-row-header"
+! style="width:2.5em;vertical-align:middle;"|{{tooltip|Hom.|Hommes}}
+! style="width:2.5em;vertical-align:middle;"|{{tooltip|Fem.|Femmes}}
+! {{tooltip|F{{Petit|Δ}}H|Écart entre les sexes}}
+! style="width:3em;"|{{tooltip|moyenne<br>arithm.|Moyenne arithmétique de l'espérance de vie des hommes et des femmes}}
+! style="width:50em;vertical-align:middle;border-left-width:2px;"|Hom.
+! style="width:50em;vertical-align:middle;"|Fem.
+! F{{Petit|Δ}}H
+! style="width:3em;"|moyenne<br>arithm.
+! style="width:2.5em;vertical-align:middle;border-left-width:2px;"|Hom.
+! style="width:2.5em;vertical-align:middle;"|Fem.
+! F{{Petit|Δ}}H
+! style="width:3em;"|moyenne<br>arithm.
+! style="width:2.5em;vertical-align:middle;border-left-width:2px;"|Hom.
+! style="width:2.5em;vertical-align:middle;"|Fem.
+! F{{Petit|Δ}}H
+! style="width:3em;"|moyenne<br>arithm.
