@@ -1,0 +1,27 @@
+{{Numérotation statique}}{{Tableau aligné}}
+{| class="wikitable sortable mw-datatable static-row-numbers sort-under sticky-table-head sticky-table-col1 col1left col2center col3center col4center col5center col6center col8center col10center col12center col14center col16center col18center col20center" style=text-align:right;
+|-
+|- class="sortbottom static-row-header"
+! rowspan=2 style="vertical-align:middle;"|Pays et<br>territoires
+! colspan=4|2024
+! colspan=13 style="border-left-width:2px;"|Données historiques
+! rowspan=2 style="border-left-width:2px;vertical-align:middle;text-align:left;"|{{tooltip|2019<br>→2024|Rétablissement après la pandémie de Covid-19}}
+! rowspan=2|
+|- class="sortbottom static-row-header"
+! style="vertical-align:middle;" class=sticky-table-none|{{tooltip|Général|Toute la population}}
+! style="vertical-align:middle;"|Hommes
+! style="vertical-align:middle;"|Femmes
+! style="vertical-align:middle;"|{{tooltip|F{{Petit|Δ}}H|Écart entre les sexes}}
+! style="border-left-width:2px;vertical-align:middle;padding-left:1em;"|2014
+! style="text-align:left;"|{{tooltip|2014<br>→2019|Évolution de l’espérance de vie de 2014 à 2019}}
+! style="vertical-align:middle;"|2019
+! style="text-align:left;"|2019<br>→2020
+! style="vertical-align:middle;"|2020
+! style="text-align:left;"|2020<br>→2021
+! style="vertical-align:middle;"|2021
+! style="text-align:left;"|2021<br>→2022
+! style="vertical-align:middle;"|2022
+! style="text-align:left;"|2022<br>→2023
+! style="vertical-align:middle;"|2023
+! style="text-align:left;"|2023<br>→2024
+! style="vertical-align:middle;"|2024

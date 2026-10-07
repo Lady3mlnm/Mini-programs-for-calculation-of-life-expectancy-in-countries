@@ -1,0 +1,1 @@
+This is folder for saving JSON-files for map creation. Now and here, it contains several files as examples.

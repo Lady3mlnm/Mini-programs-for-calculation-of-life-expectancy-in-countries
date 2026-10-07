@@ -1,0 +1,1 @@
+This is folder for saving generated tables for various macro-regions of the world. Now and here, it contains several tables as examples.

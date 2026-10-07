@@ -1,0 +1,1 @@
+This folder contains raw data in the form of CSV-files taken from the World Bank Group database: [total](https://data.worldbank.org/indicator/SP.DYN.LE00.IN), [male](https://data.worldbank.org/indicator/SP.DYN.LE00.MA.IN), [female](https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN).

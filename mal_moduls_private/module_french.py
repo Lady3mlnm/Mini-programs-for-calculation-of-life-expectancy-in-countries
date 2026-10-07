@@ -206,5 +206,6 @@ replacements_fr = {
     'Kosovo' : 'Kosovo',
     'Liechtenstein' : 'Liechtenstein',
     'San Marino' : 'Saint-Marin',
-    'Monaco' : 'Monaco'
+    'Monaco' : 'Monaco',
+    'Naoero' : 'Nauru'
 }
